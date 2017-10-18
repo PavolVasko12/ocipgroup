@@ -4,7 +4,7 @@
 
 <head>
 
-    <title>Some title here</title>
+    <title>Some title here Pavol</title>
 </head>
 
 
