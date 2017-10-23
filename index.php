@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
-<head>
+  <head>
+    <meta charset="utf-8">
+    <title>OCIP GROUP</title>
+    <link rel="stylesheet" style="text/css" href="desktopStyle.css">
+  </head>
 
-    <title>Some title here Pavol</title>
-</head>
+  <body>
 
-
-<body>
-<h1>Pavol Was here</h1>
-</body>
+  </body>
 
 </html>
