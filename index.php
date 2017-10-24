@@ -9,7 +9,14 @@
   </head>
 
   <body>
-
+      <nav>
+        <div id="navContent">
+          <img id="navLogo" src="MEDIA/ocipLogo.png" alt="OcipGroup Logo">
+          <object>
+              <embed id="burgerLogo" src="MEDIA/burgerMenuLogo.svg">
+          </object>
+        </div>
+      </nav>
   </body>
 
 </html>
