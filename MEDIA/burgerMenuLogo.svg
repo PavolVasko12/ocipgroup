@@ -2,11 +2,13 @@
   <defs>
     <style>
       svg{
+        fill:#ffffff;
         transition: all 0.5s;
       }
 
       svg:hover {
         fill:#d11432;
+        cursor:pointer;
       }
     </style>
   </defs>

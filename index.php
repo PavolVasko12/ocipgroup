@@ -15,6 +15,9 @@
           <object>
               <embed id="burgerLogo" src="MEDIA/burgerMenuLogo.svg">
           </object>
+          <object>
+            <embed class="socialMediaIcons" src="MEDIA/facebookLogo.svg">
+          </object>
         </div>
       </nav>
   </body>
