@@ -1,8 +1,3 @@
-body{
-    width:100%;
-    margin:0;
-}
-
 @font-face {
     font-family: Allura;
     src: url(./FONTS/Allura-Regular.ttf);
@@ -63,6 +58,18 @@ body{
     src: url(./FONTS/OpenSans-SemiboldItalic.ttf);
 }
 
+
+
+
+body{
+width:100%;
+margin:0;
+font-family: OpenSans-Regular;
+}
+
+p{
+font-size: 13px;
+}
 
 /* Navigation bar
 THE NAV BAR IS GOING TO BE THE PART OF THE BAR THAT EXTENDS EG: BACKGROUND*/
@@ -139,7 +146,7 @@ nav {
     margin: auto;
     overflow: auto;
     text-align: center;
-    height: 500px;
+    height: 550px;
 }
 
 #letsGetStartedHolderInner h2{
@@ -148,13 +155,13 @@ nav {
 
 #letsGetStartedHolderInner h4{
     margin-top: -35px;
-    font-size: 20px;
+    font-size: 19px;
     margin-bottom: 100px;
 }
 
 .threeDivsInsideLetsGetStarted{
-    width: 30%;
-    height: 200px;
+    width: 29.9%;
+    height: 250px;
     display: inline-block;
     margin-right: -4px;
     position: relative;
@@ -188,15 +195,18 @@ left: -1px;
 
 .textNextToCircle{
 position: absolute;
-left: 8px;
-top: -20px;
-font-weight: bold;
-font-size: 22px;
+left: 7px;
+top: -24px;
+}
+
+.textNextToCircle p{
+ font-family: OpenSans-Bold;
+font-size: 22px;   
 }
 
 .textInsideTheThreeDivs{
 position: absolute;
-font-size: 14px;
+font-size: 13px;
 left: 0px;
 top: 20px;
 margin-right: 30px;
@@ -211,13 +221,16 @@ border: 2px solid black;
 -webkit-border-radius: 20px;
 }
 
+
 .buttonFindOutMoreInThreeDivs:hover{
     cursor: pointer;
 }
 
 .buttonFindOutMoreInThreeDivs p{
     margin: 0px;
-    padding: 4px 4px 4px 10px;
+    padding: 5px 5px 5px 10px;
+    font-family: OpenSans-Bold;
+    font-size: 15px;
 }
 
 .buttonFindOutMoreInThreeDivs p:after{
@@ -236,4 +249,48 @@ height: 70px;
 position: absolute;
 left: 220px;
 top: -42px;
+}
+
+/* ----------- HIDEN DIV ----------- */
+
+#hiddenDivForGetStarted{
+width: 100%;    
+height: 400px;
+background: #ee4745; 
+background: -webkit-linear-gradient(#ee4745, #c43737); 
+background: -o-linear-gradient(#ee4745, #c43737); 
+background: -moz-linear-gradient(#ee4745, #c43737); 
+background: linear-gradient(#ee4745, #c43737); 
+}
+
+#innerHolderForHidden{
+width: 1206px;
+margin: auto;
+margin-top: 6px;
+height: 300px;
+max-width: 100%;
+}
+
+#twoThirdsOfTheInnerHolder{
+width: 66%;
+height: 200px;
+float: left;
+margin-right: -4px;
+}
+
+#twoThirdsOfTheInnerHolder h2{
+     font-size: 42.6px;   
+}
+
+#twoThirdsOfTheInnerHolder h4{
+font-size: 19px;
+margin-left: 3px;
+margin-top: -30px;
+}
+
+#oneThirdOfTheInnerHolder{
+width: 34%;
+height: 200px;
+float: left;
+margin-right: -4px;
 }
