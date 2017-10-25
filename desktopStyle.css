@@ -251,7 +251,6 @@ left: 220px;
 top: -42px;
 }
 
-<<<<<<< HEAD
 /* ----------- HIDEN DIV ----------- */
 
 #hiddenDivForGetStarted{
@@ -294,10 +293,16 @@ width: 34%;
 height: 200px;
 float: left;
 margin-right: -4px;
-=======
+}
+
+
+
+
 /* =================================================
         OUR PROCESS FROM HERE
 =================================================== */
+
+
 
 #ourProcessHolder{
   background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(43,42,42) 100%);
@@ -325,5 +330,4 @@ margin-right: -4px;
   color: #ffffff;
   font-family: OpenSans-Light;
   margin:0;
->>>>>>> b44840764d9aff0d5cae192d05b92cb75e11a646
 }
