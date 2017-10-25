@@ -69,6 +69,7 @@
                     </div>
             </div>
       </div>
+<<<<<<< HEAD
       
       <div id="hiddenDivForGetStarted">
             <div id="innerHolderForHidden">
@@ -81,6 +82,9 @@
            </div>
       </div>
       
+=======
+
+>>>>>>> 2bb23a8c37ab8942b74945578121f31909bd2029
       <!----------------- OUR PROCESS - FROM HERE --------->
       <div id="ourProcessHolder">
         <div id="contentBoxProcess">
@@ -91,7 +95,7 @@
             </div>
 
             <div id="rightSideProcess">
-
+              <p>
             </div>
           </div>
         </div>
