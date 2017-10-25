@@ -31,8 +31,6 @@
           </div>
         </div>
       </nav>
-<<<<<<< HEAD
-      
       
       <!----------------- LET's GET STARTED - FROM HERE --------->
       <div id="letsGetStartedHolder">
@@ -73,13 +71,7 @@
       </div>
       
       
-      
-=======
 
-
-
-
->>>>>>> 317b3f6feba09c65920042f6ae8fcf7c692d3294
   </body>
 
 </html>
