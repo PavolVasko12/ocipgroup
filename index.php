@@ -31,13 +31,13 @@
           </div>
         </div>
       </nav>
-      
+
       <!----------------- LET's GET STARTED - FROM HERE --------->
       <div id="letsGetStartedHolder">
             <div id="letsGetStartedHolderInner">
                 <h2>Let's get started</h2>
                 <h4>Choose from the following services</h4>
-                
+
                     <div id="firstDivInsideThreeDivs" class="threeDivsInsideLetsGetStarted">
                         <div class="circleForThreeDivs"></div>
                         <div class="textNextToCircle"><p>1 &nbsp; . Print</p></div>
@@ -46,8 +46,8 @@
                         </object>
                         <div class="textInsideTheThreeDivs"><p>Make an impression with print that ticks all the boxes when it comes to quality, fantastic design and attention to detail. From original creative artwork through to printed brochures and flyers, we have it covered, using the latest technology to promote innovation. Our aim is to produce expertly crafted products, customised to suit your every need. We link traditional with digital seamlessly, bringing them together to produce outstanding results.</p></div>
                         <div class="buttonFindOutMoreInThreeDivs"><p>Find out more</p></div>
-                        
-                        
+
+
                     </div>
                     <div id="secondDivInsideThreeDivs" class="threeDivsInsideLetsGetStarted">
                           <div class="circleForThreeDivs"></div>
@@ -69,6 +69,7 @@
                     </div>
             </div>
       </div>
+<<<<<<< HEAD
       
       <div id="hiddenDivForGetStarted">
             <div id="innerHolderForHidden">
@@ -82,6 +83,25 @@
       </div>
       
       
+=======
+
+      <!----------------- OUR PROCESS - FROM HERE --------->
+      <div id="ourProcessHolder">
+        <div id="contentBoxProcess">
+          <div id="topPartProcess">
+            <div id="leftSideProcess">
+              <h2>Our Process</h2>
+              <h4>6 steps from start to finish</h4>
+            </div>
+
+            <div id="rightSideProcess">
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+>>>>>>> b44840764d9aff0d5cae192d05b92cb75e11a646
 
   </body>
 
