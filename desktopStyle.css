@@ -23,11 +23,9 @@ nav {
 
 /*Nav Content IS THE PART OF THE NAVIGATION BAR THAT DOESNT EXTEND EG: TEXT, IMAGES*/
 #navContent{
-  max-width: 1206px;
-  display:inline;
-  margin:auto;
-  margin-left:150px;
-  margin-right:150px;
+  max-width: 100%;
+  width: 1206px;
+  margin: auto;
 }
 
 #navLogo {
