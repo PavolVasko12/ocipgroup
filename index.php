@@ -69,19 +69,6 @@
                     </div>
             </div>
       </div>
-      
-      <div id="hiddenDivForGetStarted">
-            <div id="innerHolderForHidden">
-                <div id="twoThirdsOfTheInnerHolder">
-                    <h2>Print</h2>
-                    <h4>Service list</h4>
-                    <p>From artworking to printed brochures, we can help. We can guide you through every step of the way. Whether its business cards or door drop flyers we can accommodate for all. Get in touch to start your print project. Email us at <b>enquiry@ocip-group.com</b> or you can call us on <b>01296 340890</b>. We would love to hear from you.</p>
-                </div>
-                <div id="oneThirdOfTheInnerHolder"></div>
-           </div>
-      </div>
-      
-
 
       <!----------------- OUR PROCESS - FROM HERE --------->
       <div id="ourProcessHolder">
@@ -93,7 +80,7 @@
             </div>
 
             <div id="rightSideProcess">
-
+              <p>
             </div>
           </div>
         </div>
