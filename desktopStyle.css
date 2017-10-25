@@ -1,11 +1,71 @@
-/* Navigation bar
-THE NAV BAR IS GOING TO BE THE PART OF THE BAR THAT EXTENDS EG: BACKGROUND*/
-
 body{
     width:100%;
     margin:0;
 }
 
+@font-face {
+    font-family: Allura;
+    src: url(./FONTS/Allura-Regular.ttf);
+}
+
+@font-face {
+    font-family: LuckiestGuy;
+    src: url(./FONTS/LuckiestGuy-Regular.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(./FONTS/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-BoldItalic;
+    src: url(./FONTS/OpenSans-Italic.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-ExtraBold;
+    src: url(./FONTS/OpenSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-ExtraBoldItalic;
+    src: url(./FONTS/OpenSans-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Italic;
+    src: url(./FONTS/OpenSans-Italic.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Light;
+    src: url(./FONTS/OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-LightItalic;
+    src: url(./FONTS/OpenSans-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url(./FONTS/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-SemiBold;
+    src: url(./FONTS/OpenSans-Semibold.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-SemiBoldItalic;
+    src: url(./FONTS/OpenSans-SemiboldItalic.ttf);
+}
+
+
+/* Navigation bar
+THE NAV BAR IS GOING TO BE THE PART OF THE BAR THAT EXTENDS EG: BACKGROUND*/
 
 nav {
   background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(62,61,61) 100%);
@@ -128,7 +188,7 @@ left: -1px;
 
 .textNextToCircle{
 position: absolute;
-left: 8px; 
+left: 8px;
 top: -20px;
 font-weight: bold;
 font-size: 22px;
