@@ -11,15 +11,27 @@
   <body>
       <nav>
         <div id="navContent">
-          <img id="navLogo" src="MEDIA/ocipLogo.png" alt="OcipGroup Logo">
-          <object>
-              <embed id="burgerLogo" src="MEDIA/burgerMenuLogo.svg">
-          </object>
-          <object>
-            <embed class="socialMediaIcons" src="MEDIA/facebookLogo.svg">
-          </object>
+          <div id="leftSideNav">
+            <img id="navLogo" src="MEDIA/ocipLogo.png" alt="OcipGroup Logo">
+          </div>
+
+          <div id="rightSideNav">
+            <object>
+                <embed id="burgerLogo" src="MEDIA/burgerMenuLogo.svg">
+            </object>
+            <object>
+              <embed class="socialMediaIcons" src="MEDIA/facebookLogo.svg">
+            </object>
+            <object>
+              <embed class="socialMediaIcons" src="MEDIA/googleIcon.svg">
+            </object>
+            <object>
+              <embed class="socialMediaIcons" src="MEDIA/twitterIcon.svg">
+            </object>
+          </div>
         </div>
       </nav>
+<<<<<<< HEAD
       
       
       <!----------------- LET's GET STARTED - FROM HERE --------->
@@ -62,6 +74,12 @@
       
       
       
+=======
+
+
+
+
+>>>>>>> 317b3f6feba09c65920042f6ae8fcf7c692d3294
   </body>
 
 </html>

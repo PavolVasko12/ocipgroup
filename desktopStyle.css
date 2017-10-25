@@ -23,32 +23,37 @@ nav {
 
 /*Nav Content IS THE PART OF THE NAVIGATION BAR THAT DOESNT EXTEND EG: TEXT, IMAGES*/
 #navContent{
+  position: relative;
+  top:22px;
   max-width: 100%;
   width: 1206px;
   margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
 }
 
-#navLogo {
-  position:relative;
-  top:26px;
-  left:0;
-  margin-right:45%;
+#leftSideNav{
+  margin-left:10px
 }
 
-#burgerLogo {
-  position:relative;
-  top:10px;
-  margin-right:1%;
-  height: 29px;
-  width:33px;
+#rightSideNav{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+  width:230px;
+  margin-right: 10px;
+}
+
+#burgerLogo{
+  height:29px;
 }
 
 .socialMediaIcons{
-  position:relative;
-  top:9px;
-  width:13px;
-  height:26px;
-  margin-left:2%;
+  height:23px;
 }
 
 
