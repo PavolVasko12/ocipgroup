@@ -237,3 +237,35 @@ position: absolute;
 left: 220px;
 top: -42px;
 }
+
+/* =================================================
+        OUR PROCESS FROM HERE
+=================================================== */
+
+#ourProcessHolder{
+  background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(43,42,42) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(43,42,42) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(43,42,42) 100%);
+  width:100%;
+  height: auto;
+}
+
+#contentBoxProcess{
+  max-width: 100%;
+  width:1206px;
+  height:500px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+#leftSideProcess > h2 {
+  color: #ffffff;
+  font-family: OpenSans-SemiBold;
+  margin:0;
+}
+
+#leftSideProcess > h4 {
+  color: #ffffff;
+  font-family: OpenSans-Light;
+  margin:0;
+}
