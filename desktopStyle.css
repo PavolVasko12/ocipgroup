@@ -208,7 +208,7 @@ font-size: 22px;
 position: absolute;
 font-size: 13px;
 left: 0px;
-top: 20px;
+top: 30px;
 margin-right: 30px;
 }
 
@@ -255,7 +255,7 @@ top: -42px;
 
 #hiddenDivForGetStarted{
 width: 100%;    
-height: 400px;
+height: 500px;
 background: #ee4745; 
 background: -webkit-linear-gradient(#ee4745, #c43737); 
 background: -o-linear-gradient(#ee4745, #c43737); 
@@ -295,8 +295,36 @@ float: left;
 margin-right: -4px;
 }
 
+ul{
+columns: 2;
+-webkit-columns: 2;
+-moz-columns: 2;
+padding: 0;
+line-height: 210%;
+font-size: 15px;
+}
 
+ul li{
+list-style-type: none;
+margin-right: 25px;    
+}
 
+ul li:before{
+content: "";
+display: block;
+background: url("MEDIA/tickIcon.svg") no-repeat;
+width: 12px;
+height: 12px;
+float: left;
+margin: 10px 6px 0px 0px;
+}
+
+.pencilIcon{
+margin-top: 100px;
+margin-left: 50px;
+width: 300px;
+height: 450px;
+}
 
 /* =================================================
         OUR PROCESS FROM HERE
