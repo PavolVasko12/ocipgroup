@@ -224,7 +224,14 @@ border: 2px solid black;
 
 .buttonFindOutMoreInThreeDivs:hover{
     cursor: pointer;
+    color: #ee4745;
+    background-color: black;
 }
+
+.buttonFindOutMoreInThreeDivs:hover p:after{
+    background: url("MEDIA/arrowRightRed.svg") no-repeat;
+}
+
 
 .buttonFindOutMoreInThreeDivs p{
     margin: 0px;
@@ -253,20 +260,22 @@ top: -42px;
 
 /* ----------- HIDEN DIV ----------- */
 
-#hiddenDivForGetStarted{
+#printHiddenDivForGetStarted, #digitalHiddenDivForGetStarted, #developmentHiddenDivForGetStarted{
+display: none;
 width: 100%;    
-height: 500px;
+height: 550px;
+border-top: 6px solid #2b2a2a;
 background: #ee4745; 
 background: -webkit-linear-gradient(#ee4745, #c43737); 
 background: -o-linear-gradient(#ee4745, #c43737); 
-background: -moz-linear-gradient(#ee4745, #c43737); 
-background: linear-gradient(#ee4745, #c43737); 
+background: -moz-linear-gradient(#ee4745, #c43737);
+background: linear-gradient(#ee4745, #c43737);
 }
 
 #innerHolderForHidden{
 width: 1206px;
 margin: auto;
-margin-top: 6px;
+margin-top: 0px;
 height: 300px;
 max-width: 100%;
 }
@@ -292,7 +301,6 @@ margin-top: -30px;
 width: 34%;
 height: 200px;
 float: left;
-margin-right: -4px;
 }
 
 ul{
@@ -319,12 +327,68 @@ float: left;
 margin: 10px 6px 0px 0px;
 }
 
+#spcialList:before{
+background: none;
+}
+
 .pencilIcon{
-margin-top: 100px;
+margin-top: 80px;
 margin-left: 50px;
 width: 300px;
 height: 450px;
 }
+
+#keyboardPencilIcon{
+margin-top: 30px;
+}
+
+.buttonContactUsHiddenDiv{
+width: 160px;
+color: #f34947;
+background-color: black;
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;    
+}
+
+.buttonContactUsHiddenDiv p{
+padding: 8px 8px 8px 13px;
+font-family: OpenSans-Bold;
+font-size: 15px;
+}
+
+.buttonContactUsHiddenDiv p:after{
+content: "";
+float: right;
+display: block;
+background: url("MEDIA/arrowRightRed.svg") no-repeat;
+width: 20px;
+height: 20px;
+margin: 0px 6px 0px 10px;  
+}
+
+
+.closeHiddenDivButton {
+margin-top: 40px;
+margin-right: 100px;
+float: right;
+background: #f34947;
+color: black;
+font-weight: bold;
+text-align: center;
+width: 25px;
+height: 25px;
+border-radius: 50%;
+border: 3px solid black;
+}
+
+.closeHiddenDivButton:hover{
+    cursor: pointer;
+}
+.closeHiddenDivButton span{
+padding-left: 7px;
+}
+
+
 
 /* =================================================
         OUR PROCESS FROM HERE

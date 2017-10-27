@@ -5,6 +5,8 @@
   <head>
     <meta charset="utf-8">
     <title>OCIP GROUP</title>
+    
+      
     <link rel="stylesheet" style="text/css" href="desktopStyle.css">
   </head>
 
@@ -45,7 +47,7 @@
                             <embed class="printerIcon" src="MEDIA/printerIcon.svg">
                         </object>
                         <div class="textInsideTheThreeDivs"><p>Make an impression with print that ticks all the boxes when it comes to quality, fantastic design and attention to detail. From original creative artwork through to printed brochures and flyers, we have it covered, using the latest technology to promote innovation. Our aim is to produce expertly crafted products, customised to suit your every need. We link traditional with digital seamlessly, bringing them together to produce outstanding results.</p></div>
-                        <div class="buttonFindOutMoreInThreeDivs"><p>Find out more</p></div>
+                        <div id="buttonForPrint" class="buttonFindOutMoreInThreeDivs"><p>Find out more</p></div>
 
 
                     </div>
@@ -56,7 +58,7 @@
                             <embed class="printerIcon" src="MEDIA/digitalsIcon.svg">
                         </object>
                         <div class="textInsideTheThreeDivs"><p>We do digital well and in every possible way. Whether you need images adjusted or websites built, we have our finger on the pulse. Our websites are responsive and our online services substantial and intelligent. From full e-commerce through to social media campaigns, whatever you need, we produce it. Clever SEO ensures that you get noticed and that traffic flows one way; towards you.</p></div>
-                         <div class="buttonFindOutMoreInThreeDivs"><p>Find out more</p></div>
+                         <div id="buttonForDigital" class="buttonFindOutMoreInThreeDivs"><p>Find out more</p></div>
                     </div>
                     <div id="thirdDivInsideThreeDivs" class="threeDivsInsideLetsGetStarted">
                           <div class="circleForThreeDivs"></div>
@@ -65,12 +67,13 @@
                             <embed class="printerIcon" src="MEDIA/developmentIcon.svg">
                         </object>
                         <div class="textInsideTheThreeDivs"><p>Website development is a fine art and one that only works well when it is done correctly. From our team of committed and passionate developers, you will see your designs and ideas brought to life with websites that are fully responsive, mobile friendly and created to suit your market. Your success is ours which is why we go all out to turn awesome ideas into reality.</p></div>
-                         <div class="buttonFindOutMoreInThreeDivs"><p>Find out more</p></div>
+                         <div id="buttonForDevelopment" class="buttonFindOutMoreInThreeDivs"><p>Find out more</p></div>
                     </div>
             </div>
       </div>
       
-      <div id="hiddenDivForGetStarted">
+      <!-- ------ THREE DIV, SHOWS ON CLICK, ONE BY ONE, SEE JS ---------- -->
+      <div id="printHiddenDivForGetStarted">
             <div id="innerHolderForHidden">
                 <div id="twoThirdsOfTheInnerHolder">
                     <h2>Print</h2>
@@ -91,14 +94,98 @@
                         <li class="listInHidenGetStarted">Retail Display Stands</li>
                         <li class="listInHidenGetStarted">Display Boards</li>
                     </ul>
+                <div class="buttonContactUsHiddenDiv"><p>Contact Us</p></div>
                 </div>
                 <div id="oneThirdOfTheInnerHolder">
+                        <div class="closeHiddenDivButton">
+                            <span id="x">X&nbsp;&nbsp;&nbsp;CLOSE</span>
+
+                        </div>
                      <object>
                             <embed class="pencilIcon" src="MEDIA/pencilIcon.svg">
-                        </object>
+                    </object>
                 </div>
            </div>
       </div>
+      
+      
+       <div id="digitalHiddenDivForGetStarted">
+            <div id="innerHolderForHidden">
+                <div id="twoThirdsOfTheInnerHolder">
+                    <h2>Digital</h2>
+                    <h4>Our service list</h4>
+                    <p>From website design to photo manipulation. We are here to help. How your website looks is important! But design is not just to look pretty. Underneath this exterior lies a highly detailed plan for your user experience. Everything has a purpose, a reason to help direct your customers to where you want them to go.</p>
+                    <ul>
+                        <li class="listInHidenGetStarted">Logo</li>
+                        <li class="listInHidenGetStarted">Website Design</li>
+                        <li class="listInHidenGetStarted">Landing Page Concepts</li>
+                        <li class="listInHidenGetStarted">2D Animations</li>
+                        <li class="listInHidenGetStarted">Photo Editing, Re-Touch &amp; Manipulation</li>
+                        <li class="listInHidenGetStarted">Advertising Web Banners</li>
+                        <li class="listInHidenGetStarted">Website Header Graphic Designs</li>
+                        <li class="listInHidenGetStarted">Email Newsletters</li>
+                        <li class="listInHidenGetStarted">Social Media Designs</li>
+                        <li class="listInHidenGetStarted">Illustrations</li>
+                        <li class="listInHidenGetStarted">Brand Guidelines</li>
+                        <li class="listInHidenGetStarted">Retail Display Stands</li>
+                        <li class="listInHidenGetStarted">Display Boards</li>
+                        <li class="listInHidenGetStarted">UI/UX R&amp;</li>
+                    </ul>
+                <div class="buttonContactUsHiddenDiv"><p>Contact Us</p></div>
+                </div>
+                <div id="oneThirdOfTheInnerHolder">
+                        <div class="closeHiddenDivButton">
+                            <span id="x">X&nbsp;&nbsp;&nbsp;CLOSE</span>
+
+                        </div>
+                     <object>
+                            <embed class="pencilIcon" src="MEDIA/monitorIcon.svg">
+                    </object>
+                </div>
+           </div>
+      </div>
+      
+      
+       <div id="developmentHiddenDivForGetStarted">
+               
+            <div id="innerHolderForHidden">
+                <div id="twoThirdsOfTheInnerHolder">
+                    <h2>Development</h2>
+                    <h4>Complete service list we offer</h4>
+                    <p>With any good website, a well built one will be key to success, utilising semantic HTML and possessing fast load times. Our small team of developers (who poses a multitude of skill set) will ensure to bring your design to function. Your responsive website will be cross browser supportive, mobile &amp; tablet friendly &amp; Seo compliant.</p>
+                    <ul>
+                        <li class="listInHidenGetStarted">HTML, CSS, JavaScript, JQuery</li>
+                        <li class="listInHidenGetStarted">PHP, ASP.Net</li>
+                        <li class="listInHidenGetStarted">Wordpress, Umbraco CMS</li>
+                        <li class="listInHidenGetStarted">Woocommerce</li>
+                        <li class="listInHidenGetStarted">Ecommerce</li>
+                        <li class="listInHidenGetStarted">Responsive Website</li>
+                        <li class="listInHidenGetStarted">Mobile &amp; Tablet Responsive</li>
+                        <li class="listInHidenGetStarted">W3C Complience</li>
+                        <li class="listInHidenGetStarted">SEO</li>
+                    </ul>
+                <div class="buttonContactUsHiddenDiv"><p>Contact Us</p></div>
+                </div>
+                <div id="oneThirdOfTheInnerHolder">
+                        <div class="closeHiddenDivButton">
+                            <span id="x">X&nbsp;&nbsp;&nbsp;CLOSE</span>
+
+                        </div>
+                     <object>
+                            <embed id="keyboardPencilIcon" class="pencilIcon" src="MEDIA/keyboardIcon.svg">
+                    </object>
+                </div>
+           </div>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
       
       <!----------------- OUR PROCESS - FROM HERE --------->
       <div id="ourProcessHolder">
@@ -117,6 +204,9 @@
       </div>
 
 
+      
+      <script src="JS/jQuery-3.2.1.min.js" type="text/javascript"></script>
+    <script src="JS/mainScript.js" type="text/javascript"></script>
   </body>
 
 </html>
