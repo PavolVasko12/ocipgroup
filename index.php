@@ -71,9 +71,14 @@
                     </div>
             </div>
       </div>
+<<<<<<< HEAD
       
       <!-- ------ THREE DIV, SHOWS ON CLICK, ONE BY ONE, SEE JS ---------- -->
       <div id="printHiddenDivForGetStarted">
+=======
+
+      <div id="hiddenDivForGetStarted">
+>>>>>>> b7b77e65f79b4c602b6015590a4bf40dc817c47a
             <div id="innerHolderForHidden">
                 <div id="twoThirdsOfTheInnerHolder">
                     <h2>Print</h2>
@@ -107,6 +112,7 @@
                 </div>
            </div>
       </div>
+<<<<<<< HEAD
       
       
        <div id="digitalHiddenDivForGetStarted">
@@ -187,6 +193,9 @@
       
       
       
+=======
+
+>>>>>>> b7b77e65f79b4c602b6015590a4bf40dc817c47a
       <!----------------- OUR PROCESS - FROM HERE --------->
       <div id="ourProcessHolder">
         <div id="contentBoxProcess">
@@ -197,11 +206,58 @@
             </div>
 
             <div id="rightSideProcess">
-
+              <p>Our process is sleek and finely tuned; we adjust our services to best suit your needs whether we are working on simple website content changes, getting your site up and running, logo or brand designs or intricate campaigns. It works like this:</p>
             </div>
+          </div>
+          <div id="middlePartProcess">
+            <div id="meetingBox">
+              <img src="MEDIA/CalenderIcon.png" alt="Meeting Icon">
+              <p><span class="numberProcess">1.</span><span class="titleBoxProcess">Meeting</span><br>We meet  – this is where we all get our heads together.  As we find out exactly what you need, feel free to ask lots of questions. Once we have a firm understanding of your company and your needs, the process can begin.</p>
+            </div>
+            <div id="researchBox">
+              <img src="MEDIA/lightBulbIcon.png" alt="Research Icon">
+              <p><span class="numberProcess">2.</span> <span class="titleBoxProcess">Research</span><br>Research – this is vital as we need inside knowledge on your industry and competitors. Only when this is done can the design stage be initiated.</p>
+            </div>
+            <div id="designBox">
+              <img src="MEDIA/BrushIcon.png" alt="Design Icon">
+              <p><span class="numberProcess">3.</span> <span class="titleBoxProcess">Design</span><br>Design – now we can begin to create and develop ideas for your website, taking into account your precise requirements to produce something truly unique.</p>
+            </div>
+            <div id="reviewBox">
+              <img src="MEDIA/magnifyIcon.png" alt="Review Icon">
+              <p><span class="numberProcess">4.</span> <span class="titleBoxProcess">Review</span><br>Review – now is when we get feedback from you, analyse it and make any changes, fine-tuning ready to test the layout and design.</p>
+            </div>
+            <div id="buildBox">
+              <img src="MEDIA/spannerIcon.png" alt="Build Icon">
+              <p><span class="numberProcess">5.</span> <span class="titleBoxProcess">Build</span><br>Build– we can begin to fill your website with content and ensure that it is fully primed to be SEO ready. After this, we will ask for your input once again.</p>
+            </div>
+            <div id="launchSiteBox">
+              <img src="MEDIA/launchIcon.png" alt="Launch Site Icon">
+              <p><span class="numberProcess">6.</span> <span class="titleBoxProcess">Launch site</span><br>Launch – the final step and your website is complete and ready to go live.  We will liaise with you in detail, showing you how your site works and illustrating the many benefits available to your customers.</p>
+            </div>
+          </div>
+          <div id="bottomPartProcess">
+            <div id="enquireNowButton"><p>Enquire Now</p></div>
           </div>
         </div>
       </div>
+
+      <!----------------- WHY CHOOSE US? - FROM HERE --------->
+      <div id="whyUsHolder">
+        <div id="contentHolderWhyUs">
+          <div id="topLeftWhyUs">
+            <h2>Why choose us?</h2>
+            <h4>Mobile websites come as standard</h4>
+            <p><strong>You cannot afford to ignore the stats;</strong> mobile devices and phones are now fast becoming the chosen choice for browsing the internet. That’s why it’s so important that your website looks and functions as good on the desktop as it does on a mobile device. We take care of this, as well as providing you with a bespoke design, tailored to suit your audience and your needs.
+In addition, our websites are optimised to be as Google friendly as possible, ensuring that you have the very best chance of increasing your page ranking. To find out more on how we can help you, get in touch today. We would love to hear from you.</p>
+            <div id="getInTouchButton"><p>Get in touch</p></div>
+            <img src="MEDIA/arrowRightDown.png" alt="Arrow">
+          </div>
+          <div id="topRightWhyUs">
+          </div>
+        </div>
+      </div>
+
+
 
 
       
