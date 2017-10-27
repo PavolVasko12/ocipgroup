@@ -71,14 +71,11 @@
                     </div>
             </div>
       </div>
-<<<<<<< HEAD
       
       <!-- ------ THREE DIV, SHOWS ON CLICK, ONE BY ONE, SEE JS ---------- -->
-      <div id="printHiddenDivForGetStarted">
-=======
-
+      
       <div id="hiddenDivForGetStarted">
->>>>>>> b7b77e65f79b4c602b6015590a4bf40dc817c47a
+          <div id="printHiddenDivForGetStarted">
             <div id="innerHolderForHidden">
                 <div id="twoThirdsOfTheInnerHolder">
                     <h2>Print</h2>
@@ -112,7 +109,6 @@
                 </div>
            </div>
       </div>
-<<<<<<< HEAD
       
       
        <div id="digitalHiddenDivForGetStarted">
@@ -183,19 +179,10 @@
                 </div>
            </div>
       </div>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-=======
-
->>>>>>> b7b77e65f79b4c602b6015590a4bf40dc817c47a
+    </div>
+ 
+          
+    
       <!----------------- OUR PROCESS - FROM HERE --------->
       <div id="ourProcessHolder">
         <div id="contentBoxProcess">
