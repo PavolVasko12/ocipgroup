@@ -5,8 +5,8 @@
   <head>
     <meta charset="utf-8">
     <title>OCIP GROUP</title>
-    
-      
+
+
     <link rel="stylesheet" style="text/css" href="desktopStyle.css">
   </head>
 
@@ -72,6 +72,8 @@
             </div>
       </div>
       
+      
+      
       <!-- ------ THREE DIV, SHOWS ON CLICK, ONE BY ONE, SEE JS ---------- -->
       
       <div id="hiddenDivForGetStarted">
@@ -109,8 +111,6 @@
                 </div>
            </div>
       </div>
-      
-      
        <div id="digitalHiddenDivForGetStarted">
             <div id="innerHolderForHidden">
                 <div id="twoThirdsOfTheInnerHolder">
@@ -146,10 +146,10 @@
                 </div>
            </div>
       </div>
-      
-      
+
+
        <div id="developmentHiddenDivForGetStarted">
-               
+
             <div id="innerHolderForHidden">
                 <div id="twoThirdsOfTheInnerHolder">
                     <h2>Development</h2>
@@ -182,7 +182,6 @@
     </div>
  
           
-    
       <!----------------- OUR PROCESS - FROM HERE --------->
       <div id="ourProcessHolder">
         <div id="contentBoxProcess">
@@ -247,7 +246,7 @@ In addition, our websites are optimised to be as Google friendly as possible, en
 
 
 
-      
+
       <script src="JS/jQuery-3.2.1.min.js" type="text/javascript"></script>
     <script src="JS/mainScript.js" type="text/javascript"></script>
   </body>
