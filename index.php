@@ -76,8 +76,27 @@
                     <h2>Print</h2>
                     <h4>Service list</h4>
                     <p>From artworking to printed brochures, we can help. We can guide you through every step of the way. Whether its business cards or door drop flyers we can accommodate for all. Get in touch to start your print project. Email us at <b>enquiry@ocip-group.com</b> or you can call us on <b>01296 340890</b>. We would love to hear from you.</p>
+                    <ul>
+                        <li class="listInHidenGetStarted">Business Card Design</li>
+                        <li class="listInHidenGetStarted">A4 Brochure Design &amp; Artwork, Press Ads etc</li>
+                        <li class="listInHidenGetStarted">Flyer Design</li>
+                        <li class="listInHidenGetStarted">Roller Banners</li>
+                        <li class="listInHidenGetStarted">Vehicle Custom Vinly Design</li>
+                        <li class="listInHidenGetStarted">Packaging Design</li>
+                        <li class="listInHidenGetStarted">Stationary Design</li>
+                        <li class="listInHidenGetStarted">Exhibition Display Stands</li>
+                        <li class="listInHidenGetStarted">Research</li>
+                        <li class="listInHidenGetStarted">Book/Magazine Front Cover </li>
+                        <li class="listInHidenGetStarted">Wobblers POS</li>
+                        <li class="listInHidenGetStarted">Retail Display Stands</li>
+                        <li class="listInHidenGetStarted">Display Boards</li>
+                    </ul>
                 </div>
-                <div id="oneThirdOfTheInnerHolder"></div>
+                <div id="oneThirdOfTheInnerHolder">
+                     <object>
+                            <embed class="pencilIcon" src="MEDIA/pencilIcon.svg">
+                        </object>
+                </div>
            </div>
       </div>
 
