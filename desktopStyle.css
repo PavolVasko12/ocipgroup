@@ -200,8 +200,8 @@ top: -24px;
 }
 
 .textNextToCircle p{
- font-family: OpenSans-Bold;
-font-size: 22px;   
+font-family: OpenSans-Bold;
+font-size: 22px;
 }
 
 .textInsideTheThreeDivs{
@@ -254,13 +254,13 @@ top: -42px;
 /* ----------- HIDEN DIV ----------- */
 
 #hiddenDivForGetStarted{
-width: 100%;    
+width: 100%;
 height: 400px;
-background: #ee4745; 
-background: -webkit-linear-gradient(#ee4745, #c43737); 
-background: -o-linear-gradient(#ee4745, #c43737); 
-background: -moz-linear-gradient(#ee4745, #c43737); 
-background: linear-gradient(#ee4745, #c43737); 
+background: #ee4745;
+background: -webkit-linear-gradient(#ee4745, #c43737);
+background: -o-linear-gradient(#ee4745, #c43737);
+background: -moz-linear-gradient(#ee4745, #c43737);
+background: linear-gradient(#ee4745, #c43737);
 }
 
 #innerHolderForHidden{
@@ -279,7 +279,7 @@ margin-right: -4px;
 }
 
 #twoThirdsOfTheInnerHolder h2{
-     font-size: 42.6px;   
+     font-size: 42.6px;
 }
 
 #twoThirdsOfTheInnerHolder h4{
@@ -313,19 +313,236 @@ margin-right: -4px;
 #contentBoxProcess{
   max-width: 100%;
   width:1206px;
-  height:500px;
+  height:auto;
   margin: auto;
   padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#topPartProcess{
+  display:inline-block;
+}
+
+#leftSideProcess {
+  border-right: solid 2px #ffffff;
+  width:25%;
+  float:left;
 }
 
 #leftSideProcess > h2 {
   color: #ffffff;
+  font-size: 42.6px;
   font-family: OpenSans-SemiBold;
   margin:0;
 }
 
 #leftSideProcess > h4 {
   color: #ffffff;
+  font-size: 19px;
   font-family: OpenSans-Light;
   margin:0;
+}
+
+#rightSideProcess{
+  position: relative;
+  top: 15px;
+  width:50%;
+  float:left;
+  margin-left: 2%;
+}
+
+#rightSideProcess p {
+  margin: auto;
+  color: #ffffff;
+}
+
+#middlePartProcess{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#middlePartProcess > div{
+  width: 25%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 50px;
+}
+
+#middlePartProcess > img {
+  position: relative;
+  right:0;
+}
+
+#middlePartProcess > div img{
+  float: right;
+}
+
+
+#middlePartProcess p{
+  color: #ffffff;
+}
+
+.numberProcess{
+  font-size: 35pt;
+  color: #b5122c;
+  font-family: OpenSans-Bold;
+}
+
+.titleBoxProcess{
+  font-size: 25pt;
+  font-family: OpenSans-SemiBold;
+  margin-left: 1%;
+}
+
+#enquireNowButton{
+  margin: 20px 0 20px 0;
+  height:30px;
+  position: relative;
+  border:2px solid #ffffff;
+  width: 175px;
+  left:75%;
+  border-radius: 25px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+}
+
+#enquireNowButton p{
+  color: #ffffff;
+  font-family: OpenSans-Bold;
+  font-size: 15px;
+  margin:0;
+  padding: 5px 5px 5px 10px;
+  transition: all 0.5s;
+}
+
+#enquireNowButton p:after{
+   content: "";
+    background: url("./MEDIA/arrowWhite.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin: 0px 6px 0px 10px;
+    box-shadow: inset 0 0 0 0 #ffffff;
+	  -webkit-transition: all ease 0.8s;
+	  -moz-transition: all ease 0.8s;
+	  transition: all ease 1s;
+    transition-delay: 0.2s;
+}
+
+#enquireNowButton:hover{
+    box-shadow: inset 180px 0px 0 0 #ffffff;
+    cursor: pointer;
+}
+
+#enquireNowButton:hover p{
+  color:#000000;
+}
+
+#enquireNowButton:hover p:after{
+  background: url("MEDIA/arrowRigth.svg") no-repeat;
+}
+
+/* =================================================
+        WHY CHOOSE US FROM HERE
+=================================================== */
+
+#whyUsHolder{
+  background-color: #fdfdfd;
+  width: 100%;
+  height:auto;
+}
+
+#contentHolderWhyUs{
+  max-width: 100%;
+  width:1206px;
+  height:1000px;
+  margin:50px auto 50px auto;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#topLeftWhyUs{
+  width:33%;
+  height:auto;
+}
+
+#topLeftWhyUs h2{
+  font-family: OpenSans-SemiBold;
+  font-size: 42.6px;
+  margin: 0;
+}
+
+#topLeftWhyUs h4{
+  font-family: OpenSans-Light;
+  font-size: 19px;
+  margin: 0;
+}
+
+#topLeftWhyUs p{
+  margin:10px auto auto auto;
+}
+
+#topLeftWhyUs img{
+  float:right;
+}
+
+
+
+#topRightWhyUs{
+  width:66%;
+  height:100px;
+}
+
+#getInTouchButton{
+  margin: 20px 0 20px 0;
+  height:30px;
+  border:2px solid #000000;
+  width: 175px;
+  border-radius: 25px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  display: inline-block;
+}
+
+#getInTouchButton p{
+  color: #000000;
+  font-family: OpenSans-Bold;
+  font-size: 15px;
+  margin:0;
+  padding: 5px 5px 5px 10px;
+  transition: all 0.5s;
+}
+
+#getInTouchButton p:after{
+   content: "";
+    background: url("./MEDIA/arrowRigth.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin: 0px 6px 0px 10px;
+    box-shadow: inset 0 0 0 0 #000000;
+	  -webkit-transition: all ease 0.8s;
+	  -moz-transition: all ease 0.8s;
+	  transition: all ease 1s;
+    transition-delay: 0.2s;
+}
+
+#getInTouchButton:hover{
+    box-shadow: inset 180px 0px 0 0 #000000;
+    cursor: pointer;
+}
+
+#getInTouchButton:hover p{
+  color:#ffffff;
+}
+
+#getInTouchButton:hover p:after{
+  background: url("MEDIA/arrowWhite.svg") no-repeat;
 }
