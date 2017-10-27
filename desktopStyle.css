@@ -264,27 +264,23 @@ top: -42px;
 
 /* ----------- HIDEN DIV ----------- */
 
+
 #printHiddenDivForGetStarted, #digitalHiddenDivForGetStarted, #developmentHiddenDivForGetStarted{
 display: none;
 }
+
 #hiddenDivForGetStarted{
-width: 100%;
-height: 400px;
-background: #ee4745;
-background: -webkit-linear-gradient(#ee4745, #c43737);
-background: -o-linear-gradient(#ee4745, #c43737);
-background: -moz-linear-gradient(#ee4745, #c43737);
-background: linear-gradient(#ee4745, #c43737);
-width: 100%;
+display: none;
+width: 100%;    
 height: 550px;
 border-top: 6px solid #2b2a2a;
-background: #ee4745;
-background: -webkit-linear-gradient(#ee4745, #c43737);
-background: -o-linear-gradient(#ee4745, #c43737);
+background: #ee4745; 
+background: -webkit-linear-gradient(#ee4745, #c43737); 
+background: -o-linear-gradient(#ee4745, #c43737); 
 background: -moz-linear-gradient(#ee4745, #c43737);
 background: linear-gradient(#ee4745, #c43737);
-background: -moz-linear-gradient(#ee4745, #c43737);
-background: linear-gradient(#ee4745, #c43737);
+background: -moz-linear-gradient(#ee4745, #c43737); 
+background: linear-gradient(#ee4745, #c43737); 
 }
 
 #innerHolderForHidden{

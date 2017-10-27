@@ -70,12 +70,14 @@
                          <div id="buttonForDevelopment" class="buttonFindOutMoreInThreeDivs"><p>Find out more</p></div>
                     </div>
             </div>
-          </div>
-
+      </div>
+      
+      
+      
       <!-- ------ THREE DIV, SHOWS ON CLICK, ONE BY ONE, SEE JS ---------- -->
-      <div id="printHiddenDivForGetStarted">
-
+      
       <div id="hiddenDivForGetStarted">
+          <div id="printHiddenDivForGetStarted">
             <div id="innerHolderForHidden">
                 <div id="twoThirdsOfTheInnerHolder">
                     <h2>Print</h2>
@@ -109,8 +111,6 @@
                 </div>
            </div>
       </div>
-
-
        <div id="digitalHiddenDivForGetStarted">
             <div id="innerHolderForHidden">
                 <div id="twoThirdsOfTheInnerHolder">
@@ -179,9 +179,9 @@
                 </div>
            </div>
       </div>
-</div>
-
-
+    </div>
+ 
+          
       <!----------------- OUR PROCESS - FROM HERE --------->
       <div id="ourProcessHolder">
         <div id="contentBoxProcess">
