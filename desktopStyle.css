@@ -71,6 +71,10 @@ p{
 font-size: 13px;
 }
 
+h1, h2, h3, h4, h5, h6 , p ,a, li{
+    color: black;
+}
+
 /* Navigation bar
 THE NAV BAR IS GOING TO BE THE PART OF THE BAR THAT EXTENDS EG: BACKGROUND*/
 
@@ -86,6 +90,7 @@ nav {
   height: 108px;
   margin:0;
   border-bottom: solid 3px #d11432;
+    z-index: 100;
 }
 
 /*Nav Content IS THE PART OF THE NAVIGATION BAR THAT DOESNT EXTEND EG: TEXT, IMAGES*/
@@ -135,7 +140,7 @@ nav {
 #letsGetStartedHolder{
     width: 100%;
     background-color: #f34947;
-    margin-top: 200px;
+    margin-top: 0px;
     height: auto;
 }
 
@@ -154,7 +159,6 @@ nav {
 }
 
 #letsGetStartedHolderInner h4{
-    margin-top: -35px;
     font-size: 19px;
     margin-bottom: 100px;
 }
@@ -195,8 +199,8 @@ left: -1px;
 
 .textNextToCircle{
 position: absolute;
-left: 7px;
-top: -24px;
+left: 4px;
+top: -4px;
 }
 
 .textNextToCircle p{
@@ -242,6 +246,10 @@ transition: all 0.5s;
     font-size: 15px;
 }
 
+.buttonFindOutMoreInThreeDivs p:hover{
+ color: #ee4745;
+}
+
 .buttonFindOutMoreInThreeDivs p:after{
    content: "";
     display: block;
@@ -271,16 +279,16 @@ display: none;
 
 #hiddenDivForGetStarted{
 display: none;
-width: 100%;    
+width: 100%;
 height: 550px;
 border-top: 6px solid #2b2a2a;
-background: #ee4745; 
-background: -webkit-linear-gradient(#ee4745, #c43737); 
+background: #ee4745;
+background: -webkit-linear-gradient(#ee4745, #c43737);
 background: -o-linear-gradient(#ee4745, #c43737); 
 background: -moz-linear-gradient(#ee4745, #c43737);
 background: linear-gradient(#ee4745, #c43737);
 background: -moz-linear-gradient(#ee4745, #c43737); 
-background: linear-gradient(#ee4745, #c43737); 
+background: linear-gradient(#ee4745, #c43737);
 }
 
 #innerHolderForHidden{
@@ -305,7 +313,6 @@ margin-right: -4px;
 #twoThirdsOfTheInnerHolder h4{
 font-size: 19px;
 margin-left: 3px;
-margin-top: -30px;
 }
 
 #oneThirdOfTheInnerHolder{
@@ -354,30 +361,49 @@ margin-top: 30px;
 }
 
 .buttonContactUsHiddenDiv{
-width: 160px;
-color: #f34947;
-background-color: black;
+width: 165px;
+color: black;
+border: 2px solid black;
 -moz-border-radius: 20px;
 -webkit-border-radius: 20px;
+box-shadow: inset 0 0 0 0 #000000;
+transition: all 0.5s;
+}
+
+.buttonContactUsHiddenDiv:hover{
+cursor: pointer;
+color: #ee4745;
+box-shadow: inset 180px 0px 0 0 #000000;
 }
 
 .buttonContactUsHiddenDiv p{
-padding: 8px 8px 8px 13px;
+padding: 5px 8px 5px 13px;
+margin: 0px;
 font-family: OpenSans-Bold;
 font-size: 15px;
+color: black;
 }
+
+.buttonContactUsHiddenDiv p:hover{
+color: #ee4745;
+}
+
 
 .buttonContactUsHiddenDiv p:after{
 content: "";
 float: right;
 display: block;
-background: url("MEDIA/arrowRightRed.svg") no-repeat;
+background: url("MEDIA/arrowRigth.svg") no-repeat;
 width: 20px;
 height: 20px;
 margin: 0px 6px 0px 10px;
+transition-delay: 0.2s;
+    transition: all 0.5s;
 }
 
-
+.buttonContactUsHiddenDiv:hover p:after{
+background: url("MEDIA/arrowRightRed.svg")
+}
 .closeHiddenDivButton {
 margin-top: 40px;
 margin-right: 100px;
@@ -648,4 +674,172 @@ padding-left: 7px;
 
 #getInTouchButton:hover p:after{
   background: url("MEDIA/arrowWhite.svg") no-repeat;
+}
+
+
+
+/*==========================================
+        HEADER FROM HERE - 4 IMAGES
+===========================================*/
+
+
+#headerOneImage{
+background: url('MEDIA/HEADERIMAGES/ocipgroup-header1.jpg');
+}
+
+#headerTwoImage{
+background: url('MEDIA/HEADERIMAGES/ocipgroup-header4.jpg');
+}
+
+#headerThreeImage{
+background: url('MEDIA/HEADERIMAGES/ocipgroup-header3.jpg');
+}
+
+#headerFourImage{
+background: url('MEDIA/HEADERIMAGES/ocipgroup-header2');
+}
+
+#headerOneImage, #headerTwoImage, #headerThreeImage, #headerFourImage{
+width: 100%;
+height: 100vh;
+min-height: 600px;
+background-size: cover;
+background-position: center;
+}
+
+#headerThreeImage{
+background-position: left;
+}
+          
+.holderOnHeader{
+width: 27.3%;
+margin-left: 9.9%;
+position: relative;
+max-width: 100%;
+padding-top: 40vh;
+height: auto;
+}
+
+/*============== IMAGE 1 ===============*/
+
+/*h1{
+position: absolute;
+top: 30vh;
+font-size: 85px;
+font-family: LuckiestGuy;
+}*/
+
+h1{
+font-size: 85px;
+font-family: LuckiestGuy;
+}
+
+#imageOnSLideOne{
+}
+
+#pOnHeaderIMageONe{
+color: white;
+font-size: 18px;
+width: 100%;
+font-family: OpenSans-light;
+}
+
+
+#watchVideoGarySlideButton{
+width: 160px;
+margin-top: 50px;
+color: white;
+border: 2px solid white;
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+box-shadow: inset 0 0 0 0 #000000;
+transition: all 0.5s;
+}
+
+#watchVideoGarySlideButton p:after{
+  content: "";
+    display: block;
+    background: url("MEDIA/arrowWhite.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin: 0px 6px 0px 10px;
+    transition-delay: 0.2s;
+    transition: all 0.5s;    
+}
+
+#watchVideoGarySlideButton p{
+    margin: 0px;
+    padding: 5px 5px 5px 10px;
+    font-family: OpenSans-Bold;
+    font-size: 15px;
+    color: white;
+}
+
+#watchVideoGarySlideButton p:hover{
+color: black;
+}
+
+#watchVideoGarySlideButton:hover{
+    cursor: pointer;
+    box-shadow: inset 180px 0px 0 0 #fff;
+}
+
+#watchVideoGarySlideButton:hover p:after{
+    background: url("MEDIA/arrowRigth.svg") no-repeat;
+}
+
+
+
+/*===============IMAGE 3 ============*/
+
+#skyLimitText{
+font-family: Allura;
+font-size: 55px;
+padding: 0px;
+margin: 0px;
+margin-left: 50px;
+color: #da2a47;
+}
+
+#startupText{
+font-size: 2.4vw;
+margin-top: 5px;
+font-family: OpenSans-Bold;
+color: white;
+}
+
+#textOnBusiness{
+font-family: OpenSans-Light
+}
+
+/*========= BOOTSRAP AMENDS FOR COURSEL INDICATOR =========*/
+
+.carousel-indicators .active{
+background-color: #ee4745;
+width: 15px;
+height: 15px;
+margin: 1px;
+}
+
+.carousel-indicators{
+left: 120%;
+width: 100px;
+}
+
+.carousel-indicators li{
+width: 15px;
+height: 15px;
+}
+
+.glyphicon-chevron-left:before{
+content: "";
+}
+
+.glyphicon-chevron-right:before{
+content: "";
+}
+
+.carousel-control{
+width: 10%;
 }

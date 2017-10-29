@@ -5,11 +5,17 @@
   <head>
     <meta charset="utf-8">
     <title>OCIP GROUP</title>
-
-
-    <link rel="stylesheet" style="text/css" href="desktopStyle.css">
+      <!------------- BOOTSTRAP CSS ------------->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      
+      <!------------- MAIN CSS ------------->
+      <link rel="stylesheet" style="text/css" href="desktopStyle.css">
   </head>
 
+    
+    
+<!----------- BODY FROM HERE ---------------->    
+    
   <body>
       <nav>
         <div id="navContent">
@@ -33,6 +39,69 @@
           </div>
         </div>
       </nav>
+      
+      
+      
+      <!------------------ HEADER FROM HERE - 4 IMAGES - COURSEL --------------->
+      
+     <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+          <div id="headerOneImage" class="item active">
+              <div class="holderOnHeader">
+                  <img id="imageOnSLideOne" src="MEDIA/HEADERIMAGES/headingImageForFirstSlide.png" alt="Gary's story heading image">
+                  <p id="pOnHeaderIMageONe">Is your website looking sad, neglected and in need of some TLC?  Then you need us to take care of it. Our website rescue service provides your site with a detailed ‘medical’ and then gets it back up and running again as it should; full of life, pizzazz and ready to provide your clients with plenty of pleasure. Our new video see’s Gary six months before we found him. Have a watch below</p>
+                  <div id="watchVideoGarySlideButton"><p>Watch Video</p></div>
+              </div>
+          </div>
+
+          <div id="headerTwoImage" class="item">
+              <div class="holderOnHeader">
+                  <h1 id="skyLimitText">anywhere, anyhow</h1>
+                    <h1 id="startupText">Practical <span id="textOnBusiness">solutions</span></h1>
+                  <p id="pOnHeaderIMageONe">Our starter webpack incudes a mobile version of your website. So, whether your at home or on the move you know your customers can easily access your site on any device.</p>
+                  <div id="watchVideoGarySlideButton"><p>Contact us</p></div>
+              </div>
+          </div>
+
+          <div id="headerThreeImage" class="item">
+             <div class="holderOnHeader">
+                    <h1 id="skyLimitText">sky's the limit</h1>
+                    <h1 id="startupText">Startup <span id="textOnBusiness">businesses</span></h1>
+                  <p id="pOnHeaderIMageONe">Start-up? Then you need to get it right first time! Launch your website with a bang and dazzle your audience with an impressive on-line presence that showcases your talents and knocks competitors for six. Why settle for anything less?</p>
+              </div>
+          </div>
+
+            <div id="headerFourImage" class="item">
+                <div class="holderOnHeader">
+                <h1 id="skyLimitText">leave a</h1>
+                    <h1 id="startupText">lasting <span id="textOnBusiness">Impression</span></h1>
+                  <p id="pOnHeaderIMageONe">Design isn’t great if it doesn’t empathise with viewers and attract and intrigue, making them want to find out more. Stand out from the rest with a site built by us that engages with a ‘Wow’ factor, is utterly compelling and memorable and leaves your clients wanting to communicate.</p>
+                  <div id="watchVideoGarySlideButton"><p>Contact us</p></div>
+              </div>
+          </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+      
+      
 
       <!----------------- LET's GET STARTED - FROM HERE --------->
       <div id="letsGetStartedHolder">
@@ -243,12 +312,14 @@ In addition, our websites are optimised to be as Google friendly as possible, en
         </div>
       </div>
 
-
-
-
-
+    
+      <!------------- JQUERY, BOOTSTRAP SQCRIPT ------------->
       <script src="JS/jQuery-3.2.1.min.js" type="text/javascript"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      
+      <!------------- MAIN JavaScript ------------->
     <script src="JS/mainScript.js" type="text/javascript"></script>
+      
   </body>
 
 </html>
