@@ -59,8 +59,6 @@
 }
 
 
-
-
 body{
 width:100%;
 margin:0;
@@ -75,8 +73,12 @@ h1, h2, h3, h4, h5, h6 , p ,a, li{
     color: black;
 }
 
-/* Navigation bar
-THE NAV BAR IS GOING TO BE THE PART OF THE BAR THAT EXTENDS EG: BACKGROUND*/
+/* ===================================================
+                NAVIGATION MENU FROM HERE
+====================================================*/
+
+/*THE NAV BAR IS GOING TO BE THE PART OF THE BAR THAT EXTENDS EG: BACKGROUND*/
+
 
 nav {
   background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(62,61,61) 100%);
@@ -129,6 +131,168 @@ nav {
 }
 
 
+
+
+/*================================================
+            HEADER FROM HERE - 4 IMAGES
+==================================================*/
+
+
+#headerOneImage{
+background: url('MEDIA/HEADERIMAGES/ocipgroup-header1.jpg');
+}
+
+#headerTwoImage{
+background: url('MEDIA/HEADERIMAGES/ocipgroup-header4.jpg');
+}
+
+#headerThreeImage{
+background: url('MEDIA/HEADERIMAGES/ocipgroup-header3.jpg');
+}
+
+#headerFourImage{
+background: url('MEDIA/HEADERIMAGES/ocipgroup-header2');
+}
+
+#headerOneImage, #headerTwoImage, #headerThreeImage, #headerFourImage{
+width: 100%;
+height: 100vh;
+min-height: 600px;
+background-size: cover;
+background-position: center;
+}
+
+#headerThreeImage{
+background-position: left;
+}
+          
+.holderOnHeader{
+width: 27.3%;
+margin-left: 9.9%;
+position: relative;
+max-width: 100%;
+padding-top: 40vh;
+height: auto;
+}
+
+
+h1{
+font-size: 85px;
+font-family: LuckiestGuy;
+}
+
+#imageOnSLideOne{
+}
+
+#pOnHeaderIMageONe{
+color: white;
+font-size: 18px;
+width: 100%;
+font-family: OpenSans-light;
+}
+
+
+#watchVideoGarySlideButton{
+width: 160px;
+margin-top: 50px;
+color: white;
+border: 2px solid white;
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+box-shadow: inset 0 0 0 0 #000000;
+transition: all 0.5s;
+}
+
+#watchVideoGarySlideButton p:after{
+  content: "";
+    display: block;
+    background: url("MEDIA/arrowWhite.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin: 0px 6px 0px 10px;
+    transition-delay: 0.2s;
+    transition: all 0.5s; 
+}
+      
+    
+#watchVideoGarySlideButton p{
+    margin: 0px;
+    padding: 5px 5px 5px 10px;
+    font-family: OpenSans-Bold;
+    font-size: 15px;
+    color: white;
+}
+
+#watchVideoGarySlideButton p:hover{
+color: black;
+}
+
+#watchVideoGarySlideButton:hover{
+    cursor: pointer;
+    box-shadow: inset 180px 0px 0 0 #fff;
+}
+
+#watchVideoGarySlideButton:hover p:after{
+    background: url("MEDIA/arrowRigth.svg") no-repeat;
+}
+
+
+
+/*===============IMAGE 3 ============*/
+
+#skyLimitText{
+font-family: Allura;
+font-size: 55px;
+padding: 0px;
+margin: 0px;
+margin-left: 50px;
+color: #da2a47;
+}
+
+#startupText{
+font-size: 2.4vw;
+margin-top: 5px;
+font-family: OpenSans-Bold;
+color: white;
+}
+
+#textOnBusiness{
+font-family: OpenSans-Light
+}
+
+/*========= BOOTSRAP AMENDS FOR COURSEL INDICATOR =========*/
+
+.carousel-indicators .active{
+background-color: #ee4745;
+width: 15px;
+height: 15px;
+margin: 1px;
+}
+
+.carousel-indicators{
+left: 120%;
+width: 100px;
+}
+
+.carousel-indicators li{
+width: 15px;
+height: 15px;
+}
+
+.glyphicon-chevron-left:before{
+content: "";
+}
+
+.glyphicon-chevron-right:before{
+content: "";
+}
+
+.carousel-control{
+width: 10%;
+}    
+    
+ 
 
 
 
@@ -669,7 +833,7 @@ padding-left: 7px;
   font-family: OpenSans-Bold;
   font-size: 15px;
   margin:0;
-  padding: 5px 5px 5px 10px;
+  padding: 3px 5px 5px 10px;
   transition: all 0.5s;
 }
 
@@ -699,181 +863,6 @@ padding-left: 7px;
 #getInTouchButton:hover p:after{
   background: url("MEDIA/arrowWhite.svg") no-repeat;
 }
-
-
-/*==========================================
-        HEADER FROM HERE - 4 IMAGES
-===========================================*/
-
-
-#headerOneImage{
-background: url('MEDIA/HEADERIMAGES/ocipgroup-header1.jpg');
-}
-
-#headerTwoImage{
-background: url('MEDIA/HEADERIMAGES/ocipgroup-header4.jpg');
-}
-
-#headerThreeImage{
-background: url('MEDIA/HEADERIMAGES/ocipgroup-header3.jpg');
-}
-
-#headerFourImage{
-background: url('MEDIA/HEADERIMAGES/ocipgroup-header2');
-}
-
-#headerOneImage, #headerTwoImage, #headerThreeImage, #headerFourImage{
-width: 100%;
-height: 100vh;
-min-height: 600px;
-background-size: cover;
-background-position: center;
-}
-
-#headerThreeImage{
-background-position: left;
-}
-          
-.holderOnHeader{
-width: 27.3%;
-margin-left: 9.9%;
-position: relative;
-max-width: 100%;
-padding-top: 40vh;
-height: auto;
-}
-
-/*============== IMAGE 1 ===============*/
-
-/*h1{
-position: absolute;
-top: 30vh;
-font-size: 85px;
-font-family: LuckiestGuy;
-}*/
-
-h1{
-font-size: 85px;
-font-family: LuckiestGuy;
-}
-
-#imageOnSLideOne{
-}
-
-#pOnHeaderIMageONe{
-color: white;
-font-size: 18px;
-width: 100%;
-font-family: OpenSans-light;
-}
-
-
-#watchVideoGarySlideButton{
-width: 160px;
-margin-top: 50px;
-color: white;
-border: 2px solid white;
--moz-border-radius: 20px;
--webkit-border-radius: 20px;
-box-shadow: inset 0 0 0 0 #000000;
-transition: all 0.5s;
-}
-
-#watchVideoGarySlideButton p:after{
-  content: "";
-    display: block;
-    background: url("MEDIA/arrowWhite.svg") no-repeat;
-    width: 20px;
-    height: 20px;
-    float: right;
-    margin: 0px 6px 0px 10px;
-    transition-delay: 0.2s;
-    transition: all 0.5s; 
-}
-      
-    
-#watchVideoGarySlideButton p{
-    margin: 0px;
-    padding: 5px 5px 5px 10px;
-    font-family: OpenSans-Bold;
-    font-size: 15px;
-    color: white;
-}
-
-#watchVideoGarySlideButton p:hover{
-color: black;
-}
-
-#watchVideoGarySlideButton:hover{
-    cursor: pointer;
-    box-shadow: inset 180px 0px 0 0 #fff;
-}
-
-#watchVideoGarySlideButton:hover p:after{
-    background: url("MEDIA/arrowRigth.svg") no-repeat;
-}
-
-
-
-/*===============IMAGE 3 ============*/
-
-#skyLimitText{
-font-family: Allura;
-font-size: 55px;
-padding: 0px;
-margin: 0px;
-margin-left: 50px;
-color: #da2a47;
-}
-
-#startupText{
-font-size: 2.4vw;
-margin-top: 5px;
-font-family: OpenSans-Bold;
-color: white;
-}
-
-#textOnBusiness{
-font-family: OpenSans-Light
-}
-
-/*========= BOOTSRAP AMENDS FOR COURSEL INDICATOR =========*/
-
-.carousel-indicators .active{
-background-color: #ee4745;
-width: 15px;
-height: 15px;
-margin: 1px;
-}
-
-.carousel-indicators{
-left: 120%;
-width: 100px;
-}
-
-.carousel-indicators li{
-width: 15px;
-height: 15px;
-}
-
-.glyphicon-chevron-left:before{
-content: "";
-}
-
-.glyphicon-chevron-right:before{
-content: "";
-}
-
-.carousel-control{
-width: 10%;
-}    
-    
- 
-
-    
-/* ===================================================
-                WHY US SECTION
-===================================================== */
    
     
 #middleLeftWhyUs{
@@ -928,17 +917,20 @@ width: 10%;
   font-family: OpenSans-Bold;
   font-size: 15px;
   margin:0;
-  padding: 5px 5px 5px 10px;
+  padding: 3px 5px 5px 10px;
   transition: all 0.5s;
 }
 
 #ourWorkButton p:after{
-   content: "";
-    background: url("./MEDIA/arrowRigth.svg") no-repeat;
+    content: "";
+    background: url("MEDIA/arrowRigth.svg") no-repeat;
+    float: right;
+    width: 20px;
+    height: 20px;
     box-shadow: inset 0 0 0 0 #000000;
-	  -webkit-transition: all 1s;
-	  -moz-transition: all 1s;
-	  transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
     transition-delay: 0.2s;
 }
 
@@ -1002,7 +994,7 @@ width: 10%;
 }
 
 #enquireWhyUsButton p:after{
-   content: "";
+    content: "";
     background: url("./MEDIA/arrowRigth.svg") no-repeat;
     width: 20px;
     height: 20px;
