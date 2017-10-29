@@ -7,15 +7,15 @@
     <title>OCIP GROUP</title>
       <!------------- BOOTSTRAP CSS ------------->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-      
+
       <!------------- MAIN CSS ------------->
       <link rel="stylesheet" style="text/css" href="desktopStyle.css">
   </head>
 
-    
-    
-<!----------- BODY FROM HERE ---------------->    
-    
+
+
+<!----------- BODY FROM HERE ---------------->
+
   <body>
       <nav>
         <div id="navContent">
@@ -39,11 +39,11 @@
           </div>
         </div>
       </nav>
-      
-      
-      
+
+
+
       <!------------------ HEADER FROM HERE - 4 IMAGES - COURSEL --------------->
-      
+
      <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -100,8 +100,8 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-      
-      
+
+
 
       <!----------------- LET's GET STARTED - FROM HERE --------->
       <div id="letsGetStartedHolder">
@@ -334,14 +334,42 @@ Have look at our rates section and you will see that we are offering some amazin
         </div>
       </div>
 
-    
+      <!----------------- RECENT FEEDBACK - FROM HERE --------->
+      <div id="feedbackHolder">
+        <div id="contentFeedbackHolder">
+          <object>
+            <embed id="dialogueBubble" src="MEDIA/dialogueBubbes.svg">
+          </object>
+            <h2 style="color#ffffff;">Recent <span style="color:#d90f31">feedback</span></h2>
+            <h4>A few testimonials left by our clients</h4>
+            <div id="smallerBoxFeedback">
+              <p id="ratingSentence" style="color:bcbcbc;">Our customers are so pleased, they would give us a four star rating &amp; above</p>
+              <p>Check out a few of the testimonials left by our clients; our customers are so pleased, they award us a four-star rating or more.  We have worked with some great brands, big and small and many of our clients have been kind enough to leave us some amazing messages. Click on the arrows below to see them all:</p>
+            </div>
+            <div id="quotesContainer">
+              <div class="quoteBox">
+                <p><span style="font-size:23px;">”</span>I recently used OCIP Group to design and oversee the printing of my new vehicle branding. I gave Evan a basic brief and let him come up with a concept and boy it didn't disappoint. Far more involved than the average vehicle wrap, I know he spent a lot of time getting it just right. Everyone has commented on how great it is and I couldn't be more pleased.<span style="font-size:23px;">”</span></p>
+                <p>Owner - <span style="color:#d90f31">Bucks Hot Tub Hire</span></p>
+              </div>
+              <div class="quoteBox">
+                <p><span style="font-size:23px;">”</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacinia finibus est, vel ullamcorper quam fermentum id. Donec tempor dolor commodo interdum tempor. Mauris sagittis elementum libero, quis volutpat diam pharetra sit amet. Duis laoreet lorem quam, sit amet ultricies tortor commodo a sagittis elementum.<span style="font-size:23px;">”</span></p>
+                <p>Manager - <span style="color:#d90f31">Amazon Photography</span></p>
+              </div>
+              <div class="quoteBox">
+                <p><span style="font-size:23px;">”</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacinia finibus est, vel ullamcorper quam fermentum id. Donec tempor dolor commodo interdum tempor. Mauris sagittis elementum libero, quis volutpat diam pharetra sit amet. Duis laoreet lorem quam, sit amet ultricies tortor commodo a sagittis elementum.<span style="font-size:23px;">”</span></p>
+                <p>Owner - <span style="color:#d90f31">Unique Capture</span></p>
+              </div>
+            </div>
+        </div>
+      </div>
+
       <!------------- JQUERY, BOOTSTRAP SQCRIPT ------------->
       <script src="JS/jQuery-3.2.1.min.js" type="text/javascript"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-      
+
       <!------------- MAIN JavaScript ------------->
     <script src="JS/mainScript.js" type="text/javascript"></script>
-      
+
   </body>
 
 </html>

@@ -165,7 +165,7 @@ background-position: center;
 #headerThreeImage{
 background-position: left;
 }
-          
+
 .holderOnHeader{
 width: 27.3%;
 margin-left: 9.9%;
@@ -212,7 +212,7 @@ transition: all 0.5s;
     float: right;
     margin: 0px 6px 0px 10px;
     transition-delay: 0.2s;
-    transition: all 0.5s; 
+    transition: all 0.5s;
 }
       
     
@@ -290,9 +290,9 @@ content: "";
 
 .carousel-control{
 width: 10%;
-}    
-    
- 
+}
+
+
 
 
 
@@ -452,10 +452,10 @@ height: 550px;
 border-top: 6px solid #2b2a2a;
 background: #ee4745;
 background: -webkit-linear-gradient(#ee4745, #c43737);
-background: -o-linear-gradient(#ee4745, #c43737); 
+background: -o-linear-gradient(#ee4745, #c43737);
 background: -moz-linear-gradient(#ee4745, #c43737);
 background: linear-gradient(#ee4745, #c43737);
-background: -moz-linear-gradient(#ee4745, #c43737); 
+background: -moz-linear-gradient(#ee4745, #c43737);
 background: linear-gradient(#ee4745, #c43737);
 }
 
@@ -768,7 +768,6 @@ padding-left: 7px;
 #contentHolderWhyUs{
   max-width: 100%;
   width:1206px;
-  height:1000px;
   margin:50px auto 50px auto;
   display:flex;
   flex-wrap: wrap;
@@ -863,8 +862,8 @@ padding-left: 7px;
 #getInTouchButton:hover p:after{
   background: url("MEDIA/arrowWhite.svg") no-repeat;
 }
-   
-    
+
+
 #middleLeftWhyUs{
   width:66%;
   height:auto;
@@ -1027,4 +1026,97 @@ padding-left: 7px;
 
 #bottomRightWhyUs img{
   float:right;
+}
+
+/* =================================================
+        RECENT FEEDBACK FROM HERE
+=================================================== */
+
+#feedbackHolder{
+  background-color: #000000;
+  width:100%;
+  height: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#contentFeedbackHolder h2{
+  font-family: OpenSans-SemiBold;
+  font-size: 42.6px;
+  margin: 0;
+  color:#ffffff;
+}
+
+#contentFeedbackHolder h4{
+  font-family: OpenSans-Light;
+  font-size: 19px;
+  color:#ffffff;
+}
+
+#contentFeedbackHolder p{
+  color:#ffffff;
+}
+
+#contentFeedbackHolder{
+  max-width: 100%;
+  width:1206px;
+  height:auto;
+  margin:50px auto 50px auto;
+  color: #ffffff;
+
+}
+
+#dialogueBubble{
+  margin: 0 auto;
+  display: block;
+  width:5%;
+  height:5%;
+}
+
+#contentFeedbackHolder h2{
+  font-family: OpenSans-SemiBold;
+  font-size: 42.6px;
+  margin: auto;
+  text-align: center;
+}
+
+#contentFeedbackHolder h4{
+  font-family: OpenSans-Light;
+  font-size: 19px;
+  margin: auto;
+  text-align: center;
+}
+
+#smallerBoxFeedback{
+  width:69%;
+  margin:15px auto;
+}
+
+#ratingSentence{
+  color: #bcbcbc;
+}
+#ratingSentence:after{
+  display: inline-block;
+  content: "";
+  width:101px;
+  height:19px;
+  background: url("./MEDIA/ratingStars.jpg") no-repeat;
+  background-size: cover;
+}
+
+#quotesContainer{
+  width:82%;
+  display: flex;
+  display: row;
+  justify-content: center;
+  margin: auto;
+}
+
+#quotesContainer > div {
+  flex:1;
+}
+
+#quotesContainer div:nth-child(2){
+  margin-left: 5%;
+  margin-right: 5%;
 }
