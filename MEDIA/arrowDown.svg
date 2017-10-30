@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="-10 -10 500 500">
+  <style>
+    svg{fill:none;stroke:#808080;stroke-width:25;stroke-miterlimit:35; transition: all 0.5s;}
+    svg:hover{stroke:#000000;}
+  </style>
+  <path d="M212.4 331.6V81.9M215.5 339l-56-55.6M206.7 342l59.2-59.2" class="st0"/>
+  <circle cx="210.5" cy="211.5" r="206.7" class="st0"/>
+</svg>
