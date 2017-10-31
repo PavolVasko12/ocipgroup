@@ -751,9 +751,17 @@ padding-left: 7px;
 
 #middlePartProcess > div{
   width: 25%;
-  margin-left: 4%;
-  margin-right: 4%;
   margin-top: 50px;
+}
+
+#researchBox{
+  margin-left: 12%;
+  margin-right:12%;
+}
+
+#buildBox{
+  margin-left: 12%;
+  margin-right:12%;
 }
 
 #middlePartProcess > img {
