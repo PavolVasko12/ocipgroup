@@ -41,19 +41,11 @@
           </div>
         </div>
       </nav>
-<<<<<<< HEAD
-      
-      
-      
-      <!-- ---------------- HEADER FROM HERE - 4 IMAGES - COURSEL ------------- -->
-      
-=======
+
 
 
 
       <!------------------ HEADER FROM HERE - 4 IMAGES - COURSEL --------------->
-
->>>>>>> 7aee9774300f6cbb91ed4a43949852494b8a5420
      <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">

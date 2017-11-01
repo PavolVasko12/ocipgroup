@@ -594,7 +594,7 @@ margin-right: 25px;
 ul li:before{
 content: "";
 display: block;
-background: url("MEDIA/tickIconRed.svg") no-repeat;
+background: url("MEDIA/tickIcon.svg") no-repeat;
 width: 12px;
 height: 12px;
 float: left;
@@ -687,7 +687,7 @@ border: 3px solid black;
     cursor: pointer;
 }
 .closeHiddenDivButton span{
-padding-left: 7px;
+padding-left: 6px;
 }
 
 
