@@ -42,7 +42,7 @@
       
       
       
-      <!------------------ HEADER FROM HERE - 4 IMAGES - COURSEL --------------->
+      <!-- ---------------- HEADER FROM HERE - 4 IMAGES - COURSEL ------------- -->
       
      <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -103,7 +103,7 @@
       
       
 
-      <!----------------- LET's GET STARTED - FROM HERE --------->
+      <!-- --------------- LET's GET STARTED - FROM HERE ------- -->
       <div id="letsGetStartedHolder">
             <div id="letsGetStartedHolderInner">
                 <h2>Let's get started</h2>
@@ -200,7 +200,7 @@
                         <li class="listInHidenGetStarted">Brand Guidelines</li>
                         <li class="listInHidenGetStarted">Retail Display Stands</li>
                         <li class="listInHidenGetStarted">Display Boards</li>
-                        <li class="listInHidenGetStarted">UI/UX R&amp;</li>
+                        <li class="listInHidenGetStarted">UI/UX R&amp;D</li>
                     </ul>
                 <div class="buttonContactUsHiddenDiv"><p>Contact Us</p></div>
                 </div>
@@ -251,7 +251,7 @@
     </div>
 
 
-      <!----------------- OUR PROCESS - FROM HERE --------->
+      <!-- --------------- OUR PROCESS - FROM HERE ------- -->
       <div id="ourProcessHolder">
         <div id="contentBoxProcess">
           <div id="topPartProcess">
@@ -296,7 +296,7 @@
         </div>
       </div>
 
-      <!----------------- WHY CHOOSE US? - FROM HERE --------->
+      <!-- --------------- WHY CHOOSE US? - FROM HERE ------- -->
       <div id="whyUsHolder">
         <div id="contentHolderWhyUs">
           <div id="topLeftWhyUs">
@@ -333,13 +333,191 @@ Have look at our rates section and you will see that we are offering some amazin
           </div>
         </div>
       </div>
-
+      
+      
+      
+      <!-- --------------------- OUR RATES FROM HERE ----------------- -->
+    <div id="holderForOurRates">
+        <div id="innerHolderForOurRates">
+        <div id="holderOurRatesLeftSideHeader">
+           <div id="ourRatesHeaderHolder">
+                <h2>Our rates</h2>
+                <p>Price list for services</p>
+            </div>
+            <div id="priceTag"></div>
+                <p>Here at OCIP, we thrive on big projects and that’s why we can offer some great discounts. The more you need, the greater the savings you can make. Listed below are just a few of our costs for the more popular services. If there is a service you require that you cannot see, please get in contact and we will provide a comprehensive quote, free of charge.</p>
+        </div>
+        <div id="holderOurRatesRightSideHeader">
+            <div id="firstPack" class="outerPackHolder">
+                <div class="holderForStartedBusinessProPack">
+                <h3>Starter</br>Pack</h3>
+                <p><span class="circleInPacks">i</span> Perfect for beginners</p>
+            </div>
+            </div>
+             <div id="businessPack" class="outerPackHolder">
+                <div class="holderForStartedBusinessProPack">
+                <h3>Business</br>Pack</h3>
+                <p><span class="circleInPacks">i</span> For startup business</p>
+            </div>
+            </div>
+             <div id="proPack" class="outerPackHolder">
+                <div  class="holderForStartedBusinessProPack">
+                <h3>Pro</br>Pack</h3>
+                <p><span class="circleInPacks">i</span> For the web veterans</p>
+            </div>
+            </div>
+        </div>
+      </div>
     
-      <!------------- JQUERY, BOOTSTRAP SQCRIPT ------------->
+
+     <div id="tableHolder">
+        <table>
+          <tr>
+            <th id="firstColumn"><span id="thFirstRowTopText"><p>Our most popular services</p></span><span id="thFirstRowText"><p>if you cannot see a price listed below, get in touch</p></span></th>
+             <th id="secondColumn"><span id="thFirstRowTopText"><p>Prices</p></span><span id="thFirstRowText"><p>Start from</p></span></th>
+              <th id="thirdColumn"><span class="priceHeader"><p>£600.00</p></span><span class="moneySaving"><p>Save From £400</p></span></th>
+            <th id="fourthColumn"><span class="priceHeader"><p>£800.00</p></span><span class="moneySaving"><p>Save From £650</p></span></th>
+            <th id="fifthColumn"><span class="priceHeader"><p>£1000.00</p></span><span class="moneySaving"><p>Save From £1200</p></span></th>
+          </tr>
+          <tr>
+            <td>Responsive Mobile /Tablet Website Design &amp; Build</td>
+            <td>£250.00</td>
+            <td><div class="tickInTableData"></div></td>
+            <td><div class="tickInTableData"></div></td>
+            <td><div class="tickInTableData"></div></td>
+          </tr>
+            <tr>
+            <td>Wordpress Website Design &amp; Build (includes up to 5 pages)</td>
+            <td>£500.00</td>
+            <td><div class="tickInTableData"></div></td>
+            <td></td>
+            <td></td>
+          </tr>
+            <tr>
+            <td>Woocomerce Website Design &amp; Build (includes up to 10 pages)</td>
+            <td>£750.00</td>
+            <td></td>
+            <td><div class="tickInTableData"></div></td>
+            <td></td>
+          </tr>
+            <tr>
+            <td>E-commerce Website Design &amp; Build (custom build)</td>
+            <td>£1500.00</td>
+            <td></td>
+            <td></td>
+            <td><div class="tickInTableData"></div></td>
+          </tr>
+            <tr>
+            <td>Email Newsletter Design &amp; Build</td>
+            <td>£200.00</td>
+            <td></td>
+            <td></td>
+            <td><div class="tickInTableData"></div></td>
+          </tr>
+            <tr>
+            <td>Website Header Banner Design (up to 5)</td>
+            <td>£250.00</td>
+            <td><div class="tickInTableData"></div></td>
+            <td><div class="tickInTableData"></div></td>
+            <td><div class="tickInTableData"></div></td>
+          </tr>
+            <tr>
+            <td>Photo Re-Touch, Edit, Cut-Out, Manipulation for models, Products etc</td>
+            <td>£35.00 ph</td>
+            <td><div class="tickInTableData"></div></td>
+            <td><div class="tickInTableData"></div></td>
+            <td><div class="tickInTableData"></div></td>
+          </tr>
+            <tr>
+            <td>Logo Design</td>
+            <td>£350.00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+            <tr>
+            <td>Business Card Design</td>
+            <td>£200.00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+            <tr>
+            <td>A4 Brochure Design &amp; Artwork, Press Ads etc</td>
+            <td>£250.00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+            <tr>
+            <td>Flyer Design</td>
+            <td>£200.00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+            <tr>
+            <td>Roller Banners</td>
+            <td>£250.00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+            <tr>
+            <td>Vehicle Custom Vinly Design (please get in contact to get a quote)</td>
+            <td>Please Call</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+    </div>
+
+    <div id="holderForThreeSectionWithCircles">
+        <div class="sectionWithCircle">
+            <object>
+                <embed src="MEDIA/guranteeIcon.svg" class="circleSatisfactionQuickPremium">
+            </object>
+            <div class="textNextToTheThreeCircles">
+                <h5>WE OFFER A 100%</h5>
+                <h6>SATISFACTION GUARANTEE</h6>
+                <p>We pride ourselves on providing great work. As such, we will not rest until you are completely, 100% satisfied. What have you got to lose? Speak to us today to see how we can improve your online space.</p>
+            </div>
+        </div>
+        <div id="middleSectionWithCircel" class="sectionWithCircle">
+            <object>
+                <embed src="MEDIA/turnaroundIcon.svg" class="circleSatisfactionQuickPremium">
+            </object>
+             <div class="textNextToTheThreeCircles">
+                <h5>PROJECT NEEDING</h5>
+                <h6>COMPLETION URGENTLY?</h6>
+                <p>We understand those moments when you need some work doing ASAP. That’s why we offer a 24hr quick turnaround. Contact us for more details. Subject to additional charges and terms &amp; conditions apply.</p>
+            </div>
+        </div>
+        <div class="sectionWithCircle">
+            <object>
+                <embed src="MEDIA/premiumServicesIcon.svg" class="circleSatisfactionQuickPremium">
+            </object>
+             <div class="textNextToTheThreeCircles">
+                <h5>PREMIUM SERVICE</h5>
+                <h6>AT A LOW COST RATE</h6>
+                <p>No matter how big or small your project is, you can be sure that you will receive the same great, dedicated expertise across all of our services.</p>
+            </div>
+        </div>
+    </div>
+
+</div> 
+
+   
+      
+      
+      
+
+      <!-- ----------- JQUERY, BOOTSTRAP SQCRIPT ----------- -->
       <script src="JS/jQuery-3.2.1.min.js" type="text/javascript"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
       
-      <!------------- MAIN JavaScript ------------->
+      <!-- ----------- MAIN JavaScript ----------- -->
     <script src="JS/mainScript.js" type="text/javascript"></script>
       
   </body>

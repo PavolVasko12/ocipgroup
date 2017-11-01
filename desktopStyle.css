@@ -430,11 +430,18 @@ transition: all 0.5s;
     transition: all 0.5s;
 }
 
-.printerIcon{
+/*.printerIcon{
  width: 70px;
 height: 70px;
 position: absolute;
 left: 220px;
+top: -42px;
+}*/
+
+.printerIcon{
+width: 20%;
+position: absolute;
+left: 70%;
 top: -42px;
 }
 
@@ -544,8 +551,8 @@ color: #ee4745;
 box-shadow: inset 180px 0px 0 0 #000000;
 }
 
-.buttonContactUsHiddenDiv{
-  transform: scale(0.8);
+.buttonContactUsHiddenDiv:active{
+transform: scale(0.8);
 }
 
 .buttonContactUsHiddenDiv p{
@@ -576,6 +583,7 @@ transition-delay: 0.2s;
 .buttonContactUsHiddenDiv:hover p:after{
 background: url("MEDIA/arrowRightRed.svg")
 }
+
 .closeHiddenDivButton {
 margin-top: 40px;
 margin-right: 100px;
@@ -768,7 +776,7 @@ padding-left: 7px;
 #contentHolderWhyUs{
   max-width: 100%;
   width:1206px;
-  height:1000px;
+  height: auto;
   margin:50px auto 50px auto;
   display:flex;
   flex-wrap: wrap;
@@ -1027,4 +1035,288 @@ padding-left: 7px;
 
 #bottomRightWhyUs img{
   float:right;
+}
+
+
+
+
+
+
+/*================================================
+                OUR RATES FROM HERE
+=================================================*/
+
+#holderForOurRates  {
+width: 100%;
+padding-top: 1px;
+background: #f3f3f3; 
+background: -webkit-linear-gradient(left, #f3f3f3 , #dbdbdb); 
+background: -o-linear-gradient(right, #f3f3f3, #dbdbdb); 
+background: -moz-linear-gradient(right, #f3f3f3, #dbdbdb);
+background: linear-gradient(to right, #f3f3f3 , #dbdbdb);
+}
+
+#innerHolderForOurRates{
+margin: auto;
+width: 1206px;
+max-width: 100%;
+}
+
+#holderOurRatesLeftSideHeader{
+width: 49%;
+padding-right: 100px;
+float: left;
+}
+
+
+#holderOurRatesRightSideHeader{
+width: 50.5%;
+height: 200px;
+margin-top: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#ourRatesHeaderHolder{
+width: 250px;
+height: auto;
+border-right: 2px solid black;
+display: inline-block;
+margin-bottom: 20px;
+}
+
+#ourRatesHeaderHolder h2{
+font-family: OpenSans-SemiBold;
+font-size: 40px;
+margin: 0px;
+}
+
+#ourRatesHeaderHolder p{
+font-size: 18px;
+}
+
+#priceTag{
+width: 70px;
+height: 70px;
+display: inline-block;
+background: url("MEDIA/priceTagIcon.svg") no-repeat;
+background-size: 100% 100%;
+}
+
+.outerPackHolder{
+width: 27%;
+margin-left: 3%;
+margin-right: 3%;
+float: left;
+}
+
+.holderForStartedBusinessProPack{
+background: url("MEDIA/priceRangeIcon.svg") no-repeat;
+background-size: 100%;
+width: 100%;
+height: auto;
+text-align: center;
+padding-bottom: 30px;
+}
+
+
+
+.holderForStartedBusinessProPack h3{
+font-family: OpenSans-SemiBold;
+color: white;
+font-size: 25px;
+margin: 0px;
+padding: 0px;
+padding-top: 10px;
+}
+
+.holderForStartedBusinessProPack p{
+color: white;
+font-size: 10px;
+padding-top: 10px;
+font-family: OpenSans-Regular;
+}
+
+#firstPack{
+align-self: flex-end;
+}
+
+#proPack{
+align-self: flex-start;
+}
+
+.circleInPacks{
+background-color: #f54f4f;
+padding: 1px 7px;
+border-radius: 50%;
+}
+
+#tableHolder{
+width: 1206px;
+max-width: 100%;
+margin: auto;
+display: block;
+overflow: auto;
+}
+
+table{
+width: 100%;
+background: #d5d5d5; 
+background: -webkit-linear-gradient(left, #d5d5d5 , #eeeeee); 
+background: -o-linear-gradient(right, #d5d5d5, #eeeeee); 
+background: -moz-linear-gradient(right, #d5d5d5, #eeeeee);
+background: linear-gradient(to right, #d5d5d5 , #eeeeee);
+}
+
+th{
+text-align: center;
+height: 100px;
+}
+
+tr{
+border-bottom: 1px solid lightgray;
+height: 25px;
+text-align: center;
+}
+
+td{
+padding-top: 5px;
+padding-bottom: 5px;
+font-size: 13px;
+}
+
+#firstColumn{
+width: 36%;
+text-align: left;
+padding: 0px;
+margin: 0px;
+}
+#thFirstRowText p{
+padding: 0px;
+margin: 0px;
+padding-left: 10px;
+}
+
+#thFirstRowTopText p{
+font-size: 24px;
+font-family: OpenSans-Regular;
+padding: 0px;
+margin:0px;
+margin-top: -7px;
+padding-left: 10px;
+}
+
+
+#secondColumn{
+width: 10%;
+font-size: 22px;
+font-family: OpenSans-Regular;
+}
+
+#thirdColumn{
+width: 16%;
+background: #c7c7c7;
+}
+
+.priceHeader p{
+font-size: 24px;
+padding: 0px;
+margin: 0px;
+font-family: OpenSans-Bold;   
+}
+
+#fourthColumn{
+width: 16%; 
+font-size: 22px;
+font-family: OpenSans-Bold;
+}
+
+#fifthColumn{
+width: 16%;
+font-size: 22px;
+font-family: OpenSans-Bold;
+background: #c7c7c7;
+}
+
+.moneySaving p{
+font-size: 12px;
+margin-top: -5px;
+padding: 0px;
+color: #f54f4f;
+}
+
+td:nth-child(5n+1){
+padding-left: 10px;
+text-align: left;
+}
+
+td:nth-child(5n+3){
+background: #c7c7c7;
+}
+
+td:nth-child(5n+5){
+background: #c7c7c7;
+}
+
+.tickInTableData{
+background: url("MEDIA/tickIcon.svg") no-repeat;
+background-size:auto;
+width: 20px;
+height: 20px;
+margin: auto;
+}
+
+/*--Three sections --*/
+#holderForThreeSectionWithCircles{
+max-width: 100%;
+width: 1206px;
+display: flex;
+margin: auto;
+}
+
+.sectionWithCircle{
+width: 34%;
+height: auto;
+background-color: #353535;
+border-top: 15px solid black;
+}
+
+#middleSectionWithCircel{
+margin-left: 0.2%;
+margin-right: 0.2%;
+}
+
+.circleSatisfactionQuickPremium{
+margin-top: 25px;
+margin-bottom: 25px;
+margin-left: 5%;
+width: 30%;
+height: auto;
+}
+
+.textNextToTheThreeCircles{
+width: 63%;
+padding-left: 3%;
+padding-right: 3%;
+float: right;
+}
+
+.textNextToTheThreeCircles h5{
+color: white;
+padding-top: 30px;
+padding-bottom: 3px;
+margin: 0;
+}
+
+.textNextToTheThreeCircles h6{
+color: white;
+font-size: 11px;
+padding-bottom: 10px;
+margin: 0;
+}
+
+.textNextToTheThreeCircles p{
+font-size: 11px;
+color: #cecece;
 }
