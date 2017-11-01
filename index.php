@@ -4,18 +4,20 @@
 
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
     <title>OCIP GROUP</title>
       <!------------- BOOTSTRAP CSS ------------->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-      
+
       <!------------- MAIN CSS ------------->
       <link rel="stylesheet" style="text/css" href="desktopStyle.css">
   </head>
 
-    
-    
-<!----------- BODY FROM HERE ---------------->    
-    
+
+
+<!----------- BODY FROM HERE ---------------->
+
   <body>
       <nav>
         <div id="navContent">
@@ -39,11 +41,19 @@
           </div>
         </div>
       </nav>
+<<<<<<< HEAD
       
       
       
       <!-- ---------------- HEADER FROM HERE - 4 IMAGES - COURSEL ------------- -->
       
+=======
+
+
+
+      <!------------------ HEADER FROM HERE - 4 IMAGES - COURSEL --------------->
+
+>>>>>>> 7aee9774300f6cbb91ed4a43949852494b8a5420
      <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -100,8 +110,23 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-      
-      
+
+  <!----------------- WHO ARE WE - FROM HERE --------->
+  <div id="wAwHolder">
+    <div id="wAwContentHolder">
+      <h2>Who are we?</h2>
+      <h4>We provide digital and print services</h4>
+      <p style="width: 60%;"><strong>If you have a web or print project that needs attention, then you have come to the right place.<br><br></strong>
+We are a small friendly digital marketing agency based in Buckinghamshire. With over 10 years’ experience, we work with businesses of all sizes, with start-ups being our speciality. We provide a variety of services including the creation of bespoke artwork and the printing of business cards, A4 flyers, adverts and roller banners. We can also provide photo re-touch & manipulation services, website design and development (from WordPress themes through to e-commerce), logo design and brand development. If you have a project that you would like to know more, please get in contact using the button below. We’re always on hand to help.
+</p>
+      <div id="wAwButton"><p>Get in touch</p></div>
+      <object>
+        <embed id ="wAwArrowDown" src="MEDIA/arrowDown.svg">
+      </object>
+    </div>
+  </div>
+
+
 
       <!-- --------------- LET's GET STARTED - FROM HERE ------- -->
       <div id="letsGetStartedHolder">
@@ -333,6 +358,7 @@ Have look at our rates section and you will see that we are offering some amazin
           </div>
         </div>
       </div>
+
       
       
       
@@ -508,18 +534,70 @@ Have look at our rates section and you will see that we are offering some amazin
 
 </div> 
 
-   
-      
-      
-      
+      <!----------------- RECENT FEEDBACK - FROM HERE --------->
+      <div id="feedbackHolder">
+        <div id="contentFeedbackHolder">
+          <object>
+            <embed id="dialogueBubble" src="MEDIA/dialogueBubbes.svg">
+          </object>
+            <h2 style="color#ffffff;">Recent <span style="color:#d90f31">feedback</span></h2>
+            <h4>A few testimonials left by our clients</h4>
+            <div id="smallerBoxFeedback">
+              <p id="ratingSentence">Our customers are so pleased, they would give us a four star rating &amp; above</p>
+              <p>Check out a few of the testimonials left by our clients; our customers are so pleased, they award us a four-star rating or more.  We have worked with some great brands, big and small and many of our clients have been kind enough to leave us some amazing messages. Click on the arrows below to see them all:</p>
+            </div>
+            <div id="quotesContainer">
+              <div class="quoteBox">
+                <p><span style="font-size:23px;">”</span>I recently used OCIP Group to design and oversee the printing of my new vehicle branding. I gave Evan a basic brief and let him come up with a concept and boy it didn't disappoint. Far more involved than the average vehicle wrap, I know he spent a lot of time getting it just right. Everyone has commented on how great it is and I couldn't be more pleased.<span style="font-size:23px;">”</span></p>
+                <p>Owner - <span style="color:#d90f31">Bucks Hot Tub Hire</span></p>
+              </div>
+              <div class="quoteBox">
+                <p><span style="font-size:23px;">”</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacinia finibus est, vel ullamcorper quam fermentum id. Donec tempor dolor commodo interdum tempor. Mauris sagittis elementum libero, quis volutpat diam pharetra sit amet. Duis laoreet lorem quam, sit amet ultricies tortor commodo a sagittis elementum.<span style="font-size:23px;">”</span></p>
+                <p>Manager - <span style="color:#d90f31">Amazon Photography</span></p>
+              </div>
+              <div class="quoteBox">
+                <p><span style="font-size:23px;">”</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacinia finibus est, vel ullamcorper quam fermentum id. Donec tempor dolor commodo interdum tempor. Mauris sagittis elementum libero, quis volutpat diam pharetra sit amet. Duis laoreet lorem quam, sit amet ultricies tortor commodo a sagittis elementum.<span style="font-size:23px;">”</span></p>
+                <p>Owner - <span style="color:#d90f31">Unique Capture</span></p>
+              </div>
+            </div>
+        </div>
+      </div>
 
-      <!-- ----------- JQUERY, BOOTSTRAP SQCRIPT ----------- -->
+      <!----------------- WHERE ARE WE - FROM HERE --------->
+        <div id="whereAreWeHolder">
+          <div id="whereAreWeContentHolder">
+            <div id="whereAreWeSideTextBox">
+              <h2>Where are we</h2>
+              <h4>Providing services to whole of the UK</h4>
+              <p>Based in Aylesbury and covering the local surrounding area, we provide services to the whole of the UK; whether you are based in Sheffield or just down the road in High Wycombe, we are on hand to help you!<br><br>
+<span style="font-size:14px"><strong>The main town/cities we cover are:</strong></span> </p>
+              <ul>
+                <li>Oxford</li>
+                <li>Portsmouth</li>
+                <li>London</li>
+                <li>Birmingham</li>
+                <li>Leeds</li>
+                <li>Manchester</li>
+                <li>Edinburgh</li>
+                <li>Norwich</li>
+                <li>Cardiff</li>
+                <li>York</li>
+                <li>Bath</li>
+                <li>Plymouth</li>
+              </ul>
+              <p>If you don’t see your town in the list, don’t panic as we can still help. You can see all the towns/cities we cover on the ‘Areas we cover’ page. Visit it by clicking the button below:</p>
+              <div id="findOutMoreButton"><p>Find out more</p></div>
+            </div>
+          </div>
+        </div>
+
+      <!------------- JQUERY, BOOTSTRAP SQCRIPT ------------->
       <script src="JS/jQuery-3.2.1.min.js" type="text/javascript"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-      
-      <!-- ----------- MAIN JavaScript ----------- -->
+
+      <!------------- MAIN JavaScript ------------->
     <script src="JS/mainScript.js" type="text/javascript"></script>
-      
+
   </body>
 
 </html>
