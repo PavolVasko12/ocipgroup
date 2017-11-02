@@ -122,15 +122,127 @@ nav {
   margin-right: 10px;
 }
 
-#burgerLogo{
-  height:29px;
-}
-
 .socialMediaIcons{
   height:23px;
 }
 
+.navMenuPopUpWindowOpen{
+display: block;
+width: 250px;
+background: rgba(0,0,0,0.8);
+height: auto;
+position: absolute;
+z-index: 9999;
+right: 160px;
+top: 86px;
+border-radius: 10px 0px 10px 10px;
+}
 
+.navMenuPopUpWindowClosed{
+display: none;
+}
+
+#navTextInTheListPlusCloseIcon{
+border-bottom: 1px solid gray;
+}
+
+#navTextInTheListPlusCloseIcon{
+cursor: pointer;
+}
+
+#navTextInTheListPlusCloseIcon p{
+color: #808080;
+padding: 10px 10px 5px 15px;
+font-family: OpenSans-Regular;
+font-size: 20px;
+}
+
+#navTextInTheListPlusCloseIcon p:after{
+content: "";
+background: url("MEDIA/navCrossOpen.svg") no-repeat;
+width: 25px;
+height: 25px;
+float: right;
+}
+
+#navTextInTheListPlusCloseIcon:hover p:after{
+background: url("MEDIA/navCrossClosed.svg") no-repeat;
+}
+
+#navMenuUl{
+padding-left: 0px;
+}
+
+.navigationMenuList{
+list-style-type: none;
+font-size: 20px;
+padding: 10px 15px;
+font-family: OpenSans-Regular;
+color: white;
+cursor: pointer;
+}
+
+.navigationMenuList:hover:after{
+content: "";
+background: url("MEDIA/arrowRightDarkRed.svg") no-repeat;
+width: 24px;
+height: 24px;
+float: right;
+}
+
+.navigationMenuList:hover:before{
+content: "";
+background: url("MEDIA/navLeftCoverPaddingImage.svg") no-repeat;
+width: 8px;
+height: 30px;
+float: left;
+margin-left: -15px;
+}
+
+.burgerLogoHolderClass{
+margin-top: 30px;
+padding-top: 20px;
+width: 90px;
+height: 80px;
+background: url('MEDIA/navMenuIconWhite.png') no-repeat;
+background-position: 24px 10px;
+background-size: 50% 35%;
+}
+
+.burgerLogoHolderClass:hover{
+background: url('MEDIA/navMenuIconDarkRed.png') no-repeat;
+background-position: 24px 10px;
+background-color: black;
+opacity: 0.8;
+background-size: 50% 35%;
+border-radius: 10px 10px 0px 0px;
+}
+
+.triangleDownIconClass{
+display: none;
+width: 15px;
+height: 15px;
+margin-top: 35px;
+margin-left: 38px;
+}
+
+.burgerLogoHolderClass:hover .triangleDownIconClass{
+display: block;
+}
+
+
+.burgerLogoHolderClassWhenCLicked{
+background: url('MEDIA/navMenuIconDarkRed.png') no-repeat;
+background-position: 24px 10px;
+background-color: black;
+opacity: 0.8;
+background-size: 50% 35%;
+border-radius: 10px 10px 0px 0px;    
+}
+
+.triangleDisplayWHenClicked{
+display: block;
+}
 
 
 /*================================================
@@ -484,7 +596,7 @@ transition: all 0.5s;
 }
 
 .buttonFindOutMoreInThreeDivs:hover p:after{
-    background: url("MEDIA/arrowRightRed.svg") no-repeat;
+    background: url("MEDIA/arrowDownRed.svg") no-repeat;
 }
 
 
@@ -511,13 +623,6 @@ transition: all 0.5s;
     transition: all 0.5s;
 }
 
-/*.printerIcon{
- width: 70px;
-height: 70px;
-position: absolute;
-left: 220px;
-top: -42px;
-}*/
 
 .printerIcon{
 width: 20%;
@@ -577,7 +682,7 @@ height: 200px;
 float: left;
 }
 
-ul{
+.WhereAreWeAndPrintDevDigitalUl{
 columns: 2;
 -webkit-columns: 2;
 -moz-columns: 2;
@@ -1245,7 +1350,7 @@ width: 1206px;
 max-width: 100%;
 margin: auto;
 display: block;
-overflow: auto;
+/*overflow: auto;*/
 }
 
 table{

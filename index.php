@@ -26,9 +26,11 @@
           </div>
 
           <div id="rightSideNav">
-            <object>
-                <embed id="burgerLogo" src="MEDIA/burgerMenuLogo.svg">
-            </object>
+            
+                <div id="burgerLogoHolder" class="burgerLogoHolderClass burgerLogoHolderClassWhenCLicked">
+                    <img id="triangleDownIcon" class="triangleDownIconClass triangleDisplayWHenClicked" src="MEDIA/triangleDownInOpenMenu.png" alt="arrow down logo">
+                </div>
+          
             <object>
               <embed class="socialMediaIcons" src="MEDIA/facebookLogo.svg">
             </object>
@@ -39,10 +41,24 @@
               <embed class="socialMediaIcons" src="MEDIA/twitterIcon.svg">
             </object>
           </div>
+             <!-- ------------- NAVIGATION MENU POP UP ---------------- -->
+              <div id="navMenuOpoUpWindowId" class="navMenuPopUpWindowClosed navMenuPopUpWindowOpen">
+                  <div id="navTextInTheListPlusCloseIcon"><p>NAVIGATION</p></div>
+                    <ul id="navMenuUl">
+                        <li class="navigationMenuList">Home</li>
+                        <li class="navigationMenuList">Services</li>
+                        <li class="navigationMenuList">Prices</li>
+                        <li class="navigationMenuList">Our Work</li>
+                        <li class="navigationMenuList">Blog</li>
+                        <li class="navigationMenuList">Contact</li>
+                   </ul>
+                </div>
         </div>
+          
+         
       </nav>
 
-
+      
 
 
       <!------------------ HEADER FROM HERE - 4 IMAGES - COURSEL --------------->
@@ -169,7 +185,7 @@ We are a small friendly digital marketing agency based in Buckinghamshire. With 
                     <h2>Print</h2>
                     <h4>Service list</h4>
                     <p>From artworking to printed brochures, we can help. We can guide you through every step of the way. Whether its business cards or door drop flyers we can accommodate for all. Get in touch to start your print project. Email us at <b>enquiry@ocip-group.com</b> or you can call us on <b>01296 340890</b>. We would love to hear from you.</p>
-                    <ul>
+                    <ul class="WhereAreWeAndPrintDevDigitalUl">
                         <li class="listInHidenGetStarted">Business Card Design</li>
                         <li class="listInHidenGetStarted">A4 Brochure Design &amp; Artwork, Press Ads etc</li>
                         <li class="listInHidenGetStarted">Flyer Design</li>
@@ -203,7 +219,7 @@ We are a small friendly digital marketing agency based in Buckinghamshire. With 
                     <h2>Digital</h2>
                     <h4>Our service list</h4>
                     <p>From website design to photo manipulation. We are here to help. How your website looks is important! But design is not just to look pretty. Underneath this exterior lies a highly detailed plan for your user experience. Everything has a purpose, a reason to help direct your customers to where you want them to go.</p>
-                    <ul>
+                    <ul class="WhereAreWeAndPrintDevDigitalUl">
                         <li class="listInHidenGetStarted">Logo</li>
                         <li class="listInHidenGetStarted">Website Design</li>
                         <li class="listInHidenGetStarted">Landing Page Concepts</li>
@@ -241,7 +257,7 @@ We are a small friendly digital marketing agency based in Buckinghamshire. With 
                     <h2>Development</h2>
                     <h4>Complete service list we offer</h4>
                     <p>With any good website, a well built one will be key to success, utilising semantic HTML and possessing fast load times. Our small team of developers (who poses a multitude of skill set) will ensure to bring your design to function. Your responsive website will be cross browser supportive, mobile &amp; tablet friendly &amp; Seo compliant.</p>
-                    <ul>
+                    <ul class="WhereAreWeAndPrintDevDigitalUl">
                         <li class="listInHidenGetStarted">HTML, CSS, JavaScript, JQuery</li>
                         <li class="listInHidenGetStarted">PHP, ASP.Net</li>
                         <li class="listInHidenGetStarted">Wordpress, Umbraco CMS</li>
@@ -563,7 +579,7 @@ Have look at our rates section and you will see that we are offering some amazin
               <h4>Providing services to whole of the UK</h4>
               <p>Based in Aylesbury and covering the local surrounding area, we provide services to the whole of the UK; whether you are based in Sheffield or just down the road in High Wycombe, we are on hand to help you!<br><br>
 <span style="font-size:14px"><strong>The main town/cities we cover are:</strong></span> </p>
-              <ul>
+              <ul class="WhereAreWeAndPrintDevDigitalUl">
                 <li>Oxford</li>
                 <li>Portsmouth</li>
                 <li>London</li>

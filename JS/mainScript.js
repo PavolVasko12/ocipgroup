@@ -1,6 +1,20 @@
 $(document).ready(function(){
     
+    /*=======================================
+                 NAV MENU
+    ========================================*/
+    
+    $('#burgerLogoHolder, #navTextInTheListPlusCloseIcon').on('click', function(){
+        $('#navMenuOpoUpWindowId').toggleClass("navMenuPopUpWindowClosed");
+        $('#burgerLogoHolder').toggleClass("burgerLogoHolderClassWhenCLicked");
+        $('#triangleDownIcon').toggleClass("triangleDisplayWHenClicked");
+    });
+    
 
+    
+    /*=======================================
+           MAKE THE SLIDER FULL HEIGHT
+    ========================================*/
     $(".item").css("height", $(window).height()+2);     
 
     function Resizefunction(){
@@ -11,7 +25,11 @@ $(document).ready(function(){
     window.addEventListener('resize', Resizefunction);
     
     
-     
+    
+    
+     /*================================================
+          PRINT, DIGITAL, DEVELOPMNET HIDDEN DIVS
+    ===================================================*/
    $('#buttonForPrint').on('click', function(){
         console.log("print");
         $('#printHiddenDivForGetStarted, #hiddenDivForGetStarted').css('display', 'block');
