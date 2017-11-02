@@ -1,6 +1,17 @@
 $(document).ready(function(){
-   
-   
+    
+
+    $(".item").css("height", $(window).height()+2);     
+
+    function Resizefunction(){
+         var height = window.innerHeight+2;
+        $(".item").css("height", height);
+    };
+    
+    window.addEventListener('resize', Resizefunction);
+    
+    
+     
    $('#buttonForPrint').on('click', function(){
         console.log("print");
         $('#printHiddenDivForGetStarted, #hiddenDivForGetStarted').css('display', 'block');
