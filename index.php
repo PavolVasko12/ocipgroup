@@ -12,6 +12,8 @@
 
       <!------------- MAIN CSS ------------->
       <link rel="stylesheet" style="text/css" href="desktopStyle.css">
+      <link rel="stylesheet" style="text/css" href="tabletStyle.css">
+      <link rel="stylesheet" style="text/css" href="phoneStyle.css">
   </head>
 
 
