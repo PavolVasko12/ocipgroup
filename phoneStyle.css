@@ -1,4 +1,200 @@
-@media screen (max-width: 600px) {
+@media screen and (max-width: 600px) {
 
-    
+@viewport{
+      zoom: 1.0;
+      width: device-width;
+  }
+
+body{
+  width: 100%;
+}
+
+p {
+  font-size: 12px;
+}
+
+/* ===================================================
+                NAVIGATION MENU FROM HERE
+====================================================*/
+
+#leftSideNav img{
+  width: 70%;
+}
+
+#rightSideNav > object{
+  display: none;
+}
+
+#burgerLogoHolder{
+  position: relative;
+  left:30%;
+}
+
+/*================================================
+            HEADER FROM HERE - 4 IMAGES
+==================================================*/
+
+#pOnHeaderIMageONe{
+  font-size: 12px;
+}
+
+.holderOnHeader{
+  width:80%;
+  margin:auto;
+  position: relative;
+  top:200px;
+}
+
+#imageOnSLideOne{
+  width:100%;
+}
+
+#skyLimitText{
+  margin-left: 0;
+}
+
+.carousel-indicators{
+  left:100%;
+}
+
+#headerThreeImage{
+  background-position: right;
+}
+
+/* =================================================
+        WHO ARE WE?
+=================================================== */
+
+#wAwHolder{
+  background-position: center;
+}
+
+#wAwArrowDown{
+  width:10%;
+}
+
+/* =================================================
+        LET'S GET STARTED FROM HERE
+=================================================== */
+
+#letsGetStartedHolderInner{
+  height:auto;
+  overflow: visible;
+  padding-top: 10px;
+}
+
+#letsGetStartedHolderInner h2{
+  margin:0;
+}
+
+.threeDivsInsideLetsGetStarted{
+  width:100%;
+}
+
+.circleForThreeDivs{
+  display: none;
+}
+
+#firstDivInsideThreeDivs{
+  border: 0px;
+}
+
+.printerIcon{
+  position: relative;
+  display: block;
+  margin: auto;
+  top:-60px;
+  left: 0;
+}
+
+.textNextToCircle{
+  left:5px;
+  top:19px;
+  width: 100%;
+  text-align: center;
+}
+
+.circleAroundNumber{
+  border: 2px solid #000000;
+  border-radius: 25px;
+  padding: 0px 10px 0px 10px;
+}
+
+.circleForThreeDivs{
+  left:0;
+  top:34px;
+}
+
+.textInsideTheThreeDivs{
+  position: static;
+  display: block;
+  margin-right: 0;
+  text-align: center;
+}
+
+.buttonFindOutMoreInThreeDivs{
+  position: static;
+  width: 180px;
+  margin: auto;
+}
+
+#secondDivInsideThreeDivs{
+  margin:50px auto auto auto;
+  width:100%;
+  top:50px;
+  border: 0px;
+}
+
+#brushIcon{
+  position: relative;
+  top:-50px;
+}
+
+#thirdDivInsideThreeDivs{
+  margin-top: 100px;
+}
+
+.pencilIcon{
+  display: none;
+}
+
+#oneThirdOfTheInnerHolder{
+  position: absolute;
+  right:0;
+}
+
+#twoThirdsOfTheInnerHolder{
+  width:100%;
+}
+
+#twoThirdsOfTheInnerHolder h2{
+  font-size: 36px;
+}
+
+.listInHidenGetStarted{
+  margin-left: 5%;
+  margin-right:5%;
+}
+
+.buttonContactUsHiddenDiv{
+  margin:auto;
+}
+
+.closeHiddenDivButton{
+  margin-right: 45%;
+}
+
+#middleLeftWhyUs img{
+  width: 100%;
+}
+
+#tableHolder{
+  width:100%;
+  max-width: none;
+}
+
+#tableHolder table{
+  width:100%;
+}
+
 }

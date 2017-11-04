@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
     <title>OCIP GROUP</title>
       <!------------- BOOTSTRAP CSS ------------->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -28,11 +28,11 @@
           </div>
 
           <div id="rightSideNav">
-            
+
                 <div id="burgerLogoHolder" class="burgerLogoHolderClass burgerLogoHolderClassWhenCLicked">
                     <img id="triangleDownIcon" class="triangleDownIconClass triangleDisplayWHenClicked" src="MEDIA/triangleDownInOpenMenu.png" alt="arrow down logo">
                 </div>
-          
+
             <object>
               <embed class="socialMediaIcons" src="MEDIA/facebookLogo.svg">
             </object>
@@ -56,11 +56,11 @@
                    </ul>
                 </div>
         </div>
-          
-         
+
+
       </nav>
 
-      
+
 
 
       <!------------------ HEADER FROM HERE - 4 IMAGES - COURSEL --------------->
@@ -146,7 +146,7 @@ We are a small friendly digital marketing agency based in Buckinghamshire. With 
 
                     <div id="firstDivInsideThreeDivs" class="threeDivsInsideLetsGetStarted">
                         <div class="circleForThreeDivs"></div>
-                        <div class="textNextToCircle"><p>1 &nbsp; . Print</p></div>
+                        <div class="textNextToCircle"><p><span class="circleAroundNumber">1</span> &nbsp; . Print</p></div>
                         <object>
                             <embed class="printerIcon" src="MEDIA/printerIcon.svg">
                         </object>
@@ -157,16 +157,16 @@ We are a small friendly digital marketing agency based in Buckinghamshire. With 
                     </div>
                     <div id="secondDivInsideThreeDivs" class="threeDivsInsideLetsGetStarted">
                           <div class="circleForThreeDivs"></div>
-                         <div class="textNextToCircle"><p>2 &nbsp; . Digital</p></div>
+                         <div class="textNextToCircle"><p><span class="circleAroundNumber">2</span> &nbsp; . Digital</p></div>
                          <object>
-                            <embed class="printerIcon" src="MEDIA/digitalsIcon.svg">
+                            <embed class="printerIcon" id="brushIcon" src="MEDIA/digitalsIcon.svg">
                         </object>
                         <div class="textInsideTheThreeDivs"><p>We do digital well and in every possible way. Whether you need images adjusted or websites built, we have our finger on the pulse. Our websites are responsive and our online services substantial and intelligent. From full e-commerce through to social media campaigns, whatever you need, we produce it. Clever SEO ensures that you get noticed and that traffic flows one way; towards you.</p></div>
                          <div id="buttonForDigital" class="buttonFindOutMoreInThreeDivs"><p>Find out more</p></div>
                     </div>
                     <div id="thirdDivInsideThreeDivs" class="threeDivsInsideLetsGetStarted">
                           <div class="circleForThreeDivs"></div>
-                         <div class="textNextToCircle"><p>3 &nbsp; . Development</p></div>
+                         <div class="textNextToCircle"><p><p><span class="circleAroundNumber">3</span> &nbsp; . Development</p></div>
                          <object>
                             <embed class="printerIcon" src="MEDIA/developmentIcon.svg">
                         </object>
