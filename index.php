@@ -343,12 +343,16 @@ In addition, our websites are optimised to be as Google friendly as possible, en
             <img src="MEDIA/arrowRightDown.png" alt="Arrow">
           </div>
           <div id="topRightWhyUs">
-            <img src="MEDIA/howItWorks.jpg" alt="how it works image">
+            <img src="MEDIA/howItWorks.jpg" class="desktopImage" alt="how it works image">
+            <img src="MEDIA/howItWorksMobile.jpg" class="mobileImage" alt="how it works image">
           </div>
-          <div id="middleLeftWhyUs">
+
+          <!-- START Desktop Version MiddlePartWhyUs -->
+
+          <div id="middleLeftWhyUs" class="desktopImage">
             <img src="MEDIA/tailoredDesign.jpg" alt="Tailored design">
           </div>
-          <div id="middleRightWhyUs">
+          <div id="middleRightWhyUs" class="desktopImage">
             <h2>Bespoke designs</h2>
             <h4>Our websites are created just for you</h4>
             <p>Unlike many cheaper based agencies, none of our designs are bought templates (although we can provide them if needed). We will talk you through the whole process, advising and discussing your exact needs so that when we come to creating your design - whether it’s a website, logo, banners, animated videos, flyers or brochures - you will receive a hand-crafted tailor-made design that will ‘Wow’ your audience and be the envy of your competitors.
@@ -356,6 +360,24 @@ There are so many benefits to having a bespoke design; from getting key informat
             <img src="MEDIA/arrowLeftDown.png" alt="Arrow Left Down">
             <div id="ourWorkButton"><p>Our Work</p></div>
           </div>
+
+          <!-- END Desktop Version MiddlePartWhyUs -->
+
+          <!-- START Mobile Version MiddlePartWhyUs-->
+
+          <div id="middleLeftWhyUs" class="mobileImage">
+            <h2>Bespoke designs</h2>
+            <h4>Our websites are created just for you</h4>
+            <p>Unlike many cheaper based agencies, none of our designs are bought templates (although we can provide them if needed). We will talk you through the whole process, advising and discussing your exact needs so that when we come to creating your design - whether it’s a website, logo, banners, animated videos, flyers or brochures - you will receive a hand-crafted tailor-made design that will ‘Wow’ your audience and be the envy of your competitors.
+There are so many benefits to having a bespoke design; from getting key information to your audience whilst maintaining interest, to helping customers navigate and browse the right information to suit them. Get in touch today to see how we can help. You can email us at <strong>enquiry@ocip-group.com</strong> or you can call us on <strong>01296 340890</strong>.</p>
+          </div>
+          <div id="middleRightWhyUs" class="mobileImage">
+            <img src="MEDIA/tailoredDesign.jpg" alt="Tailored design">
+            <div id="ourWorkButton"><p>Our Work</p></div>
+          </div>
+
+          <!-- END Mobile Version MiddlePartWhyUs-->
+
           <div id="bottomLeftWhyUs">
             <h2>Build to perfection</h2>
             <h4>Our websites use the lastest technology</h4>
@@ -363,7 +385,7 @@ There are so many benefits to having a bespoke design; from getting key informat
 Have look at our rates section and you will see that we are offering some amazing discounts. So if you’re a start-up business we would love to hear from you. You can email us at <strong>enquiry@ocip-group.com</strong> or you can call us on <strong>01296 340890.</strong></p>
             <div id="enquireWhyUsButton"><p>Enquire now</p></div>
           </div>
-          <div id="bottomRightWhyUs">
+          <div id="bottomRightWhyUs" class="desktopImage">
             <img src="MEDIA/tablet.jpg" alt="Tablet">
           </div>
         </div>

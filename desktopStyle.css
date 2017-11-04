@@ -73,6 +73,10 @@ h1, h2, h3, h4, h5, h6 , p ,a, li{
     color: black;
 }
 
+.mobileImage{
+  display: none;
+}
+
 /* ===================================================
                 NAVIGATION MENU FROM HERE
 ====================================================*/
@@ -237,7 +241,7 @@ background-position: 24px 10px;
 background-color: black;
 opacity: 0.8;
 background-size: 50% 35%;
-border-radius: 10px 10px 0px 0px;    
+border-radius: 10px 10px 0px 0px;
 }
 
 .triangleDisplayWHenClicked{

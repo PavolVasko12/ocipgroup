@@ -13,6 +13,14 @@ p {
   font-size: 12px;
 }
 
+.desktopImage{
+  display: none;
+}
+
+.mobileImage{
+  display:block;
+}
+
 /* ===================================================
                 NAVIGATION MENU FROM HERE
 ====================================================*/
@@ -184,8 +192,101 @@ p {
   margin-right: 45%;
 }
 
+/* =================================================
+        OUR PROCESS FROM HERE
+=================================================== */
+
+#leftSideProcess{
+  border: 0px;
+  width:100%;
+  text-align: center;
+  float: none;
+}
+
+#rightSideProcess{
+  position: static;
+  width:90%;
+  margin: 10px auto auto auto;
+  float: none;
+  text-align: center;
+}
+
+#middlePartProcess > div{
+  width:90%;
+  margin:auto;
+}
+
+#enquireNowButton{
+  position: static;
+  margin: auto;
+}
+
+/* =================================================
+        WHY CHOOSE US FROM HERE
+=================================================== */
+
+#topLeftWhyUs{
+  width: 90%;
+  margin: auto;
+}
+
+#contentHolderWhyUs{
+  margin: 50px auto 0px auto;
+}
+
+#topLeftWhyUs img{
+  display: none;
+}
+
+#getInTouchButton{
+  display: block;
+  margin: 10px auto auto auto;
+}
+
 #middleLeftWhyUs img{
+  width:100%;
+}
+
+#middleLeftWhyUs{
+  width: 90%;
+  margin: auto;
+}
+
+#middleRightWhyUs{
+  width:90%;
+}
+
+#middleRightWhyUs h2{
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+#middleRightWhyUs img {
+  display: none;
+}
+
+#middleRightWhyUs img{
+  display: block;
   width: 100%;
+}
+
+#ourWorkButton{
+  margin: 10px auto;
+  display: block;
+  float: none;
+}
+
+#bottomLeftWhyUs{
+  width:90%;
+  margin:0;
+}
+
+#bottomLeftWhyUs h2{
+  margin-bottom:10px;
+}
+
+#bottomLeftWhyUs #enquireWhyUsButton{
+  margin: 20px auto 20px auto;
 }
 
 #tableHolder{
