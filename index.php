@@ -404,7 +404,9 @@ Have look at our rates section and you will see that we are offering some amazin
             </div>
             <div id="priceTag"></div>
                 <p>Here at OCIP, we thrive on big projects and that’s why we can offer some great discounts. The more you need, the greater the savings you can make. Listed below are just a few of our costs for the more popular services. If there is a service you require that you cannot see, please get in contact and we will provide a comprehensive quote, free of charge.</p>
+                <p class="mobileImage"><br> <br>Due to the screen size your viewing on. We are unable to display our full price list. You can view our full price list by downloading our pricelist.pdf below.</p>
         </div>
+          <a href="MEDIA/price.pdf" class="mobileImage" id="downloadButton" target="_blank"><p>Download</p></a>
         <div id="holderOurRatesRightSideHeader">
             <div id="firstPack" class="outerPackHolder">
                 <div class="holderForStartedBusinessProPack">
@@ -578,7 +580,9 @@ Have look at our rates section and you will see that we are offering some amazin
               <p id="ratingSentence">Our customers are so pleased, they would give us a four star rating &amp; above</p>
               <p>Check out a few of the testimonials left by our clients; our customers are so pleased, they award us a four-star rating or more.  We have worked with some great brands, big and small and many of our clients have been kind enough to leave us some amazing messages. Click on the arrows below to see them all:</p>
             </div>
-            <div id="quotesContainer">
+
+            <!-- START Quotes Desktop Version -->
+            <div class="desktopImage" id="quotesContainer">
               <div class="quoteBox">
                 <p><span style="font-size:23px;">”</span>I recently used OCIP Group to design and oversee the printing of my new vehicle branding. I gave Evan a basic brief and let him come up with a concept and boy it didn't disappoint. Far more involved than the average vehicle wrap, I know he spent a lot of time getting it just right. Everyone has commented on how great it is and I couldn't be more pleased.<span style="font-size:23px;">”</span></p>
                 <p>Owner - <span style="color:#d90f31">Bucks Hot Tub Hire</span></p>
@@ -592,6 +596,17 @@ Have look at our rates section and you will see that we are offering some amazin
                 <p>Owner - <span style="color:#d90f31">Unique Capture</span></p>
               </div>
             </div>
+            <!-- END Quotes Desktop Version -->
+
+            <!-- START Quotes Mobile Version -->
+            <div class="mobileImage" id="quotesContainer">
+              <div class="quoteBox">
+                <p><span style="font-size:23px;">”</span>I recently used OCIP Group to design and oversee the printing of my new vehicle branding. I gave Evan a basic brief and let him come up with a concept and boy it didn't disappoint. Far more involved than the average vehicle wrap, I know he spent a lot of time getting it just right. Everyone has commented on how great it is and I couldn't be more pleased.<span style="font-size:23px;">”</span></p>
+                <p>Owner - <span style="color:#d90f31">Bucks Hot Tub Hire</span></p>
+              </div>
+            </div>
+            <!-- END Quotes Mobile Version -->
+
         </div>
       </div>
 
@@ -620,6 +635,7 @@ Have look at our rates section and you will see that we are offering some amazin
               <p>If you don’t see your town in the list, don’t panic as we can still help. You can see all the towns/cities we cover on the ‘Areas we cover’ page. Visit it by clicking the button below:</p>
               <div id="findOutMoreButton"><p>Find out more</p></div>
             </div>
+            <img src="MEDIA/mapPhone.jpg" class="mobileImage" id="mapPhone" alt="Map">
           </div>
         </div>
 
@@ -635,15 +651,17 @@ Have look at our rates section and you will see that we are offering some amazin
               <p style="font-size:17px;"><strong>a: </strong> Aylesbury, <strong>HP19 9LS</strong> <br>
                 <strong>e: </strong> enquiry@ocip-group.com <br>
                 <strong>t: </strong>  01296 340890</p>
-                <object>
-                  <embed class="contactUsSocialMedia" src="MEDIA/facebookLogoBlack.svg">
-                </object>
-                <object>
-                  <embed class="contactUsSocialMedia" src="MEDIA/twitterIconBlack.svg">
-                </object>
-                <object>
-                  <embed class="contactUsSocialMedia" src="MEDIA/googleIconBlack.svg">
-                </object>
+                <div id="contactUsSocialBlock">
+                  <object>
+                    <embed class="contactUsSocialMedia" src="MEDIA/facebookLogoBlack.svg">
+                  </object>
+                  <object>
+                    <embed class="contactUsSocialMedia" src="MEDIA/twitterIconBlack.svg">
+                  </object>
+                  <object>
+                    <embed class="contactUsSocialMedia" src="MEDIA/googleIconBlack.svg">
+                  </object>
+                </div>
             </div>
             <div id="contactUsRightBlock">
               <div id="haveAProjectHolder"><h2>HAVE A PROJECT?<h2></div>

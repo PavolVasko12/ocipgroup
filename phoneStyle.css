@@ -14,11 +14,11 @@ p {
 }
 
 .desktopImage{
-  display: none;
+  display: none !important;
 }
 
 .mobileImage{
-  display:block;
+  display:block !important;
 }
 
 /* ===================================================
@@ -289,13 +289,225 @@ p {
   margin: 20px auto 20px auto;
 }
 
+/*================================================
+                OUR RATES FROM HERE
+=================================================*/
+
 #tableHolder{
-  width:100%;
-  max-width: none;
+  display: none;
 }
 
-#tableHolder table{
+#holderOurRatesRightSideHeader{
+  display: none;
+}
+
+#ourRatesHeaderHolder{
+  width:70%;
+  margin:auto;
+  border:0px;
+  text-align: center;
+  display: inline-block;
+}
+
+#holderOurRatesLeftSideHeader{
+  width:90%;
+  margin:auto;
+  float:none;
+  padding: 0;
+}
+
+#innerHolderForOurRates{
+  padding-top: 10px;
+}
+
+#downloadButton{
+  margin: 50px auto;
+  height:30px;
+  border:2px solid #000000;
+  width: 175px;
+  border-radius: 25px 25px;
+  transition: all 0.5s;
+}
+
+#downloadButton:active{
+  transform: scale(0.8);
+}
+
+#downloadButton p{
+  color: #000000;
+  font-family: OpenSans-Bold;
+  font-size: 15px;
+  margin:0;
+  padding: 3px 5px 5px 10px;
+  transition: all 0.5s;
+}
+
+#downloadButton p:after{
+   content: "";
+    background: url("./MEDIA/arrowRigth.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin: 0px 6px 0px 10px;
+    box-shadow: inset 0 0 0 0 #000000;
+	  -webkit-transition: all 1s;
+	  -moz-transition: all 1s;
+	  transition: all 1s;
+    transition-delay: 0.2s;
+}
+
+#downloadButton:hover{
+    box-shadow: inset 180px 0px 0 0 #000000;
+    cursor: pointer;
+}
+
+#downloadButton:hover p{
+  color:#ffffff;
+}
+
+#downloadButton:hover p:after{
+  background: url("./MEDIA/arrowWhite.svg") no-repeat;
+}
+
+/*--Three sections --*/
+
+#holderForThreeSectionWithCircles{
+  flex-direction: column;
+}
+
+.sectionWithCircle{
+  width: 100%;
+  border:0;
+}
+
+#middleSectionWithCircel{
+  margin:0;
+}
+
+/* =================================================
+        RECENT FEEDBACK FROM HERE
+=================================================== */
+
+#dialogueBubble{
+  width:15%;
+}
+
+#contentFeedbackHolder{
+  width:90%;
+}
+
+#contentFeedbackHolder h4{
+  margin-top: 10px;
+}
+
+#ratingSentence:before {
+    display: block;
+    content: "";
+    width: 101px;
+    height: 19px;
+    margin: auto auto 10px auto;
+    background: url(./MEDIA/ratingStars.jpg) no-repeat;
+    background-size: cover;
+}
+
+#ratingSentence:after{
+  display: none;
+}
+
+.quoteBox{
   width:100%;
+}
+
+/* =================================================
+        WHERE ARE WE FROM HERE
+=================================================== */
+
+#whereAreWeSideTextBox{
+  width:90%;
+  margin:auto;
+  height:auto;
+}
+
+#whereAreWeSideTextBox ul{
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+#findOutMoreButton{
+  display: block;
+  margin: 20px auto;
+}
+
+#whereAreWeContentHolder{
+  background: none;
+}
+
+#mapPhone{
+  width:100%;
+}
+
+/* =================================================
+        CONTACT US FROM HERE
+=================================================== */
+
+#contactUsContentHolder{
+  flex-direction: column-reverse;
+  max-width: 95%;
+}
+
+#contactUsLeftBlock{
+  width:100%;
+}
+
+#contactUsRightBlock{
+  width:100%;
+}
+
+#haveAProjectHolder{
+  width:100%;
+  margin: 40px auto 10px auto;
+}
+
+#formBoxes{
+  height:auto;
+  flex-direction: column;
+}
+
+#contactUsLeftBoxes{
+  width:100%;
+}
+
+#contactUsLeftBoxes input{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#contactUsMiddleBoxes{
+  width: 100%;
+  height:100px;
+  margin-bottom: 5px;
+}
+
+#contactUsRightBoxes{
+  width: 100%;
+}
+
+#contactUsRightBoxes input{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#contactUsLeftBlock{
+  margin-top:150px;
+}
+
+#contactUsLeftBlock h2{
+  text-align: center;
+}
+
+#contactUsSocialBlock{
+  padding-left: 35%;
+
 }
 
 }
