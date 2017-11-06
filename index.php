@@ -612,7 +612,7 @@ Have look at our rates section and you will see that we are offering some amazin
     </div>
 </div>
 
-
+<!------------------------ OUR WORK GALLERY ------------------------->
 
 <div id="holderForOurWorkTextAndGallery">
     <div id="holderForOurWorkText">
@@ -625,6 +625,42 @@ Have look at our rates section and you will see that we are offering some amazin
               <p>OCIP Group are specialist in web design and web development within the Aylesbury and Buckinghamshire area. Offering a friendly local service with over 10 years + experience. We have some great examples of website design, print and development below. Scroll on the filters to see some of our recent work.</p>
             </div>
     </div>
+    
+    <ul id="ulForGalleryImageChanging">
+         <li class="leftArrowForChangingTheGalleryImage">&#60;</li>
+        <li class="listForChangingTheGalleryImage">All</li>
+        <li class="listForChangingTheGalleryImage">Print</li>
+        <li class="listForChangingTheGalleryImage">Digital</li>
+        <li class="listForChangingTheGalleryImage">Development</li>
+         <li class="rightArrowForChangingTheGalleryImage">&#62;</li>
+    </ul>
+    
+    <div id="galleryHolder">
+        <div id="leftGalleryDiv">  
+            <div id="topImageGallery">
+                <img class="imagesInLeftGallerClass" src="MEDIA/WorkGallery/packhotsImage.jpg" alt="Pack Hots Direct Image">
+                <div class="holderForTextOnImages">
+                    <h2 class="textOnAnImageGallery">WEBSITE</h2>
+                    <h6 class="websiteLinkGalleryText">Packhotsdirect.com</h6>
+                </div>
+                
+            </div>
+             <div id="bottomImageGallery">
+                <img class="imagesInLeftGallerClass" src="MEDIA/WorkGallery/brochureImage.jpg" alt="Brochure image OCIP">
+                  <div class="holderForTextOnImages">
+                      <h2 class="textOnAnImageGallery">BROCHURE</h2>
+                      <h6 class="websiteLinkGalleryText">Packhotsdirect.com</h6>
+                 </div>
+            </div>
+        </div>
+        <div id="rightGalleryDiv">
+            <img id="rightImageGallery" src="MEDIA/WorkGallery/hottubeImage.jpg" alt="Bucks Hot Tube Hire Image">
+             <div class="holderForTextOnImages">
+                 <h2 class="textOnAnImageGallery">BILLBOARD</h2>
+                 <h6 class="websiteLinkGalleryText">Buckshottubhire.co.uk</h6>
+            </div>
+        </div>
+    </div>
 </div>
 
     <!-------------------- LOGOS COURSEL SLIDER FROM HERE ------------->
@@ -632,8 +668,10 @@ Have look at our rates section and you will see that we are offering some amazin
 
 <div id="holderForTheLogosSlider">
     
-    <h3>&#123; We have worked with some great brands &#125;</h3>
+    <h3 id="ourBrandsDesktop">&#123; WE HAVE WORKED WITH SOME GREAT BRANDS &#125;</h3>
+    <h3 id="ourBrandsPhone">&#123; OUR BRANDS &#125;</h3>
     <h6 id="hsixOnLogosSlider">SCROLL ON THE ARROWS BELOW TO SEE SOME OF OUR CLIENTS:</h6>
+     <h6 id="hsixOnLogosSliderPhone">SWIPE BELOW TO SEE SOME OF OUR CLIENTS:</h6>
       <ul id="flexiselDemo3">
         <li class="logoSliderList"><img src="MEDIA/LogosSlider/impactLogo.svg" /></li>
         <li class="logoSliderList"><img src="MEDIA/LogosSlider/hotTubeLogo.svg" /></li>

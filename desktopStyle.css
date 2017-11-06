@@ -1969,18 +1969,25 @@ margin-top: 30px
 #holderForOurWorkText{
 width: 100%;
 display: inline-block;
+margin-bottom: 50px;
+margin-top: 30px;
 }
 
 #leftSideWork{
-width: 16%;
-margin-left: 20%;
-border-right: 3px solid black;
+width: 24%;
+margin-left: 16%;
+padding-right: 0%;
+border-right: 2px solid black;
 display: block;
 float: left;
 }
 
+    
+
 #leftSideWork h2{
-margin-top: 0px;    
+margin-top: 0px;
+font-size: 40px;
+font-family: OpenSans-SemiBold;
 }
 
 #rightSideWork{
@@ -1994,6 +2001,118 @@ float: left;
 }
 
 
+#galleryHolder{
+width: 1206px;
+max-width: 100%;
+height: auto;
+margin: auto;
+display: block;
+overflow: hidden;
+}
+
+#leftGalleryDiv{
+width: 53.4%;
+height: auto;
+display: block;
+float: left;
+}
+
+#rightGalleryDiv{
+width: 46.6%;
+height: auto;
+display: block;
+float: left;
+}
+
+#topImageGallery, #bottomImageGallery, #rightGalleryDiv{
+background: black;
+position: relative;
+text-align: center;
+vertical-align: middle;
+}
+
+.textOnAnImageGallery{
+visibility: hidden;
+z-index: 33;
+font-size: 40px;
+font-family: OpenSans-Regular;
+color: white;
+width: 100%;
+margin: 0px;
+padding: 0px;
+}
+
+.holderForTextOnImages{
+position: absolute;
+top: 40%;
+width: 100%;
+text-align: center;
+height: 70px;
+margin: auto;
+}
+
+.websiteLinkGalleryText{
+visibility: hidden;
+position: absolute;
+font-size: 20px;
+font-family: OpenSans-Regular;
+z-index: 33;
+width: 100%;
+margin: 0px;
+padding: 0px;
+}
+
+.imagesInLeftGallerClass, #rightImageGallery{
+width: 100%;
+height: auto;
+opacity: 1;
+}
+
+#topImageGallery:hover .imagesInLeftGallerClass, #bottomImageGallery:hover .imagesInLeftGallerClass, #rightGalleryDiv:hover #rightImageGallery{
+opacity: 0.3;
+}
+
+#topImageGallery:hover h2, #bottomImageGallery:hover h2, #rightGalleryDiv:hover h2{
+visibility: visible;
+}
+
+#topImageGallery:hover h6, #bottomImageGallery:hover h6{
+visibility: visible;
+color: #fa7218;
+}
+
+#rightGalleryDiv:hover h6{
+visibility: visible;
+color: #53bede;
+}
+
+#ulForGalleryImageChanging{
+list-style-type: none;
+text-align: center;
+margin: 0px;
+padding: 0px;
+margin-bottom: 15px;
+}
+
+#ulForGalleryImageChanging li{
+display: inline;
+padding-left: 30px;
+padding-right: 30px;
+font-family: OpenSans-SemiBold;
+cursor: pointer;
+}
+
+#ulForGalleryImageChanging li:hover{
+color: #d9413f;
+}
+
+
+#ulForGalleryImageChanging .leftArrowForChangingTheGalleryImage, #ulForGalleryImageChanging .rightArrowForChangingTheGalleryImage{
+padding-left: 0px;
+padding-right: 0px;
+}
+
+
 /*========================================
         LOGO SLIDER FOMR HERE - FLEXISEL
 ===========================================*/
@@ -2004,10 +2123,23 @@ min-height: 170px;
 height: auto;
 margin: auto;
 text-align: center;
+margin-top: 50px;
+}
+
+#ourBrandsDesktop{
+display: block;
+}
+
+#ourBrandsPhone{
+display: none;
 }
 
 #hsixOnLogosSlider{
 margin-bottom: 30px;
+}
+
+#hsixOnLogosSliderPhone{
+display: none;
 }
 
 .clearout {
