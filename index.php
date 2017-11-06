@@ -392,6 +392,51 @@ Have look at our rates section and you will see that we are offering some amazin
       </div>
 
 
+      
+      
+       <!----------------- RECENT FEEDBACK - FROM HERE --------->
+      <div id="feedbackHolder">
+        <div id="contentFeedbackHolder">
+          <object>
+            <embed id="dialogueBubble" src="MEDIA/dialogueBubbes.svg">
+          </object>
+            <h2 style="color#ffffff;">Recent <span style="color:#d90f31">feedback</span></h2>
+            <h4>A few testimonials left by our clients</h4>
+            <div id="smallerBoxFeedback">
+              <p id="ratingSentence">Our customers are so pleased, they would give us a four star rating &amp; above</p>
+              <p>Check out a few of the testimonials left by our clients; our customers are so pleased, they award us a four-star rating or more.  We have worked with some great brands, big and small and many of our clients have been kind enough to leave us some amazing messages. Click on the arrows below to see them all:</p>
+            </div>
+
+            <!-- START Quotes Desktop Version -->
+            <div class="desktopImage" id="quotesContainer">
+              <div class="quoteBox">
+                <p><span style="font-size:23px;">”</span>I recently used OCIP Group to design and oversee the printing of my new vehicle branding. I gave Evan a basic brief and let him come up with a concept and boy it didn't disappoint. Far more involved than the average vehicle wrap, I know he spent a lot of time getting it just right. Everyone has commented on how great it is and I couldn't be more pleased.<span style="font-size:23px;">”</span></p>
+                <p>Owner - <span style="color:#d90f31">Bucks Hot Tub Hire</span></p>
+              </div>
+              <div class="quoteBox">
+                <p><span style="font-size:23px;">”</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacinia finibus est, vel ullamcorper quam fermentum id. Donec tempor dolor commodo interdum tempor. Mauris sagittis elementum libero, quis volutpat diam pharetra sit amet. Duis laoreet lorem quam, sit amet ultricies tortor commodo a sagittis elementum.<span style="font-size:23px;">”</span></p>
+                <p>Manager - <span style="color:#d90f31">Amazon Photography</span></p>
+              </div>
+              <div class="quoteBox">
+                <p><span style="font-size:23px;">”</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacinia finibus est, vel ullamcorper quam fermentum id. Donec tempor dolor commodo interdum tempor. Mauris sagittis elementum libero, quis volutpat diam pharetra sit amet. Duis laoreet lorem quam, sit amet ultricies tortor commodo a sagittis elementum.<span style="font-size:23px;">”</span></p>
+                <p>Owner - <span style="color:#d90f31">Unique Capture</span></p>
+              </div>
+            </div>
+            <!-- END Quotes Desktop Version -->
+
+            <!-- START Quotes Mobile Version -->
+            <div class="mobileImage" id="quotesContainer">
+              <div class="quoteBox">
+                <p><span style="font-size:23px;">”</span>I recently used OCIP Group to design and oversee the printing of my new vehicle branding. I gave Evan a basic brief and let him come up with a concept and boy it didn't disappoint. Far more involved than the average vehicle wrap, I know he spent a lot of time getting it just right. Everyone has commented on how great it is and I couldn't be more pleased.<span style="font-size:23px;">”</span></p>
+                <p>Owner - <span style="color:#d90f31">Bucks Hot Tub Hire</span></p>
+              </div>
+            </div>
+            <!-- END Quotes Mobile Version -->
+
+        </div>
+      </div>
+
+      
 
 
       <!-- --------------------- OUR RATES FROM HERE ----------------- -->
@@ -565,50 +610,25 @@ Have look at our rates section and you will see that we are offering some amazin
             </div>
         </div>
     </div>
-
 </div>
 
-      <!----------------- RECENT FEEDBACK - FROM HERE --------->
-      <div id="feedbackHolder">
-        <div id="contentFeedbackHolder">
-          <object>
-            <embed id="dialogueBubble" src="MEDIA/dialogueBubbes.svg">
-          </object>
-            <h2 style="color#ffffff;">Recent <span style="color:#d90f31">feedback</span></h2>
-            <h4>A few testimonials left by our clients</h4>
-            <div id="smallerBoxFeedback">
-              <p id="ratingSentence">Our customers are so pleased, they would give us a four star rating &amp; above</p>
-              <p>Check out a few of the testimonials left by our clients; our customers are so pleased, they award us a four-star rating or more.  We have worked with some great brands, big and small and many of our clients have been kind enough to leave us some amazing messages. Click on the arrows below to see them all:</p>
-            </div>
 
-            <!-- START Quotes Desktop Version -->
-            <div class="desktopImage" id="quotesContainer">
-              <div class="quoteBox">
-                <p><span style="font-size:23px;">”</span>I recently used OCIP Group to design and oversee the printing of my new vehicle branding. I gave Evan a basic brief and let him come up with a concept and boy it didn't disappoint. Far more involved than the average vehicle wrap, I know he spent a lot of time getting it just right. Everyone has commented on how great it is and I couldn't be more pleased.<span style="font-size:23px;">”</span></p>
-                <p>Owner - <span style="color:#d90f31">Bucks Hot Tub Hire</span></p>
-              </div>
-              <div class="quoteBox">
-                <p><span style="font-size:23px;">”</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacinia finibus est, vel ullamcorper quam fermentum id. Donec tempor dolor commodo interdum tempor. Mauris sagittis elementum libero, quis volutpat diam pharetra sit amet. Duis laoreet lorem quam, sit amet ultricies tortor commodo a sagittis elementum.<span style="font-size:23px;">”</span></p>
-                <p>Manager - <span style="color:#d90f31">Amazon Photography</span></p>
-              </div>
-              <div class="quoteBox">
-                <p><span style="font-size:23px;">”</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacinia finibus est, vel ullamcorper quam fermentum id. Donec tempor dolor commodo interdum tempor. Mauris sagittis elementum libero, quis volutpat diam pharetra sit amet. Duis laoreet lorem quam, sit amet ultricies tortor commodo a sagittis elementum.<span style="font-size:23px;">”</span></p>
-                <p>Owner - <span style="color:#d90f31">Unique Capture</span></p>
-              </div>
-            </div>
-            <!-- END Quotes Desktop Version -->
+    <!-------------------- LOGOS COURSEL SLIDER FROM HERE ------------->
 
-            <!-- START Quotes Mobile Version -->
-            <div class="mobileImage" id="quotesContainer">
-              <div class="quoteBox">
-                <p><span style="font-size:23px;">”</span>I recently used OCIP Group to design and oversee the printing of my new vehicle branding. I gave Evan a basic brief and let him come up with a concept and boy it didn't disappoint. Far more involved than the average vehicle wrap, I know he spent a lot of time getting it just right. Everyone has commented on how great it is and I couldn't be more pleased.<span style="font-size:23px;">”</span></p>
-                <p>Owner - <span style="color:#d90f31">Bucks Hot Tub Hire</span></p>
-              </div>
-            </div>
-            <!-- END Quotes Mobile Version -->
 
-        </div>
-      </div>
+<div id="holderForTheLogosSlider">
+    
+    <h3>&#123; We have worked with some great brands &#125;</h3>
+    <h6 id="hsixOnLogosSlider">SCROLL ON THE ARROWS BELOW TO SEE SOME OF OUR CLIENTS:</h6>
+      <ul id="flexiselDemo3">
+        <li class="logoSliderList"><img src="MEDIA/LogosSlider/impactLogo.svg" /></li>
+        <li class="logoSliderList"><img src="MEDIA/LogosSlider/hotTubeLogo.svg" /></li>
+        <li class="logoSliderList"><img src="MEDIA/LogosSlider/LindalLogo.svg" /></li>
+        <li class="logoSliderList"><img id="packshotsdirectLogo" src="MEDIA/LogosSlider/packshotsdirect.svg" /></li>                           
+    </ul>  
+</div>
+  
+
 
       <!----------------- WHERE ARE WE - FROM HERE --------->
         <div id="whereAreWeHolder">
@@ -687,10 +707,15 @@ Have look at our rates section and you will see that we are offering some amazin
           </div>
         </div>
 
-      <!------------- JQUERY, BOOTSTRAP SQCRIPT ------------->
+      <!------------- JQUERY, BOOTSTRAP SCRIPT ------------->
       <script src="JS/jQuery-3.2.1.min.js" type="text/javascript"></script>
+      <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+      <script>var $j = jQuery.noConflict(true);</script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+              
+      <!------------- FLEXISEL COURSEL SCRIPT ------------->
+      <script src="JS/jquery.flexisel.js" type="text/jscript"></script>
+              
       <!------------- MAIN JavaScript ------------->
     <script src="JS/mainScript.js" type="text/javascript"></script>
 

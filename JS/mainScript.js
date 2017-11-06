@@ -1,5 +1,21 @@
+$j(window).load(function() {
+  $("#flexiselDemo3").flexisel({
+        visibleItems: 4,
+        itemsToScroll: 1,         
+        autoPlay: {
+            enable: true,
+            interval: 5000,
+            pauseOnHover: true
+        }        
+    });
+});
+
+
+
 $(document).ready(function(){
     
+ 
+
     /*=======================================
                  NAV MENU
     ========================================*/
