@@ -62,7 +62,7 @@ p {
 }
 
 .carousel-indicators{
-  left:100%;
+  left:90%;
 }
 
 #headerThreeImage{
@@ -79,8 +79,18 @@ p {
 
 #wAwArrowDown{
   width:10%;
+  margin-left: 45%;
 }
 
+#wAwContentHolder{
+width: 90%;
+margin-left: 5%;
+text-align: left;
+}
+    
+    #wAwContentHolder p{
+        width: 100%;
+    }
 /* =================================================
         LET'S GET STARTED FROM HERE
 =================================================== */

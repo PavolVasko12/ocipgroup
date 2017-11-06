@@ -126,7 +126,7 @@
     <div id="wAwContentHolder">
       <h2>Who are we?</h2>
       <h4>We provide digital and print services</h4>
-      <p style="width: 60%;"><strong>If you have a web or print project that needs attention, then you have come to the right place.<br><br></strong>
+      <p id="pOnThewAw"><strong>If you have a web or print project that needs attention, then you have come to the right place.<br><br></strong>
 We are a small friendly digital marketing agency based in Buckinghamshire. With over 10 years’ experience, we work with businesses of all sizes, with start-ups being our speciality. We provide a variety of services including the creation of bespoke artwork and the printing of business cards, A4 flyers, adverts and roller banners. We can also provide photo re-touch & manipulation services, website design and development (from WordPress themes through to e-commerce), logo design and brand development. If you have a project that you would like to know more, please get in contact using the button below. We’re always on hand to help.
 </p>
       <div id="wAwButton"><p>Get in touch</p></div>
