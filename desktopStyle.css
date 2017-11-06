@@ -1952,9 +1952,51 @@ transition: all 1s;
 
 
 
-/*==================================
-        LOGO SLIDER FOMR HERE
-===================================*/
+/*=========================================
+    OUR WORK TEXT AND GALLERY  FROM HERE
+===========================================*/
+
+
+#holderForOurWorkTextAndGallery{
+width: 1206px;
+max-width: 100%;
+height: auto;
+margin: auto;
+margin-top: 30px
+}
+
+
+#holderForOurWorkText{
+width: 100%;
+display: inline-block;
+}
+
+#leftSideWork{
+width: 16%;
+margin-left: 20%;
+border-right: 3px solid black;
+display: block;
+float: left;
+}
+
+#leftSideWork h2{
+margin-top: 0px;    
+}
+
+#rightSideWork{
+width: 40%;
+margin-left: 5%;
+display: block;
+float: left;
+}
+#rightSideWork p{
+ font-size: 12px;   
+}
+
+
+/*========================================
+        LOGO SLIDER FOMR HERE - FLEXISEL
+===========================================*/
 #holderForTheLogosSlider{
 max-width: 100%;
 width: 1206px;
@@ -1967,10 +2009,6 @@ text-align: center;
 #hsixOnLogosSlider{
 margin-bottom: 30px;
 }
-
-/*===================================
-        FLEXISEL FROM HERE
-====================================*/
 
 .clearout {
 height:20px;

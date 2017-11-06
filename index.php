@@ -613,6 +613,20 @@ Have look at our rates section and you will see that we are offering some amazin
 </div>
 
 
+
+<div id="holderForOurWorkTextAndGallery">
+    <div id="holderForOurWorkText">
+          <div id="leftSideWork">
+              <h2>Our Work</h2>
+              <h4>See recent examples</h4>
+            </div>
+
+            <div id="rightSideWork">
+              <p>OCIP Group are specialist in web design and web development within the Aylesbury and Buckinghamshire area. Offering a friendly local service with over 10 years + experience. We have some great examples of website design, print and development below. Scroll on the filters to see some of our recent work.</p>
+            </div>
+    </div>
+</div>
+
     <!-------------------- LOGOS COURSEL SLIDER FROM HERE ------------->
 
 
