@@ -29,8 +29,8 @@
 
           <div id="rightSideNav">
 
-                <div id="burgerLogoHolder" class="burgerLogoHolderClass burgerLogoHolderClassWhenCLicked">
-                    <img id="triangleDownIcon" class="triangleDownIconClass triangleDisplayWHenClicked" src="MEDIA/triangleDownInOpenMenu.png" alt="arrow down logo">
+                <div id="burgerLogoHolder" class="burgerLogoHolderClass">
+                    <img id="triangleDownIcon" class="triangleDownIconClass" src="MEDIA/triangleDownInOpenMenu.png" alt="arrow down logo">
                 </div>
 
             <object>
