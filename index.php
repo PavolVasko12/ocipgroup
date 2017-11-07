@@ -166,7 +166,7 @@ We are a small friendly digital marketing agency based in Buckinghamshire. With 
                     </div>
                     <div id="thirdDivInsideThreeDivs" class="threeDivsInsideLetsGetStarted">
                           <div class="circleForThreeDivs"></div>
-                         <div class="textNextToCircle"><p><p><span class="circleAroundNumber">3</span> &nbsp; . Development</p></div>
+                         <div class="textNextToCircle"><p><span class="circleAroundNumber">3</span> &nbsp; . Development</p></div>
                          <object>
                             <embed class="printerIcon" src="MEDIA/developmentIcon.svg">
                         </object>
