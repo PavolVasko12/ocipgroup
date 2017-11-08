@@ -161,6 +161,55 @@ padding-right: 50px;
 width: 45%;
 }
 
+    
+    
+/* =================================================
+      CONTACT US STARTED FROM HERE
+=================================================== */
 
+textarea, #buttonContactUs, #topEqua{
+font-size: 10px;
+}   
+    
+    
+.contactUsInput::-webkit-input-placeholder {
+font-size: 10px;
+}
+
+.contactUsInput:-moz-placeholder { /* Firefox 18- */
+font-size: 10px;
+}
+
+.contactUsInput::-moz-placeholder {  /* Firefox 19+ */
+font-size: 10px;
+}
+
+.contactUsInput:-ms-input-placeholder {
+font-size: 10px;
+}
+    
+    
+    
+    
+    
+/* =================================================
+     FOOTER STARTED FROM HERE
+=================================================== */
+    
+#footerHolderInner p{
+padding-top: 26px;
+padding-right: 26px;
+font-size: 12px;
+}
+
+footer ul li{
+font-size: 12px;
+}
+
+#footerLogo{
+float: right;
+width: 100px;
+padding-top: 28px;
+}
 
 }

@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
 
 @viewport{
       zoom: 1.0;
@@ -58,10 +58,27 @@ margin-right: 8%;
 .socialIconsNavMenu{
 display: block;
 }
-    
-    #yes{
-    height: 
-    }
+
+.burgerLogoHolderClass:hover{
+background: url('MEDIA/navMenuIconDarkRed.png') no-repeat;
+background-position: 24px 10px;
+background-color: black;
+opacity: 0.8;
+background-size: 50% 35%;
+border-radius: 10px 10px 0px 0px;
+}
+
+.triangleDownIconClass{
+display: none;
+width: 15px;
+height: 15px;
+margin-top: 35px;
+margin-left: 38px;
+}
+
+.burgerLogoHolderClass:hover .triangleDownIconClass{
+display: block;
+}
 
 /*================================================
             HEADER FROM HERE - 4 IMAGES
@@ -100,7 +117,7 @@ font-size: 5vh;
 }
     
 #headerOneImage, #headerTwoImage, #headerThreeImage, #headerFourImage{
-min-height: 200px;
+height: 100vh;
 }
 
 /* =================================================
@@ -565,6 +582,27 @@ width: 100%;
 
 }
     
+    
+textarea, #buttonContactUs, #topEqua{
+font-size: 12px;
+}   
+    
+    
+.contactUsInput::-webkit-input-placeholder {
+font-size: 12px;
+}
+
+.contactUsInput:-moz-placeholder { /* Firefox 18- */
+font-size: 12px;
+}
+
+.contactUsInput::-moz-placeholder {  /* Firefox 19+ */
+font-size: 12px;
+}
+
+.contactUsInput:-ms-input-placeholder {
+font-size: 12px;
+}    
 /*==================================
   GALLERY WORK IMAGES AND SLIDER
 ===============================*/
@@ -613,6 +651,9 @@ width: 100%;
 #rightGalleryDiv{
 width: 100%;
 }
+
+    
+    
 
 
 }

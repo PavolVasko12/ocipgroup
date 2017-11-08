@@ -11,7 +11,6 @@ $j(window).load(function() {
 });
 
 
-
 $(document).ready(function(){
     
     /*=======================================
@@ -29,14 +28,18 @@ $(document).ready(function(){
     /*=======================================
            MAKE THE SLIDER FULL HEIGHT
     ========================================*/
-    $(".item").css("height", $(window).height()+2);     
+    if($(window).width() > 600)
+        {
+            $(".item").css("height", $(window).height()+2);     
 
-    function Resizefunction(){
-         var height = window.innerHeight+2;
-        $(".item").css("height", height);
-    };
+            function Resizefunction(){
+              var height = window.innerHeight+2;
+                $(".item").css("height", height);
+            };
+
+            window.addEventListener('resize', Resizefunction);
+        }
     
-    window.addEventListener('resize', Resizefunction);
     
     
     
