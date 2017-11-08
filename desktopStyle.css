@@ -888,6 +888,10 @@ padding-left: 6px;
   margin-top: 50px;
 }
 
+#meetingBox img{
+height: 75px;
+}
+
 #researchBox{
   margin-left: 12%;
   margin-right:12%;
@@ -1091,6 +1095,9 @@ padding-left: 6px;
 #middleLeftWhyUs{
   width:66%;
   height:auto;
+}
+#middleLeftWhyUs img{
+max-width: 100%;
 }
 
 #middleRightWhyUs{
