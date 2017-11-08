@@ -13,7 +13,7 @@ width: 35%;
 }
 
 .holderOnHeader{
-width: 35%;
+width: 40%;
 }
 
 .carousel-indicators{
@@ -48,6 +48,11 @@ display: inline-block;
 margin-right: -4px;
 position: relative;
 text-align: left;
+}
+    
+.pencilIcon{
+width: 250px;
+margin-left: 20px;
 }
 
 /* =================================================
