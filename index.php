@@ -54,6 +54,17 @@
                         <li class="navigationMenuList">Blog</li>
                         <li class="navigationMenuList">Contact</li>
                    </ul>
+                  <div id="contactUsSocialBlock" class="socialIconsNavMenu">
+                  <object>
+                    <embed id="yes" class="contactUsSocialMediaNav" src="MEDIA/facebookIconWhite.svg">
+                  </object>
+                  <object>
+                    <embed class="contactUsSocialMediaNav" src="MEDIA/twitterIconWhite.svg">
+                  </object>
+                  <object>
+                    <embed class="contactUsSocialMediaNav" src="MEDIA/googleIconWhite.svg">
+                  </object>
+                </div>
                 </div>
         </div>
 
