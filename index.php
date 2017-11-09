@@ -1,82 +1,18 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
-    <title>OCIP GROUP</title>
-      <!------------- BOOTSTRAP CSS ------------->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-      <!------------- MAIN CSS ------------->
-      <link rel="stylesheet" style="text/css" href="desktopStyle.css">
-      <link rel="stylesheet" style="text/css" href="bigTabletStyle.css">
-      <link rel="stylesheet" style="text/css" href="smallTabletStyle.css">
-      <link rel="stylesheet" style="text/css" href="phoneStyle.css">
-  </head>
+<!-------------- HEAD FROM HERE --------------->  
+<?php require_once('head.php'); ?>
+    
+<!-------------- BODY FROM HERE ------------------>
+<body>
+   
+<!------------------ NAVIGATION FROM HERE ------------------->
+<?php  require_once('navigation.php'); ?> 
 
 
-
-<!----------- BODY FROM HERE ---------------->
-
-  <body>
-      <nav>
-        <div id="navContent">
-          <div id="leftSideNav">
-            <img id="navLogo" src="MEDIA/ocipLogo.png" alt="OcipGroup Logo">
-          </div>
-
-          <div id="rightSideNav">
-
-                <div id="burgerLogoHolder" class="burgerLogoHolderClass">
-                    <img id="triangleDownIcon" class="triangleDownIconClass" src="MEDIA/triangleDownInOpenMenu.png" alt="arrow down logo">
-                </div>
-
-            <object>
-              <embed class="socialMediaIcons" src="MEDIA/facebookLogo.svg">
-            </object>
-            <object>
-              <embed class="socialMediaIcons" src="MEDIA/googleIcon.svg">
-            </object>
-            <object>
-              <embed class="socialMediaIcons" src="MEDIA/twitterIcon.svg">
-            </object>
-          </div>
-             <!-- ------------- NAVIGATION MENU POP UP ---------------- -->
-              <div id="navMenuOpoUpWindowId" class="navMenuPopUpWindowClosed navMenuPopUpWindowOpen">
-                  <div id="navTextInTheListPlusCloseIcon"><p>NAVIGATION</p></div>
-                    <ul id="navMenuUl">
-                        <li class="navigationMenuList">Home</li>
-                        <li class="navigationMenuList">Services</li>
-                        <li class="navigationMenuList">Prices</li>
-                        <li class="navigationMenuList">Our Work</li>
-                        <li class="navigationMenuList">Blog</li>
-                        <li class="navigationMenuList">Contact</li>
-                   </ul>
-                  <div id="contactUsSocialBlock" class="socialIconsNavMenu">
-                  <object>
-                    <embed id="yes" class="contactUsSocialMediaNav" src="MEDIA/facebookIconWhite.svg">
-                  </object>
-                  <object>
-                    <embed class="contactUsSocialMediaNav" src="MEDIA/twitterIconWhite.svg">
-                  </object>
-                  <object>
-                    <embed class="contactUsSocialMediaNav" src="MEDIA/googleIconWhite.svg">
-                  </object>
-                </div>
-                </div>
-        </div>
-
-
-      </nav>
-
-
-
-
-      <!------------------ HEADER FROM HERE - 4 IMAGES - COURSEL --------------->
-     <div id="myCarousel" class="carousel slide" data-ride="carousel">
+<!------------------ HEADER FROM HERE - 4 IMAGES - COURSEL --------------->
+ <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -136,7 +72,7 @@
   <!----------------- WHO ARE WE - FROM HERE --------->
   <div id="wAwHolder">
     <div id="wAwContentHolder">
-      <h2>Who are we?</h2>
+      <h2>So, Who are we?</h2>
       <h4>We provide digital and print services</h4>
       <p id="pOnThewAw"><strong>If you have a web or print project that needs attention, then you have come to the right place.<br><br></strong>
 We are a small friendly digital marketing agency based in Buckinghamshire. With over 10 years’ experience, we work with businesses of all sizes, with start-ups being our speciality. We provide a variety of services including the creation of bespoke artwork and the printing of business cards, A4 flyers, adverts and roller banners. We can also provide photo re-touch & manipulation services, website design and development (from WordPress themes through to e-commerce), logo design and brand development. If you have a project that you would like to know more, please get in contact using the button below. We’re always on hand to help.
@@ -405,53 +341,11 @@ Have look at our rates section and you will see that we are offering some amazin
 
 
       
-      
-       <!----------------- RECENT FEEDBACK - FROM HERE --------->
-      <div id="feedbackHolder">
-        <div id="contentFeedbackHolder">
-          <object>
-            <embed id="dialogueBubble" src="MEDIA/dialogueBubbes.svg">
-          </object>
-            <h2 style="color#ffffff;">Recent <span style="color:#d90f31">feedback</span></h2>
-            <h4>A few testimonials left by our clients</h4>
-            <div id="smallerBoxFeedback">
-              <p id="ratingSentence">Our customers are so pleased, they would give us a four star rating &amp; above</p>
-              <p>Check out a few of the testimonials left by our clients; our customers are so pleased, they award us a four-star rating or more.  We have worked with some great brands, big and small and many of our clients have been kind enough to leave us some amazing messages. Click on the arrows below to see them all:</p>
-            </div>
-
-            <!-- START Quotes Desktop Version -->
-            <div class="desktopImage" id="quotesContainer">
-              <div class="quoteBox">
-                <p><span style="font-size:23px;">”</span>I recently used OCIP Group to design and oversee the printing of my new vehicle branding. I gave Evan a basic brief and let him come up with a concept and boy it didn't disappoint. Far more involved than the average vehicle wrap, I know he spent a lot of time getting it just right. Everyone has commented on how great it is and I couldn't be more pleased.<span style="font-size:23px;">”</span></p>
-                <p>Owner - <span style="color:#d90f31">Bucks Hot Tub Hire</span></p>
-              </div>
-              <div class="quoteBox">
-                <p><span style="font-size:23px;">”</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacinia finibus est, vel ullamcorper quam fermentum id. Donec tempor dolor commodo interdum tempor. Mauris sagittis elementum libero, quis volutpat diam pharetra sit amet. Duis laoreet lorem quam, sit amet ultricies tortor commodo a sagittis elementum.<span style="font-size:23px;">”</span></p>
-                <p>Manager - <span style="color:#d90f31">Amazon Photography</span></p>
-              </div>
-              <div class="quoteBox">
-                <p><span style="font-size:23px;">”</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacinia finibus est, vel ullamcorper quam fermentum id. Donec tempor dolor commodo interdum tempor. Mauris sagittis elementum libero, quis volutpat diam pharetra sit amet. Duis laoreet lorem quam, sit amet ultricies tortor commodo a sagittis elementum.<span style="font-size:23px;">”</span></p>
-                <p>Owner - <span style="color:#d90f31">Unique Capture</span></p>
-              </div>
-            </div>
-            <!-- END Quotes Desktop Version -->
-
-            <!-- START Quotes Mobile Version -->
-            <div class="mobileImage" id="quotesContainer">
-              <div class="quoteBox">
-                <p><span style="font-size:23px;">”</span>I recently used OCIP Group to design and oversee the printing of my new vehicle branding. I gave Evan a basic brief and let him come up with a concept and boy it didn't disappoint. Far more involved than the average vehicle wrap, I know he spent a lot of time getting it just right. Everyone has commented on how great it is and I couldn't be more pleased.<span style="font-size:23px;">”</span></p>
-                <p>Owner - <span style="color:#d90f31">Bucks Hot Tub Hire</span></p>
-              </div>
-            </div>
-            <!-- END Quotes Mobile Version -->
-
-        </div>
-      </div>
-
-      
+<!------------------ RECENT FEEDBACK - FROM HERE ------------->
+      <?php require_once('recent-feedback.php'); ?>
 
 
-      <!-- --------------------- OUR RATES FROM HERE ----------------- -->
+<!-- --------------------- OUR RATES FROM HERE ------------------->
     <div id="holderForOurRates">
         <div id="innerHolderForOurRates">
         <div id="holderOurRatesLeftSideHeader">
@@ -640,10 +534,10 @@ Have look at our rates section and you will see that we are offering some amazin
     
     <ul id="ulForGalleryImageChanging">
          <li class="leftArrowForChangingTheGalleryImage">&#60;</li>
-        <li class="listForChangingTheGalleryImage">All</li>
+        <a href="all-galleries.php" alt="Link to OCIP gallery"><li class="listForChangingTheGalleryImage activeListGallery">All</li></a>
         <li class="listForChangingTheGalleryImage">Print</li>
         <li class="listForChangingTheGalleryImage">Digital</li>
-        <li class="listForChangingTheGalleryImage">Development</li>
+        <a href="ocip-development.php" alt="OCIP - Development gallery"><li class="listForChangingTheGalleryImage">Development</li></a>
          <li class="rightArrowForChangingTheGalleryImage">&#62;</li>
     </ul>
     
@@ -677,22 +571,8 @@ Have look at our rates section and you will see that we are offering some amazin
 
     <!-------------------- LOGOS COURSEL SLIDER FROM HERE ------------->
 
-
-<div id="holderForTheLogosSlider">
-    
-    <h3 id="ourBrandsDesktop">&#123; WE HAVE WORKED WITH SOME GREAT BRANDS &#125;</h3>
-    <h3 id="ourBrandsPhone">&#123; OUR BRANDS &#125;</h3>
-    <h6 id="hsixOnLogosSlider">SCROLL ON THE ARROWS BELOW TO SEE SOME OF OUR CLIENTS:</h6>
-     <h6 id="hsixOnLogosSliderPhone">SWIPE BELOW TO SEE SOME OF OUR CLIENTS:</h6>
-      <ul id="flexiselDemo3">
-        <li class="logoSliderList"><img src="MEDIA/LogosSlider/impactLogo.svg" /></li>
-        <li class="logoSliderList"><img src="MEDIA/LogosSlider/hotTubeLogo.svg" /></li>
-        <li class="logoSliderList"><img src="MEDIA/LogosSlider/LindalLogo.svg" /></li>
-        <li class="logoSliderList"><img id="packshotsdirectLogo" src="MEDIA/LogosSlider/packshotsdirect.svg" /></li>                           
-    </ul>  
-</div>
+    <?php require_once('accreditation-slider.php'); ?>
   
-
 
       <!----------------- WHERE ARE WE - FROM HERE --------->
         <div id="whereAreWeHolder">
@@ -723,102 +603,18 @@ Have look at our rates section and you will see that we are offering some amazin
           </div>
         </div>
 
-        <!----------------- CONTACT US - FROM HERE --------->
-        <div id="contactUsHolder">
-          <object>
-            <embed id="topLineContact" src="MEDIA/topLineContactUs.svg">
-          </object>
-          <div id="contactUsContentHolder">
-            <div id="contactUsLeftBlock">
-              <h2>CONTACT DETAILS</h2>
-              <p>We are based in Aylesbury, but provide website design and internet marketing services to the surrounding towns that include: Marlow, Slough, High Wycombe, Bourne End, Oxford, Luton &amp; Watford. <strong>Opening Hours:</strong> Mon-Friday, 9am-5:30pm.</p>
-              <p style="font-size:17px;"><strong>a: </strong> Aylesbury, <strong>HP19 9LS</strong> <br>
-                <strong>e: </strong> enquiry@ocip-group.com <br>
-                <strong>t: </strong>  01296 340890</p>
-                <div id="contactUsSocialBlock">
-                  <object>
-                    <embed class="contactUsSocialMedia" src="MEDIA/facebookLogoBlack.svg">
-                  </object>
-                  <object>
-                    <embed class="contactUsSocialMedia" src="MEDIA/twitterIconBlack.svg">
-                  </object>
-                  <object>
-                    <embed class="contactUsSocialMedia" src="MEDIA/googleIconBlack.svg">
-                  </object>
-                </div>
-            </div>
-            <div id="contactUsRightBlock">
-              <div id="haveAProjectHolder"><h2>HAVE A PROJECT?<h2></div>
-              <p>To discuss your website design or print project, however large or small, submit a mesage using the ‘Enquiry’ form below. Alternatively, you can email us at <strong>enquiry@ocip-group.com</strong> or phone us on <strong>01296 340890</strong>.</p>
-              <p style="float:right;"><strong>Please check required fields</strong></p>
-              <form id="formBoxes">
-                <div id="contactUsLeftBoxes">
-                  <input type="text" class="contactUsInput" id="name" name="firstname" placeholder="Name: * ">
-                  <input type="text" class="contactUsInput" id="cname" name="companyname" placeholder="Company Name: ">
-                  <input type="text" class="contactUsInput" id="email" name="email" placeholder="Email: * ">
-                </div>
-                <div id="contactUsMiddleBoxes">
-                  <textarea id="messageContactUs" name="messageBox" placeholder="Enquiry: * "></textarea>
-                </div>
-                <div id="contactUsRightBoxes">
-                  <div class="contactUsInput" id="topEqua">198 + 9 =</div>
-                  <input type="text" class="contactUsInput" id="eqbox" name="equationbox" placeholder="Type equation here: * ">
-                  <input id="buttonContactUs" type="submit" value="Send">
-                </div>
-              </form>
-              <p style="text-align:center;"><strong>Please note: all fields marked * are required</strong></p>
-            </div>
-          </div>
-        </div>
-    
-   <!------------------------------ FOOTER FROM HERE DESKTOP UNTIL 800PX ----------------------->
-      <footer id="desktopVersionFooter">
-          <div id="footerHolderInner">
-            <p><strong>&copy; OCIP GROUP</strong> 2017. All rights reserved.</p>
-              <ul id="footerUl">
-                   <li class="footerListClass">Home</li>
-                   <li class="footerListClass">Services</li>
-                   <li class="footerListClass">Prices</li>
-                   <li class="footerListClass">Our Work</li>
-                   <li class="footerListClass">Blog</li>
-                   <li class="footerListClass">Contact</li>
-                   <li class="footerListClass">Sitemap</li>
-              </ul>
-              <object>
-                    <embed id="footerLogo" src="MEDIA/footerOcipLogo.svg">
-              </object>
-          </div>
-      </footer>
-    <!------------------------------ FOOTER FROM HERE BELOW 800PX ----------------------->           
-       <footer id="smallVersionFooter">
-          <div id="footerHolderInner">
-              <object>
-                    <embed id="footerLogo" src="MEDIA/footerOcipLogo.svg">
-              </object>
-              <ul id="footerUl">
-                   <li class="footerListClass">Home</li>
-                   <li class="footerListClass">Services</li>
-                   <li class="footerListClass">Prices</li>
-                   <li class="footerListClass">Our Work</li>
-                   <li class="footerListClass">Blog</li>
-                   <li class="footerListClass">Contact</li>
-                   <li class="footerListClass">Sitemap</li>
-              </ul>
-              <p><strong>&copy; OCIP GROUP</strong> 2017. All rights reserved.</p>
-          </div>
-      </footer>
 
-      <!------------- JQUERY, BOOTSTRAP SCRIPT ------------->
-      <script src="JS/jQuery-3.2.1.min.js" type="text/javascript"></script>
-      <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-      <script>var $j = jQuery.noConflict(true);</script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-              
-      <!------------- FLEXISEL COURSEL SCRIPT ------------->
-      <script src="JS/jquery.flexisel.js" type="text/jscript"></script>
-              
-      <!------------- MAIN JavaScript ------------->
-    <script src="JS/mainScript.js" type="text/javascript"></script>
+
+    <!----------------- CONTACT US - FROM HERE ---------------->
+       <?php require_once('contact-us.php'); ?>
+    
+
+   <!----------------- FOOTER FROM HERE DESKTOP UNTIL 800PX ---------------->
+       <?php require_once('footer.php'); ?>
+
+
+   <!------------- SCRIPTS FROM HERE ---------------->
+    <?php require_once('scripts.php'); ?>
 
   </body>
 

@@ -40,8 +40,15 @@ $(document).ready(function(){
             window.addEventListener('resize', Resizefunction);
         }
     
+   
     
+    /* ===========================================
+                SCROLL TO ANCHOR ON CLICK
+    ============================================ */
     
+    $("#servicesNavListId").on('click', function(){
+       $('html', 'body').animate({scrollTop: $("#letsGetStartedHolder").offset().top},1000);
+    });   
     
     
      /*================================================
