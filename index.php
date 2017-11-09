@@ -12,7 +12,8 @@
 
       <!------------- MAIN CSS ------------->
       <link rel="stylesheet" style="text/css" href="desktopStyle.css">
-      <link rel="stylesheet" style="text/css" href="tabletStyle.css">
+      <link rel="stylesheet" style="text/css" href="bigTabletStyle.css">
+      <link rel="stylesheet" style="text/css" href="smallTabletStyle.css">
       <link rel="stylesheet" style="text/css" href="phoneStyle.css">
   </head>
 
@@ -54,6 +55,17 @@
                         <li class="navigationMenuList">Blog</li>
                         <li class="navigationMenuList">Contact</li>
                    </ul>
+                  <div id="contactUsSocialBlock" class="socialIconsNavMenu">
+                  <object>
+                    <embed id="yes" class="contactUsSocialMediaNav" src="MEDIA/facebookIconWhite.svg">
+                  </object>
+                  <object>
+                    <embed class="contactUsSocialMediaNav" src="MEDIA/twitterIconWhite.svg">
+                  </object>
+                  <object>
+                    <embed class="contactUsSocialMediaNav" src="MEDIA/googleIconWhite.svg">
+                  </object>
+                </div>
                 </div>
         </div>
 
@@ -741,16 +753,16 @@ Have look at our rates section and you will see that we are offering some amazin
               <p style="float:right;"><strong>Please check required fields</strong></p>
               <form id="formBoxes">
                 <div id="contactUsLeftBoxes">
-                  <input type="text" class="contactUsInput" id="name" name="firstname" placeholder="Name: ">
+                  <input type="text" class="contactUsInput" id="name" name="firstname" placeholder="Name: * ">
                   <input type="text" class="contactUsInput" id="cname" name="companyname" placeholder="Company Name: ">
-                  <input type="text" class="contactUsInput" id="email" name="email" placeholder="Email: ">
+                  <input type="text" class="contactUsInput" id="email" name="email" placeholder="Email: * ">
                 </div>
                 <div id="contactUsMiddleBoxes">
-                  <textarea id="messageContactUs" name="messageBox" placeholder="Enquiry:  "></textarea>
+                  <textarea id="messageContactUs" name="messageBox" placeholder="Enquiry: * "></textarea>
                 </div>
                 <div id="contactUsRightBoxes">
                   <div class="contactUsInput" id="topEqua">198 + 9 =</div>
-                  <input type="text" class="contactUsInput" id="eqbox" name="equationbox" placeholder="Type equation here:  ">
+                  <input type="text" class="contactUsInput" id="eqbox" name="equationbox" placeholder="Type equation here: * ">
                   <input id="buttonContactUs" type="submit" value="Send">
                 </div>
               </form>
@@ -758,6 +770,43 @@ Have look at our rates section and you will see that we are offering some amazin
             </div>
           </div>
         </div>
+    
+   <!------------------------------ FOOTER FROM HERE DESKTOP UNTIL 800PX ----------------------->
+      <footer id="desktopVersionFooter">
+          <div id="footerHolderInner">
+            <p><strong>&copy; OCIP GROUP</strong> 2017. All rights reserved.</p>
+              <ul id="footerUl">
+                   <li class="footerListClass">Home</li>
+                   <li class="footerListClass">Services</li>
+                   <li class="footerListClass">Prices</li>
+                   <li class="footerListClass">Our Work</li>
+                   <li class="footerListClass">Blog</li>
+                   <li class="footerListClass">Contact</li>
+                   <li class="footerListClass">Sitemap</li>
+              </ul>
+              <object>
+                    <embed id="footerLogo" src="MEDIA/footerOcipLogo.svg">
+              </object>
+          </div>
+      </footer>
+    <!------------------------------ FOOTER FROM HERE BELOW 800PX ----------------------->           
+       <footer id="smallVersionFooter">
+          <div id="footerHolderInner">
+              <object>
+                    <embed id="footerLogo" src="MEDIA/footerOcipLogo.svg">
+              </object>
+              <ul id="footerUl">
+                   <li class="footerListClass">Home</li>
+                   <li class="footerListClass">Services</li>
+                   <li class="footerListClass">Prices</li>
+                   <li class="footerListClass">Our Work</li>
+                   <li class="footerListClass">Blog</li>
+                   <li class="footerListClass">Contact</li>
+                   <li class="footerListClass">Sitemap</li>
+              </ul>
+              <p><strong>&copy; OCIP GROUP</strong> 2017. All rights reserved.</p>
+          </div>
+      </footer>
 
       <!------------- JQUERY, BOOTSTRAP SCRIPT ------------->
       <script src="JS/jQuery-3.2.1.min.js" type="text/javascript"></script>

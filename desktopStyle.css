@@ -142,6 +142,18 @@ top: 86px;
 border-radius: 10px 0px 10px 10px;
 }
 
+.contactUsSocialMediaNav{
+  width:10%;
+  display:inline;
+  margin-right:5%;
+ display: none;
+}
+
+.socialIconsNavMenu{
+display: none;
+}
+
+
 .navMenuPopUpWindowClosed{
 display: none;
 }
@@ -267,7 +279,7 @@ background: url('MEDIA/HEADERIMAGES/ocipgroup-header3.jpg');
 }
 
 #headerFourImage{
-background: url('MEDIA/HEADERIMAGES/ocipgroup-header2');
+background: url('MEDIA/HEADERIMAGES/ocipgroup-header2.jpg');
 }
 
 #headerOneImage, #headerTwoImage, #headerThreeImage, #headerFourImage{
@@ -876,6 +888,10 @@ padding-left: 6px;
   margin-top: 50px;
 }
 
+#meetingBox img{
+height: 75px;
+}
+
 #researchBox{
   margin-left: 12%;
   margin-right:12%;
@@ -1079,6 +1095,9 @@ padding-left: 6px;
 #middleLeftWhyUs{
   width:66%;
   height:auto;
+}
+#middleLeftWhyUs img{
+max-width: 100%;
 }
 
 #middleRightWhyUs{
@@ -1632,6 +1651,7 @@ color: #cecece;
   margin: auto;
   background: url(./MEDIA/whereAreWe.jpg) no-repeat;
   background-size: auto 100%;
+    background-position: center;
 }
 
 #whereAreWeSideTextBox{
@@ -1788,14 +1808,14 @@ margin: 10px 6px 0px 0px;
 }
 
 .contactUsSocialMedia{
-  width:10%;
+  height: 30px;
   display:inline;
   margin-right:5%;
 }
 
 #contactUsRightBlock{
   width:60%;
-  height:500px;
+  height:450px;
 }
 
 #contactUsRightBlock p{
@@ -2242,4 +2262,55 @@ margin-top: 5px;
 
 .nbs-flexisel-nav-right.disabled {
     opacity: 0.4;
+}
+
+
+
+
+
+
+/*========================================
+        FOOTER FROM HERE 
+===========================================*/
+#desktopVersionFooter{
+width: 100%;
+height: 70px;
+background-color: #d9413f;
+display: block;
+}
+
+#smallVersionFooter{
+display: none;
+}
+
+#footerHolderInner{
+width: 1206px;
+max-width: 100%;
+height: 70px;
+margin: auto;
+}
+
+#footerHolderInner p{
+height: 20px;
+padding-top: 25px;
+display: inline-block;
+padding-right: 30px;
+}
+
+footer ul{
+list-style-type: none;
+display: inline-block;
+padding: 0px;
+margin: 0px;
+}
+
+footer ul li{
+display: inline-block;
+padding: 0px 10px 0px 10px;
+}
+
+#footerLogo{
+float: right;
+width: 100px;
+padding-top: 28px;
 }
