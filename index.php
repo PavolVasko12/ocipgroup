@@ -340,9 +340,11 @@ Have look at our rates section and you will see that we are offering some amazin
       </div>
 
 
+
       
 <!------------------ RECENT FEEDBACK - FROM HERE ------------->
       <?php require_once('recent-feedback.php'); ?>
+
 
 
 <!-- --------------------- OUR RATES FROM HERE ------------------->
@@ -531,7 +533,7 @@ Have look at our rates section and you will see that we are offering some amazin
               <p>OCIP Group are specialist in web design and web development within the Aylesbury and Buckinghamshire area. Offering a friendly local service with over 10 years + experience. We have some great examples of website design, print and development below. Scroll on the filters to see some of our recent work.</p>
             </div>
     </div>
-    
+
     <ul id="ulForGalleryImageChanging">
          <li class="leftArrowForChangingTheGalleryImage">&#60;</li>
         <a href="all-galleries.php" alt="Link to OCIP gallery"><li class="listForChangingTheGalleryImage activeListGallery">All</li></a>
@@ -540,16 +542,16 @@ Have look at our rates section and you will see that we are offering some amazin
         <a href="ocip-development.php" alt="OCIP - Development gallery"><li class="listForChangingTheGalleryImage">Development</li></a>
          <li class="rightArrowForChangingTheGalleryImage">&#62;</li>
     </ul>
-    
+
     <div id="galleryHolder">
-        <div id="leftGalleryDiv">  
+        <div id="leftGalleryDiv">
             <div id="topImageGallery">
                 <img class="imagesInLeftGallerClass" src="MEDIA/WorkGallery/packhotsImage.jpg" alt="Pack Hots Direct Image">
                 <div class="holderForTextOnImages">
                     <h2 class="textOnAnImageGallery">WEBSITE</h2>
                     <h6 class="websiteLinkGalleryText">Packhotsdirect.com</h6>
                 </div>
-                
+
             </div>
              <div id="bottomImageGallery">
                 <img class="imagesInLeftGallerClass" src="MEDIA/WorkGallery/brochureImage.jpg" alt="Brochure image OCIP">
@@ -570,9 +572,9 @@ Have look at our rates section and you will see that we are offering some amazin
 </div>
 
     <!-------------------- LOGOS COURSEL SLIDER FROM HERE ------------->
-
     <?php require_once('accreditation-slider.php'); ?>
   
+
 
       <!----------------- WHERE ARE WE - FROM HERE --------->
         <div id="whereAreWeHolder">

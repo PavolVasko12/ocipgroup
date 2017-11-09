@@ -37,12 +37,12 @@ p {
   position: relative;
   left:30%;
 }
-    
+
 .navMenuPopUpWindowOpen{
 width: 100%;
 right: 0px;
-}   
-    
+}
+
 .navMenuPopUpWindowOpen{
 width: 100%;
 right: 0px;
@@ -111,11 +111,11 @@ display: block;
 #headerThreeImage{
 background-position: left;
 }
-    
+
 #startupText{
 font-size: 5vh;
 }
-    
+
 #headerOneImage, #headerTwoImage, #headerThreeImage, #headerFourImage{
 height: 100vh;
 }
@@ -348,8 +348,8 @@ width: 100%;
 #bottomLeftWhyUs #enquireWhyUsButton{
   margin: 20px auto 20px auto;
 }
-    
-    
+
+
 /*=========================================
             OUR FEEDBACK FROM HERE
 ==========================================*/
@@ -581,13 +581,13 @@ width: 100%;
   padding-top: 30px;
 
 }
-    
-    
+
+
 textarea, #buttonContactUs, #topEqua{
 font-size: 12px;
-}   
-    
-    
+}
+
+
 .contactUsInput::-webkit-input-placeholder {
 font-size: 12px;
 }
@@ -602,7 +602,7 @@ font-size: 12px;
 
 .contactUsInput:-ms-input-placeholder {
 font-size: 12px;
-}    
+}
 /*==================================
   GALLERY WORK IMAGES AND SLIDER
 ===============================*/
@@ -614,7 +614,7 @@ display: none;
 #ourBrandsPhone{
 display: block;
 }
-    
+
 #hsixOnLogosSlider{
 margin-bottom: 30px;
 display: none;
@@ -624,7 +624,7 @@ font-family: OpenSans-Bold;
 #hsixOnLogosSliderPhone{
 display: block;
 }
-    
+
 #leftSideWork{
 width: 90%;
 margin: auto;
@@ -632,18 +632,17 @@ margin-left: 5%;
 border-right: none;
 }
 
-    
 #rightSideWork{
 width: 90%;
 margin: auto;
 margin-left: 5%;
 }
-    
+
 #ulForGalleryImageChanging li{
 padding-left: 5px;
 padding-right: 5px;
 }
-    
+
 #leftGalleryDiv{
 width: 100%;
 }
@@ -651,9 +650,5 @@ width: 100%;
 #rightGalleryDiv{
 width: 100%;
 }
-
-    
-    
-
 
 }
