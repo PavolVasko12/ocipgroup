@@ -392,8 +392,8 @@ Have look at our rates section and you will see that we are offering some amazin
       </div>
 
 
-      
-      
+
+
        <!----------------- RECENT FEEDBACK - FROM HERE --------->
       <div id="feedbackHolder">
         <div id="contentFeedbackHolder">
@@ -436,7 +436,7 @@ Have look at our rates section and you will see that we are offering some amazin
         </div>
       </div>
 
-      
+
 
 
       <!-- --------------------- OUR RATES FROM HERE ----------------- -->
@@ -625,7 +625,7 @@ Have look at our rates section and you will see that we are offering some amazin
               <p>OCIP Group are specialist in web design and web development within the Aylesbury and Buckinghamshire area. Offering a friendly local service with over 10 years + experience. We have some great examples of website design, print and development below. Scroll on the filters to see some of our recent work.</p>
             </div>
     </div>
-    
+
     <ul id="ulForGalleryImageChanging">
          <li class="leftArrowForChangingTheGalleryImage">&#60;</li>
         <li class="listForChangingTheGalleryImage">All</li>
@@ -634,16 +634,16 @@ Have look at our rates section and you will see that we are offering some amazin
         <li class="listForChangingTheGalleryImage">Development</li>
          <li class="rightArrowForChangingTheGalleryImage">&#62;</li>
     </ul>
-    
+
     <div id="galleryHolder">
-        <div id="leftGalleryDiv">  
+        <div id="leftGalleryDiv">
             <div id="topImageGallery">
                 <img class="imagesInLeftGallerClass" src="MEDIA/WorkGallery/packhotsImage.jpg" alt="Pack Hots Direct Image">
                 <div class="holderForTextOnImages">
                     <h2 class="textOnAnImageGallery">WEBSITE</h2>
                     <h6 class="websiteLinkGalleryText">Packhotsdirect.com</h6>
                 </div>
-                
+
             </div>
              <div id="bottomImageGallery">
                 <img class="imagesInLeftGallerClass" src="MEDIA/WorkGallery/brochureImage.jpg" alt="Brochure image OCIP">
@@ -667,7 +667,7 @@ Have look at our rates section and you will see that we are offering some amazin
 
 
 <div id="holderForTheLogosSlider">
-    
+
     <h3 id="ourBrandsDesktop">&#123; WE HAVE WORKED WITH SOME GREAT BRANDS &#125;</h3>
     <h3 id="ourBrandsPhone">&#123; OUR BRANDS &#125;</h3>
     <h6 id="hsixOnLogosSlider">SCROLL ON THE ARROWS BELOW TO SEE SOME OF OUR CLIENTS:</h6>
@@ -676,10 +676,10 @@ Have look at our rates section and you will see that we are offering some amazin
         <li class="logoSliderList"><img src="MEDIA/LogosSlider/impactLogo.svg" /></li>
         <li class="logoSliderList"><img src="MEDIA/LogosSlider/hotTubeLogo.svg" /></li>
         <li class="logoSliderList"><img src="MEDIA/LogosSlider/LindalLogo.svg" /></li>
-        <li class="logoSliderList"><img id="packshotsdirectLogo" src="MEDIA/LogosSlider/packshotsdirect.svg" /></li>                           
-    </ul>  
+        <li class="logoSliderList"><img id="packshotsdirectLogo" src="MEDIA/LogosSlider/packshotsdirect.svg" /></li>
+    </ul>
 </div>
-  
+
 
 
       <!----------------- WHERE ARE WE - FROM HERE --------->
@@ -764,10 +764,10 @@ Have look at our rates section and you will see that we are offering some amazin
       <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
       <script>var $j = jQuery.noConflict(true);</script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-              
+
       <!------------- FLEXISEL COURSEL SCRIPT ------------->
       <script src="JS/jquery.flexisel.js" type="text/jscript"></script>
-              
+
       <!------------- MAIN JavaScript ------------->
     <script src="JS/mainScript.js" type="text/javascript"></script>
 

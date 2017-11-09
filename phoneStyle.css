@@ -87,7 +87,7 @@ width: 90%;
 margin-left: 5%;
 text-align: left;
 }
-    
+
     #wAwContentHolder p{
         width: 100%;
     }
@@ -518,7 +518,7 @@ text-align: left;
   padding-left: 35%;
 
 }
-    
+
 /*==================================
   GALLERY WORK IMAGES AND SLIDER
 ===============================*/
@@ -530,7 +530,7 @@ display: none;
 #ourBrandsPhone{
 display: block;
 }
-    
+
 #hsixOnLogosSlider{
 margin-bottom: 30px;
 display: none;
@@ -540,7 +540,7 @@ font-family: OpenSans-Bold;
 #hsixOnLogosSliderPhone{
 display: block;
 }
-    
+
 #leftSideWork{
 width: 90%;
 margin: auto;
@@ -548,18 +548,17 @@ margin-left: 5%;
 border-right: none;
 }
 
-    
 #rightSideWork{
 width: 90%;
 margin: auto;
 margin-left: 5%;
 }
-    
+
 #ulForGalleryImageChanging li{
 padding-left: 5px;
 padding-right: 5px;
 }
-    
+
 #leftGalleryDiv{
 width: 100%;
 }

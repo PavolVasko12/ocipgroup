@@ -439,7 +439,7 @@ width: 60%;
   color: #000000;
   margin: auto;
  display: block;
-   
+
 }
 
 #wAwButton{
@@ -1985,7 +1985,7 @@ display: block;
 float: left;
 }
 
-    
+
 
 #leftSideWork h2{
 margin-top: 0px;
@@ -2000,7 +2000,7 @@ display: block;
 float: left;
 }
 #rightSideWork p{
- font-size: 12px;   
+ font-size: 12px;
 }
 
 
@@ -2163,8 +2163,8 @@ display:none;
     width:99999px;
     margin:0px;
     padding:0px;
-    list-style-type:none;   
-    text-align:center;  
+    list-style-type:none;
+    text-align:center;
     overflow: auto;
 }
 
@@ -2210,14 +2210,14 @@ margin-top: 5px;
     padding:5px 10px;
     border-radius:15px;
     -moz-border-radius:15px;
-    -webkit-border-radius:15px;      
+    -webkit-border-radius:15px;
     position: absolute;
     cursor: pointer;
     z-index: 4;
     top: 50%;
-    transform: translateY(-50%);   
+    transform: translateY(-50%);
     background: rgba(0,0,0,0.5);
-    color: #fff;     
+    color: #fff;
 }
 
 .nbs-flexisel-nav-left {
@@ -2233,7 +2233,7 @@ margin-top: 5px;
 }
 
 .nbs-flexisel-nav-right {
-    right: 5px;    
+    right: 5px;
 }
 
 .nbs-flexisel-nav-right:before {
