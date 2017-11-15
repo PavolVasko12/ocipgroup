@@ -230,16 +230,16 @@ padding-top: 20px;
 width: 90px;
 height: 80px;
 background: url('MEDIA/navMenuIconWhite.png') no-repeat;
-background-position: 24px 10px;
-background-size: 50% 35%;
+background-position: 29px 16px;
+background-size: 35% 20%;
 }
 
 .burgerLogoHolderClass:hover{
 background: url('MEDIA/navMenuIconDarkRed.png') no-repeat;
-background-position: 24px 10px;
+background-position: 29px 16px;
 background-color: black;
 opacity: 0.8;
-background-size: 50% 35%;
+background-size: 35% 20%;
 border-radius: 10px 10px 0px 0px;
 cursor: pointer;
 }
@@ -259,10 +259,10 @@ display: block;
 
 .burgerLogoHolderClassWhenCLicked{
 background: url('MEDIA/navMenuIconDarkRed.png') no-repeat;
-background-position: 24px 10px;
+background-position: 29px 16px;
 background-color: black;
 opacity: 0.8;
-background-size: 50% 35%;
+background-size: 35% 20%;
 border-radius: 10px 10px 0px 0px;
 }
 
