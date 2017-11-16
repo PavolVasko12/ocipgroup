@@ -1700,7 +1700,7 @@ color: #cecece;
   font-family: OpenSans-Light;
   font-size: 19px;
   margin-top:0;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 
 #whereAreWeSideTextBox p{
@@ -1714,6 +1714,7 @@ columns: 3;
 padding: 0;
 font-size: 13px;
 line-height: 25px;
+margin-bottom: 50px;
 }
 
 
@@ -2558,7 +2559,7 @@ background: url('MEDIA/digitalPrintDevelopmentSections/ocip-print-service.jpg') 
 opacity: 0.9;
 background-size: cover;
 background-position: center;
-border-bottom: 5px solid black;    
+border-bottom: 5px solid black;
 }
 
 #printGalleryHolder{
@@ -2568,7 +2569,7 @@ max-width: 100%;
 height: auto;
 margin: auto;
 display: block;
-overflow: hidden;    
+overflow: hidden;
 }
 
 #topRightHolder.printTopRigthHolder img{
@@ -2612,7 +2613,7 @@ opacity: 0.9;
 background-size: cover;
 background-position: bottom;
 background-position: center;
-border-bottom: 5px solid black;   
+border-bottom: 5px solid black;
 }
 
 #holderForHeadingText{
@@ -2645,13 +2646,13 @@ position: relative;
 .holderForSectionWithNumberAndTextClass{
 width: 230px;
 height: auto;
-position: absolute;   
+position: absolute;
 }
 
 .miniHolderForSectionWithNumberAndTextClass{
 width: 200px;
 height: auto;
-position: absolute;  
+position: absolute;
 }
 
 #informationSiteMap{
@@ -2664,7 +2665,7 @@ left: 350px;
 }
 
 #informationSiteMap h6{
-padding-left: 12px;  
+padding-left: 12px;
 font-family: OpenSans-Bold;
 font-size: 14px;
 }
@@ -2703,7 +2704,7 @@ left: 110px;
 
 #siteMapPrices{
 top: 17.5%;
-left: 110px;    
+left: 110px;
 }
 
 #siteMapOurWork{
@@ -2724,17 +2725,17 @@ float: right;
 
 #siteMapBlog{
 top: 40.5%;
-left: 70px;   
+left: 70px;
 }
 
 #siteMapContact{
 top: 51%;
-left: 70px; 
+left: 70px;
 }
 
 #siteMapWhereAreWe{
 top: 61.5%;
-left: 70px;     
+left: 70px;
 }
 
 #siteMapWhereAreWe:after{
@@ -2749,7 +2750,7 @@ float: right;
 
 #siteMapSiteMap{
 top: 72%;
-left: 70px;     
+left: 70px;
 }
 
 #siteMapPrint{
@@ -2772,7 +2773,7 @@ float: right;
 
 #siteMapDigital{
 top: 30%;
-left: 510px;     
+left: 510px;
 }
 
 #siteMapDigital:after{
@@ -2788,12 +2789,12 @@ float: right;
 
 #siteMapDevelopment{
 top: 30%;
-left: 710px;     
+left: 710px;
 }
 
 #oxford{
 top: 52%;
-left: 310px;  
+left: 310px;
 }
 
 #portsmouth{
@@ -2808,7 +2809,7 @@ left: 650px;
 
 #birmingham{
 top: 59%;
-left: 310px;  
+left: 310px;
 }
 
 #leeds{
@@ -2823,7 +2824,7 @@ left: 650px;
 
 #edinburgh{
 top: 66%;
-left: 310px;  
+left: 310px;
 }
 
 #norwitch{
@@ -2838,7 +2839,7 @@ left: 650px;
 
 #york{
 top: 73%;
-left: 310px;  
+left: 310px;
 }
 
 #bath{
@@ -2860,11 +2861,11 @@ color: black;
 }
 
 .miniHolderForSectionWithNumberAndTextClass:hover .miniNumberSiteMap{
-border: 3px solid #dc1233;   
+border: 3px solid #dc1233;
 }
 
 .miniHolderForSectionWithNumberAndTextClass:hover .boldTextSiteMap{
-color: black;   
+color: black;
 }
 
 #siteMapFramework{
@@ -2901,7 +2902,7 @@ height: 35px;
 padding-top: 3px;
 display: block;
 float: left;
-text-align: center;    
+text-align: center;
 }
 
 .miniNumberSiteMap span{
@@ -2941,7 +2942,7 @@ font-size: 16px;
 padding-top: 2px;
 padding-left: 40px;
 margin: 0;
-color: #bcbdc0;    
+color: #bcbdc0;
 }
 
 .minTextSiteMap h6{
@@ -2950,6 +2951,5 @@ margin: 0;
 padding-top: 1px;
 padding-left: 40px;
 font-size: 12px;
-color: #bcbdc0;   
+color: #bcbdc0;
 }
-

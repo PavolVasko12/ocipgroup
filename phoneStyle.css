@@ -496,6 +496,8 @@ width: 100%;
   width:90%;
   margin:auto;
   height:auto;
+  z-index: 0;
+  position: static;
 }
 
 #whereAreWeSideTextBox ul{
@@ -510,10 +512,16 @@ width: 100%;
 
 #whereAreWeContentHolder{
   background: none;
+  height: auto;
 }
 
-#mapPhone{
+#map{
   width:100%;
+  z-index: 0;
+  position: static;
+  display: block;
+  top:0;
+  height:445px;
 }
 
 /* =================================================
