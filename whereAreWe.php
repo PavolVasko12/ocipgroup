@@ -23,6 +23,5 @@
       <div id="findOutMoreButton"><p>Find out more</p></div>
     </div>
     <iframe id="map" src="//mapkit.io/embed/JYTl9P" frameborder="0"></iframe>
-    <img src="MEDIA/mapPhone.jpg" class="mobileImage" id="mapPhone" alt="Map">
   </div>
 </div>
