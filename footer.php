@@ -2,9 +2,9 @@
           <div id="footerHolderInner">
             <p><strong>&copy; OCIP GROUP</strong> 2017. All rights reserved.</p>
               <ul id="footerUl">
-                   <a class="anchorInTheNavigationMenu" href="index.php" alt="OCIP - Home Page"><li class="footerListClass">Home</li></a>
+                   <a class="index.anchorInTheNavigationMenu" href="index.php" alt="OCIP - Home Page"><li class="footerListClass">Home</li></a>
                    <a href="index.php#letsGetStartedHolder" id="servicesFooterListId" class="anchorInTheNavigationMenu" alt="OCIP - services link"><li class="footerListClass">Services</li></a>
-                   <a class="anchorInTheNavigationMenu" id="priceFooterLink"><li class="footerListClass">Prices</li></a>
+                   <a href="index.php#holderForOurRates" id="priceFooterLink"><li class="footerListClass">Prices</li></a>
                    <a class="anchorInTheNavigationMenu" href="all-galleries.php" alt="OcipGroup - Our Work"><li class="footerListClass">Our Work</li></a>
                    <li class="footerListClass">Blog</li>
                    <li class="footerListClass">Contact</li>
@@ -25,7 +25,7 @@
               <ul id="footerUl">
                    <a class="anchorInTheNavigationMenu" href="index.php" alt="OCIP - Home Page"><li class="footerListClass">Home</li></a>
                    <a href="index.php#letsGetStartedHolder" id="servicesFooterListId" class="anchorInTheNavigationMenu" alt="OCIP - services link"><li class="footerListClass">Services</li></a>
-                   <a class="anchorInTheNavigationMenu" id="priceFooterLink"><li class="footerListClass">Prices</li></a>
+                    <a href="index.php#holderForOurRates" id="priceFooterLink"><li class="footerListClass">Prices</li></a>
                    <a class="anchorInTheNavigationMenu" href="all-galleries.php" alt="OcipGroup - Our Work"><li class="footerListClass">Our Work</li></a>
                    <li class="footerListClass">Blog</li>
                    <li class="footerListClass">Contact</li>

@@ -2,7 +2,7 @@
 <nav>
     <div id="navContent">
         <div id="leftSideNav">
-            <img id="navLogo" src="MEDIA/ocipLogo.png" alt="OcipGroup Logo">
+             <a href="index.php"><img id="navLogo" src="MEDIA/ocipLogo.png" alt="OcipGroup Logo"></a>
         </div>
         <div id="rightSideNav">
 
