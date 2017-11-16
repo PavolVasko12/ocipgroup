@@ -92,7 +92,7 @@ display: block;
   width:80%;
   margin:auto;
   position: relative;
-  top: 50px;
+  top: 10px;
 }
 
 #imageOnSLideOne{
@@ -137,6 +137,20 @@ margin-left: 42.5%;
 width: 90%;
 margin-left: 5%;
 text-align: left;
+}
+    
+#wAwContentHolder h2{
+    font-size: 40px;
+    font-family: OpenSans-SemiBold;
+    margin-left: 1%;
+    text-align: left;
+}
+
+#wAwContentHolder h4{
+    font-size: 25px;
+     margin-left: 1%;
+    text-align: left;
+    margin-bottom: 40px;
 }
 
 #wAwContentHolder p{
@@ -702,5 +716,7 @@ width: 100%;
     #printBottomGalleryHolder{
     height: 120px;
     }
+    
+
     
 }

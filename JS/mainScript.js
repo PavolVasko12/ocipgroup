@@ -33,15 +33,13 @@ $(document).ready(function(){
                 SMOOTH SLIDER
     ========================================*/
     
-    $("#priceNavigationLink").on('click', function(){
-        console.log("PRICE CLICK");
+    $("#priceNavigationLink, #priceFooterLink").on('click', function(){
        $('html,body').animate({
            scrollTop: $('#holderForOurRates').offset().top
        },1000);
     });
     
-      $("#servicesNavListId").on('click', function(){
-        console.log("PRICE CLICK");
+      $("#servicesNavListId, #servicesFooterListId").on('click', function(){
        $('html,body').animate({
            scrollTop: $('#letsGetStartedHolder').offset().top
        },1000);
