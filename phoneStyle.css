@@ -1,4 +1,4 @@
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
 
 @viewport{
       zoom: 1.0;
@@ -650,5 +650,49 @@ width: 100%;
 #rightGalleryDiv{
 width: 100%;
 }
+    
+    
+ /*==================================
+  DEVELOPMENT PAGE FROM HERE
+===============================*/   
+    #topLeftHolder,#topRightHolder,#bottomLeftHolder,#bottomRightHolder{
+        width: 100%;
+    }
 
+    #topRightHolder img{
+        margin-top: 0px;
+    }
+    
+    .developmentBoldMainText, .developmentRegularMainText{
+        margin-left: 5%;
+    }
+    
+    #digitalBottomLeftHolder{
+       width:100%;
+    }
+    
+    #digitalBottomLeftHolder img {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+     }
+    
+    #topRightHolder.printTopRigthHolder img {
+    margin-top: 80px;
+    margin-bottom: 150px;
+    }
+    
+
+#printCarImageFloatedInTheMiddle {
+    height: 20%;
+    top: 82%;
+    width: 90%;
+    margin-left: 7%;
+    }
+    
+    #printBottomGalleryHolder{
+    height: 120px;
+    }
+    
 }

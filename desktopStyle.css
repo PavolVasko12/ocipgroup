@@ -455,10 +455,15 @@ width: 10%;
 #wAwContentHolder h2{
     font-size: 60px;
     font-family: OpenSans-SemiBold;
+    margin-left: 22%;
+    text-align: left;
 }
 
 #wAwContentHolder h4{
     font-size: 25px;
+     margin-left: 22%;
+    text-align: left;
+    margin-bottom: 40px;
 }
 
 #pOnThewAw{
@@ -471,7 +476,7 @@ width: 60%;
 }
 
 #wAwButton{
-  margin: 50px auto;
+  margin: 30px auto;
   height:30px;
   border:2px solid #000000;
   width: 175px;
@@ -545,11 +550,13 @@ width: 60%;
 
 #letsGetStartedHolderInner h2{
     font-size: 42.6px;
+    margin-bottom: 5px;
 }
 
 #letsGetStartedHolderInner h4{
     font-size: 19px;
     margin-bottom: 100px;
+    margin-top: 0px;
 }
 
 .threeDivsInsideLetsGetStarted{
@@ -1192,7 +1199,7 @@ max-width: 100%;
 }
 
 #bottomLeftWhyUs{
-  width:34%;
+  width:33%;
   margin-top:20px;
 }
 
@@ -1296,9 +1303,10 @@ max-width: 100%;
 }
 
 #holderOurRatesLeftSideHeader{
-width: 49%;
+width: 48.5%;
 padding-right: 100px;
 float: left;
+margin-left: 0.5%;
 }
 
 
@@ -1678,13 +1686,14 @@ color: #cecece;
   background-color: rgba(255,255,255,0.9);
   position: relative;
   z-index: 1;
+    padding-left: 1%;
 }
 
 #whereAreWeSideTextBox h2{
   font-family: OpenSans-SemiBold;
   font-size: 42.6px;
   margin-bottom:0;
-  margin-top: 5px;
+  padding-top: 30px;
 }
 
 #whereAreWeSideTextBox h4{
@@ -2357,6 +2366,9 @@ padding-top: 28px;
 /*<>>><><><><><><><><><><><><><><><><><><><><><><><><><>
             DEVELOPMENT NEW PAGE FROM HERE
 <><><><><><><<><><><><><><<><><><><><><><><><><><><><<><>*/
+.developmentBoldMainText{
+    margin-left: 1%;
+}
 
 #developmentHeaderImage{
 width: 100%;
@@ -2579,7 +2591,7 @@ background-size: 100% auto;
 
 #printCarImageFloatedInTheMiddle{
 width: 80%;
-height: 55%;
+height: 60%;
 position: absolute;
 top: 40%;
 margin-left: 15%;
