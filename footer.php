@@ -28,7 +28,8 @@
                    <li class="footerListClass">Our Work</li>
                    <li class="footerListClass">Blog</li>
                    <li class="footerListClass">Contact</li>
-                   <li class="footerListClass">Sitemap</li>
+                   <li class="footerListClass">Where are we?</li>
+                  <li class="footerListClass">Sitemap</li>
               </ul>
               <p><strong>&copy; OCIP GROUP</strong> 2017. All rights reserved.</p>
           </div>

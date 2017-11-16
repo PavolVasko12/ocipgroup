@@ -721,6 +721,7 @@ columns: 2;
 padding: 0;
 line-height: 210%;
 font-size: 15px;
+/*list-style-image: url('MEDIA/tickIcon.svg');*/
 }
 
 .listInHidenGetStarted
@@ -2028,7 +2029,7 @@ font-family: OpenSans-SemiBold;
 
 
 #rightSideWork{
-width: 40%;
+width: 41.6%;
 margin-left: 5%;
 display: block;
 float: left;
@@ -2352,7 +2353,7 @@ padding-top: 28px;
 
 #developmentHeaderImage{
 width: 100%;
-height: 600px;
+height: 500px;
 background: url('MEDIA/digitalPrintDevelopmentSections/Ocip-development-Services.jpg') no-repeat;
 opacity: 0.9;
 background-size: cover;
@@ -2373,7 +2374,7 @@ font-size: 50px;
 color: white;
 padding: 0;
 margin: 0;
-padding-top: 275px;
+padding-top: 225px;
 }
 
 .developmentBoldMainText{
@@ -2398,8 +2399,7 @@ height: auto;
 background-color: white;
 display: inline-block;
 float: left;
-padding: 30px;
-padding-top: 0px;
+padding: 0px 30px 60px 30px;
 }
 
 #topLeftHolder h2{
@@ -2408,7 +2408,7 @@ font-size: 40px;
 }
 
 #topLeftHolder p{
-padding-top: 25px;
+padding-top: 8px;
 }
 
 #topRightHolder, #bottomLeftHolder, #bottomRightHolder{
@@ -2474,12 +2474,464 @@ background: url("MEDIA/arrowRightRed.svg") no-repeat;
             ALL GALERIES NEW PAGE FROM HERE
 <><><><><><><<><><><><><><<><><><><><><><><><><><><><<><>*/
 
-#allHeaderImage{
+#allGalleriesHeaderImage{
 width: 100%;
-height: 600px;
+height: 500px;
 background: url('MEDIA/digitalPrintDevelopmentSections/ocip-all-galleries.jpg') no-repeat;
 opacity: 1;
 background-size: cover;
 background-position: center;
 border-bottom: 5px solid black;
 }
+
+
+
+/*<>>><><><><><><><><><><><><><><><><><><><><><><><><><>
+            DIGITAL NEW PAGE FROM HERE
+<><><><><><><<><><><><><><<><><><><><><><><><><><><><<><>*/
+
+#digitalHeaderImage{
+width: 100%;
+height: 500px;
+background: url('MEDIA/digitalPrintDevelopmentSections/Ocip-Digital-Services.jpg') no-repeat;
+opacity: 0.9;
+background-size: cover;
+background-position: center;
+border-bottom: 5px solid black;
+}
+
+
+#digitalBottomLeftHolder{
+width: 50%;
+display: inline-block;
+float: left;
+background-color: #f2f3f5;
+}
+
+#topGalleryHolder.topGalleryHolderClass{
+background-color: white;
+}
+
+#digitalBottomLeftHolder img{
+width: 95%;
+margin-left: 2.5%;
+}
+
+#topRightHolder.digitalTopRightHolder{
+background: url('MEDIA/digitalPrintDevelopmentSections/digitial-laptop-image.jpg') no-repeat;
+background-size: auto 100%;
+background-position: center;
+height: 450px;
+}
+
+
+
+
+
+
+/*<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+            PRINT NEW PAGE FROM HERE
+<><><><><><><<><><><><><><<><><><><><><><><><><><><><<><>*/
+
+#printHeaderImage{
+width: 100%;
+height: 500px;
+background: url('MEDIA/digitalPrintDevelopmentSections/ocip-print-service.jpg') no-repeat;
+opacity: 0.9;
+background-size: cover;
+background-position: center;
+border-bottom: 5px solid black;    
+}
+
+#printGalleryHolder{
+position: relative;
+width: 1206px;
+max-width: 100%;
+height: auto;
+margin: auto;
+display: block;
+overflow: hidden;    
+}
+
+#topRightHolder.printTopRigthHolder img{
+width: 80%;
+margin-left: 10%;
+margin-top: 50px;
+}
+
+
+#topGalleryHolder.printTopGalleryHolderClass{
+background-color: #354359;
+}
+
+#printBottomGalleryHolder{
+width: 100%;
+height: 340px;
+background: url('MEDIA/digitalPrintDevelopmentSections/print-grass.jpg') no-repeat;
+background-size: 100% auto;
+}
+
+#printCarImageFloatedInTheMiddle{
+width: 80%;
+height: 55%;
+position: absolute;
+top: 40%;
+margin-left: 15%;
+background: url('MEDIA/digitalPrintDevelopmentSections/print-car.png') no-repeat;
+background-size: 100% auto;
+z-index: 20;
+}
+
+
+/*<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+            SITE MAP NEW PAGE FROM HERE
+<><><><><><><<><><><><><><<><><><><><><><><><><><><><<><>*/
+#siteMapHeaderImage{
+width: 100%;
+height: 500px;
+background: url('MEDIA/SiteMap/siteMapHeaderImage.jpg') no-repeat;
+opacity: 0.9;
+background-size: cover;
+background-position: bottom;
+background-position: center;
+border-bottom: 5px solid black;   
+}
+
+#holderForHeadingText{
+width: 1206px;
+max-width: 100%;
+margin: auto;
+margin-top: 50px;
+}
+
+#holderForHeadingText h1{
+font-family: OpenSans-semiBold;
+font-size: 70px;
+}
+
+#holderForHeadingText h2{
+font-family: OpenSans-regular;
+font-size: 33px;
+margin-top: 0px;
+}
+
+#siteMapBoydWithLinks{
+width: 1206px;
+max-width: 100%;
+margin: auto;
+margin-top: 100px;
+height: 700px;
+position: relative;
+}
+
+.holderForSectionWithNumberAndTextClass{
+width: 230px;
+height: auto;
+position: absolute;   
+}
+
+.miniHolderForSectionWithNumberAndTextClass{
+width: 200px;
+height: auto;
+position: absolute;  
+}
+
+#informationSiteMap{
+width: 550px;
+height: 80px;
+background-color: #f0f0f0;
+position: absolute;
+top: -80px;
+left: 350px;
+}
+
+#informationSiteMap h6{
+padding-left: 12px;  
+font-family: OpenSans-Bold;
+font-size: 14px;
+}
+
+#informationSiteMap p{
+padding-left: 12px;
+font-family: OpenSans-regular;
+font-size: 12px;
+}
+
+#littleIconOnInfoSiteMap{
+width: 20px;
+height: 20px;
+top: -90px;
+left: 610px;
+background-color: #f0f0f0;
+position: absolute;
+border-radius: 50% 50%;
+text-align: center;
+font-family: OpenSans-Bold;
+}
+
+.boldTextParagraph{
+font-family: OpenSans-Bold;
+}
+
+#siteMapHome{
+top: -2.5%;
+left: 70px;
+}
+
+#siteMapServices{
+top: 9%;
+left: 110px;
+}
+
+#siteMapPrices{
+top: 17.5%;
+left: 110px;    
+}
+
+#siteMapOurWork{
+top: 30%;
+left: 70px;
+}
+
+#siteMapOurWork:after{
+content: "";
+background: url('MEDIA/SiteMap/blackLine.png') no-repeat;
+width: 32px;
+height: 2px;
+margin-top: -15px;
+display: block;
+float: right;
+}
+
+
+#siteMapBlog{
+top: 40.5%;
+left: 70px;   
+}
+
+#siteMapContact{
+top: 51%;
+left: 70px; 
+}
+
+#siteMapWhereAreWe{
+top: 61.5%;
+left: 70px;     
+}
+
+#siteMapWhereAreWe:after{
+content: "";
+background: url('MEDIA/SiteMap/blackLine.png') no-repeat;
+width: 32px;
+height: 2px;
+margin-top: -15px;
+display: block;
+float: right;
+}
+
+#siteMapSiteMap{
+top: 72%;
+left: 70px;     
+}
+
+#siteMapPrint{
+top: 30%;
+left: 310px;
+}
+
+#siteMapPrint:after{
+content: "";
+background: url('MEDIA/SiteMap/grayLine.png') no-repeat;
+width: 32px;
+height: 3px;
+margin-top: -15px;
+margin-right: 40px;
+display: block;
+float: right;
+}
+
+
+
+#siteMapDigital{
+top: 30%;
+left: 510px;     
+}
+
+#siteMapDigital:after{
+content: "";
+background: url('MEDIA/SiteMap/grayLine.png') no-repeat;
+width: 32px;
+height: 3px;
+margin-top: -15px;
+margin-right: 40px;
+display: block;
+float: right;
+}
+
+#siteMapDevelopment{
+top: 30%;
+left: 710px;     
+}
+
+#oxford{
+top: 52%;
+left: 310px;  
+}
+
+#portsmouth{
+top: 52%;
+left: 480px;
+}
+
+#london{
+top: 52%;
+left: 650px;
+}
+
+#birmingham{
+top: 59%;
+left: 310px;  
+}
+
+#leeds{
+top: 59%;
+left: 480px;
+}
+
+#manchester{
+top: 59%;
+left: 650px;
+}
+
+#edinburgh{
+top: 66%;
+left: 310px;  
+}
+
+#norwitch{
+top: 66%;
+left: 480px;
+}
+
+#cardiff{
+top: 66%;
+left: 650px;
+}
+
+#york{
+top: 73%;
+left: 310px;  
+}
+
+#bath{
+top: 73%;
+left: 480px;
+}
+
+#plymouth{
+top: 73%;
+left: 650px;
+}
+
+.holderForSectionWithNumberAndTextClass:hover .numberSiteMap{
+border: 3px solid #dc1233;
+}
+
+.holderForSectionWithNumberAndTextClass:hover .boldTextSiteMap{
+color: black;
+}
+
+.miniHolderForSectionWithNumberAndTextClass:hover .miniNumberSiteMap{
+border: 3px solid #dc1233;   
+}
+
+.miniHolderForSectionWithNumberAndTextClass:hover .boldTextSiteMap{
+color: black;   
+}
+
+#siteMapFramework{
+width: 70px;
+height: auto;
+}
+
+#siteMapLittleFramework{
+width: 40px;
+height: auto;
+position: absolute;
+top: 11.7%;
+left: 70px;
+}
+
+.numberSiteMap{
+border: 3px solid #bcbdc0;
+border-radius: 50% 50%;
+height: auto;
+width: 45px;
+height: 45px;
+padding-top: 3px;
+display: block;
+float: left;
+text-align: center;
+}
+
+.miniNumberSiteMap{
+border: 3px solid #bcbdc0;
+border-radius: 50% 50%;
+height: auto;
+width: 35px;
+height: 35px;
+padding-top: 3px;
+display: block;
+float: left;
+text-align: center;    
+}
+
+.miniNumberSiteMap span{
+font-family: OpenSans-semiBold;
+font-size: 18px;
+}
+
+.numberSiteMap span{
+font-family: OpenSans-semiBold;
+font-size: 22px;
+}
+
+.textSiteMap{
+width: 160px;
+float: left;
+}
+
+.textSiteMap h5{
+padding: 0;
+font-size: 20px;
+padding-left: 15px;
+margin: 0;
+color: #bcbdc0;
+}
+
+.textSiteMap h6{
+padding: 0;
+margin: 0;
+padding-left: 15px;
+font-size: 14px;
+color: #bcbdc0;
+}
+
+.minTextSiteMap h5{
+padding: 0;
+font-size: 16px;
+padding-top: 2px;
+padding-left: 40px;
+margin: 0;
+color: #bcbdc0;    
+}
+
+.minTextSiteMap h6{
+padding: 0;
+margin: 0;
+padding-top: 1px;
+padding-left: 40px;
+font-size: 12px;
+color: #bcbdc0;   
+}
+

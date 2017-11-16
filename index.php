@@ -4,11 +4,11 @@
 <!-------------- HEAD FROM HERE --------------->  
 <?php require_once('head.php'); ?>
     
+
 <!-------------- BODY FROM HERE ------------------>
-<body>
-   
+<body>    
 <!------------------ NAVIGATION FROM HERE ------------------->
-<?php  require_once('navigation.php'); ?> 
+<?php  require_once('navigation.php'); ?>
 
 
 <!------------------ HEADER FROM HERE - 4 IMAGES - COURSEL --------------->
@@ -537,8 +537,8 @@ Have look at our rates section and you will see that we are offering some amazin
     <ul id="ulForGalleryImageChanging">
          <li class="leftArrowForChangingTheGalleryImage">&#60;</li>
         <a href="all-galleries.php" alt="Link to OCIP gallery"><li class="listForChangingTheGalleryImage activeListGallery">All</li></a>
-        <li class="listForChangingTheGalleryImage">Print</li>
-        <li class="listForChangingTheGalleryImage">Digital</li>
+         <a href="ocip-print.php" alt="OCIP - Our Work Print"><li class="listForChangingTheGalleryImage">Print</li></a>
+        <a href="ocip-digital.php" alt="OCIP - Our Work Digital"><li class="listForChangingTheGalleryImage">Digital</li></a>
         <a href="ocip-development.php" alt="OCIP - Development gallery"><li class="listForChangingTheGalleryImage">Development</li></a>
          <li class="rightArrowForChangingTheGalleryImage">&#62;</li>
     </ul>
@@ -612,7 +612,7 @@ Have look at our rates section and you will see that we are offering some amazin
     
 
    <!----------------- FOOTER FROM HERE DESKTOP UNTIL 800PX ---------------->
-       <?php require_once('footer.php'); ?>
+    <?php require_once('footer.php'); ?>
 
 
    <!------------- SCRIPTS FROM HERE ---------------->

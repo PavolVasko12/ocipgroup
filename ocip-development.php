@@ -5,15 +5,15 @@
 <?php require_once('head.php'); ?>
     
 <!-------------- BODY FROM HERE ------------------>
-<body>
-   
+<body> 
+    
 <!------------------ NAVIGATION FROM HERE ------------------->
 <?php  require_once('navigation.php'); ?> 
     
 <!---------------- MAIN HEADER IMAGE/BANNER ---------------->
 <div id="developmentHeaderImage">
     <div class="developmentHeaderMainTextHolder">
-        <h1><span class="developmentBoldMainText">OUR WORK</span> <span class="developmentRegularMainText">DEVELOPMENT</span></h1>
+        <h1><span class="developmentBoldMainText">Our work</span> <span class="developmentRegularMainText">development</span></h1>
     </div>
 </div>
     
@@ -27,15 +27,15 @@
             </div>
 
             <div id="rightSideWork">
-              <p><strong>OCIP Group have dedicated in-house development with all-round knowledge of not just coding, but planning, building &emp; after-launch expertise.</strong> Using comprehensive back-end &emp; front-end skills, OCIP can take your ideas &emp; using their years of experience in the industry, produce accessible &emp; beautiful websites with superior functionality.</p>
+              <p><strong>OCIP Group have dedicated in-house development with all-round knowledge of not just coding, but planning, building &amp; after-launch expertise.</strong> Using comprehensive back-end &amp; front-end skills, OCIP can take your ideas &amp; using their years of experience in the industry, produce accessible &amp; beautiful websites with superior functionality.</p>
             </div>
     </div>
     
     <ul id="ulForGalleryImageChanging">
          <li class="leftArrowForChangingTheGalleryImage">&#60;</li>
         <a href="all-galleries.php" alt="OCIP - All galleries link"><li class="listForChangingTheGalleryImage">All</li></a>
-        <li class="listForChangingTheGalleryImage">Print</li>
-        <li class="listForChangingTheGalleryImage">Digital</li>
+        <a href="ocip-print.php" alt="OCIP - Our Work Print"><li class="listForChangingTheGalleryImage">Print</li></a>
+        <a href="ocip-digital.php" alt="OCIP - Our Work Digital"><li class="listForChangingTheGalleryImage">Digital</li></a>
         <li class="listForChangingTheGalleryImage activeListGallery">Development</li>
          <li class="rightArrowForChangingTheGalleryImage">&#62;</li>
     </ul>

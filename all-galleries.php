@@ -6,14 +6,14 @@
     
 <!-------------- BODY FROM HERE ------------------>
 <body>
-   
+
 <!------------------ NAVIGATION FROM HERE ------------------->
 <?php  require_once('navigation.php'); ?> 
     
 <!---------------- MAIN HEADER IMAGE/BANNER ---------------->
-<div id="allHeaderImage">
+<div id="allGalleriesHeaderImage">
     <div class="developmentHeaderMainTextHolder">
-        <h1><span class="developmentBoldMainText">OUR </span> <span class="developmentRegularMainText">WORK</span></h1>
+        <h1><span class="developmentBoldMainText">Our </span> <span class="developmentRegularMainText">work</span></h1>
     </div>
 </div>
     
@@ -34,8 +34,8 @@
     <ul id="ulForGalleryImageChanging">
          <li class="leftArrowForChangingTheGalleryImage">&#60;</li>
         <li class="listForChangingTheGalleryImage activeListGallery">All</li>
-        <li class="listForChangingTheGalleryImage">Print</li>
-        <li class="listForChangingTheGalleryImage">Digital</li>
+         <a href="ocip-print.php" alt="OCIP - Our Work Print"><li class="listForChangingTheGalleryImage">Print</li></a>
+        <a href="ocip-digital.php" alt="OCIP - Our Work Digital"><li class="listForChangingTheGalleryImage">Digital</li></a>
         <a href="ocip-development.php" alt="OCIP - Development gallery link"><li class="listForChangingTheGalleryImage">Development</li></a>
          <li class="rightArrowForChangingTheGalleryImage">&#62;</li>
     </ul>

@@ -211,5 +211,15 @@ float: right;
 width: 100px;
 padding-top: 28px;
 }
+    
+    
+    
+/*<>>><><><><><><><><><><><><><><><><><><><><><><><><><>
+            DIGITAL NEW PAGE FROM HERE
+<><><><><><><<><><><><><><<><><><><><><><><><><><><><<><>*/
 
+#topRightHolder.digitalTopRightHolder{
+height: 500px;
+}
+    
 }

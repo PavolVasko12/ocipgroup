@@ -1,3 +1,6 @@
+
+
+
 $j(window).load(function() {
   $("#flexiselDemo3").flexisel({
         visibleItems: 4,
@@ -12,6 +15,7 @@ $j(window).load(function() {
 
 
 $(document).ready(function(){
+    
     
     /*=======================================
                  NAV MENU
