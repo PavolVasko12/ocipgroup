@@ -183,10 +183,25 @@ padding-top: 28px;
     
 /* =====================================
             DIGITAL PAGE FROM HERE
-================================*/
+=======================================*/
 .pOnDigital{
 padding-top: 0px !important;
 }
 
     
+/* =====================================
+         PRINT PAGE FROM HERE
+======================================*/
+#topRightHolder.printTopRigthHolder img{
+margin-top: 180px;
+}  
+    
+#printCarImageFloatedInTheMiddle{
+top: 53%;
+}
+    
+    #topRightHolder img{
+    margin-top: 130px;
+    }
+
 }

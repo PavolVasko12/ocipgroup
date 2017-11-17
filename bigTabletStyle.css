@@ -222,4 +222,22 @@ padding-top: 28px;
 height: 500px;
 }
     
+    
+    
+    
+/* =====================================
+         PRINT PAGE FROM HERE
+======================================*/
+    #topRightHolder.printTopRigthHolder img{
+    margin-top: 120px;
+    }     
+    
+#printCarImageFloatedInTheMiddle{
+top: 47%;
+}
+    
+    #topRightHolder img{
+    margin-top: 80px;
+    }
+    
 }

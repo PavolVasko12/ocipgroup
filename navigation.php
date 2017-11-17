@@ -2,7 +2,7 @@
 <nav>
     <div id="navContent">
         <div id="leftSideNav">
-            <img id="navLogo" src="MEDIA/ocipLogo.png" alt="OcipGroup Logo">
+             <a href="index.php"><img id="navLogo" src="MEDIA/ocipLogo.png" alt="OcipGroup Logo"></a>
         </div>
         <div id="rightSideNav">
 
@@ -25,8 +25,8 @@
           <div id="navTextInTheListPlusCloseIcon"><p>NAVIGATION</p></div>
             <ul id="navMenuUl">
                 <a class="anchorInTheNavigationMenu" href="index.php" alt="OCIP - Home Page"><li class="navigationMenuList">Home</li></a>
-                <a id="servicesNavListId" class="anchorInTheNavigationMenu" alt="OCIP - services link"><li class="navigationMenuList">Services</li></a>
-                <a class="anchorInTheNavigationMenu" href="#" alt="OcipGroup - Prices"><li class="navigationMenuList">Prices</li></a>
+                <a href="index.php#letsGetStartedHolder" id="servicesNavListId" class="anchorInTheNavigationMenu" alt="OCIP - services link"><li class="navigationMenuList">Services</li></a>
+                <a class="anchorInTheNavigationMenu" id="priceNavigationLink"><li class="navigationMenuList">Prices</li></a>
                 <a class="anchorInTheNavigationMenu" href="all-galleries.php" alt="OcipGroup - Our Work"><li class="navigationMenuList">Our Work</li></a>
                 <a class="anchorInTheNavigationMenu" href="#" alt="OcipGroup - Blog"><li class="navigationMenuList">Blog</li></a>
                 <a class="anchorInTheNavigationMenu" href="ocip-contactPage.php" alt="OcipGroup - Contact"><li class="navigationMenuList">Contact</li></a>

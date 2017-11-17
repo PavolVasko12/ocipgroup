@@ -28,6 +28,22 @@ $(document).ready(function(){
     });
     
 
+      
+    /*=======================================
+                SMOOTH SLIDER
+    ========================================*/
+    
+    $("#priceNavigationLink, #priceFooterLink").on('click', function(){
+       $('html,body').animate({
+           scrollTop: $('#holderForOurRates').offset().top
+       },1000);
+    });
+    
+      $("#servicesNavListId, #servicesFooterListId").on('click', function(){
+       $('html,body').animate({
+           scrollTop: $('#letsGetStartedHolder').offset().top
+       },1000);
+    });
     
     /*=======================================
            MAKE THE SLIDER FULL HEIGHT
