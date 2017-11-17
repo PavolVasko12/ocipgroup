@@ -1673,6 +1673,7 @@ color: #cecece;
   height: 512px;
   width:1206px;
   margin: auto;
+  overflow: hidden;
 }
 
 #map{
@@ -1690,22 +1691,13 @@ color: #cecece;
   background-color: rgba(255,255,255,0.9);
   position: relative;
   z-index: 1;
-<<<<<<< HEAD
   padding-top: 20px;
-=======
-    padding-left: 1%;
->>>>>>> e64c6066bddde151067e0bce4ea6265fb969b1ff
 }
 
 #whereAreWeSideTextBox h2{
   font-family: OpenSans-SemiBold;
   font-size: 42.6px;
   margin-bottom:0;
-<<<<<<< HEAD
-  margin-top:0;
-=======
-  padding-top: 30px;
->>>>>>> e64c6066bddde151067e0bce4ea6265fb969b1ff
 }
 
 #whereAreWeSideTextBox h4{
