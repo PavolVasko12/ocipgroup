@@ -1,4 +1,4 @@
- 
+
 <nav>
     <div id="navContent">
         <div id="leftSideNav">
@@ -29,7 +29,7 @@
                 <a class="anchorInTheNavigationMenu" href="#" alt="OcipGroup - Prices"><li class="navigationMenuList">Prices</li></a>
                 <a class="anchorInTheNavigationMenu" href="all-galleries.php" alt="OcipGroup - Our Work"><li class="navigationMenuList">Our Work</li></a>
                 <a class="anchorInTheNavigationMenu" href="#" alt="OcipGroup - Blog"><li class="navigationMenuList">Blog</li></a>
-                <a class="anchorInTheNavigationMenu" href="#" alt="OcipGroup - Contact"><li class="navigationMenuList">Contact</li></a>
+                <a class="anchorInTheNavigationMenu" href="ocip-contactPage.php" alt="OcipGroup - Contact"><li class="navigationMenuList">Contact</li></a>
            </ul>
               <div id="contactUsSocialBlock" class="socialIconsNavMenu">
               <object>
