@@ -2958,8 +2958,6 @@ font-size: 12px;
 color: #bcbdc0;
 }
 
-<<<<<<< HEAD
-
 
 
 /*<><><><><><><><><><><><><><><><><><><><><><><><><><><>
@@ -3047,7 +3045,11 @@ margin-bottom: 8px;
 
 #innerHolderFourZeroFour a{
 text-decoration: none;
-=======
+}
+
+
+
+
 /*<>>><><><><><><><><><><><><><><><><><><><><><><><><><>
             CONTACT NEW PAGE FROM HERE
 <><><><><><><<><><><><><><<><><><><><><><><><><><><><<><>*/
@@ -3185,5 +3187,4 @@ font-family: OpenSans-Light;
 
 #contactUsPL-RightBlock{
   flex:1;
->>>>>>> aa254110512aa2d73b8fc91f5f9757e041b30aa7
 }
