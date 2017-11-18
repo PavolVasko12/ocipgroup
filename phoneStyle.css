@@ -92,7 +92,7 @@ display: block;
   width:80%;
   margin:auto;
   position: relative;
-  top: 10px;
+  top: -20px;
 }
 
 #imageOnSLideOne{
@@ -718,5 +718,48 @@ width: 100%;
     }
     
 
+    
+    
+/*<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+            404 PAGE FROM HERE
+<><><><><><><<><><><><><><<><><><><><><><><><><><><><<><>*/
+
+
+#innerHolderFourZeroFour{
+padding: 150px 0px 50px 0px;
+}
+
+#innerHolderFourZeroFour h1{
+font-size: 40px;
+margin-bottom: 12px;
+}
+
+#innerHolderFourZeroFour h3{
+font-size: 16px;
+margin-bottom: 6px;
+}
+
+#buttonFourZeroFour{
+  height: 40px;
+  width: 200px;
+}
+
+
+#buttonFourZeroFour p{
+  font-size: 16px;
+  padding: 6px 5px 5px 10px;
+}
+
+
+#buttonFourZeroFour p:after{
+    width: 24px;
+    height: 24px;
+}
+
+#buttonFourZeroFour:hover{
+    box-shadow: inset 200px 0px 0 0 #ba2a32;
+}
+
+    
     
 }
