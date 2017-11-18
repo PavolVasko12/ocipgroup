@@ -37,5 +37,9 @@
            <div id="contactUsPL-RightBlock">
                 <div id="latestInfoHolder"><h2>LATEST INFO<h2></div>
                 <p style="margin-top:10px;">Sign up to our newsletter from OCIP about the latest news, discounts, offers and much more.</p>
+                <form action="_self" id="contactUsPL-form">
+                   <input class="contactUsInput" type="text" name="emailBox" placeholder="Email: * " id="emailBox">
+                   <button type="submit" id="buttonFormPL" value="Subscribe"><span class="iconAfterButton">Subscribe</span></button>
+                </form>
            </div>
        </div>
