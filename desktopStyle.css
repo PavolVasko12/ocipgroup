@@ -2009,6 +2009,34 @@ transition: all 1s;
 }
 
 
+/*------VALIDATION FORM --------*/
+.equationError, .nameError, .enquiryError, .emailError{
+text-align: center;
+background-color: white;
+color: red;
+font-size: 12px;
+padding: 5px 0px;
+margin: 5px 0px;
+opacity: .8;
+}
+
+#formMessage, #errorMessage{
+width: 50%;
+text-align: center;
+background-color: white;
+color: green;
+font-size: 17px;
+padding: 7px 0px 1px 0px;
+margin: 5px 0px;
+}
+
+#formMessage p{
+color: forestgreen;
+}
+
+#errorMessage p{
+color: red;
+}
 
 /*=========================================
     OUR WORK TEXT AND GALLERY  FROM HERE
@@ -2221,7 +2249,7 @@ height:20px;
 clear:both;
 }
 
-#flexiselDemo1, #flexiselDemo2, #flexiselDemo3 {
+#flexiselDemo3 {
 display:none;
 }
 
@@ -3188,3 +3216,7 @@ font-family: OpenSans-Light;
 #contactUsPL-RightBlock{
   flex:1;
 }
+
+
+
+
