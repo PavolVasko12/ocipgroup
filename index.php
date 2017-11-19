@@ -1,3 +1,5 @@
+<?php include "processContactForm.php"; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -583,7 +585,7 @@ Have look at our rates section and you will see that we are offering some amazin
 
 
     <!----------------- CONTACT US - FROM HERE ---------------->
-       <?php require_once('contact-us.php'); ?>
+       <?php include('contact-us.php'); ?>
 
 
    <!----------------- FOOTER FROM HERE DESKTOP UNTIL 800PX ---------------->

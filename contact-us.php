@@ -25,21 +25,27 @@
               <div id="haveAProjectHolder"><h2>HAVE A PROJECT?<h2></div>
               <p>To discuss your website design or print project, however large or small, submit a mesage using the ‘Enquiry’ form below. Alternatively, you can email us at <strong>enquiry@ocip-group.com</strong> or phone us on <strong>01296 340890</strong>.</p>
               <p style="float:right;"><strong>Please check required fields</strong></p>
-              <form id="formBoxes">
+            <!--------- CONTACT FORM FROM HERE ---->
+              <?php if (isset($successMsg)) { echo '<div id="formMessage"><p>', $successMsg , '</p></div>'; } ?>
+              <?php if (isset($errorMsg)) { echo '<div id="errorMessage"><p>', $errorMsg , '</p></div>'; } ?>
+              <form id="formBoxes" name="theform" action="#formBoxes" method="POST">
                 <div id="contactUsLeftBoxes">
-                  <input type="text" class="contactUsInput" id="name" name="firstname" placeholder="Name: * ">
-                  <input type="text" class="contactUsInput" id="cname" name="companyname" placeholder="Company Name: ">
-                  <input type="text" class="contactUsInput" id="email" name="email" placeholder="Email: * ">
+                  <input type="text" class="contactUsInput" id="name" name="firstName" placeholder="Name: *">
+                     <?php if (isset($nameRequired)) { echo $nameRequired; } ?>
+                  <input type="text" class="contactUsInput" id="cname" name="companyName" placeholder="Company Name: ">
+                  <input type="text" class="contactUsInput" id="email" name="email" placeholder="Email: *">
+                     <?php if (isset($emailInvalid)) { echo $emailInvalid; } ?>
                 </div>
                 <div id="contactUsMiddleBoxes">
-                  <textarea id="messageContactUs" name="messageBox" placeholder="Enquiry: * "></textarea>
+                     <?php if (isset($enquiryRequired)) { echo $enquiryRequired; } ?>
+                  <textarea id="messageContactUs" name="messageBox" placeholder="Enquiry: *"></textarea> 
                 </div>
                 <div id="contactUsRightBoxes">
                   <div class="contactUsInput" id="topEqua">198 + 9 =</div>
-                  <input type="text" class="contactUsInput" id="eqbox" name="equationbox" placeholder="Type equation here: * ">
-                  <input id="buttonContactUs" type="submit" value="Send">
+                  <input type="text" class="contactUsInput" required id="eqbox" name="equationBox" placeholder="Type equation here: *">
+                  <input id="buttonContactUs" name="action" type="submit" value="Send">
                 </div>
-              </form>
+              </form>    
               <p style="text-align:center;"><strong>Please note: all fields marked * are required</strong></p>
             </div>
           </div>
