@@ -1907,48 +1907,34 @@ margin: 10px 6px 0px 0px;
   border: 2px solid #000000;
   height:42px;
   padding-left: 2%;
-  transition: all 1s;
-  box-shadow: inset 0px 0px 0 0 #000000;
-
 }
 
 .contactUsInput::-webkit-input-placeholder {
 color: #000000 !important;
 font-family: OpenSans-Regular;
 margin-left: 2%;
-transition: all 1s;
 }
 
 .contactUsInput:-moz-placeholder { /* Firefox 18- */
 color: #000000 !important;
 font-family: OpenSans-Regular;
 margin-left: 2%;
-transition: all 1s;
 }
 
 .contactUsInput::-moz-placeholder {  /* Firefox 19+ */
 color: #000000 !important;
 font-family: OpenSans-Regular;
 margin-left: 2%;
-transition: all 1s;
 }
 
 .contactUsInput:-ms-input-placeholder {
 color: #000000 !important;
 font-family: OpenSans-Regular;
 margin-left: 2%;
-transition: all 1s;
 }
 
 .contactUsInput:focus{
-  box-shadow: inset 180px 0px 0 0 #000000;
-  color: #fa5e5c;
   outline: none;
-}
-
-.contactUsInput:focus::-webkit-input-placeholder{
-  color: #fa5e5c !important;
-  transition: all 1s;
 }
 
 #messageContactUs{
@@ -3358,9 +3344,8 @@ transition: all 1s;
   width:50%;
 }
 
-<<<<<<< HEAD
-#name{
-  background-image:url("./MEDIA/nameIconForm.svg") no-repeat 7px 7px;
+#textAboveFormContactPage{
+  text-align: left;
+  margin-bottom: 60px;
+  margin-top:40px;
 }
-=======
->>>>>>> 492a6132f09897443133e4dbb15996712554138d
