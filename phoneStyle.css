@@ -35,7 +35,7 @@ p {
 
 #burgerLogoHolder{
   position: relative;
-  left:30%;
+  right: -40%;
 }
 
 .navMenuPopUpWindowOpen{
@@ -59,14 +59,14 @@ margin-right: 8%;
 display: block;
 }
 
-.burgerLogoHolderClass:hover{
+/*.burgerLogoHolderClass:hover{
 background: url('MEDIA/navMenuIconDarkRed.png') no-repeat;
 background-position: 24px 10px;
 background-color: black;
 opacity: 0.8;
-background-size: 50% 35%;
+background-size: 35% 20%;
 border-radius: 10px 10px 0px 0px;
-}
+}*/
 
 .triangleDownIconClass{
 display: none;
@@ -76,21 +76,26 @@ margin-top: 35px;
 margin-left: 38px;
 }
 
-.burgerLogoHolderClass:hover .triangleDownIconClass{
+/*.burgerLogoHolderClass:hover .triangleDownIconClass{
 display: block;
-}
+}*/
 
 /*================================================
             HEADER FROM HERE - 4 IMAGES
 ==================================================*/
-
+    #watchVideoGarySlideButton{
+     margin: auto;
+    }
+    
+    
 #pOnHeaderIMageONe{
   font-size: 15px;
 }
 
 .holderOnHeader{
-  width:80%;
+  width: 90%;
   margin:auto;
+  text-align: left;
   position: relative;
   top: -20px;
 }
@@ -105,7 +110,9 @@ display: block;
 }
 
 .carousel-indicators{
-  left:90%;
+    width: 30%;
+    left: 0%;
+    margin-left: 35%;
 }
 
 #headerThreeImage{

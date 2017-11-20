@@ -1,3 +1,37 @@
+@media (hover: hover) {
+    .burgerLogoHolderClass:hover{
+background: url('MEDIA/navMenuIconDarkRed.png') no-repeat;
+background-position: 29px 16px;
+background-color: black;
+opacity: 0.8;
+background-size: 35% 20%;
+border-radius: 10px 10px 0px 0px;
+cursor: pointer;
+}
+    
+.navigationMenuList:hover:after{
+content: "";
+background: url("MEDIA/arrowRightDarkRed.svg") no-repeat;
+width: 24px;
+height: 24px;
+float: right;
+}
+
+.navigationMenuList:hover:before{
+content: "";
+background: url("MEDIA/navLeftCoverPaddingImage.svg") no-repeat;
+width: 8px;
+height: 30px;
+float: left;
+margin-left: -15px;
+}
+    
+    .burgerLogoHolderClass:hover .triangleDownIconClass{
+display: block;
+}
+}
+
+
 @font-face {
     font-family: Allura;
     src: url(./FONTS/Allura-Regular.ttf);
@@ -211,7 +245,7 @@ text-decoration: none;
 cursor: pointer;
 }
 
-.navigationMenuList:hover:after{
+/*.navigationMenuList:hover:after{
 content: "";
 background: url("MEDIA/arrowRightDarkRed.svg") no-repeat;
 width: 24px;
@@ -226,7 +260,7 @@ width: 8px;
 height: 30px;
 float: left;
 margin-left: -15px;
-}
+}*/
 
 .burgerLogoHolderClass{
 margin-top: 30px;
@@ -238,7 +272,7 @@ background-position: 29px 16px;
 background-size: 35% 20%;
 }
 
-.burgerLogoHolderClass:hover{
+/*.burgerLogoHolderClass:hover{
 background: url('MEDIA/navMenuIconDarkRed.png') no-repeat;
 background-position: 29px 16px;
 background-color: black;
@@ -246,7 +280,7 @@ opacity: 0.8;
 background-size: 35% 20%;
 border-radius: 10px 10px 0px 0px;
 cursor: pointer;
-}
+}*/
 
 .triangleDownIconClass{
 display: none;
@@ -256,9 +290,9 @@ margin-top: 35px;
 margin-left: 38px;
 }
 
-.burgerLogoHolderClass:hover .triangleDownIconClass{
+/*.burgerLogoHolderClass:hover .triangleDownIconClass{
 display: block;
-}
+}*/
 
 
 .burgerLogoHolderClassWhenCLicked{
