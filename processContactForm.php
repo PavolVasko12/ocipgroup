@@ -14,17 +14,17 @@ $subject = "OCIP - Online form";
 $message = $enquiry;
 
     if($name === '') :
-        $nameRequired = '<div class="errorMessage">Name is required</div>';
+        $nameRequired = '<div class="nameError">Name is required</div>';
         $formErrors = true;
         endif;
 
     if($enquiry === '') :
-        $enquiryRequired = '<div class="errorMessage">Enquiry is required</div>';
+        $enquiryRequired = '<div class="enquiryError">Enquiry is required</div>';
         $formErrors = true;
         endif;
 
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) :
-        $emailInvalid = '<div class="errorMessage">Invalid email address</div>';
+        $emailInvalid = '<div class="emailError">Invalid email address</div>';
         $formErrors = true;
         endif;
     
@@ -32,7 +32,7 @@ $message = $enquiry;
      
     
         if(mail('pavol.vasko.sk@gmail.com', $subject, $message, $headers)):
-            $successMsg = "Message send successfully!";
+            $successMsg = "Thank you for taking the time to message us. We will be in contact shortly";
             else:
             $errorMsg = "Error sending message!";
       endif;
