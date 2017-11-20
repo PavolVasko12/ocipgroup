@@ -1,7 +1,7 @@
 <div id="whereAreWeHolder">
   <div id="whereAreWeContentHolder">
-      <div id="whereAreWeGradient">
-      </div>
+      <!-- for map gradient <div id="whereAreWeGradient">
+      </div> --> 
     <div id="whereAreWeSideTextBox">
       <h2>Where are we?</h2>
       <h4>Providing services to whole of the UK</h4>

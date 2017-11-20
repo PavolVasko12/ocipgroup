@@ -22,8 +22,10 @@
     <div id="contactPageContentHolder">
       <h2>Get in touch</h2>
       <h4>Like to start your project?</h4>
+
       <p><span class="boldText">To make contact simply fill out enquiry form below, but you can also call us on 01296 340890</span></p>
 <p id="textOnContactUs">If you would like to enquire into a service we provide or have a question regarding a project you have. Don’t hesitate to get in contact. Simply fill out the enquiry form below and a member of our team will be in contact with you shorlty.
+
       </p>
         <p id="requiredFieldsMessage"><strong>Please check required fields</strong></p>
     <!--------- FORM FROM HERE ---->
