@@ -6,7 +6,7 @@
 
 <body>
   <!------------------ NAVIGATION FROM HERE ------------------->
-  <?php  require_once('navigation.php'); ?>
+  <?php require_once('navigation.php'); ?>
 
   <!---------------- MAIN HEADER IMAGE/BANNER ---------------->
   <div id="contactHeaderImage">
