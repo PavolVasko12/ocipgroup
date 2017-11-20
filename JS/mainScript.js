@@ -132,23 +132,27 @@ $(document).ready(function(){
         var pattern = /^\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b$/i;
         if(nameFromForm != "")
             {
-               $('div.nameError').remove();
+               //$('div.nameError').remove();
+                $('#name').css('border', '2px solid black');
                $(':input[type="submit"]').prop('disabled', false);
             }
         if(messageForm != "")
             {
-               $('div.enquiryError').remove();
+               //$('div.enquiryError').remove();
+                $('#messageContactUs').css('border', '2px solid black');
                $(':input[type="submit"]').prop('disabled', false);
             }
         if(result == resultFromForm )
             {
                  $(':input[type="submit"]').prop('disabled', false);
-                 $('div.equationError').remove();
+                 $('#eqbox').css('border', '2px solid black');
+                 //$('div.equationError').remove();
             }
          if(pattern.test(userInput))
             {
                  $(':input[type="submit"]').prop('disabled', false);
-                 $('div.emailError').remove();
+                 //$('div.emailError').remove();
+                $('#email').css('border', '2px solid black');
             } 
     });
      
@@ -167,34 +171,43 @@ $(document).ready(function(){
         var pattern = /^\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b$/i;
         if(name == "")
             {
-                $('#name').before('<div class="nameError">Fill the name</div>');
+                 $('#name').css('border', '2px solid white');
                  $(':input[type="submit"]').prop('disabled', true);
+                 $('#name').css('display', 'block');
             }
         
         if(enquiry == "")
             {
-                $('#messageContactUs').before('<div class="enquiryError">Fill the enquiry field</div>');
+                $('#messageContactUs').css('border', '2px solid white');
+                //$('#messageContactUs').before('<div class="enquiryError">Fill the enquiry field</div>');
                 $(':input[type="submit"]').prop('disabled', true);
+                $('#requiredFieldsMessage').css('display', 'block');
             }
 
         
         if(result != resultFromForm)
             {
-                 $('#eqbox').after('<div class="equationError">Incorrect equation</div>');
+                 $('#eqbox').css('border', '2px solid white');
+                 //$('#eqbox').after('<div class="equationError">Incorrect equation</div>');
                  $(':input[type="submit"]').prop('disabled', true);
+                 $('#requiredFieldsMessage').css('display', 'block');
             }
         
         if(!pattern.test(userInput))
         {
-                $('#email').after('<div class="emailError">Incorrect Email</div>');
+                $('#email').css('border', '2px solid white');
+                //$('#email').after('<div class="emailError">Incorrect Email</div>');
                  $(':input[type="submit"]').prop('disabled', true);
+                 $('#requiredFieldsMessage').css('display', 'block');
         } 
         
         if(name != "" && enquiry != "")
         {
             if(result == resultFromForm && pattern.test(userInput))
                 {
+                    
                     $(':input[type="submit"]').prop('disabled', false);
+                    $('#requiredFieldsMessage').css('display', 'none');
                 }
         }
         

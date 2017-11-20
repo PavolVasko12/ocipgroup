@@ -130,7 +130,9 @@ height: 100vh;
 /* =================================================
         WHO ARE WE?
 =================================================== */
-
+#wAwButton{
+margin: 30px auto 50px auto;
+}
 #wAwHolder{
 background-position: center;
 }
@@ -138,6 +140,7 @@ background-position: center;
 #wAwArrowDown{
 width:15%;
 margin-left: 42.5%;
+margin-bottom: 20px;
 }
 
 #wAwContentHolder{
@@ -146,15 +149,24 @@ margin-left: 5%;
 text-align: left;
 }
     
-#wAwContentHolder h2{
+#whoAreWeh2Desktop{
+    display: none;
     font-size: 40px;
     font-family: OpenSans-SemiBold;
     margin-left: 1%;
     text-align: left;
 }
+    
+    #whoAreWeh2Phone{
+    display: block;
+    font-size: 70px;
+    font-family: OpenSans-SemiBold;
+    margin-left: 1%;
+    text-align: left;
+    }
 
 #wAwContentHolder h4{
-    font-size: 25px;
+    font-size: 33px;
      margin-left: 1%;
     text-align: left;
     margin-bottom: 40px;
@@ -169,11 +181,15 @@ width: 100%;
 
 #letsGetStartedHolderInner{
   height:auto;
-  padding-top: 10px;
+  padding-top: 120px;
 }
 
 #letsGetStartedHolderInner h2{
-  margin:0;
+  display: none;
+}
+    
+#letsGetStartedHolderInner h4{
+  display: none;
 }
 
 .threeDivsInsideLetsGetStarted{
@@ -215,11 +231,15 @@ width: 100%;
 }
 
 .textInsideTheThreeDivs{
+ width: 90%;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin: auto;
   position: static;
   display: block;
-  margin-right: 0;
-  text-align: center;
+  text-align: left;
 }
+
 
 .buttonFindOutMoreInThreeDivs{
   position: static;
@@ -279,8 +299,9 @@ width: 100%;
 
 #leftSideProcess{
   border: 0px;
-  width:100%;
-  text-align: center;
+  width:90%;
+  text-align: left;
+margin: auto;
   float: none;
 }
 
@@ -289,7 +310,7 @@ width: 100%;
   width:90%;
   margin: 10px auto auto auto;
   float: none;
-  text-align: center;
+  text-align: left;
 }
 
 #middlePartProcess > div{

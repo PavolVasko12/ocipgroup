@@ -35,7 +35,8 @@
         <span>i</span>
     </div>
     
-    <!------- SITE MAP HOME ------->
+<!------- SITE MAP HOME ------->
+<a href="index.php" alt="Ocip-Group - Home Page">
     <div class="holderForSectionWithNumberAndTextClass" id="siteMapHome">
         <div class="numberSiteMap">
             <span>1</span>
@@ -45,8 +46,10 @@
             <h6 class="boldTextSiteMap">About us</h6>
         </div>
     </div>
+</a>
     
      <!------- SITE MAP OUR WORK ------->
+<a href="all-galleries.php" alt="Ocip-Group - Our Work">
     <div class="holderForSectionWithNumberAndTextClass" id="siteMapOurWork">
         <div class="numberSiteMap">
             <span>2</span>
@@ -56,24 +59,27 @@
             <h6 class="boldTextSiteMap">Latest examples</h6>
         </div>
     </div>
-    
+    </a>
        <!------- SITE MAP SERVICES ------->
+<a href="index.php#letsGetStartedHolder" alt="Ocip-Group - Services Page">
     <div class="holderForSectionWithNumberAndTextClass" id="siteMapServices">
         <div class="textSiteMap">
             <h5 class="boldTextSiteMap">Services</h5>
             <h6 class="boldTextSiteMap">Our products</h6>
         </div>
     </div>
-    
+    </a>
        <!------- SITE MAP PRICES ------->
+<a href="index.php#holderForOurRates" alt="Ocip-Group - Prices Page">
     <div class="holderForSectionWithNumberAndTextClass" id="siteMapPrices">
         <div class="textSiteMap">
             <h5 class="boldTextSiteMap">Prices</h5>
             <h6 class="boldTextSiteMap">Our rates</h6>
         </div>
     </div>
-    
+    </a>
      <!------- SITE MAP BLOG ------->
+<a href="#" alt="Ocip-Group - Prices Page">
     <div class="holderForSectionWithNumberAndTextClass" id="siteMapBlog">
         <div class="numberSiteMap">
             <span>3</span>
@@ -83,8 +89,9 @@
             <h6 class="boldTextSiteMap">Latest info</h6>
         </div>
     </div>
-    
+    </a>
     <!------- SITE MAP CONTACT ------->
+<a href="ocip-contactPage.php" alt="Ocip-Group - Contact us page">
    <div class="holderForSectionWithNumberAndTextClass" id="siteMapContact">
         <div class="numberSiteMap">
             <span>4</span>
@@ -94,8 +101,9 @@
             <h6 class="boldTextSiteMap">Get in touch</h6>
         </div>
     </div>
-    
+    </a>
      <!------- SITE MAP WHERE ARE WE ------->
+<a href="#" alt="Ocip-Group - Where are we page">
     <div class="holderForSectionWithNumberAndTextClass" id="siteMapWhereAreWe">
         <div class="numberSiteMap">
             <span>5</span>
@@ -105,8 +113,9 @@
             <h6 class="boldTextSiteMap">Areas we cover</h6>
         </div>
     </div>
-    
+    </a>
      <!------- SITE MAP SITE MAP ------->
+<a href="site-map.php" alt="Ocip-Group - Site-map page">
     <div class="holderForSectionWithNumberAndTextClass" id="siteMapSiteMap">
         <div class="numberSiteMap">
             <span>6</span>
@@ -116,8 +125,9 @@
             <h6 class="boldTextSiteMap">Directory</h6>
         </div>
     </div>
-    
+    </a>
       <!------- SITE MAP PRINT ------->
+<a href="ocip-print.php" alt="Ocip-Group - Print page">
     <div class="holderForSectionWithNumberAndTextClass" id="siteMapPrint">
         <div class="numberSiteMap">
             <span>2.1</span>
@@ -127,8 +137,9 @@
             <h6 class="boldTextSiteMap">Our work</h6>
         </div>
     </div>
-    
+    </a>
       <!------- SITE MAP DIGITAL ------->
+<a href="ocip-digital.php" alt="Ocip-Group - Digital page">
     <div class="holderForSectionWithNumberAndTextClass" id="siteMapDigital">
         <div class="numberSiteMap">
             <span>2.2</span>
@@ -138,8 +149,9 @@
             <h6 class="boldTextSiteMap">Our work</h6>
         </div>
     </div>
-    
+    </a>
       <!------- SITE MAP DEVELOPMENT ------->
+<a href="ocip-development.php" alt="Ocip-Group - Development Page">
     <div class="holderForSectionWithNumberAndTextClass" id="siteMapDevelopment">
         <div class="numberSiteMap">
             <span>2.3</span>
@@ -149,9 +161,10 @@
             <h6 class="boldTextSiteMap">Our work</h6>
         </div>
     </div>
-    
+    </a>
     
           <!------- MINI SITE MAP OXFORD ------->
+<a href="#" alt="Ocip-Group - Oxford Page">
     <div class="miniHolderForSectionWithNumberAndTextClass" id="oxford">
         <div class="miniNumberSiteMap">
             <span>1</span>
@@ -161,8 +174,9 @@
             <h6 class="boldTextSiteMap">Are we cover</h6>
         </div>
     </div>
-    
+    </a>
             <!------- MINI SITE MAP PORTSMOUTH ------->
+<a href="#" alt="Ocip-Group - Portsmouth Page">
     <div class="miniHolderForSectionWithNumberAndTextClass" id="portsmouth">
         <div class="miniNumberSiteMap">
             <span>2</span>
@@ -172,8 +186,9 @@
             <h6 class="boldTextSiteMap">Are we cover</h6>
         </div>
     </div>
-    
+    </a>
             <!------- MINI SITE MAP LONDON ------->
+<a href="#" alt="Ocip-Group - London Page">
     <div class="miniHolderForSectionWithNumberAndTextClass" id="london">
         <div class="miniNumberSiteMap">
             <span>3</span>
@@ -183,9 +198,10 @@
             <h6 class="boldTextSiteMap">Are we cover</h6>
         </div>
     </div>
-    
+    </a>
     
           <!------- MINI SITE MAP BIRMINGHAM ------->
+<a href="#" alt="Ocip-Group - Birmingham Page">
     <div class="miniHolderForSectionWithNumberAndTextClass" id="birmingham">
         <div class="miniNumberSiteMap">
             <span>4</span>
@@ -195,8 +211,9 @@
             <h6 class="boldTextSiteMap">Are we cover</h6>
         </div>
     </div>
-    
+    </a>
             <!------- MINI SITE MAP LEEDS ------->
+<a href="#" alt="Ocip-Group - Leeds Page">
     <div class="miniHolderForSectionWithNumberAndTextClass" id="leeds">
         <div class="miniNumberSiteMap">
             <span>5</span>
@@ -206,8 +223,9 @@
             <h6 class="boldTextSiteMap">Are we cover</h6>
         </div>
     </div>
-    
+    </a>
             <!------- MINI SITE MAP MANCHESTER ------->
+<a href="#" alt="Ocip-Group - Manchester Page">
     <div class="miniHolderForSectionWithNumberAndTextClass" id="manchester">
         <div class="miniNumberSiteMap">
             <span>6</span>
@@ -217,8 +235,10 @@
             <h6 class="boldTextSiteMap">Are we cover</h6>
         </div>
     </div>
-    
+    </a>
+
       <!------- MINI SITE MAP EDINBURGH ------->
+<a href="#" alt="Ocip-Group - Edinburgh Page">
     <div class="miniHolderForSectionWithNumberAndTextClass" id="edinburgh">
         <div class="miniNumberSiteMap">
             <span>7</span>
@@ -228,8 +248,10 @@
             <h6 class="boldTextSiteMap">Are we cover</h6>
         </div>
     </div>
-    
+    </a>
+
             <!------- MINI SITE MAP NORWITCH ------->
+<a href="#" alt="Ocip-Group - Norwitch Page">
     <div class="miniHolderForSectionWithNumberAndTextClass" id="norwitch">
         <div class="miniNumberSiteMap">
             <span>8</span>
@@ -239,8 +261,10 @@
             <h6 class="boldTextSiteMap">Are we cover</h6>
         </div>
     </div>
-    
+    </a>
+
             <!------- MINI SITE MAP CARDIFF ------->
+<a href="#" alt="Ocip-Group - Cardiff Page">
     <div class="miniHolderForSectionWithNumberAndTextClass" id="cardiff">
         <div class="miniNumberSiteMap">
             <span>9</span>
@@ -250,8 +274,10 @@
             <h6 class="boldTextSiteMap">Are we cover</h6>
         </div>
     </div>
-    
+    </a>
+
       <!------- MINI SITE MAP YORK ------->
+<a href="#" alt="Ocip-Group - York Page">
     <div class="miniHolderForSectionWithNumberAndTextClass" id="york">
         <div class="miniNumberSiteMap">
             <span>10</span>
@@ -261,8 +287,10 @@
             <h6 class="boldTextSiteMap">Are we cover</h6>
         </div>
     </div>
-    
+    </a>
+
             <!------- MINI SITE MAP BATH ------->
+<a href="#" alt="Ocip-Group - Bath Page">
     <div class="miniHolderForSectionWithNumberAndTextClass" id="bath">
         <div class="miniNumberSiteMap">
             <span>11</span>
@@ -272,8 +300,10 @@
             <h6 class="boldTextSiteMap">Are we cover</h6>
         </div>
     </div>
-    
+    </a>
+
             <!------- MINI SITE MAP PLYMOUTH ------->
+<a href="#" alt="Ocip-Group - Plymouth Page">
     <div class="miniHolderForSectionWithNumberAndTextClass" id="plymouth">
         <div class="miniNumberSiteMap">
             <span>12</span>
@@ -283,7 +313,7 @@
             <h6 class="boldTextSiteMap">Are we cover</h6>
         </div>
     </div>
-    
+    </a>
 </div>
     
 

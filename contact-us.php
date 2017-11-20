@@ -23,11 +23,13 @@
             </div>
             <div id="contactUsRightBlock">
               <div id="haveAProjectHolder"><h2>HAVE A PROJECT?<h2></div>
-              <p>To discuss your website design or print project, however large or small, submit a mesage using the ‘Enquiry’ form below. Alternatively, you can email us at <strong>enquiry@ocip-group.com</strong> or phone us on <strong>01296 340890</strong>.</p>
-              <p style="float:right;"><strong>Please check required fields</strong></p>
+              <p id="contactMessage">To discuss your website design or print project, however large or small, submit a mesage using the ‘Enquiry’ form below. Alternatively, you can email us at <strong>enquiry@ocip-group.com</strong> or phone us on <strong>01296 340890</strong>.</p>
+              <p id="requiredFieldsMessage" class="boldText"><strong>Please check required fields</strong></p>
+                  
             <!--------- CONTACT FORM FROM HERE ---->
-              <?php if (isset($successMsg)) { echo '<div id="formMessage"><p>', $successMsg , '</p></div>'; } ?>
+              <?php if (isset($successMsg)) { echo '<p id="successFormMessage">', $successMsg , '</p>'; } ?>
               <?php if (isset($errorMsg)) { echo '<div id="errorMessage"><p>', $errorMsg , '</p></div>'; } ?>
+              <?php if (isset($emailInvalid)) { echo '<div id="requiredFieldsMessage" class="boldText">Please check required fields</div>'; } ?>
               <form id="formBoxes" name="theform" action="#formBoxes" method="POST">
                 <div id="contactUsLeftBoxes">
                   <input type="text" class="contactUsInput" id="name" name="firstName" placeholder="Name: *">
