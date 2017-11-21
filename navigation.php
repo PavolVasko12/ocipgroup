@@ -17,7 +17,7 @@
               <embed class="socialMediaIcons" src="MEDIA/googleIcon.svg">
             </object>
             <object>
-              <embed class="socialMediaIcons" src="MEDIA/twitterIcon.svg">
+              <embed id="twitterIcon" class="socialMediaIcons" src="MEDIA/twitterIcon.svg">
             </object>
         </div>
          <!-- ------------- NAVIGATION MENU POP UP ---------------- -->

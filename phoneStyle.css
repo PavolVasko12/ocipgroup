@@ -18,7 +18,8 @@ p {
 }
 
 .mobileImage{
-  display:block !important;
+display:block !important;
+margin-top: -30px;
 }
 
 /* ===================================================
@@ -178,18 +179,37 @@ width: 100%;
 /* =================================================
         LET'S GET STARTED FROM HERE
 =================================================== */
-
+    
+    #letsGetStartedHolderPhone{
+    display: block;
+    width: 100%;
+    background-color: #f34947;
+    margin-top: 0px;
+    height: auto;
+    }
+    
+    #letsGetStartedHolderDesktop{
+        display: none;
+    }
+    #numberThreeDevelopmentText{
+        margin-top: 40px;
+    }
+    
+    #thirdDivInsideThreeDivs.developePhoneClass{
+        height: 360px;
+    }
+    
 #letsGetStartedHolderInner{
   height:auto;
   padding-top: 120px;
 }
 
 #letsGetStartedHolderInner h2{
-  display: none;
+display: none;
 }
     
 #letsGetStartedHolderInner h4{
-  display: none;
+display: none;
 }
 
 .threeDivsInsideLetsGetStarted{
@@ -210,14 +230,33 @@ width: 100%;
   margin: auto;
   top:-60px;
   left: 0;
+margin-bottom: 20px;
+}
+    
+    #developmentParagraphPhoneText{
+    margin-top: 30px !important;
+    }
+    
+.developmentIcon{
+width: 20%;
+position: relative;
+    display: block;
+  margin: auto;
+left: 0;
+top: -20px;
+margin-bottom: 40px;
 }
 
 .textNextToCircle{
-  left:5px;
   top:19px;
   width: 100%;
   text-align: center;
 }
+
+.textNextToCircle p{
+margin-top: 20px;
+}
+    
 
 .circleAroundNumber{
   border: 2px solid #000000;
@@ -239,6 +278,10 @@ width: 100%;
   display: block;
   text-align: left;
 }
+    
+    .textInsideTheThreeDivs p{
+        margin-bottom: 40px;
+    }
 
 
 .buttonFindOutMoreInThreeDivs{
@@ -257,6 +300,7 @@ width: 100%;
 #brushIcon{
   position: relative;
   top:-50px;
+margin-bottom: 40px;
 }
 
 #thirdDivInsideThreeDivs{
@@ -272,17 +316,46 @@ width: 100%;
   right:0;
 }
 
+    #printHiddenDivForGetStarted, #digitalHiddenDivForGetStarted, #developmentHiddenDivForGetStarted{
+display: none;
+    }   
+
+
+#hiddenDivForGetStartedPrintPhone, #hiddenDivForGetStartedDigitalPhone, #hiddenDivForGetStartedDevelopmentPhone{
+display: none;
+width: 100%;
+height: 750px;
+border: none;
+background: #ee4745;
+background: -webkit-linear-gradient(#ee4745, #c43737);
+background: -o-linear-gradient(#ee4745, #c43737);
+background: -moz-linear-gradient(#ee4745, #c43737);
+background: linear-gradient(#ee4745, #c43737);
+background: -moz-linear-gradient(#ee4745, #c43737);
+background: linear-gradient(#ee4745, #c43737);
+}   
+
+    
 #twoThirdsOfTheInnerHolder{
-  width:100%;
+width:90%;
+margin-left: 5%;
+ text-align: left;
 }
 
 #twoThirdsOfTheInnerHolder h2{
   font-size: 36px;
+    margin-top:  60px;
+ display: block;
 }
+    
+    #twoThirdsOfTheInnerHolder h4{
+        display: block;
+        margin-bottom: 20px;
+    }
 
 .listInHidenGetStarted{
-  margin-left: 5%;
-  margin-right:5%;
+  margin-left: 0%;
+  margin-right:0%;
 }
 
 .buttonContactUsHiddenDiv{
@@ -291,6 +364,7 @@ width: 100%;
 
 .closeHiddenDivButton{
   margin-right: 45%;
+margin-top: 70px;
 }
 
 /* =================================================
@@ -321,6 +395,8 @@ margin: auto;
 #enquireNowButton{
   position: static;
   margin: auto;
+  margin-bottom: 30px;
+margin-top: 20px;
 }
 
 /* =================================================
@@ -342,7 +418,7 @@ margin: auto;
 
 #getInTouchButton{
   display: block;
-  margin: 10px auto auto auto;
+  margin: 30px auto auto auto;
 }
 
 #middleLeftWhyUs img{
@@ -388,7 +464,16 @@ margin: auto;
 }
 
 #bottomLeftWhyUs #enquireWhyUsButton{
-  margin: 20px auto 20px auto;
+  margin: 20px auto 40px auto;
+}
+    
+#topRightWhyUs img{
+  width:100%;
+}
+
+#topRightWhyUs{
+width: 95%;
+margin-left: 2.5%;
 }
 
 
@@ -417,8 +502,12 @@ margin: auto;
   width:70%;
   margin:auto;
   border:0px;
-  text-align: center;
+  text-align: left;
   display: inline-block;
+}
+    
+#ourRatesHeaderHolder p{
+margin-bottom: 20px;
 }
 
 #holderOurRatesLeftSideHeader{
@@ -427,6 +516,10 @@ margin: auto;
   float:none;
   padding: 0;
 }
+
+    #textUnderPriceTag{
+        margin-bottom: -15px;
+    }
 
 #innerHolderForOurRates{
   padding-top: 10px;
@@ -439,6 +532,7 @@ margin: auto;
   width: 175px;
   border-radius: 25px 25px;
   transition: all 0.5s;
+text-decoration: none;
 }
 
 #downloadButton:active{
@@ -461,7 +555,7 @@ margin: auto;
     height: 20px;
     float: right;
     margin: 0px 6px 0px 10px;
-    box-shadow: inset 0 0 0 0 #000000;
+    box-shadow: inset 0 0 0 0 #fff;
 	  -webkit-transition: all 1s;
 	  -moz-transition: all 1s;
 	  transition: all 1s;
@@ -469,16 +563,16 @@ margin: auto;
 }
 
 #downloadButton:hover{
-    box-shadow: inset 180px 0px 0 0 #000000;
+    box-shadow: inset 180px 0px 0 0 #fff;
     cursor: pointer;
 }
 
 #downloadButton:hover p{
-  color:#ffffff;
+  color:#000;
 }
 
 #downloadButton:hover p:after{
-  background: url("./MEDIA/arrowWhite.svg") no-repeat;
+  background: url("./MEDIA/arrowRightRed.svg") no-repeat;
 }
 
 /*--Three sections --*/
@@ -577,6 +671,7 @@ margin: auto;
 
 #contactUsLeftBlock{
   width:100%;
+    
 }
 
 #contactUsRightBlock{
@@ -618,7 +713,7 @@ margin: auto;
 }
 
 #contactUsLeftBlock{
-  margin-top:150px;
+  margin-top:230px;
 }
 
 #contactUsLeftBlock h2{
