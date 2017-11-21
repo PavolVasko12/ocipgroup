@@ -74,6 +74,7 @@ $(document).ready(function(){
      /*================================================
           PRINT, DIGITAL, DEVELOPMNET HIDDEN DIVS
     ===================================================*/
+if($(window).width() > 600){
    $('#buttonForPrint').on('click', function(){
         console.log("print");
         $('#printHiddenDivForGetStarted, #hiddenDivForGetStarted').css('display', 'block');
@@ -89,17 +90,49 @@ $(document).ready(function(){
     });
     
     $('#buttonForDevelopment').on('click', function(){
-         console.log("deve");
+         console.log("dev");
          $('#developmentHiddenDivForGetStarted, #hiddenDivForGetStarted').css('display', 'block');
         $('#digitalHiddenDivForGetStarted').css('display', 'none');
         $('#printHiddenDivForGetStarted').css('display', 'none');
     });
     
-    $('.closeHiddenDivButton').on('click', function(){
-        $('#printHiddenDivForGetStarted, #digitalHiddenDivForGetStarted, #developmentHiddenDivForGetStarted, #hiddenDivForGetStarted').css('display', 'none');
-    })
-
+   
+}
+    else{
+       $('#buttonForPrintPhone').on('click', function(){
+            console.log("print phone");     
+            $('#printHiddenDivForGetStartedPhone, #hiddenDivForGetStartedPrintPhone').css('display', 'block');
+            $('#digitalHiddenDivForGetStartedPhone').css('display', 'none');
+            $('#developmentHiddenDivForGetStartedPhone').css('display', 'none');
+            $('#hiddenDivForGetStartedDigitalPhone, #hiddenDivForGetStartedDevelopmentPhone').css('disply','none');
+       });
+        
+        $('#buttonForDigitalPhone').on('click', function(){
+        console.log("digital phone");
+         $('#digitalHiddenDivForGetStartedPhone, #hiddenDivForGetStartedDigitalPhone').css('display', 'block');
+        $('#developmentHiddenDivForGetStartedPhone').css('display', 'none');
+        $('#printHiddenDivForGetStartedPhone').css('display', 'none');
+        $('#hiddenDivForGetStartedPrintPhone, #hiddenDivForGetStartedDevelopmentPhone').css('disply','none');
+    });
+         $('#buttonForDevelopmentPhone').on('click', function(){
+         console.log("dev phone");
+         $('#developmentHiddenDivForGetStartedPhone, #hiddenDivForGetStartedDevelopmentPhone').css('display', 'block');
+        $('#digitalHiddenDivForGetStartedPhone').css('display', 'none');
+        $('#printHiddenDivForGetStartedPhone').css('display', 'none');
+        $('#hiddenDivForGetStartedPrintPhone, #hiddenDivForGetStartedDigitalPhone').css('disply','none');
+        
+    });
+        
+   
+    }
+   
     
+    /*=======================================
+                CLOSE SECTIONS BUTTON
+    =======================================*/
+     $('.closeHiddenDivButton').on('click', function(){
+        $('#printHiddenDivForGetStarted, #digitalHiddenDivForGetStarted, #developmentHiddenDivForGetStarted, #hiddenDivForGetStarted, #hiddenDivForGetStartedPrintPhone, #hiddenDivForGetStartedDigitalPhone, #hiddenDivForGetStartedDevelopmentPhone').css('display', 'none');
+    })
     
     /*================================================
                 EQUATIONS FROM HERE
