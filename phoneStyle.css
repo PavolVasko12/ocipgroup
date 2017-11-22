@@ -202,6 +202,7 @@ width: 100%;
 #letsGetStartedHolderInner{
   height:auto;
   padding-top: 120px;
+overflow: hidden;
 }
 
 #letsGetStartedHolderInner h2{
@@ -214,6 +215,8 @@ display: none;
 
 .threeDivsInsideLetsGetStarted{
   width:100%;
+  margin-right: 0px;
+    margin-left: 0px;
 }
 
 .circleForThreeDivs{
@@ -249,8 +252,9 @@ margin-bottom: 40px;
 
 .textNextToCircle{
   top:19px;
-  width: 100%;
+  width: 98%;
   text-align: center;
+  left: 0;
 }
 
 .textNextToCircle p{
@@ -271,17 +275,17 @@ margin-top: 20px;
 
 .textInsideTheThreeDivs{
  width: 90%;
-    margin-right: 0px;
-    margin-left: 0px;
-    margin: auto;
-  position: static;
-  display: block;
-  text-align: left;
+ margin-right: 0px;
+ margin-left: 0px;
+ margin: auto;
+position: static;
+display: block;
+text-align: left;
 }
     
-    .textInsideTheThreeDivs p{
-        margin-bottom: 40px;
-    }
+.textInsideTheThreeDivs p{
+    margin-bottom: 40px;
+}
 
 
 .buttonFindOutMoreInThreeDivs{
@@ -295,6 +299,8 @@ margin-top: 20px;
   width:100%;
   top:50px;
   border: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 #brushIcon{
@@ -305,6 +311,7 @@ margin-bottom: 40px;
 
 #thirdDivInsideThreeDivs{
   margin-top: 100px;
+width: 100%;
 }
 
 .pencilIcon{

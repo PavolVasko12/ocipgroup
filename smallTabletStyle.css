@@ -25,6 +25,9 @@ width: 200px;
 margin-left: 10px;
 }
 
+    .textInsideTheThreeDivs{
+        margin-right: 0px;
+    }
     
     
     
@@ -264,7 +267,7 @@ margin-bottom: 8px;
     }
     
     .textSiteMap{
-            margin-top: -50px;
+            margin-top: -54px;
             margin-left: 40px;
             width: 210px;
     }
@@ -294,7 +297,7 @@ margin-bottom: 8px;
         left: 75px;
     }
     #siteMapServices{
-        top: 7.7%;
+        top: 7.9%;
         left: 75px;
     }
     
