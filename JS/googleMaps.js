@@ -13,7 +13,7 @@ function initMap() {
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         scrollwheel: scrollable,
         draggable: draggable,
-        styles: [{"stylers": [{ "saturation": -50 }]}],
+        styles: [{"stylers": [{ "saturation": -70 }]}],
     });
 
     var locations = [
@@ -21,7 +21,7 @@ function initMap() {
             title: 'PEPSized Coffee',
             position: {lat: 51.818, lng: -0.811317},
             icon: {
-                url: isIE11 ? "images/markers/png/Coffee_3.png" : "MEDIA/ocipMapsPin.png",
+                url: isIE11 ? "MEDIA/ocipMapsPin.png" : "MEDIA/ocipMapsPin.png",
                 scaledSize: new google.maps.Size(80, 90)
             }
 
