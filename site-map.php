@@ -21,9 +21,16 @@
     <h1>Sitemap</h1>
     <h2>Our directory</h2>
 </div>
+    
+<!------------ INFO ON SITEMAP ---------->
+    <div id="informationSiteMapPhone">
+        <h6>Welcome to our directory. Here you will find all our pages for Ocip Group</h6>
+        <p>If you cannot find the information you are looking for or an answer to your question, why not send us an email to <span class="boldTextParagraph">enquiry@ocip-group.com?</span> We would be more than happy to try and help.</p>
+    </div>  
 
 <div id="siteMapBoydWithLinks">
     <img id="siteMapFramework" src="MEDIA/SiteMap/site-map-framework.png" alt="OcipGroup - SiteMap Image - Framework">
+    <img id="siteMapFrameworkPhone" src="MEDIA/SiteMap/site-map-framworkPhone.png" alt="Ocip-Group - SIteMap Image - Framework Phone">
     <img id="siteMapLittleFramework" src="MEDIA/SiteMap/site-map-littleFramework.png" alt="OcipGroup - SiteMap Image - Little framework">
 <!------------ INFO ON SITEMAP ---------->
     <div id="informationSiteMap">
@@ -34,6 +41,12 @@
     <div id="littleIconOnInfoSiteMap">
         <span>i</span>
     </div>
+    
+<!--------- BLACK VERICTAL LINE FOR PHONE ---->
+<img id="blackVeritcalLineWhereAreWe" src="MEDIA/SiteMap/verticalBlackLine%20copy.png" alt="OcipGroup - Vertical black line">
+<img id="blackVeritcalLineWhereAreWeDigital" src="MEDIA/SiteMap/verticalBlackLine%20copy.png" alt="OcipGroup - Vertical black line">
+<img id="blackVeritcalLineWhereAreWeDevelopment" src="MEDIA/SiteMap/verticalBlackLine%20copy.png" alt="OcipGroup - Vertical black line">
+<img id="blackVeritcalLineWhereAreWeCities" src="MEDIA/SiteMap/verticalBlackLine%20copy.png" alt="OcipGroup - Vertical black line">
     
 <!------- SITE MAP HOME ------->
 <a href="index.php" alt="Ocip-Group - Home Page">
@@ -315,7 +328,6 @@
     </div>
     </a>
 </div>
-    
 
 <!----------------- CONTACT US - FROM HERE ---------------->
    <?php require_once('contact-us.php'); ?>

@@ -240,4 +240,96 @@ top: 47%;
     margin-top: 80px;
     }
     
+    
+    #siteMapBoydWithLinks{
+     width: 100%;  
+    }
+    
+/*==========================================
+            SITE MAP
+========================================== */
+#siteMapFramework{
+    display: block;
+}
+    
+    #siteMapFrameworkPhone{
+        display: none;
+    }
+.textSiteMap{
+padding-top: 8px;
+width: 120px;
+}
+.textSiteMap h5{
+font-size: 17px;
+padding-left: 9px;
+}
+    
+.textSiteMap h6{
+padding-left: 10px;
+font-size: 10px;
+}
+    
+    #siteMapOurWork:after{
+        margin-right: -50px;
+        margin-top: 19px;
+    }
+    
+    #siteMapPrint{
+     left: 310px;   
+    }
+    
+    #siteMapPrint:after{
+        margin-right: 30px;
+    }
+    
+    #siteMapDigital{
+        left: 470px;
+    }
+    
+    #siteMapDigital:after{
+     margin-right: 25px;   
+    }
+    
+    #siteMapDevelopment{
+        left: 625px;
+    }
+    
+    #siteMapWhereAreWe:after{
+        margin-top: 20px;
+        margin-right: -50px;
+    }
+    
+    #informationSiteMap{
+        left: 220px;
+        display: block;
+    }
+
+    #littleIconOnInfoSiteMap{
+        display: block;
+    }
+    
+    #littleIconOnInfoSiteMap{
+        left: 485px;
+    }
+    
+    .miniHolderForSectionWithNumberAndTextClass{
+        width: 130px;
+    }
+    
+    .holderForSectionWithNumberAndTextClass{
+        width: 170px;
+    }
+    
+    #holderForHeadingText h2{
+        margin-left: 1%;
+    }
+    
+    #holderForHeadingText h1{
+        margin-left: 1%;
+    }
+    
+    #informationSiteMapPhone, #blackVeritcalLineWhereAreWe, #blackVeritcalLineWhereAreWeDigital, #blackVeritcalLineWhereAreWeDevelopment, #blackVeritcalLineWhereAreWeCities{
+        display: none;
+    }
+    
 }

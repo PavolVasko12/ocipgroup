@@ -238,5 +238,233 @@ font-size: 17px;
 margin: 0px;
 margin-bottom: 8px;
 }
+    
+/*==========================================
+            SITE MAP
+========================================== */
+    #siteMapBoydWithLinks{
+        height: auto;
+        margin-bottom: 100px;
+    }
+    
+    #siteMapFramework, #informationSiteMap, #littleIconOnInfoSiteMap{
+        display: none;
+    }
+    
+    #siteMapFrameworkPhone{
+        display: block;
+        width: 60px;
+        height: auto;
+        margin-left: 19px;
+    }
+    
+    #siteMapHome {
+    top: -1.2%;
+    left: 77px;
+    }
+    
+    .textSiteMap{
+            margin-top: -50px;
+            margin-left: 40px;
+            width: 210px;
+    }
+    
+    .textSiteMap h5 {
+    font-size: 28px;
+    padding-left: 20px;
+    }
+    
+    .textSiteMap h6 {
+    padding-left: 21px;
+        font-size: 15px
+    }
+    
+    #holderForHeadingText h1, #holderForHeadingText h2{
+        margin-left: 5%;
+    }
+    
+    #siteMapLittleFramework{
+        top: 6.7%;
+        left: 77px;
+    }
+    
+    
+    #siteMapPrices{
+        top: 11.5%;
+        left: 75px;
+    }
+    #siteMapServices{
+        top: 7.7%;
+        left: 75px;
+    }
+    
+    #siteMapOurWork{
+         top: 15.8%;
+        left: 77px;
+    }
+    
+    #siteMapOurWork:after{
+        background: none;
+    }
+    
+    #siteMapBlog{
+        top: 38.8%;
+        left: 77px;
+    }
+    
 
+#siteMapContact{
+top: 44.5%;
+left: 77px;
+}
+
+#siteMapWhereAreWe{
+top: 50.15%;
+left: 77px;
+}
+
+
+#siteMapWhereAreWe:after{
+background: none;
+}
+
+#siteMapSiteMap{
+top: 98.5%;
+left: 77px;
+}
+
+#siteMapPrint{
+top: 20.8%;
+left: 77px;
+}
+
+#siteMapPrint:after{
+background: none;
+}
+
+
+
+#siteMapDigital{
+top: 25.8%;
+left: 77px;
+}
+
+#siteMapDigital:after{
+background: none;
+}
+
+#siteMapDevelopment{
+top: 30.7%;
+left: 77px;
+}
+
+#oxford{
+top: 55.1%;
+left: 82px;
+}
+
+#portsmouth{
+top: 58.3%;
+left: 82px;
+}
+
+#london{
+top: 61.5%;
+left: 82px;
+}
+
+#birmingham{
+top: 64.7%;
+left: 82px;
+}
+
+#leeds{
+top: 67.9%;
+left: 82px;
+}
+
+#manchester{
+top: 71.1%;
+left: 82px;
+}
+
+#edinburgh{
+top: 74.3%;
+left: 82px;
+}
+
+#norwitch{
+top: 77.5%;
+left: 82px;
+}
+
+#cardiff{
+top: 80.7%;
+left: 82px;
+}
+
+#york{
+top: 83.9%;
+left: 82px;
+}
+
+#bath{
+top: 87.1%;
+left: 82px;
+}
+
+#plymouth{
+top: 90.3%;
+left: 82px;
+}
+    
+    #blackVeritcalLineWhereAreWe{
+        width: 3px;
+    height: 30px;
+    position: absolute;
+    top: 18.8%;
+    margin-left: 98px;
+    display: block;
+    }
+    
+    #blackVeritcalLineWhereAreWeDigital{
+    width: 3px;
+    height: 30px;
+    position: absolute;
+    top: 23.8%;
+    margin-left: 98px; 
+           display: block;
+    }
+    
+    #blackVeritcalLineWhereAreWeDevelopment{
+    width: 3px;
+    height: 30px;
+    position: absolute;
+    top: 28.73%;
+    margin-left: 98px; 
+           display: block;
+    }
+    
+    #blackVeritcalLineWhereAreWeCities{
+    width: 3px;
+    height: 30px;
+    position: absolute;
+    top: 53.1%;
+    margin-left: 98px;
+           display: block;
+    }
+
+    #informationSiteMapPhone{
+    width: 90%;
+    margin-left: 5%;
+       display: block;
+    }
+    
+    #informationSiteMapPhone h6{
+        margin-top: 40px;
+        font-size: 15px;
+        line-height: 180%;
+font-family: OpenSans-Bold;
+    }
+    
 }
