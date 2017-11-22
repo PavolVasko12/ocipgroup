@@ -9,4 +9,10 @@
       <script src="JS/jquery.flexisel.js" type="text/jscript"></script>
               
       <!------------- MAIN JavaScript ------------->
-    <script src="JS/mainScript.js" type="text/javascript"></script>
+     <script src="JS/mainScript.js" type="text/javascript"></script>
+
+     <!------------- Google Maps JavaScript ------------->
+     <script src="JS/googleMaps.js" type="text/javascript"></script>
+
+    <!------------- Google Maps Key JavaScript ------------->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6TL0ar9l1SlzEmYYu0CEdvWCiqpm9Bkg&callback=initMap" async defer></script>

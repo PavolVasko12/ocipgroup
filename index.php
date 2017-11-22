@@ -451,7 +451,7 @@ Have look at our rates section and you will see that we are offering some amazin
 
 
    <!------------- SCRIPTS FROM HERE ---------------->
-    <?php require_once('scripts.php'); ?>
+    <?php include 'scripts.php'; ?>
 
   </body>
 
