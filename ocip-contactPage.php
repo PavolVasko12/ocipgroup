@@ -34,7 +34,7 @@
       <?php if (isset($emailInvalid)) { echo '<div id="requiredFieldsMessage">Please check required fields</div>'; } ?>
       <form id="formBoxes" method="POST" action="#contactPageFormHolder">
         <div id="contactUsLeftBoxes">
-          <input type="text" class="contactUsInputPL" id="name" name="firstName" placeholder="Name: * ">
+            <input type="text" class="contactUsInputPL" id="name" name="firstName" placeholder="Name: * ">
              <?php if (isset($nameRequired)) { echo $nameRequired; } ?>
           <input type="text" class="contactUsInputPL" id="cname" name="companyname" placeholder="Company Name: ">
           <input type="text" class="contactUsInputPL" id="email" name="email" placeholder="Email: * ">
@@ -47,10 +47,10 @@
         <div id="contactUsRightBoxes">
           <div class="contactUsInputPL" id="topEqua">198 + 9 =</div>
           <input type="text" class="contactUsInputPL" id="eqbox" name="equationbox" placeholder="Type equation here: * ">
-          <input id="buttonContactUs" class="buttonContactUsPL" name="action" type="submit" value="Send">
-        </div>      
+          <button type="submit" class="buttonContactUsPL" id="buttonContactUs" name="action" value="Send"><span id="textSendButton">Send</span></button>
+        </div>
       </form>
-        
+
       <p style="text-align:center;" class="boldText"><strong>Please note: all fields marked * are required</strong></p>
       <div id="contactPageIconsHolder">
         <div class="contactPageIconBox">
