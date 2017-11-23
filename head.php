@@ -11,4 +11,5 @@
       <link rel="stylesheet" style="text/css" href="bigTabletStyle.css">
       <link rel="stylesheet" style="text/css" href="smallTabletStyle.css">
       <link rel="stylesheet" style="text/css" href="phoneStyle.css">
+      <script src="JS/modernizr.js"></script>
   </head>

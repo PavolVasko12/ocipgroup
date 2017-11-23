@@ -1,7 +1,7 @@
 <div id="whereAreWeHolder">
   <div id="whereAreWeContentHolder">
-      <!-- for map gradient <div id="whereAreWeGradient">
-      </div> --> 
+      <div id="whereAreWeGradient">
+      </div>
     <div id="whereAreWeSideTextBox">
       <h2>Where are we?</h2>
       <h4>Providing services to whole of the UK</h4>
@@ -24,7 +24,8 @@
       <p>If you don’t see your town in the list, don’t panic as we can still help. You can see all the towns/cities we cover on the ‘Areas we cover’ page. Visit it by clicking the button below:</p>
       <div id="findOutMoreButton"><p>Find out more</p></div>
     </div>
-    <iframe id="map" src="//mapkit.io/embed/JYTl9P" frameborder="0"></iframe>
+    <div id="map" class="map desk-three-forth"></div>
+    <!-- <iframe id="map" src="//mapkit.io/embed/JYTl9P" frameborder="0"></iframe> -->
   </div>    
 
 </div>
