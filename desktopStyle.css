@@ -1751,6 +1751,16 @@ color: #cecece;
   overflow: hidden;
 }
 
+#map.mapWhereAreWe{
+  z-index: 0;
+  position:absolute;
+  top: 0px;
+  left: 0;
+  width:101%;
+  height:512px;
+  overflow: hidden;
+}
+
 #whereAreWeSideTextBox{
   width:35%;
   height:103%;
@@ -2561,9 +2571,6 @@ font-family: openSans-Bold;
 /*<>>><><><><><><><><><><><><><><><><><><><><><><><><><>
             DEVELOPMENT NEW PAGE FROM HERE
 <><><><><><><<><><><><><><<><><><><><><><><><><><><><<><>*/
-.developmentBoldMainText{
-    margin-left: 1%;
-}
 
 #developmentHeaderImage{
 width: 100%;
@@ -3559,4 +3566,125 @@ transition: all 1s;
   text-align: left;
   margin-bottom: 60px;
   margin-top:40px;
+}
+
+/*<>>><><><><><><><><><><><><><><><><><><><><><><><><><>
+            WHERE ARE WE NEW PAGE FROM HERE
+<><><><><><><<><><><><><><<><><><><><><><><><><><><><<><>*/
+#whereAreWeHeaderHolder{
+  width: 100%;
+  opacity: 0.9;
+  border-bottom: 5px solid black;
+  height:518px;
+}
+
+#whereAreWeTitle{
+  position: relative;
+  z-index: 2;
+  width: 1206px;
+  max-width: 100%;
+  margin:auto;
+}
+
+#whereAreWeTitle h1{
+  color:#000;
+  margin:0;
+}
+
+#wawpHolder{
+  width:100%;
+  background-image: url("MEDIA/bgContentWawp.jpg");
+  background-size: cover;
+  display: block;
+  padding-top: 20px;
+}
+
+#wawpContent{
+  max-width: 100%;
+  width: 1206px;
+  margin: auto;
+  border:2px solid red;
+  display: flex;
+  justify-content: space-between;
+}
+
+#leftSideWawpContent{
+  width:60%;
+}
+
+#rightSideWawpContent{
+  width: 32%;
+  height:970px;
+  border: 2px solid green;
+}
+
+#leftSideWawpContent h2{
+  font-size: 42.6px;
+  font-family: OpenSans-SemiBold;
+}
+
+#leftSideWawpContent h4{
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+#paragAboveListWawp{
+}
+
+.paddingTitleParagWawp{
+  display: block;
+  margin-bottom: -5px;
+}
+
+#listCitiesWamp{
+  columns: 3;
+  -webkit-columns: 3;
+  -moz-columns: 3;
+  padding: 0;
+  line-height: 210%;
+  font-size: 15px;
+  width:50%;
+  margin-bottom: 60px;
+}
+
+#listCitiesWamp li{
+  list-style-type: none;
+}
+
+#listCitiesWamp li:before{
+content: "";
+display: block;
+background: url("MEDIA/tickIconRed.svg") no-repeat;
+width: 12px;
+height: 12px;
+float: left;
+margin: 10px 6px 0px 0px;
+}
+
+.paragWawp{
+  margin-bottom: 30px;
+}
+
+#textBottomWamp{
+  font-size: 14px;
+}
+
+#textButtonWamp:hover{
+  color:#e1564f;
+}
+
+#circleAroundMapWawp{
+  border-radius: 25px;
+  width:100%;
+}
+
+#map.asideWamp{
+  overflow: auto;
+}
+
+#roundMap{
+  width:200px;
+  height:200px;
+  margin: auto;
+  border-radius: 150px;
 }
