@@ -26,7 +26,6 @@ left: 110%;
 =================================================== */
     
 .buttonFindOutMoreInThreeDivs {
-
 bottom: -80px;
 }
 
@@ -168,25 +167,29 @@ width: 45%;
 =================================================== */
 
 textarea, #buttonContactUs, #topEqua{
-font-size: 10px;
+font-size: 14px;
 }   
     
     
 .contactUsInput::-webkit-input-placeholder {
-font-size: 10px;
+font-size: 14px;
 }
 
 .contactUsInput:-moz-placeholder { /* Firefox 18- */
-font-size: 10px;
+font-size: 14px;
 }
 
 .contactUsInput::-moz-placeholder {  /* Firefox 19+ */
-font-size: 10px;
+font-size: 14px;
 }
 
 .contactUsInput:-ms-input-placeholder {
-font-size: 10px;
+font-size: 14px;
 }
+    
+    #buttonContactUs.buttonContactUsPL{
+        width: 70%;
+    }
     
     
     
@@ -331,5 +334,43 @@ font-size: 10px;
     #informationSiteMapPhone, #blackVeritcalLineWhereAreWe, #blackVeritcalLineWhereAreWeDigital, #blackVeritcalLineWhereAreWeDevelopment, #blackVeritcalLineWhereAreWeCities{
         display: none;
     }
+    
+ /*==============================
+        OCIP - Contact PAGE
+===============================*/
+    
+    #contactUsPL-MiddleBlock{
+        display: block;
+        flex:1%;
+    }
+    
+      #contactUsPL-LeftBlock h2{
+        font-size: 30px;
+    }
+    
+    #latestInfoHolder h2{
+        font-size: 30px;
+    }
+    
+    #buttonFormPL{
+        width: 140px;
+    }
+    
+    #emailBox {
+    width: 35%;
+}
+    #contactUsPL-form{
+        justify-content: flex-start;
+    }
+    
+    
+    #contactUsPL-LeftBlock{
+        padding-top: 0px;
+    }
+    
+        #contactUsPL-ContentHolder{
+        width: 100%;
+    }
+    
     
 }

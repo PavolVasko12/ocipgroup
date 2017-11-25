@@ -16,7 +16,7 @@ var roundMap,
 
 
 function initMap() {
-    var myLatLng = {lat: 51.8152358, lng: -0.851317};
+    var myLatLng = {lat: 51.8152358, lng: -0.811317};
     map = new google.maps.Map(document.getElementById('map'), {
         zoom: zoom,
         center: myLatLng,
@@ -39,7 +39,7 @@ function initMap() {
     var locations = [
         {
             map:map,
-            title: 'PEPSized Coffee',
+            title: 'Ocip Group',
             position: {lat: 51.818, lng: -0.811317},
             icon: {
                 url: isIE11 ? "MEDIA/ocipMapsPin.png" : "MEDIA/ocipMapsPin.png",
@@ -50,7 +50,7 @@ function initMap() {
 
         {
             map: roundMap,
-            title: 'PEPSized Coffee',
+            title: 'Ocip Group',
             position: {lat: 51.818, lng: -0.811317},
             icon: {
                 url: isIE11 ? "MEDIA/ocipMapsPin.png" : "MEDIA/ocipMapsPin.png",

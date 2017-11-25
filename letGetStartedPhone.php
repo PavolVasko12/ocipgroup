@@ -107,9 +107,9 @@
                           <div class="circleForThreeDivs"></div>
                          <div class="textNextToCircle"><p id="numberThreeDevelopmentText"><span class="circleAroundNumber">3</span>. Development</p></div>
                          <object>
-                            <embed class="developmentIcon" src="MEDIA/developmentIcon.svg">
+                            <embed class="developmentIcon" src="MEDIA/developmentIconHtml.svg">
                         </object>
-                        <div class="textInsideTheThreeDivs"><p>Website development is a fine art and one that only works well when it is done correctly. From our team of committed and passionate developers, you will see your designs and ideas brought to life with websites that are fully responsive, mobile friendly and created to suit your market. Your success is ours which is why we go all out to turn awesome ideas into reality.</p></div>
+                        <div class="textInsideTheThreeDivs"><p id="developmentText">Website development is a fine art and one that only works well when it is done correctly. From our team of committed and passionate developers, you will see your designs and ideas brought to life with websites that are fully responsive, mobile friendly and created to suit your market. Your success is ours which is why we go all out to turn awesome ideas into reality.</p></div>
                          <div id="buttonForDevelopmentPhone" class="buttonFindOutMoreInThreeDivs"><p>Find out more</p></div>
                     </div>
                       <div id="hiddenDivForGetStartedDevelopmentPhone">

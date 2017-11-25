@@ -39,7 +39,7 @@
                 <p style="margin-top:10px;">Sign up to our newsletter from OCIP about the latest news, discounts, offers and much more.</p>
                 <form action="_self" id="contactUsPL-form">
                    <input class="contactUsInput" type="text" name="emailBox" placeholder="Email: * " id="emailBox">
-                   <button type="submit" id="buttonFormPL" value="Subscribe"><span class="iconAfterButton">Subscribe</span></button>
+                     <input id="buttonFormPL" name="actionSubscribe" type="submit" value="Subscribe">
                 </form>
            </div>
        </div>

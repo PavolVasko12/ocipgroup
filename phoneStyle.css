@@ -25,7 +25,9 @@ margin-top: -30px;
 /* ===================================================
                 NAVIGATION MENU FROM HERE
 ====================================================*/
-
+    #leftSideNav{
+        margin-left: 5%;
+    }
 #leftSideNav img{
   width: 100%;
 }
@@ -192,11 +194,11 @@ width: 100%;
         display: none;
     }
     #numberThreeDevelopmentText{
-        margin-top: 40px;
+        margin-top: 60px;
     }
     
     #thirdDivInsideThreeDivs.developePhoneClass{
-        height: 360px;
+        height: 390px;
     }
     
 #letsGetStartedHolderInner{
@@ -226,6 +228,10 @@ display: none;
 #firstDivInsideThreeDivs{
   border: 0px;
 }
+    
+    #developmentText{
+        margin-top: 60px;
+    }
 
 .printerIcon{
   position: relative;
@@ -340,7 +346,11 @@ background: -moz-linear-gradient(#ee4745, #c43737);
 background: linear-gradient(#ee4745, #c43737);
 background: -moz-linear-gradient(#ee4745, #c43737);
 background: linear-gradient(#ee4745, #c43737);
-}   
+}
+    
+    #hiddenDivForGetStartedDevelopmentPhone{
+        height: 650px;
+    }
 
     
 #twoThirdsOfTheInnerHolder{
@@ -889,6 +899,66 @@ margin-bottom: 6px;
 #buttonFourZeroFour:hover{
     box-shadow: inset 200px 0px 0 0 #ba2a32;
 }
+    
+    
+/* =================================
+        OCIP - CONTACT PAGE 
+=================================== */
+    #contactUsPL-ContentHolder{
+        flex-direction: column-reverse;
+    }
+    
+    #contactUsPL-LeftBlock{
+        padding-top: 30px;
+    }
+    
+    #contactUsPL-ContentHolder{
+        width: 90%;
+    }
+    
+    #emailBox, #buttonFormPL{
+        width: 50%;
+    }
+    
+    #contactUsSocialBlock{
+        padding-left: 38%;
+    }
+    
+    #buttonContactUs.buttonContactUsPL, #buttonContactUs{
+        width: 40%;
+        margin-left: 30%;
+    }
+    
+    .contactBoldMainText{
+        padding-left: 5%;
+    }
+    
+    #contactPageContentHolder{
+        width: 90%;
+        text-align: left;
+    }
+    #contactPageContentHolder p{
+        margin-left: 0px;
+    }
+    
+    #formBoxes{
+        margin-left: 0px;
+    }
+    
+    #contactPageIconsHolder > div {
+    width: 40%;
+    margin-left: 30%;
+}
+    
+    #contactPageIconsHolder{
+        flex-direction: column;
+    }
+    
+    .contactPageIcon{
+        width: 100%;
+    }
+    
+    
 
     
     

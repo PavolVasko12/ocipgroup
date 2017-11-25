@@ -45,7 +45,7 @@
                 <div id="contactUsRightBoxes">
                   <div class="contactUsInput" id="topEqua">198 + 9 =</div>
                   <input type="text" class="contactUsInput" required id="eqbox" name="equationBox" placeholder="Type equation here: *">
-                  <input id="buttonContactUs" name="action" type="submit" value="Send">
+                    <input id="buttonContactUsHome" name="action" type="submit" value="Send">
                 </div>
               </form>    
               <p style="text-align:center;"><strong>Please note: all fields marked * are required</strong></p>
