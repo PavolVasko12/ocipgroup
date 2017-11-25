@@ -9,7 +9,7 @@ var map,
 var roundMap,
 
     desktopScreen = Modernizr.mq( "only screen and (min-width:1024px)" ),
-    zoom = desktopScreen ? 13 : 1,
+    zoom = desktopScreen ? 11 : 1,
     scrollable = draggable = !Modernizr.hiddenscroll || desktopScreen,
     isIE11 = !!(navigator.userAgent.match(/Trident/) && navigator.userAgent.match(/rv[ :]11/));
 
@@ -28,11 +28,12 @@ function initMap() {
 
     roundMap = new google.maps.Map(document.getElementById('roundMap'), {
         zoom: zoom,
-        center: myLatLng,
+        center: {lat: 51.818, lng: -0.811317},
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         scrollwheel: scrollable,
         draggable: draggable,
         styles: [{"stylers": [{ "saturation": -70 }]}],
+        disableDefaultUI: true
     });
 
     var locations = [
@@ -42,7 +43,7 @@ function initMap() {
             position: {lat: 51.818, lng: -0.811317},
             icon: {
                 url: isIE11 ? "MEDIA/ocipMapsPin.png" : "MEDIA/ocipMapsPin.png",
-                scaledSize: new google.maps.Size(80, 90)
+                scaledSize: new google.maps.Size(80, 100)
             }
 
         },

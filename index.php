@@ -5,9 +5,9 @@
 
 <!-------------- HEAD FROM HERE --------------->
 <?php require_once('head.php'); ?>
-    
+
 <!-------------- BODY FROM HERE ------------------>
-<body>    
+<body>
 
 <!------------------ NAVIGATION FROM HERE ------------------->
 <?php  require_once('navigation.php'); ?>
@@ -86,13 +86,13 @@ We are a small friendly digital marketing agency based in Buckinghamshire. With 
       </object>
     </div>
   </div>
-    
-  <!-- --------------- LET'S GET STARTED PHONE - FROM HERE ------- -->   
-<?php include "letGetStartedPhone.php"; ?>  
-    
+
+  <!-- --------------- LET'S GET STARTED PHONE - FROM HERE ------- -->
+<?php include "letGetStartedPhone.php"; ?>
+
   <!-- --------------- LET'S GET STARTED DESKTOP - FROM HERE ------- -->
 <?php include "letGetStartedDesktop.php"; ?>
-     
+
 
 
       <!-- --------------- OUR PROCESS - FROM HERE ------- -->
@@ -449,6 +449,10 @@ Have look at our rates section and you will see that we are offering some amazin
    <!----------------- FOOTER FROM HERE DESKTOP UNTIL 800PX ---------------->
     <?php require_once('footer.php'); ?>
 
+
+
+    <!------------- Google Maps JavaScript ------------->
+    <script src="JS/googleMapsMainPage.js" type="text/javascript"></script>
 
    <!------------- SCRIPTS FROM HERE ---------------->
     <?php include 'scripts.php'; ?>

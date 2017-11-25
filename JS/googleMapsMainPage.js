@@ -1,5 +1,5 @@
 
-var roundMap,
+var map,
 
     desktopScreen = Modernizr.mq( "only screen and (min-width:1024px)" ),
     zoom = desktopScreen ? 13 : 1,
@@ -8,7 +8,7 @@ var roundMap,
 
 function initMap() {
     var myLatLng = {lat: 51.8152358, lng: -0.851317};
-    map = new google.maps.Map(document.getElementById('roundMap'), {
+    map = new google.maps.Map(document.getElementById('map'), {
         zoom: zoom,
         center: myLatLng,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
@@ -23,7 +23,7 @@ function initMap() {
             position: {lat: 51.818, lng: -0.811317},
             icon: {
                 url: isIE11 ? "MEDIA/ocipMapsPin.png" : "MEDIA/ocipMapsPin.png",
-                scaledSize: new google.maps.Size(80, 90)
+                scaledSize: new google.maps.Size(80, 100)
             }
 
         },
@@ -33,7 +33,7 @@ function initMap() {
     locations.forEach( function( element, index ){
         var marker = new google.maps.Marker({
             position: element.position,
-            map: roundMap,
+            map: map,
             title: element.title,
             icon: element.icon,
         });

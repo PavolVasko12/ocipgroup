@@ -115,6 +115,7 @@ h1, h2, h3, h4, h5, h6 , p ,a, li{
   font-family: OpenSans-Bold;
 }
 
+
 /* ===================================================
                 NAVIGATION MENU FROM HERE
 ====================================================*/
@@ -3651,9 +3652,9 @@ transition: all 1s;
   max-width: 100%;
   width: 1206px;
   margin: auto;
-  border:2px solid red;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 20px;
 }
 
 #leftSideWawpContent{
@@ -3662,8 +3663,6 @@ transition: all 1s;
 
 #rightSideWawpContent{
   width: 32%;
-  height:970px;
-  border: 2px solid green;
 }
 
 #leftSideWawpContent h2{
@@ -3676,8 +3675,6 @@ transition: all 1s;
   margin-bottom: 25px;
 }
 
-#paragAboveListWawp{
-}
 
 .paddingTitleParagWawp{
   display: block;
@@ -3731,8 +3728,56 @@ margin: 10px 6px 0px 0px;
 }
 
 #roundMap{
-  width:200px;
-  height:200px;
+  width:300px;
+  height:300px;
   margin: auto;
   border-radius: 150px;
+}
+
+#titleUnderMapWawp{
+  font-family: OpenSans-SemiBold;
+  font-size: 27px;
+  margin-top: 45px;
+}
+
+.underTitleWamp{
+  font-size: 20px;
+}
+
+#listRightContentWamp{
+padding: 0;
+font-size: 13px;
+line-height: 30px;
+margin-bottom: 20px;
+margin-top: 20px;
+list-style-type: none;
+}
+
+
+#listRightContentWamp li:before{
+content: "";
+display: block;
+background: url("MEDIA/tickIconRed.svg") no-repeat;
+width: 12px;
+height: 12px;
+float: left;
+margin: 10px 6px 0px 0px;
+}
+
+#listRightContentWamp li{
+padding: 0;
+font-size: 18px;
+}
+
+
+#listRightContentWamp li{
+  margin:0;
+}
+
+#rightSideWawpContent h3{
+  font-size: 20px;
+}
+
+#finalTextRightContentWawP{
+
 }
