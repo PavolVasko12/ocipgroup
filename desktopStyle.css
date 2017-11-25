@@ -2180,7 +2180,7 @@ float: right;
   background-repeat: no-repeat;
   background-position: 95% 50%;
   background-size: 30px 30px;
-   padding-right: 40px; /* DELETE IF LAYOUT IS WRONG */  
+   padding-right: 40px; /* DELETE IF LAYOUT IS WRONG */
 }
 
 #buttonFormPL{
@@ -2189,7 +2189,7 @@ float: right;
   background-repeat: no-repeat;
   background-position: 95% 50%;
   background-size: 30px 30px;
-   padding-right: 40px; /* DELETE IF LAYOUT IS WRONG */      
+   padding-right: 40px; /* DELETE IF LAYOUT IS WRONG */
 }
 
 
@@ -3419,7 +3419,7 @@ margin-bottom: 30px;
 flex:1%;
 display: block;
 }
-    
+
 #contactUsPL-LeftBlock{
 padding-top: 0px;
 }
@@ -3654,7 +3654,7 @@ transition: all 1s;
   margin: auto;
   display: flex;
   justify-content: space-between;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 #leftSideWawpContent{
@@ -3689,7 +3689,8 @@ transition: all 1s;
   line-height: 210%;
   font-size: 15px;
   width:50%;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 #listCitiesWamp li{

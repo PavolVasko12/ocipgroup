@@ -73,6 +73,9 @@ We offer extremely cheap web services to the Aylesbury/Buckinghamshire vicinity.
   <!----------------- CONTACT US - FROM HERE ---------------->
      <?php require_once('contact-us.php'); ?>
 
+  <!----------------- FOOTER FROM HERE DESKTOP UNTIL 800PX ---------------->
+    <?php require_once('footer.php'); ?>
+
   <!------------- Google Maps JavaScript ------------->
      <script src="JS/googleMaps.js" type="text/javascript"></script>
 

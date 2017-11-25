@@ -437,13 +437,13 @@ Have look at our rates section and you will see that we are offering some amazin
 
 
 
-      <!----------------- WHERE ARE WE - FROM HERE --------->
-        <?php require_once('./whereAreWe.php'); ?>
+    <!----------------- WHERE ARE WE - FROM HERE --------->
+    <?php require_once('./whereAreWe.php'); ?>
 
 
 
     <!----------------- CONTACT US - FROM HERE ---------------->
-       <?php include('contact-us.php'); ?>
+    <?php include('contact-us.php'); ?>
 
 
    <!----------------- FOOTER FROM HERE DESKTOP UNTIL 800PX ---------------->

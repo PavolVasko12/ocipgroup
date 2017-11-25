@@ -24,6 +24,7 @@ function initMap() {
         scrollwheel: scrollable,
         draggable: draggable,
         styles: [{"stylers": [{ "saturation": -70 }]}],
+        disableDefaultUI: true
     });
 
     roundMap = new google.maps.Map(document.getElementById('roundMap'), {

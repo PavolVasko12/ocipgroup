@@ -85,7 +85,8 @@
   <!------------- FOOTER FROM HERE DESKTOP UNTIL 800PX ------------->
      <?php require_once('footer.php'); ?>
 
-
+  <!------------- Google Maps JavaScript ------------->
+     <script src="JS/googleMapsMainPage.js" type="text/javascript"></script>
   <!------------- SCRIPTS FROM HERE ---------------->
     <?php require_once('scripts.php'); ?>
 
