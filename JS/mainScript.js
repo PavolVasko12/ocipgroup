@@ -122,8 +122,6 @@ if($(window).width() > 600){
         $('#hiddenDivForGetStartedPrintPhone, #hiddenDivForGetStartedDigitalPhone').css('disply','none');
         
     });
-        
-   
     }
    
     
@@ -192,7 +190,7 @@ if($(window).width() > 600){
     
     /*============ SUBMIT BUTTON ============ */
     
-    $('#buttonContactUs').on('click', function(){
+    $('#buttonContactUs, #buttonContactUsHome').on('click', function(){
         $('div.enquiryError').remove();
         $('div.nameError').remove();
         $('div.equationError').remove();
