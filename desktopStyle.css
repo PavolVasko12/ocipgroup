@@ -3697,6 +3697,16 @@ transition: all 1s;
   list-style-type: none;
 }
 
+#listCitiesWamp li:hover{
+  color:#e1564f;
+}
+
+#listCitiesWamp a:hover{
+  color:#e1564f;
+}
+
+
+
 #listCitiesWamp li:before{
 content: "";
 display: block;
