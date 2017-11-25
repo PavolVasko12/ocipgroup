@@ -37,12 +37,8 @@ function initMap() {
 
     var locations = [
         {
-<<<<<<< HEAD
-            title: 'Ocip Group',
-=======
             map:map,
-            title: 'PEPSized Coffee',
->>>>>>> 989afdc7035988c72804edaf8af09d1fa97ea5dd
+            title: 'Ocip Group',
             position: {lat: 51.818, lng: -0.811317},
             icon: {
                 url: isIE11 ? "MEDIA/ocipMapsPin.png" : "MEDIA/ocipMapsPin.png",
@@ -53,7 +49,7 @@ function initMap() {
 
         {
             map: roundMap,
-            title: 'PEPSized Coffee',
+            title: 'Ocip Group',
             position: {lat: 51.818, lng: -0.811317},
             icon: {
                 url: isIE11 ? "MEDIA/ocipMapsPin.png" : "MEDIA/ocipMapsPin.png",

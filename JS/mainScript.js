@@ -15,8 +15,6 @@ $j(window).load(function() {
 
 
 $(document).ready(function(){
-    
-    
     /*=======================================
                  NAV MENU
     ========================================*/
@@ -26,9 +24,7 @@ $(document).ready(function(){
         $('#burgerLogoHolder').toggleClass("burgerLogoHolderClassWhenCLicked");
         $('#triangleDownIcon').toggleClass("triangleDisplayWHenClicked");
     });
-    
-
-      
+     
     /*=======================================
                 SMOOTH SLIDER
     ========================================*/

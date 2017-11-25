@@ -2154,6 +2154,7 @@ transition: all 1s;
   height:42px;
   width: 70%;
   color: #000000;
+  transition: 0.5s all;
 }
 
 
