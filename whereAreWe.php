@@ -22,10 +22,10 @@
         <li>Plymouth</li>
       </ul>
       <p>If you don’t see your town in the list, don’t panic as we can still help. You can see all the towns/cities we cover on the ‘Areas we cover’ page. Visit it by clicking the button below:</p>
-      <div id="findOutMoreButton"><p>Find out more</p></div>
+      <a href="whereAreWePage.php"><div id="findOutMoreButton"><p>Find out more</p></div></a>
     </div>
     <div id="map" class="map desk-three-forth"></div>
     <!-- <iframe id="map" src="//mapkit.io/embed/JYTl9P" frameborder="0"></iframe> -->
-  </div>    
+  </div>
 
 </div>

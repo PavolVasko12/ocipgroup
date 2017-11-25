@@ -4,10 +4,10 @@
       <!------------ USING TWO JQUERY LIBRARY - 1.7.1 CAN BE CALLED WITH THE $j ---------->
       <script>var $j = jQuery.noConflict(true);</script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-              
+
       <!------------- FLEXISEL COURSEL SCRIPT ------------->
       <script src="JS/jquery.flexisel.js" type="text/jscript"></script>
-              
+
       <!------------- MAIN JavaScript ------------->
      <script src="JS/mainScript.js" type="text/javascript"></script>
 
