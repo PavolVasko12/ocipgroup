@@ -1,5 +1,6 @@
   <!----------------- LET's GET STARTED DESKTOP - FROM HERE --------->
-      <div id="letsGetStartedHolderDesktop">
+<div id="holderGetStarted">      
+<div id="letsGetStartedHolderDesktop">
             <div id="letsGetStartedHolderInner">
                 <h2>Let's get started</h2>
                 <h4>Choose from the following services</h4>
@@ -140,3 +141,4 @@
            </div>
       </div>
     </div>
+</div>

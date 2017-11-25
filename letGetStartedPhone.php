@@ -1,4 +1,5 @@
   <!-- --------------- LET's GET STARTED PHONE - FROM HERE ------- -->
+<div id="holderGetStarted">     
       <div id="letsGetStartedHolderPhone">
             <div id="letsGetStartedHolderInner">
                 <h2>Let's get started</h2>
@@ -146,4 +147,4 @@
                     </div>
             </div>
       </div>
-
+</div>
