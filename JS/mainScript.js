@@ -37,7 +37,7 @@ $(document).ready(function(){
     
       $("#servicesNavListId, #servicesFooterListId").on('click', function(){
        $('html,body').animate({
-           scrollTop: $('#letsGetStartedHolder').offset().top
+           scrollTop: $('#holderGetStarted').offset().top
        },1000);
     });
     
