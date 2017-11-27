@@ -26,7 +26,7 @@
             <ul id="navMenuUl">
                 <a class="anchorInTheNavigationMenu" href="index.php" alt="OCIP - Home Page"><li class="navigationMenuList">Home</li></a>
                 <a href="index.php#holderGetStarted" id="servicesNavListId" class="anchorInTheNavigationMenu" alt="OCIP - services link"><li class="navigationMenuList">Services</li></a>
-                <a class="anchorInTheNavigationMenu" id="priceNavigationLink"><li class="navigationMenuList">Prices</li></a>
+                <a href="index.php#holderForOurRates" class="anchorInTheNavigationMenu" id="priceNavigationLink"><li class="navigationMenuList">Prices</li></a>
                 <a class="anchorInTheNavigationMenu" href="all-galleries.php" alt="OcipGroup - Our Work"><li class="navigationMenuList">Our Work</li></a>
                 <a class="anchorInTheNavigationMenu" href="#" alt="OcipGroup - Blog"><li class="navigationMenuList">Blog</li></a>
                 <a class="anchorInTheNavigationMenu" href="ocip-contactPage.php" alt="OcipGroup - Contact"><li class="navigationMenuList">Contact</li></a>
