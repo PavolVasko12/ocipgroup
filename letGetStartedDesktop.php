@@ -60,7 +60,7 @@
                         <li class="listInHidenGetStarted">Retail Display Stands</li>
                         <li class="listInHidenGetStarted">Display Boards</li>
                     </ul>
-                <div class="buttonContactUsHiddenDiv"><p>Contact Us</p></div>
+                <a href="ocip-contactPage.php" alt="Coip-group contact us page"><div class="buttonContactUsHiddenDiv"><p>Contact Us</p></div></a>
                 </div>
                 <div id="oneThirdOfTheInnerHolder">
                         <div class="closeHiddenDivButton">
@@ -95,7 +95,7 @@
                         <li class="listInHidenGetStarted">Display Boards</li>
                         <li class="listInHidenGetStarted">UI/UX R&amp;D</li>
                     </ul>
-                <div class="buttonContactUsHiddenDiv"><p>Contact Us</p></div>
+                    <a href="ocip-contactPage.php" alt="Coip-group contact us page"><div class="buttonContactUsHiddenDiv"><p>Contact Us</p></div></a>
                 </div>
                 <div id="oneThirdOfTheInnerHolder">
                         <div class="closeHiddenDivButton">
@@ -127,7 +127,7 @@
                         <li class="listInHidenGetStarted">W3C Complience</li>
                         <li class="listInHidenGetStarted">SEO</li>
                     </ul>
-                <div class="buttonContactUsHiddenDiv"><p>Contact Us</p></div>
+                    <a href="ocip-contactPage.php" alt="Coip-group contact us page"><div class="buttonContactUsHiddenDiv"><p>Contact Us</p></div></a>
                 </div>
                 <div id="oneThirdOfTheInnerHolder">
                         <div class="closeHiddenDivButton">

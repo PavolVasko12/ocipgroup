@@ -503,6 +503,34 @@ font-family: OpenSans-Bold;
         width: 100%;
     }
     
+       #haveAProjectHolder{
+        width: 50%;
+    }
+    
+     #haveAProjectHolder h2{
+        font-size: 24px;
+    }
+    
+    #contactUsLeftBlock h2{
+        font-size: 24px;
+    }
+    
+    
 
+ 
+ /*==============================
+        OCIP - Where are we
+===============================*/
+    
+#listCitiesWamp{
+width: 100%;    
+}
+    
+        
+    #roundMap{
+        width: 190px;
+        height: 190px;
+    }
+    
     
 }

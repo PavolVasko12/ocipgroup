@@ -35,6 +35,12 @@ $(document).ready(function(){
        },1000);
     });
     
+    $("#wAwButton, #enquireNowButton, #enquireWhyUsButton").on('click', function(){
+       $('html, body').animate({
+           scrollTop: $('#contactUsHolder').offset().top
+       }, 1000); 
+    });
+    
       $("#servicesNavListId, #servicesFooterListId").on('click', function(){
        $('html,body').animate({
            scrollTop: $('#holderGetStarted').offset().top

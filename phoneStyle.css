@@ -743,6 +743,12 @@ text-decoration: none;
   padding-top: 30px;
 
 }
+    
+#buttonContactUsHome{
+margin-left: 30%;
+width: 40%; 
+}   
+
 
 
 textarea, #buttonContactUs, #topEqua{

@@ -50,7 +50,7 @@
                 
                 <p class="pOnDigital">Early on in the process, we gathered as much insight on their users as possible, we then created something that reflected the brands image. We know that content is key, good content can not only enhance the company or service, but also balanced with great design, creates excellent user interaction &amp; journey.</p>
                 
-                 <div id="visitWebsiteButton"><p>Visit Website</p></div>
+                <a href="http://packshotsdirect.com/" alt="Link to packshotsdirect.co.uk"><div id="visitWebsiteButton"><p>Visit Website</p></div></a>
             </div>
              <div class="digitalTopRightHolder" id="topRightHolder">
                
