@@ -38,7 +38,7 @@
                   <h1 id="skyLimitText">anywhere, anyhow</h1>
                     <h1 id="startupText">Practical <span id="textOnBusiness">solutions</span></h1>
                   <p id="pOnHeaderIMageONe">Our starter webpack incudes a mobile version of your website. So, whether your at home or on the move you know your customers can easily access your site on any device.</p>
-                  <div id="watchVideoGarySlideButton"><p>Contact us</p></div>
+                  <a href="ocip-contactPage.php" alt="Ocip-Group contact us Page"><div id="watchVideoGarySlideButton"><p>Contact us</p></div></a>
               </div>
           </div>
 
@@ -55,7 +55,7 @@
                 <h1 id="skyLimitText">leave a</h1>
                     <h1 id="startupText">lasting <span id="textOnBusiness">Impression</span></h1>
                   <p id="pOnHeaderIMageONe">Design isn’t great if it doesn’t empathise with viewers and attract and intrigue, making them want to find out more. Stand out from the rest with a site built by us that engages with a ‘Wow’ factor, is utterly compelling and memorable and leaves your clients wanting to communicate.</p>
-                  <div id="watchVideoGarySlideButton"><p>Contact us</p></div>
+                    <a href="ocip-contactPage.php" alt="Ocip-Group contact us Page"><div id="watchVideoGarySlideButton"><p>Contact us</p></div></a>
               </div>
           </div>
     </div>
@@ -80,7 +80,7 @@
       <p id="pOnThewAw"><strong>If you have a web or print project that needs attention, then you have come to the right place.<br><br></strong>
 We are a small friendly digital marketing agency based in Buckinghamshire. With over 10 years’ experience, we work with businesses of all sizes, with start-ups being our speciality. We provide a variety of services including the creation of bespoke artwork and the printing of business cards, A4 flyers, adverts and roller banners. We can also provide photo re-touch & manipulation services, website design and development (from WordPress themes through to e-commerce), logo design and brand development. If you have a project that you would like to know more, please get in contact using the button below. We’re always on hand to help.
 </p>
-      <div id="wAwButton"><p>Get in touch</p></div>
+      <a href="#" alt="Internal link to the contact form"><div id="wAwButton"><p>Get in touch</p></div></a>
       <object>
         <embed id ="wAwArrowDown" src="MEDIA/arrowDown.svg">
       </object>
@@ -135,7 +135,7 @@ We are a small friendly digital marketing agency based in Buckinghamshire. With 
             </div>
           </div>
           <div id="bottomPartProcess">
-            <div id="enquireNowButton"><p>Enquire Now</p></div>
+              <a href="#" alt="Internal link to the contact form"><div id="enquireNowButton"><p>Enquire Now</p></div></a>
           </div>
         </div>
       </div>
@@ -148,7 +148,7 @@ We are a small friendly digital marketing agency based in Buckinghamshire. With 
             <h4>Mobile websites come as standard</h4>
             <p><strong>You cannot afford to ignore the stats;</strong> mobile devices and phones are now fast becoming the chosen choice for browsing the internet. That’s why it’s so important that your website looks and functions as good on the desktop as it does on a mobile device. We take care of this, as well as providing you with a bespoke design, tailored to suit your audience and your needs.
 In addition, our websites are optimised to be as Google friendly as possible, ensuring that you have the very best chance of increasing your page ranking. To find out more on how we can help you, get in touch today. We would love to hear from you.</p>
-            <div id="getInTouchButton"><p>Get in touch</p></div>
+            <a href="ocip-contactPage.php" alt="OCip-Group Contact us page"><div id="getInTouchButton"><p>Get in touch</p></div></a>
             <img src="MEDIA/arrowRightDown.png" alt="Arrow">
           </div>
           <div id="topRightWhyUs">
@@ -167,7 +167,7 @@ In addition, our websites are optimised to be as Google friendly as possible, en
             <p>Unlike many cheaper based agencies, none of our designs are bought templates (although we can provide them if needed). We will talk you through the whole process, advising and discussing your exact needs so that when we come to creating your design - whether it’s a website, logo, banners, animated videos, flyers or brochures - you will receive a hand-crafted tailor-made design that will ‘Wow’ your audience and be the envy of your competitors.
 There are so many benefits to having a bespoke design; from getting key information to your audience whilst maintaining interest, to helping customers navigate and browse the right information to suit them. Get in touch today to see how we can help. You can email us at <strong>enquiry@ocip-group.com</strong> or you can call us on <strong>01296 340890</strong>.</p>
             <img src="MEDIA/arrowLeftDown.png" alt="Arrow Left Down">
-            <div id="ourWorkButton"><p>Our Work</p></div>
+            <a href="all-galleries.php" alt="Ocip-Group our work"><div id="ourWorkButton"><p>Our Work</p></div></a>
           </div>
 
           <!-- END Desktop Version MiddlePartWhyUs -->
@@ -182,7 +182,7 @@ There are so many benefits to having a bespoke design; from getting key informat
           </div>
           <div id="middleRightWhyUs" class="mobileImage">
             <img src="MEDIA/tailoredDesign.jpg" alt="Tailored design">
-            <div id="ourWorkButton"><p>Our Work</p></div>
+            <a href="all-galleries.php" alt="Ocip-Group our work"><div id="ourWorkButton"><p>Our Work</p></div></a>
           </div>
 
           <!-- END Mobile Version MiddlePartWhyUs-->
@@ -192,7 +192,7 @@ There are so many benefits to having a bespoke design; from getting key informat
             <h4>Our websites use the lastest technology</h4>
             <p>If you’re a start-up business you may have several jobs such as logo design, business cards and website to deal with. This is no problem for us as here at OCIP we love working with multi-faceted projects. We can offer you bigger discounts for larger volume of work, helping with your budget and saving you time.
 Have look at our rates section and you will see that we are offering some amazing discounts. So if you’re a start-up business we would love to hear from you. You can email us at <strong>enquiry@ocip-group.com</strong> or you can call us on <strong>01296 340890.</strong></p>
-            <div id="enquireWhyUsButton"><p>Enquire now</p></div>
+              <a href="#" alt="Internal link to the contact form"><div id="enquireWhyUsButton"><p>Enquire now</p></div></a>
           </div>
           <div id="bottomRightWhyUs" class="desktopImage">
             <img src="MEDIA/tablet.jpg" alt="Tablet">
@@ -406,29 +406,34 @@ Have look at our rates section and you will see that we are offering some amazin
 
     <div id="galleryHolder">
         <div id="leftGalleryDiv">
-            <div id="topImageGallery">
-                <img class="imagesInLeftGallerClass" src="MEDIA/WorkGallery/packhotsImage.jpg" alt="Pack Hots Direct Image">
-                <div class="holderForTextOnImages">
-                    <h2 class="textOnAnImageGallery">WEBSITE</h2>
-                    <h6 class="websiteLinkGalleryText">Packhotsdirect.com</h6>
+            <a href="http://packshotsdirect.com/" alt="Packhotsdirect.com website redirect">
+                <div id="topImageGallery">
+                    <img class="imagesInLeftGallerClass" src="MEDIA/WorkGallery/packhotsImage.jpg" alt="Pack Hots Direct Image">
+                    <div class="holderForTextOnImages">
+                        <h2 class="textOnAnImageGallery">WEBSITE</h2>
+                        <h6 class="websiteLinkGalleryText">Packhotsdirect.com</h6>
+                    </div>
                 </div>
-
-            </div>
-             <div id="bottomImageGallery">
-                <img class="imagesInLeftGallerClass" src="MEDIA/WorkGallery/brochureImage.jpg" alt="Brochure image OCIP">
-                  <div class="holderForTextOnImages">
-                      <h2 class="textOnAnImageGallery">BROCHURE</h2>
-                      <h6 class="websiteLinkGalleryText">Packhotsdirect.com</h6>
-                 </div>
-            </div>
+            </a>
+             <a href="http://packshotsdirect.com/" alt="Packhotsdirect.com website redirect">
+                 <div id="bottomImageGallery">
+                    <img class="imagesInLeftGallerClass" src="MEDIA/WorkGallery/brochureImage.jpg" alt="Brochure image OCIP">
+                      <div class="holderForTextOnImages">
+                          <h2 class="textOnAnImageGallery">BROCHURE</h2>
+                          <h6 class="websiteLinkGalleryText">Packhotsdirect.com</h6>
+                     </div>
+                </div>
+            </a>
         </div>
-        <div id="rightGalleryDiv">
-            <img id="rightImageGallery" src="MEDIA/WorkGallery/hottubeImage.jpg" alt="Bucks Hot Tube Hire Image">
-             <div class="holderForTextOnImages">
-                 <h2 class="textOnAnImageGallery">BILLBOARD</h2>
-                 <h6 class="websiteLinkGalleryText">Buckshottubhire.co.uk</h6>
+        <a href="http://buckshottubhire.co.uk/" alt="Buckshottubhire redirect link">
+            <div id="rightGalleryDiv">
+                <img id="rightImageGallery" src="MEDIA/WorkGallery/hottubeImage.jpg" alt="Bucks Hot Tube Hire Image">
+                 <div class="holderForTextOnImages">
+                     <h2 class="textOnAnImageGallery">BILLBOARD</h2>
+                     <h6 class="websiteLinkGalleryText">Buckshottubhire.co.uk</h6>
+                </div>
             </div>
-        </div>
+        </a>
     </div>
 </div>
 

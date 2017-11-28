@@ -192,7 +192,17 @@ font-size: 14px;
     }
     
     
+    #haveAProjectHolder{
+        width: 50%;
+    }
     
+     #haveAProjectHolder h2{
+        font-size: 28px;
+    }
+    
+    #contactUsLeftBlock h2{
+        font-size: 28px;
+    }
     
     
 /* =================================================
@@ -371,6 +381,19 @@ font-size: 10px;
         #contactUsPL-ContentHolder{
         width: 100%;
     }
+ 
     
+ /*==============================
+        OCIP - Where are we
+===============================*/
+    
+#listCitiesWamp{
+width: 80%;    
+}
+    
+    #roundMap{
+        width: 260px;
+        height: 260px;
+    }
     
 }
