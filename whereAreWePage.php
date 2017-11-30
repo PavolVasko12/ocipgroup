@@ -51,7 +51,7 @@ We offer extremely cheap web services to the Aylesbury/Buckinghamshire vicinity.
         <p id="textBottomWamp">Why not have a look at ‘Our work’ page? <a id="textButtonWamp"href="all-galleries.php">Click here to view</a></p>
       </div>
       <div id="rightSideWawpContent">
-          <div id="roundMap" class="asideWamp"></div>
+      <div id="roundMap" class="asideWamp"></div>
           <h2 id="titleUnderMapWawp">We provide services to<br> <span class="underTitleWamp">the whole of the Aylesbury area</span></h2>
           <p>Here at Ocip we not only provide website services to Aylesbury but also to the enitre Buckinghamshire area. If your in or near any of the below towns we can help.<br>Call us today on: <span class="boldText">01296 340890</span> to discuss your online/offline marketing.</p>
           <ul id="listRightContentWamp">

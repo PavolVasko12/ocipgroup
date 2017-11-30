@@ -3780,6 +3780,7 @@ margin: 10px 6px 0px 0px;
 }
 
 #roundMap{
+  display: table-cell;
   width:300px;
   height:300px;
   margin: auto;
