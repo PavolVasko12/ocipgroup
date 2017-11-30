@@ -5,13 +5,14 @@ if (($_SERVER['REQUEST_METHOD'] == 'POST') && (!empty($_POST['action']))):
 if(isset($_POST['firstName'])) { $name = $_POST['firstName'];}
 if(isset($_POST['email'])) { $email = $_POST['email'];}
 if(isset($_POST['messageBox'])) { $enquiry = $_POST['messageBox'];}
+if(isset($_POST['messageBox'])) { $companyName = $_POST['companyName'];}
 $formErrors = false;
 $headers = 'From: enquiry@ocip-group.com' . "\r\n" .
     'Reply-To: '. $email . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 $to = "pavol.vasko.sk@gmail.com";
 $subject = "OCIP - Online form";
-$message = $enquiry;
+$message = "Name: " . $name . "\n\nCompany Name: " . $companyName . "\n\nEnquiry: \n" . $enquiry;
 
     if($name === '') :
         $nameRequired = '<div class="nameError">Name is required</div>';
@@ -31,7 +32,7 @@ $message = $enquiry;
     if(!($formErrors)) :
      
     
-        if(mail('pavol.vasko.sk@gmail.com', $subject, $message, $headers)):
+        if(mail('enquiry@ocip-group.com', $subject, $message, $headers)):
             $successMsg = "Thank you for taking the time to message us. We will be in contact shortly";
             else:
             $errorMsg = "Error sending message!";

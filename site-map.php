@@ -74,7 +74,7 @@
     </div>
     </a>
        <!------- SITE MAP SERVICES ------->
-<a href="index.php#letsGetStartedHolder" alt="Ocip-Group - Services Page">
+<a href="index.php#holderGetStarted" alt="Ocip-Group - Services Page">
     <div class="holderForSectionWithNumberAndTextClass" id="siteMapServices">
         <div class="textSiteMap">
             <h5 class="boldTextSiteMap">Services</h5>
@@ -116,7 +116,7 @@
     </div>
     </a>
      <!------- SITE MAP WHERE ARE WE ------->
-<a href="#" alt="Ocip-Group - Where are we page">
+<a href="whereAreWePage.php" alt="Ocip-Group - Where are we page">
     <div class="holderForSectionWithNumberAndTextClass" id="siteMapWhereAreWe">
         <div class="numberSiteMap">
             <span>5</span>
@@ -177,7 +177,7 @@
     </a>
     
           <!------- MINI SITE MAP OXFORD ------->
-<a href="#" alt="Ocip-Group - Oxford Page">
+<a href="wherearewe/oxford.php" alt="Ocip-Group - Oxford Page">
     <div class="miniHolderForSectionWithNumberAndTextClass" id="oxford">
         <div class="miniNumberSiteMap">
             <span>1</span>
@@ -189,7 +189,7 @@
     </div>
     </a>
             <!------- MINI SITE MAP PORTSMOUTH ------->
-<a href="#" alt="Ocip-Group - Portsmouth Page">
+<a href="wherearewe/portsmouth.php" alt="Ocip-Group - Portsmouth Page">
     <div class="miniHolderForSectionWithNumberAndTextClass" id="portsmouth">
         <div class="miniNumberSiteMap">
             <span>2</span>
@@ -201,7 +201,7 @@
     </div>
     </a>
             <!------- MINI SITE MAP LONDON ------->
-<a href="#" alt="Ocip-Group - London Page">
+<a href="wherearewe/london.php" alt="Ocip-Group - London Page">
     <div class="miniHolderForSectionWithNumberAndTextClass" id="london">
         <div class="miniNumberSiteMap">
             <span>3</span>
@@ -214,7 +214,7 @@
     </a>
     
           <!------- MINI SITE MAP BIRMINGHAM ------->
-<a href="#" alt="Ocip-Group - Birmingham Page">
+<a href="wherearewe/birmingham.php" alt="Ocip-Group - Birmingham Page">
     <div class="miniHolderForSectionWithNumberAndTextClass" id="birmingham">
         <div class="miniNumberSiteMap">
             <span>4</span>
@@ -226,7 +226,7 @@
     </div>
     </a>
             <!------- MINI SITE MAP LEEDS ------->
-<a href="#" alt="Ocip-Group - Leeds Page">
+<a href="wherearewe/leeds.php" alt="Ocip-Group - Leeds Page">
     <div class="miniHolderForSectionWithNumberAndTextClass" id="leeds">
         <div class="miniNumberSiteMap">
             <span>5</span>
@@ -238,7 +238,7 @@
     </div>
     </a>
             <!------- MINI SITE MAP MANCHESTER ------->
-<a href="#" alt="Ocip-Group - Manchester Page">
+<a href="wherearewe/manchester.php" alt="Ocip-Group - Manchester Page">
     <div class="miniHolderForSectionWithNumberAndTextClass" id="manchester">
         <div class="miniNumberSiteMap">
             <span>6</span>
@@ -251,7 +251,7 @@
     </a>
 
       <!------- MINI SITE MAP EDINBURGH ------->
-<a href="#" alt="Ocip-Group - Edinburgh Page">
+<a href="wherearewe/edinburgh.php" alt="Ocip-Group - Edinburgh Page">
     <div class="miniHolderForSectionWithNumberAndTextClass" id="edinburgh">
         <div class="miniNumberSiteMap">
             <span>7</span>
@@ -264,7 +264,7 @@
     </a>
 
             <!------- MINI SITE MAP NORWITCH ------->
-<a href="#" alt="Ocip-Group - Norwitch Page">
+<a href="wherearewe/norwich.php" alt="Ocip-Group - Norwitch Page">
     <div class="miniHolderForSectionWithNumberAndTextClass" id="norwitch">
         <div class="miniNumberSiteMap">
             <span>8</span>
@@ -277,7 +277,7 @@
     </a>
 
             <!------- MINI SITE MAP CARDIFF ------->
-<a href="#" alt="Ocip-Group - Cardiff Page">
+<a href="wherearewe/cardiff.php" alt="Ocip-Group - Cardiff Page">
     <div class="miniHolderForSectionWithNumberAndTextClass" id="cardiff">
         <div class="miniNumberSiteMap">
             <span>9</span>
@@ -290,7 +290,7 @@
     </a>
 
       <!------- MINI SITE MAP YORK ------->
-<a href="#" alt="Ocip-Group - York Page">
+<a href="wherearewe/york.php" alt="Ocip-Group - York Page">
     <div class="miniHolderForSectionWithNumberAndTextClass" id="york">
         <div class="miniNumberSiteMap">
             <span>10</span>
@@ -303,7 +303,7 @@
     </a>
 
             <!------- MINI SITE MAP BATH ------->
-<a href="#" alt="Ocip-Group - Bath Page">
+<a href="wherearewe/bath.php" alt="Ocip-Group - Bath Page">
     <div class="miniHolderForSectionWithNumberAndTextClass" id="bath">
         <div class="miniNumberSiteMap">
             <span>11</span>
@@ -316,7 +316,7 @@
     </a>
 
             <!------- MINI SITE MAP PLYMOUTH ------->
-<a href="#" alt="Ocip-Group - Plymouth Page">
+<a href="wherearewe/plymouth.php" alt="Ocip-Group - Plymouth Page">
     <div class="miniHolderForSectionWithNumberAndTextClass" id="plymouth">
         <div class="miniNumberSiteMap">
             <span>12</span>

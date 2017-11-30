@@ -36,7 +36,7 @@
         <div id="contactUsLeftBoxes">
             <input type="text" class="contactUsInputPL" id="name" name="firstName" placeholder="Name: * ">
              <?php if (isset($nameRequired)) { echo $nameRequired; } ?>
-          <input type="text" class="contactUsInputPL" id="cname" name="companyname" placeholder="Company Name: ">
+          <input type="text" class="contactUsInputPL" id="cname" name="companyName" placeholder="Company Name: ">
           <input type="text" class="contactUsInputPL" id="email" name="email" placeholder="Email: * ">
             <?php if (isset($emailInvalid)) { echo $emailInvalid; } ?>
         </div>

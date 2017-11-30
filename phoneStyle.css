@@ -22,6 +22,10 @@ display:block !important;
 margin-top: -30px;
 }
 
+    
+    
+    
+    
 /* ===================================================
                 NAVIGATION MENU FROM HERE
 ====================================================*/
@@ -967,5 +971,17 @@ margin-bottom: 6px;
     
 
     
+    
+    
+    
+    
+    
+    
+    
+    
+    .developmentHeaderMainTextHolder h1{
+        font-size: 45px;
+        padding-top: 125px;
+    }
     
 }

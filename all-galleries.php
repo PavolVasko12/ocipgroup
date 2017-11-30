@@ -41,30 +41,35 @@
     </ul>
     
     <div id="galleryHolder">
-        <div id="leftGalleryDiv">  
-            <div id="topImageGallery">
-                <img class="imagesInLeftGallerClass" src="MEDIA/WorkGallery/packhotsImage.jpg" alt="Pack Hots Direct Image">
-                <div class="holderForTextOnImages">
-                    <h2 class="textOnAnImageGallery">WEBSITE</h2>
-                    <h6 class="websiteLinkGalleryText">Packhotsdirect.com</h6>
+        <div id="leftGalleryDiv">
+            <a href="http://packshotsdirect.com/" alt="Packhotsdirect.com website redirect">
+                <div id="topImageGallery">
+                    <img class="imagesInLeftGallerClass" src="MEDIA/WorkGallery/packhotsImage.jpg" alt="Pack Hots Direct Image">
+                    <div class="holderForTextOnImages">
+                        <h2 class="textOnAnImageGallery">WEBSITE</h2>
+                        <h6 class="websiteLinkGalleryText">Packhotsdirect.com</h6>
+                    </div>
                 </div>
-                
-            </div>
-             <div id="bottomImageGallery">
-                <img class="imagesInLeftGallerClass" src="MEDIA/WorkGallery/brochureImage.jpg" alt="Brochure image OCIP">
-                  <div class="holderForTextOnImages">
-                      <h2 class="textOnAnImageGallery">BROCHURE</h2>
-                      <h6 class="websiteLinkGalleryText">Packhotsdirect.com</h6>
-                 </div>
-            </div>
+            </a>
+             <a href="http://packshotsdirect.com/" alt="Packhotsdirect.com website redirect">
+                 <div id="bottomImageGallery">
+                    <img class="imagesInLeftGallerClass" src="MEDIA/WorkGallery/brochureImage.jpg" alt="Brochure image OCIP">
+                      <div class="holderForTextOnImages">
+                          <h2 class="textOnAnImageGallery">BROCHURE</h2>
+                          <h6 class="websiteLinkGalleryText">Packhotsdirect.com</h6>
+                     </div>
+                </div>
+            </a>
         </div>
-        <div id="rightGalleryDiv">
-            <img id="rightImageGallery" src="MEDIA/WorkGallery/hottubeImage.jpg" alt="Bucks Hot Tube Hire Image">
-             <div class="holderForTextOnImages">
-                 <h2 class="textOnAnImageGallery">BILLBOARD</h2>
-                 <h6 class="websiteLinkGalleryText">Buckshottubhire.co.uk</h6>
+        <a href="http://buckshottubhire.co.uk/" alt="Buckshottubhire redirect link">
+            <div id="rightGalleryDiv">
+                <img id="rightImageGallery" src="MEDIA/WorkGallery/hottubeImage.jpg" alt="Bucks Hot Tube Hire Image">
+                 <div class="holderForTextOnImages">
+                     <h2 class="textOnAnImageGallery">BILLBOARD</h2>
+                     <h6 class="websiteLinkGalleryText">Buckshottubhire.co.uk</h6>
+                </div>
             </div>
-        </div>
+        </a>
     </div>
 </div>
 

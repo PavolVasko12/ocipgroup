@@ -42,6 +42,7 @@ $(document).ready(function(){
     });
     
       $("#servicesNavListId, #servicesFooterListId").on('click', function(){
+          console.log("click");
        $('html,body').animate({
            scrollTop: $('#holderGetStarted').offset().top
        },1000);

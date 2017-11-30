@@ -212,11 +212,15 @@ font-size: 14px;
 #footerHolderInner p{
 padding-top: 26px;
 padding-right: 26px;
-font-size: 12px;
+font-size: 10px;
 }
 
 footer ul li{
-font-size: 12px;
+font-size: 10px;
+}
+    
+footer ul li{
+padding: 2px 8px 2px 8px;
 }
 
 #footerLogo{
@@ -392,6 +396,7 @@ width: 80%;
 }
     
     #roundMap{
+        display: block;
         width: 260px;
         height: 260px;
     }
