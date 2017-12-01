@@ -100,7 +100,7 @@ We are a small friendly digital marketing agency based in Buckinghamshire. With 
         <div id="contentBoxProcess">
           <div id="topPartProcess">
             <div id="leftSideProcess">
-              <h2>Our Process</h2>
+              <h2>Our process</h2>
               <h4>6 steps from start to finish</h4>
             </div>
 
@@ -188,7 +188,7 @@ There are so many benefits to having a bespoke design; from getting key informat
           <!-- END Mobile Version MiddlePartWhyUs-->
 
           <div id="bottomLeftWhyUs">
-            <h2>Build to perfection</h2>
+            <h2>Built to perfection</h2>
             <h4>Our websites use the lastest technology</h4>
             <p>If you’re a start-up business you may have several jobs such as logo design, business cards and website to deal with. This is no problem for us as here at OCIP we love working with multi-faceted projects. We can offer you bigger discounts for larger volume of work, helping with your budget and saving you time.
 Have look at our rates section and you will see that we are offering some amazing discounts. So if you’re a start-up business we would love to hear from you. You can email us at <strong>enquiry@ocip-group.com</strong> or you can call us on <strong>01296 340890.</strong></p>

@@ -22,10 +22,10 @@ display:block !important;
 margin-top: -30px;
 }
 
-    
-    
-    
-    
+
+
+
+
 /* ===================================================
                 NAVIGATION MENU FROM HERE
 ====================================================*/
@@ -93,8 +93,8 @@ display: block;
     #watchVideoGarySlideButton{
      margin: auto;
     }
-    
-    
+
+
 #pOnHeaderIMageONe{
   font-size: 15px;
 }
@@ -155,7 +155,7 @@ width: 90%;
 margin-left: 5%;
 text-align: left;
 }
-    
+
 #whoAreWeh2Desktop{
     display: none;
     font-size: 40px;
@@ -163,7 +163,7 @@ text-align: left;
     margin-left: 1%;
     text-align: left;
 }
-    
+
     #whoAreWeh2Phone{
     display: block;
     font-size: 70px;
@@ -185,7 +185,7 @@ width: 100%;
 /* =================================================
         LET'S GET STARTED FROM HERE
 =================================================== */
-    
+
     #letsGetStartedHolderPhone{
     display: block;
     width: 100%;
@@ -193,18 +193,18 @@ width: 100%;
     margin-top: 0px;
     height: auto;
     }
-    
+
     #letsGetStartedHolderDesktop{
         display: none;
     }
     #numberThreeDevelopmentText{
         margin-top: 60px;
     }
-    
+
     #thirdDivInsideThreeDivs.developePhoneClass{
         height: 390px;
     }
-    
+
 #letsGetStartedHolderInner{
   height:auto;
   padding-top: 120px;
@@ -214,7 +214,7 @@ overflow: hidden;
 #letsGetStartedHolderInner h2{
 display: none;
 }
-    
+
 #letsGetStartedHolderInner h4{
 display: none;
 }
@@ -232,7 +232,7 @@ display: none;
 #firstDivInsideThreeDivs{
   border: 0px;
 }
-    
+
     #developmentText{
         margin-top: 60px;
     }
@@ -245,11 +245,11 @@ display: none;
   left: 0;
 margin-bottom: 20px;
 }
-    
+
     #developmentParagraphPhoneText{
     margin-top: 30px !important;
     }
-    
+
 .developmentIcon{
 width: 20%;
 position: relative;
@@ -270,7 +270,7 @@ margin-bottom: 40px;
 .textNextToCircle p{
 margin-top: 20px;
 }
-    
+
 
 .circleAroundNumber{
   border: 2px solid #000000;
@@ -292,7 +292,7 @@ position: static;
 display: block;
 text-align: left;
 }
-    
+
 .textInsideTheThreeDivs p{
     margin-bottom: 40px;
 }
@@ -335,7 +335,7 @@ width: 100%;
 
     #printHiddenDivForGetStarted, #digitalHiddenDivForGetStarted, #developmentHiddenDivForGetStarted{
 display: none;
-    }   
+    }
 
 
 #hiddenDivForGetStartedPrintPhone, #hiddenDivForGetStartedDigitalPhone, #hiddenDivForGetStartedDevelopmentPhone{
@@ -351,12 +351,12 @@ background: linear-gradient(#ee4745, #c43737);
 background: -moz-linear-gradient(#ee4745, #c43737);
 background: linear-gradient(#ee4745, #c43737);
 }
-    
+
     #hiddenDivForGetStartedDevelopmentPhone{
         height: 650px;
     }
 
-    
+
 #twoThirdsOfTheInnerHolder{
 width:90%;
 margin-left: 5%;
@@ -368,7 +368,7 @@ margin-left: 5%;
     margin-top:  60px;
  display: block;
 }
-    
+
     #twoThirdsOfTheInnerHolder h4{
         display: block;
         margin-bottom: 20px;
@@ -411,6 +411,10 @@ margin: auto;
 #middlePartProcess > div{
   width:90%;
   margin:auto;
+}
+
+#middlePartProcess > div img{
+  margin: auto;
 }
 
 #enquireNowButton{
@@ -487,7 +491,7 @@ margin-top: 20px;
 #bottomLeftWhyUs #enquireWhyUsButton{
   margin: 20px auto 40px auto;
 }
-    
+
 #topRightWhyUs img{
   width:100%;
 }
@@ -526,7 +530,7 @@ margin-left: 2.5%;
   text-align: left;
   display: inline-block;
 }
-    
+
 #ourRatesHeaderHolder p{
 margin-bottom: 20px;
 }
@@ -692,7 +696,7 @@ text-decoration: none;
 
 #contactUsLeftBlock{
   width:100%;
-    
+
 }
 
 #contactUsRightBlock{
@@ -747,11 +751,11 @@ text-decoration: none;
   padding-top: 30px;
 
 }
-    
+
 #buttonContactUsHome{
 margin-left: 30%;
-width: 40%; 
-}   
+width: 40%;
+}
 
 
 
@@ -785,6 +789,7 @@ display: none;
 
 #ourBrandsPhone{
 display: block;
+font-family: OpenSans-SemiBold;
 }
 
 #hsixOnLogosSlider{
@@ -822,11 +827,11 @@ width: 100%;
 #rightGalleryDiv{
 width: 100%;
 }
-    
-    
+
+
  /*==================================
   DEVELOPMENT PAGE FROM HERE
-===============================*/   
+===============================*/
     #topLeftHolder,#topRightHolder,#bottomLeftHolder,#bottomRightHolder{
         width: 100%;
     }
@@ -834,27 +839,27 @@ width: 100%;
     #topRightHolder img{
         margin-top: 0px;
     }
-    
+
     .developmentBoldMainText, .developmentRegularMainText{
         margin-left: 5%;
     }
-    
+
     #digitalBottomLeftHolder{
        width:100%;
     }
-    
+
     #digitalBottomLeftHolder img {
     width: 80%;
     margin-left: 10%;
     margin-top: 20px;
     margin-bottom: 20px;
      }
-    
+
     #topRightHolder.printTopRigthHolder img {
     margin-top: 80px;
     margin-bottom: 150px;
     }
-    
+
 
 #printCarImageFloatedInTheMiddle {
     height: 20%;
@@ -862,14 +867,14 @@ width: 100%;
     width: 90%;
     margin-left: 7%;
     }
-    
+
     #printBottomGalleryHolder{
     height: 120px;
     }
-    
 
-    
-    
+
+
+
 /*<><><><><><><><><><><><><><><><><><><><><><><><><><><>
             404 PAGE FROM HERE
 <><><><><><><<><><><><><><<><><><><><><><><><><><><><<><>*/
@@ -909,40 +914,40 @@ margin-bottom: 6px;
 #buttonFourZeroFour:hover{
     box-shadow: inset 200px 0px 0 0 #ba2a32;
 }
-    
-    
+
+
 /* =================================
-        OCIP - CONTACT PAGE 
+        OCIP - CONTACT PAGE
 =================================== */
     #contactUsPL-ContentHolder{
         flex-direction: column-reverse;
     }
-    
+
     #contactUsPL-LeftBlock{
         padding-top: 30px;
     }
-    
+
     #contactUsPL-ContentHolder{
         width: 90%;
     }
-    
+
     #emailBox, #buttonFormPL{
         width: 50%;
     }
-    
+
     #contactUsSocialBlock{
         padding-left: 38%;
     }
-    
+
     #buttonContactUs.buttonContactUsPL, #buttonContactUs{
         width: 40%;
         margin-left: 30%;
     }
-    
+
     .contactBoldMainText{
         padding-left: 5%;
     }
-    
+
     #contactPageContentHolder{
         width: 90%;
         text-align: left;
@@ -950,38 +955,38 @@ margin-bottom: 6px;
     #contactPageContentHolder p{
         margin-left: 0px;
     }
-    
+
     #formBoxes{
         margin-left: 0px;
     }
-    
+
     #contactPageIconsHolder > div {
     width: 40%;
     margin-left: 30%;
 }
-    
+
     #contactPageIconsHolder{
         flex-direction: column;
     }
-    
+
     .contactPageIcon{
         width: 100%;
     }
-    
-    
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
+
+
     .developmentHeaderMainTextHolder h1{
         font-size: 45px;
         padding-top: 125px;
     }
-    
+
 }
