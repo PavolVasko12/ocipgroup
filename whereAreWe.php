@@ -8,18 +8,18 @@
       <p>Based in Aylesbury and covering the local surrounding area, we provide services to the whole of the UK; whether you are based in Sheffield or just down the road in High Wycombe, we are on hand to help you!<br><br>
 <span style="font-size:14px; font-family: OpenSans-Bold;">The main town/cities we cover are:</span> </p>
       <ul class="WhereAreWeAndPrintDevDigitalUl">
-        <li>Oxford</li>
-        <li>Portsmouth</li>
-        <li>London</li>
-        <li>Birmingham</li>
-        <li>Leeds</li>
-        <li>Manchester</li>
-        <li>Edinburgh</li>
-        <li>Norwich</li>
-        <li>Cardiff</li>
-        <li>York</li>
-        <li>Bath</li>
-        <li>Plymouth</li>
+        <a href="wherearewe/oxford.php"><li>Oxford</li></a>
+        <a href="wherearewe/portsmouth.php"><li>Portsmouth</li></a>
+        <a href="wherearewe/london.php"><li>London</li></a>
+        <a href="wherearewe/birmingham.php"><li>Birmingham</li></a>
+        <a href="wherearewe/leeds.php"><li>Leeds</li></a>
+        <a href="wherearewe/manchester.php"><li>Manchester</li></a>
+        <a href="wherearewe/edinburgh.php"><li>Edinburgh</li></a>
+        <a href="wherearewe/norwich.php"><li>Norwich</li></a>
+        <a href="wherearewe/cardiff.php"><li>Cardiff</li></a>
+        <a href="wherearewe/york.php"><li>York</li></a>
+        <a href="wherearewe/bath.php"><li>Bath</li></a>
+        <a href="wherearewe/plymouth.php"><li>Plymouth</li></a>
       </ul>
       <p>If you don’t see your town in the list, don’t panic as we can still help. You can see all the towns/cities we cover on the ‘Areas we cover’ page. Visit it by clicking the button below:</p>
       <a href="whereAreWePage.php"><div id="findOutMoreButton"><p>Find out more</p></div></a>
