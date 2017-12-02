@@ -623,7 +623,7 @@ width: 60%;
 
 .threeDivsInsideLetsGetStarted{
     width: 29.9%;
-    height: 250px;
+    height: 220px;
     display: inline-block;
     margin-right: -4px;
     position: relative;
@@ -642,7 +642,7 @@ width: 60%;
 }
 
 .circleAroundNumber{
-font-size: 30px;
+font-size: 35px;
 }
 
 
@@ -651,8 +651,8 @@ font-size: 30px;
 -webkit-border-radius: 50px 50px;
 border-radius: 50px/50px;
 border: solid 2px black;
-width: 40px;
-height: 40px;
+width: 45px;
+height: 45px;
 position: absolute;
 left: -8px;
 top: -14px;
@@ -661,7 +661,7 @@ top: -14px;
 .textNextToCircle{
 position: absolute;
 left: 4px;
-top: -15px;
+top: -17px;
 }
 
 .textNextToCircle p{
@@ -1420,7 +1420,7 @@ justify-content: center;
 }
 
 #ourRatesHeaderHolder{
-width: 250px;
+width: 226px;
 height: auto;
 border-right: 2px solid black;
 display: inline-block;
@@ -1476,7 +1476,7 @@ padding-top: 10px;
 
 .holderForStartedBusinessProPack p{
 color: white;
-font-size: 10px;
+font-size: calc(0.6vw + 0.6vh);
 padding-top: 10px;
 font-family: OpenSans-Regular;
 }
@@ -1631,9 +1631,10 @@ margin: auto;
 
 .sectionWithCircle{
 width: 34%;
-height: auto;
+height: 292px;
 background-color: #353535;
 border-top: 15px solid black;
+padding-top: 40px;
 }
 
 #middleSectionWithCircel{
@@ -1671,7 +1672,7 @@ margin: 0;
 }
 
 .textNextToTheThreeCircles p{
-font-size: 11px;
+font-size: 13px;
 color: #cecece;
 }
 
@@ -2326,6 +2327,7 @@ padding-right: 0%;
 border-right: 2px solid black;
 display: block;
 float: left;
+height: 70px;
 }
 
 
@@ -2447,6 +2449,7 @@ padding-left: 30px;
 padding-right: 30px;
 font-family: OpenSans-SemiBold;
 cursor: pointer;
+font-size: 18px;
 }
 
 #ulForGalleryImageChanging li:hover{
@@ -2650,6 +2653,10 @@ display: inline-block;
 padding: 2px 10px 2px 10px;
 }
 
+footer ul a{
+  color: #391311;
+}
+
 #footerLogo{
 float: right;
 width: 100px;
@@ -2657,10 +2664,8 @@ padding-top: 28px;
 }
 
 footer ul a:hover{
-font-family: openSans-Bold;
+  color:#000;
 }
-
-
 
 /*<>>><><><><><><><><><><><><><><><><><><><><><><><><><>
             DEVELOPMENT NEW PAGE FROM HERE
@@ -3531,6 +3536,9 @@ padding-top: 0px;
   width:50%;
 }
 
+input:focus, #messageContactUs:focus {
+  border: 2px solid #fff;
+}
 
 .iconAfterButton::after{
   content: "";

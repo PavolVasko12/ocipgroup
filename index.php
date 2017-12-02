@@ -248,98 +248,98 @@ Have look at our rates section and you will see that we are offering some amazin
         <table>
           <tr>
             <th id="firstColumn"><span id="thFirstRowTopText"><p>Our most popular services</p></span><span id="thFirstRowText"><p>if you cannot see a price listed below, get in touch</p></span></th>
-             <th id="secondColumn"><span id="thFirstRowTopText"><p>Prices</p></span><span id="thFirstRowText"><p>Start from</p></span></th>
-              <th id="thirdColumn"><span class="priceHeader"><p>£600.00</p></span><span class="moneySaving"><p>Save From £400</p></span></th>
-            <th id="fourthColumn"><span class="priceHeader"><p>£800.00</p></span><span class="moneySaving"><p>Save From £650</p></span></th>
-            <th id="fifthColumn"><span class="priceHeader"><p>£1000.00</p></span><span class="moneySaving"><p>Save From £1200</p></span></th>
+             <th id="secondColumn"><span id="thFirstRowTopText"><p>Prices</p></span><span id="thFirstRowText" class="boldText"><p>Start from</p></span></th>
+              <th id="thirdColumn"><span class="priceHeader"><p>£600.00</p></span><span class="moneySaving boldText"><p>Save From £400</p></span></th>
+            <th id="fourthColumn"><span class="priceHeader"><p>£800.00</p></span><span class="moneySaving boldText"><p>Save From £650</p></span></th>
+            <th id="fifthColumn"><span class="priceHeader"><p>£1000.00</p></span><span class="moneySaving boldText"><p>Save From £1200</p></span></th>
           </tr>
           <tr>
             <td>Responsive Mobile /Tablet Website Design &amp; Build</td>
-            <td>£250.00</td>
+            <td class="boldText">£250.00</td>
             <td><div class="tickInTableData"></div></td>
             <td><div class="tickInTableData"></div></td>
             <td><div class="tickInTableData"></div></td>
           </tr>
             <tr>
             <td>Wordpress Website Design &amp; Build (includes up to 5 pages)</td>
-            <td>£500.00</td>
+            <td class="boldText">£500.00</td>
             <td><div class="tickInTableData"></div></td>
             <td></td>
             <td></td>
           </tr>
             <tr>
             <td>Woocomerce Website Design &amp; Build (includes up to 10 pages)</td>
-            <td>£750.00</td>
+            <td class="boldText">£750.00</td>
             <td></td>
             <td><div class="tickInTableData"></div></td>
             <td></td>
           </tr>
             <tr>
             <td>E-commerce Website Design &amp; Build (custom build)</td>
-            <td>£1500.00</td>
+            <td class="boldText">£1500.00</td>
             <td></td>
             <td></td>
             <td><div class="tickInTableData"></div></td>
           </tr>
             <tr>
             <td>Email Newsletter Design &amp; Build</td>
-            <td>£200.00</td>
+            <td class="boldText">£200.00</td>
             <td></td>
             <td></td>
             <td><div class="tickInTableData"></div></td>
           </tr>
             <tr>
             <td>Website Header Banner Design (up to 5)</td>
-            <td>£250.00</td>
+            <td class="boldText">£250.00</td>
             <td><div class="tickInTableData"></div></td>
             <td><div class="tickInTableData"></div></td>
             <td><div class="tickInTableData"></div></td>
           </tr>
             <tr>
             <td>Photo Re-Touch, Edit, Cut-Out, Manipulation for models, Products etc</td>
-            <td>£35.00 ph</td>
+            <td class="boldText">£35.00 ph</td>
             <td><div class="tickInTableData"></div></td>
             <td><div class="tickInTableData"></div></td>
             <td><div class="tickInTableData"></div></td>
           </tr>
             <tr>
             <td>Logo Design</td>
-            <td>£350.00</td>
+            <td class="boldText">£350.00</td>
             <td></td>
             <td></td>
             <td></td>
           </tr>
             <tr>
             <td>Business Card Design</td>
-            <td>£200.00</td>
+            <td class="boldText">£200.00</td>
             <td></td>
             <td></td>
             <td></td>
           </tr>
             <tr>
             <td>A4 Brochure Design &amp; Artwork, Press Ads etc</td>
-            <td>£250.00</td>
+            <td class="boldText">£250.00</td>
             <td></td>
             <td></td>
             <td></td>
           </tr>
             <tr>
             <td>Flyer Design</td>
-            <td>£200.00</td>
+            <td class="boldText">£200.00</td>
             <td></td>
             <td></td>
             <td></td>
           </tr>
             <tr>
             <td>Roller Banners</td>
-            <td>£250.00</td>
+            <td class="boldText">£250.00</td>
             <td></td>
             <td></td>
             <td></td>
           </tr>
             <tr>
             <td>Vehicle Custom Vinly Design (please get in contact to get a quote)</td>
-            <td>Please Call</td>
+            <td class="boldText">Please Call</td>
             <td></td>
             <td></td>
             <td></td>
@@ -386,12 +386,12 @@ Have look at our rates section and you will see that we are offering some amazin
 <div id="holderForOurWorkTextAndGallery">
     <div id="holderForOurWorkText">
           <div id="leftSideWork">
-              <h2>Our Work</h2>
+              <h2>Our work</h2>
               <h4>See recent examples</h4>
             </div>
 
             <div id="rightSideWork">
-              <p>OCIP Group are specialist in web design and web development within the Aylesbury and Buckinghamshire area. Offering a friendly local service with over 10 years + experience. We have some great examples of website design, print and development below. Scroll on the filters to see some of our recent work.</p>
+              <p><span class="boldText">OCIP Group are specialist in web design and web development within the Aylesbury and Buckinghamshire area. Offering a friendly local service with over 10 years + experience.</span> We have some great examples of website design, print and development below. Scroll on the filters to see some of our recent work.</p>
             </div>
     </div>
 

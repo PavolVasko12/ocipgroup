@@ -1,6 +1,6 @@
 @media screen and (max-width: 1000px) {
 
-    
+
 /* =================================================
         HEADER STARTED FROM HERE
 =================================================== */
@@ -20,11 +20,11 @@ width: 40%;
 left: 110%;
 }
 
-    
+
 /* =================================================
         LET'S GET STARTED FROM HERE
 =================================================== */
-    
+
 .buttonFindOutMoreInThreeDivs {
 bottom: -80px;
 }
@@ -48,7 +48,7 @@ margin-right: -4px;
 position: relative;
 text-align: left;
 }
-    
+
 .pencilIcon{
 width: 250px;
 margin-left: 20px;
@@ -73,7 +73,7 @@ width: 31%;
 #researchBox, #buildBox {
 margin-left: 3%;
 margin-right: 3%;
-} 
+}
 
 .titleBoxProcess{
 font-size: 20pt;
@@ -87,11 +87,11 @@ height: 50px;
 height: 45px;
 }
 
-    
+
 /* =================================================
         WHY US STARTED FROM HERE
 =================================================== */
-    
+
 #topLeftWhyUs{
 width:50%;
 }
@@ -103,14 +103,14 @@ width:50%;
 
 #topRightWhyUs img{
 padding-top: 50px;
-}   
+}
 
 #middleRightWhyUs{
 width: 50%;
 }
 
 #middleLeftWhyUs{
-width: 50%;  
+width: 50%;
 }
 
 #bottomRightWhyUs{
@@ -119,19 +119,19 @@ width: 50%;
 }
 
 #bottomLeftWhyUs{
-width: 50%;    
+width: 50%;
 }
 
 #bottomRightWhyUs img{
 width: 100%;
 }
-    
-    
-    
+
+
+
 /* =================================================
         OUR RATES STARTED FROM HERE
 =================================================== */
-    
+
 .holderForStartedBusinessProPack h3{
 font-size: 20px;
 }
@@ -149,10 +149,12 @@ height: 250px;
 padding-right: 50px;
 }
 
+.textNextToTheThreeCircles p{
+  font-size: 11px;
+}
 
-    
-    
-    
+
+
 /* =================================================
        WHERE ARE WE STARTED FROM HERE
 =================================================== */
@@ -160,17 +162,17 @@ padding-right: 50px;
 width: 45%;
 }
 
-    
-    
+
+
 /* =================================================
       CONTACT US STARTED FROM HERE
 =================================================== */
 
 textarea, #buttonContactUs, #topEqua{
 font-size: 14px;
-}   
-    
-    
+}
+
+
 .contactUsInput::-webkit-input-placeholder {
 font-size: 14px;
 }
@@ -186,29 +188,29 @@ font-size: 14px;
 .contactUsInput:-ms-input-placeholder {
 font-size: 14px;
 }
-    
+
     #buttonContactUs.buttonContactUsPL{
         width: 70%;
     }
-    
-    
+
+
     #haveAProjectHolder{
         width: 50%;
     }
-    
+
      #haveAProjectHolder h2{
         font-size: 28px;
     }
-    
+
     #contactUsLeftBlock h2{
         font-size: 28px;
     }
-    
-    
+
+
 /* =================================================
      FOOTER STARTED FROM HERE
 =================================================== */
-    
+
 #footerHolderInner p{
 padding-top: 26px;
 padding-right: 26px;
@@ -218,7 +220,7 @@ font-size: 10px;
 footer ul li{
 font-size: 10px;
 }
-    
+
 footer ul li{
 padding: 2px 8px 2px 8px;
 }
@@ -228,9 +230,9 @@ float: right;
 width: 100px;
 padding-top: 28px;
 }
-    
-    
-    
+
+
+
 /*<>>><><><><><><><><><><><><><><><><><><><><><><><><><>
             DIGITAL NEW PAGE FROM HERE
 <><><><><><><<><><><><><><<><><><><><><><><><><><><><<><>*/
@@ -238,37 +240,37 @@ padding-top: 28px;
 #topRightHolder.digitalTopRightHolder{
 height: 500px;
 }
-    
-    
-    
-    
+
+
+
+
 /* =====================================
          PRINT PAGE FROM HERE
 ======================================*/
     #topRightHolder.printTopRigthHolder img{
     margin-top: 120px;
-    }     
-    
+    }
+
 #printCarImageFloatedInTheMiddle{
 top: 47%;
 }
-    
+
     #topRightHolder img{
     margin-top: 80px;
     }
-    
-    
+
+
     #siteMapBoydWithLinks{
-     width: 100%;  
+     width: 100%;
     }
-    
+
 /*==========================================
             SITE MAP
 ========================================== */
 #siteMapFramework{
     display: block;
 }
-    
+
     #siteMapFrameworkPhone{
         display: none;
     }
@@ -280,42 +282,42 @@ width: 120px;
 font-size: 17px;
 padding-left: 9px;
 }
-    
+
 .textSiteMap h6{
 padding-left: 10px;
 font-size: 10px;
 }
-    
+
     #siteMapOurWork:after{
         margin-right: -50px;
         margin-top: 19px;
     }
-    
+
     #siteMapPrint{
-     left: 310px;   
+     left: 310px;
     }
-    
+
     #siteMapPrint:after{
         margin-right: 30px;
     }
-    
+
     #siteMapDigital{
         left: 470px;
     }
-    
+
     #siteMapDigital:after{
-     margin-right: 25px;   
+     margin-right: 25px;
     }
-    
+
     #siteMapDevelopment{
         left: 625px;
     }
-    
+
     #siteMapWhereAreWe:after{
         margin-top: 20px;
         margin-right: -50px;
     }
-    
+
     #informationSiteMap{
         left: 220px;
         display: block;
@@ -324,81 +326,81 @@ font-size: 10px;
     #littleIconOnInfoSiteMap{
         display: block;
     }
-    
+
     #littleIconOnInfoSiteMap{
         left: 485px;
     }
-    
+
     .miniHolderForSectionWithNumberAndTextClass{
         width: 130px;
     }
-    
+
     .holderForSectionWithNumberAndTextClass{
         width: 170px;
     }
-    
+
     #holderForHeadingText h2{
         margin-left: 1%;
     }
-    
+
     #holderForHeadingText h1{
         margin-left: 1%;
     }
-    
+
     #informationSiteMapPhone, #blackVeritcalLineWhereAreWe, #blackVeritcalLineWhereAreWeDigital, #blackVeritcalLineWhereAreWeDevelopment, #blackVeritcalLineWhereAreWeCities{
         display: none;
     }
-    
+
  /*==============================
         OCIP - Contact PAGE
 ===============================*/
-    
+
     #contactUsPL-MiddleBlock{
         display: block;
         flex:1%;
     }
-    
+
       #contactUsPL-LeftBlock h2{
         font-size: 30px;
     }
-    
+
     #latestInfoHolder h2{
         font-size: 30px;
     }
-    
+
     #buttonFormPL{
         width: 140px;
     }
-    
+
     #emailBox {
     width: 35%;
 }
     #contactUsPL-form{
         justify-content: flex-start;
     }
-    
-    
+
+
     #contactUsPL-LeftBlock{
         padding-top: 0px;
     }
-    
+
         #contactUsPL-ContentHolder{
         width: 100%;
     }
- 
-    
+
+
  /*==============================
         OCIP - Where are we
 ===============================*/
-    
+
 #listCitiesWamp{
-width: 80%;    
+width: 80%;
 }
-    
+
     #roundMap{
         display: block;
         width: 260px;
         height: 260px;
     }
-    
+
 }

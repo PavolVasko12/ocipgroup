@@ -16,7 +16,7 @@ var roundMap,
 
 
 function initMap() {
-    var myLatLng = {lat: 51.8152358, lng: -0.811317};
+    var myLatLng = {lat: 51.813150, lng: -0.808422};
     map = new google.maps.Map(document.getElementById('map'), {
         zoom: zoom,
         center: myLatLng,
@@ -29,7 +29,7 @@ function initMap() {
 
     roundMap = new google.maps.Map(document.getElementById('roundMap'), {
         zoom: zoom,
-        center: {lat: 51.818, lng: -0.811317},
+        center: {lat: 51.813150, lng: -0.808422},
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         scrollwheel: scrollable,
         draggable: draggable,
@@ -41,10 +41,10 @@ function initMap() {
         {
             map:map,
             title: 'Ocip Group',
-            position: {lat: 51.818, lng: -0.811317},
+            position: {lat: 51.813150, lng: -0.808422},
             icon: {
                 url: isIE11 ? "MEDIA/ocipMapsPin.png" : "MEDIA/ocipMapsPin.png",
-                scaledSize: new google.maps.Size(80, 100)
+                scaledSize: new google.maps.Size(90, 120)
             }
 
         },
@@ -52,7 +52,7 @@ function initMap() {
         {
             map: roundMap,
             title: 'Ocip Group',
-            position: {lat: 51.818, lng: -0.811317},
+            position: {lat: 51.813150, lng: -0.808422},
             icon: {
                 url: isIE11 ? "MEDIA/ocipMapsPin.png" : "MEDIA/ocipMapsPin.png",
                 scaledSize: new google.maps.Size(30, 40)

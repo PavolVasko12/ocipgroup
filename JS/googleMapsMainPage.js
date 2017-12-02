@@ -20,10 +20,10 @@ function initMap() {
     var locations = [
         {
             title: 'PEPSized Coffee',
-            position: {lat: 51.818, lng: -0.811317},
+            position: {lat: 51.813150, lng: -0.808422},
             icon: {
                 url: isIE11 ? "MEDIA/ocipMapsPin.png" : "MEDIA/ocipMapsPin.png",
-                scaledSize: new google.maps.Size(80, 100)
+                scaledSize: new google.maps.Size(100, 140)
             }
 
         },

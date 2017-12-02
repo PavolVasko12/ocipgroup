@@ -1,14 +1,14 @@
 @media screen and (max-width: 800px) {
 
-    
+
 /* =================================================
         WHO ARE WE STARTED FROM HERE
 =================================================== */
 #wAwArrowDown{
 width: 10%;
 }
-    
- 
+
+
 /* =================================================
         WHO ARE WE STARTED FROM HERE
 =================================================== */
@@ -28,13 +28,13 @@ margin-left: 10px;
     .textInsideTheThreeDivs{
         margin-right: 0px;
     }
-    
-    
-    
+
+
+
 /* =================================================
        OUR PROCESS STARTED FROM HERE
 =================================================== */
-    
+
 
 #middlePartProcess > div {
 width: 47%;
@@ -42,9 +42,9 @@ margin-left: 1%;
 }
 
 #enquireNowButton {
-left: 70%;    
+left: 70%;
 }
-    
+
 /* =================================================
         WHY US STARTED FROM HERE
 =================================================== */
@@ -64,8 +64,8 @@ padding-top: 70px;
 #ourWorkButton{
 margin: 20px 20px 30px 0px;
 }
-    
-    
+
+
 
 /* =================================================
        RECENT FEEDBACK STARTED FROM HERE
@@ -74,12 +74,12 @@ margin: 20px 20px 30px 0px;
 width: 95%;
 margin-left: 2.5%;
 }
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
 /* =================================================
         OUR RATES STARTED FROM HERE
 =================================================== */
@@ -99,9 +99,13 @@ width: 200px;
 #holderOurRatesLeftSideHeader{
 padding-right: 0px;
 }
-    
-    
-    
+
+.textNextToTheThreeCircles p{
+  font-size: 10px;
+}
+
+
+
 
 /* =================================================
         WHERE ARE WE STARTED FROM HERE
@@ -109,19 +113,19 @@ padding-right: 0px;
 #whereAreWeSideTextBox{
 width: 55%;
 }
-    
-    
-    
-    
+
+
+
+
 /* =================================================
         CONTACT US STARTED FROM HERE
 =================================================== */
-    
+
 textarea, #buttonContactUs, #topEqua{
 font-size: 14px;
-}   
-    
-    
+}
+
+
 .contactUsInput::-webkit-input-placeholder {
 font-size: 14px;
 }
@@ -137,9 +141,9 @@ font-size: 14px;
 .contactUsInput:-ms-input-placeholder {
 font-size: 14px;
 }
-    
+
 /*========================================
-        FOOTER FROM HERE 
+        FOOTER FROM HERE
 ===========================================*/
 #desktopVersionFooter{
 display: none;
@@ -185,8 +189,8 @@ width: 30%;
 padding-top: 28px;
 }
 
-    
-    
+
+
 /* =====================================
             DIGITAL PAGE FROM HERE
 =======================================*/
@@ -194,24 +198,24 @@ padding-top: 28px;
 padding-top: 0px !important;
 }
 
-    
+
 /* =====================================
          PRINT PAGE FROM HERE
 ======================================*/
 #topRightHolder.printTopRigthHolder img{
 margin-top: 180px;
-}  
-    
+}
+
 #printCarImageFloatedInTheMiddle{
 top: 53%;
 }
-    
+
     #topRightHolder img{
     margin-top: 130px;
     }
-    
-    
-    
+
+
+
 
 /*<><><><><><><><><><><><><><><><><><><><><><><><><><><>
             404 PAGE FROM HERE
@@ -244,7 +248,7 @@ font-size: 17px;
 margin: 0px;
 margin-bottom: 8px;
 }
-    
+
 /*==========================================
             SITE MAP
 ========================================== */
@@ -252,49 +256,49 @@ margin-bottom: 8px;
         height: auto;
         margin-bottom: 100px;
     }
-    
+
     #siteMapFramework, #informationSiteMap, #littleIconOnInfoSiteMap{
         display: none;
     }
-    
+
     #siteMapFrameworkPhone{
         display: block;
         width: 60px;
         height: auto;
         margin-left: 19px;
     }
-    
+
     #siteMapHome {
     top: -1.2%;
     left: 77px;
     }
-    
+
     .textSiteMap{
             margin-top: -54px;
             margin-left: 40px;
             width: 210px;
     }
-    
+
     .textSiteMap h5 {
     font-size: 28px;
     padding-left: 20px;
     }
-    
+
     .textSiteMap h6 {
     padding-left: 21px;
         font-size: 15px
     }
-    
+
     #holderForHeadingText h1, #holderForHeadingText h2{
         margin-left: 5%;
     }
-    
+
     #siteMapLittleFramework{
         top: 6.7%;
         left: 77px;
     }
-    
-    
+
+
     #siteMapPrices{
         top: 11.5%;
         left: 75px;
@@ -303,21 +307,21 @@ margin-bottom: 8px;
         top: 7.9%;
         left: 75px;
     }
-    
+
     #siteMapOurWork{
          top: 15.8%;
         left: 77px;
     }
-    
+
     #siteMapOurWork:after{
         background: none;
     }
-    
+
     #siteMapBlog{
         top: 38.8%;
         left: 77px;
     }
-    
+
 
 #siteMapContact{
 top: 44.5%;
@@ -423,7 +427,7 @@ left: 82px;
 top: 90.3%;
 left: 82px;
 }
-    
+
     #blackVeritcalLineWhereAreWe{
         width: 3px;
     height: 30px;
@@ -432,25 +436,25 @@ left: 82px;
     margin-left: 98px;
     display: block;
     }
-    
+
     #blackVeritcalLineWhereAreWeDigital{
     width: 3px;
     height: 30px;
     position: absolute;
     top: 23.8%;
-    margin-left: 98px; 
+    margin-left: 98px;
            display: block;
     }
-    
+
     #blackVeritcalLineWhereAreWeDevelopment{
     width: 3px;
     height: 30px;
     position: absolute;
     top: 28.73%;
-    margin-left: 98px; 
+    margin-left: 98px;
            display: block;
     }
-    
+
     #blackVeritcalLineWhereAreWeCities{
     width: 3px;
     height: 30px;
@@ -465,90 +469,90 @@ left: 82px;
     margin-left: 5%;
        display: block;
     }
-    
+
     #informationSiteMapPhone h6{
         margin-top: 40px;
         font-size: 15px;
         line-height: 180%;
 font-family: OpenSans-Bold;
     }
-    
- 
+
+
 /* =================================
     OCIP - CONTACT PAGE
 ================================== */
-    
+
     #contactUsPL-MiddleBlock{
         display: none;
     }
-    
+
     #contactUsPL-RightBlock{
-        flex: 2;   
+        flex: 2;
     }
-    
+
     #contactUsPL-LeftBlock h2{
         font-size: 30px;
     }
-    
+
     #contactUsSocialBlock{
         padding-left: 1%;
     }
-    
+
     #latestInfoHolder h2{
         font-size: 30px;
     }
-      
+
     #contactUsPL-LeftBlock{
         padding-top: 0px;
     }
-    
+
       #contactUsPL-ContentHolder{
         width: 100%;
     }
-    
+
        #haveAProjectHolder{
         width: 50%;
     }
-    
+
      #haveAProjectHolder h2{
         font-size: 24px;
     }
-    
+
     #contactUsLeftBlock h2{
         font-size: 24px;
     }
-    
-    
 
- 
+
+
+
  /*==============================
         OCIP - Where are we
 ===============================*/
-    
+
 #listCitiesWamp{
-width: 100%;    
+width: 100%;
 }
-    
-        
+
+
     #roundMap{
         display: none;
     }
-    
+
     #wawpContent{
         flex-direction: column;
     }
-    
+
     #leftSideWawpContent {
     width: 90%;
         padding-left: 5%;
     }
-    
+
     #rightSideWawpContent {
     width: 90%;
         padding-left: 5%;
     }
-    
-    
+
+
 #listCitiesWamp{
   columns: 1;
   -webkit-columns: 1;
@@ -561,6 +565,6 @@ width: 100%;
   margin-top: 30px;
 }
 
-    
-    
+
+
 }

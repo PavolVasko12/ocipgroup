@@ -614,6 +614,9 @@ text-decoration: none;
 #middleSectionWithCircel{
   margin:0;
 }
+.textNextToTheThreeCircles p{
+  font-size: 13px;
+}
 
 /* =================================================
         RECENT FEEDBACK FROM HERE
