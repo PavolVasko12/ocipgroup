@@ -150,6 +150,10 @@ if($(window).width() > 600){
     
     equation();
     
+    $('#topEqua').on('click', function(){
+        equation();
+    });
+    
     
     
     
@@ -208,6 +212,7 @@ if($(window).width() > 600){
                  $('#name').css('border', '2px solid white');
                  $(':input[type="submit"]').prop('disabled', true);
                  $('#name').css('display', 'block');
+                 $('#contactMessage').css('margin-bottom', '12px');
             }
         
         if(enquiry == "")
@@ -216,6 +221,7 @@ if($(window).width() > 600){
                 //$('#messageContactUs').before('<div class="enquiryError">Fill the enquiry field</div>');
                 $(':input[type="submit"]').prop('disabled', true);
                 $('#requiredFieldsMessage').css('display', 'block');
+                $('#contactMessage').css('margin-bottom', '12px');
             }
 
         
@@ -225,6 +231,7 @@ if($(window).width() > 600){
                  //$('#eqbox').after('<div class="equationError">Incorrect equation</div>');
                  $(':input[type="submit"]').prop('disabled', true);
                  $('#requiredFieldsMessage').css('display', 'block');
+                 $('#contactMessage').css('margin-bottom', '12px');
             }
         
         if(!pattern.test(userInput))
@@ -233,6 +240,7 @@ if($(window).width() > 600){
                 //$('#email').after('<div class="emailError">Incorrect Email</div>');
                  $(':input[type="submit"]').prop('disabled', true);
                  $('#requiredFieldsMessage').css('display', 'block');
+                 $('#contactMessage').css('margin-bottom', '12px');
         } 
         
         if(name != "" && enquiry != "")
@@ -242,6 +250,7 @@ if($(window).width() > 600){
                     
                     $(':input[type="submit"]').prop('disabled', false);
                     $('#requiredFieldsMessage').css('display', 'none');
+                    $('#contactMessage').css('margin-bottom', '12px');
                 }
         }
         
