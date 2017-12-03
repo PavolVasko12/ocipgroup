@@ -406,7 +406,7 @@ Have look at our rates section and you will see that we are offering some amazin
 
     <div id="galleryHolder">
         <div id="leftGalleryDiv">
-            <a href="http://packshotsdirect.com/" alt="Packhotsdirect.com website redirect">
+            <a href="ocip-development.php" alt="Packhotsdirect.com website redirect">
                 <div id="topImageGallery">
                     <img class="imagesInLeftGallerClass" src="MEDIA/WorkGallery/packhotsImage.jpg" alt="Pack Hots Direct Image">
                     <div class="holderForTextOnImages">
@@ -415,7 +415,7 @@ Have look at our rates section and you will see that we are offering some amazin
                     </div>
                 </div>
             </a>
-             <a href="http://packshotsdirect.com/" alt="Packhotsdirect.com website redirect">
+             <a href="ocip-digital.php" alt="Packhotsdirect.com website redirect">
                  <div id="bottomImageGallery">
                     <img class="imagesInLeftGallerClass" src="MEDIA/WorkGallery/brochureImage.jpg" alt="Brochure image OCIP">
                       <div class="holderForTextOnImages">
@@ -425,7 +425,7 @@ Have look at our rates section and you will see that we are offering some amazin
                 </div>
             </a>
         </div>
-        <a href="http://buckshottubhire.co.uk/" alt="Buckshottubhire redirect link">
+        <a href="ocip-print.php" alt="Buckshottubhire redirect link">
             <div id="rightGalleryDiv">
                 <img id="rightImageGallery" src="MEDIA/WorkGallery/hottubeImage.jpg" alt="Bucks Hot Tube Hire Image">
                  <div class="holderForTextOnImages">

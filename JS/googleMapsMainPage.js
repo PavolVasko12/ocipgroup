@@ -1,7 +1,7 @@
 
 var map,
 
-    desktopScreen = Modernizr.mq( "only screen and (min-width:1024px)" ),
+    desktopScreen = Modernizr.mq( "only screen and (min-width:224px)" ),
     zoom = desktopScreen ? 13 : 1,
     scrollable = draggable = !Modernizr.hiddenscroll || desktopScreen,
     isIE11 = !!(navigator.userAgent.match(/Trident/) && navigator.userAgent.match(/rv[ :]11/));
@@ -19,7 +19,7 @@ function initMap() {
 
     var locations = [
         {
-            title: 'PEPSized Coffee',
+            title: 'Ocip Group',
             position: {lat: 51.813150, lng: -0.808422},
             icon: {
                 url: isIE11 ? "MEDIA/ocipMapsPin.png" : "MEDIA/ocipMapsPin.png",

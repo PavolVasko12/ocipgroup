@@ -2643,7 +2643,8 @@ margin: auto;
 height: 20px;
 padding-top: 25px;
 display: inline-block;
-padding-right: 30px;
+padding-right: 20px;
+padding-left: 10px;
 }
 
 footer ul{
@@ -2667,6 +2668,7 @@ footer ul a{
 float: right;
 width: 100px;
 padding-top: 26px;
+padding-right: 10px;
 }
 
 footer ul li:hover{

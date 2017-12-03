@@ -25,8 +25,8 @@
       <div id="leftSideWawpContent">
         <h2>Where are we?</h2>
         <h4>Providing services to Manchester</h4>
-        <p id="paragAboveListWawp"><span class="boldText paddingTitleParagWawp">We are based in Aylesbury (Buckinghamshire) but we provide web services to whole of the UK</span><br>
-We are a small friendly digital marketing agency within easy reach of London. With over 10 years’ experience, we work with businesses of all sizes, with start-ups being our speciality. So if your looking for website design service near Aylesbury then look no further. You can browse all the areas we cover by clicking on the ‘area’s we cover’ below:</p>
+        <p id="paragAboveListWawp"><span class="boldText paddingTitleParagWawp">We are within Aylesbury (Buckinghamshire) area but we provide digital &amp; print services to whole of the North West UK</span><br>
+We are a small friendly internet company within easy reach of Milton Keynes. With over 10 years’ experience, we work with businesses of all sizes, with start-ups being our speciality. So if your looking for website design service near Manchester then look no further. You can browse all the areas we cover by clicking on the ‘areas we cover’ below:</p>
         <ul id="listCitiesWamp">
           <a href="oxford.php"><li>Oxford</li></a>
           <a href="portsmouth.php"><li>Portsmouth</li></a>
@@ -43,25 +43,25 @@ We are a small friendly digital marketing agency within easy reach of London. Wi
         </ul>
 
         <p class="paragWawp"><span class="boldText paddingTitleParagWawp">Are you looking for a new website near Manchester?</span><br>
-We provide professional web and print services at a low cost rate. If your looking for a cheap e-comerce, wordpress or static website near Aylesbury then look no further. We offer amazing pricing. No need to visit, we can arrange video call to discuss you project requirements. Once we have your information and requirements we begin the process of producing your online/offline product.</p>
-        <p class="paragWawp"><span class="boldText paddingTitleParagWawp">Professional graphic designer in Aylesbury</span><br>
-We don’t just design and build websites. If your local to Aylesbury then we can produce business card’s, banners, flyers, magazines, artworking services and much, much more. So if your near Milton Keynes, Amersham, Holmer Green, High Wycombe, Hazelmere, Marlow or Bourne End then don’t hesitate to call us on: 01296 340890 to see how we can help.</p>
-        <p class="paragWawp"><span class="boldText paddingTitleParagWawp">Cheap website design Bath and surrounding area</span><br>
-We offer extremely cheap web services to the Bath vicinity. We offer a satisfaction guarantee, so what have you got to lose? If your based near Bath let’s start your new website today, email us at enquiry@ocip-group.com. We cover the following postcodes within the Buckinghamshire area: HP27, HP23, HP22, HP21, HP20, HP18, HP17, HP16, HP15, HP14, HP13, HP12, HP11, HP10, HP9, HP7, HP6, HP5, HP4, HP3, SL9, SL8, SL7, SL6, SL4, SL3, SL2, SL1, SL0, WD3, UB9, UB8, RG9, MK19, MK18, MK17, OX39, OX9, LU7, LU6, NN13.</p>
+We provide professional web and print services at a low cost rate. If your looking for a cheap e-comerce, wordpress or static website near Manchester then look no further. We offer amazing pricing. No need to visit, we can arrange video or telephone call to discuss your project requirements. Once we have your information and requirements we will begin the process of producing your online/offline product.</p>
+        <p class="paragWawp"><span class="boldText paddingTitleParagWawp">Low cost graphic designer in Bury</span><br>
+We don’t just design and build websites. If you are near Stockport then we can produce business card’s, banners, flyers, magazines, artworking services and much, much more. So if your near Sale, Urmston, Hyde, Radcliffe, Oldham, Wigan or Bolton then don’t hesitate to call us on: 01296 340890 to see how we can help.</p>
+        <p class="paragWawp"><span class="boldText paddingTitleParagWawp">Cheap website design Salford and surrounding area</span><br>
+We offer extremely cheap web services to the Greater Manchester area. We offer a satisfaction guarantee, so what have you got to lose? If your based near Stretford let’s start your new website today, email us at enquiry@ocip-group.com. We cover the following postcodes within the Greater Manchester area: BL0, BL1, BL2, BL3, BL4, BL5, BL6, BL7, BL8, BL9, M1, M12, M13, M17, M18, M19, M2, M20, M21, M22, M23, M24, M25, M26, M27, M28, M29, M3, M30, M31, M32, M33, M34, M35, M38, M41, M43, M44, M45, M46, M5, M60, M7, M8, M9, OL1, OL10, OL11, OL12, OL15, OL16, OL2, OL3, OL4, OL5, OL6, OL7, OL8, OL9, SK1, SK14, SK15, SK16, SK2, SK4, SK5, SK6, SK7, SK8, WA13, WA14, WA15, WA3, WN1, WN2, WN3, WN4, WN5, WN6, WN7.</p>
         <p id="textBottomWamp">Why not have a look at ‘Our work’ page? <a id="textButtonWamp"href="../all-galleries.php">Click here to view</a></p>
       </div>
       <div id="rightSideWawpContent">
           <div id="roundMap" class="asideWamp"></div>
-          <h2 id="titleUnderMapWawp">We provide services to<br> <span class="underTitleWamp">the whole of the Bath area</span></h2>
-          <p>Here at Ocip we not only provide website services to Aylesbury but also to the enitre Buckinghamshire area. If your in or near any of the below towns we can help.<br>Call us today on: <span class="boldText">01296 340890</span> to discuss your online/offline marketing.</p>
+          <h2 id="titleUnderMapWawp">We provide services to<br> <span class="underTitleWamp">the whole of Manchester area</span></h2>
+          <p>Here at Ocip we not only provide website services to Manchester but also to the entire Greater Manchester area. If you are in or near any of the below towns we can help.<br>Call us today on: <span class="boldText">01296 340890</span> to discuss your online/offline marketing.</p>
           <ul id="listRightContentWamp">
-            <li>Milton Keynes</li>
-            <li>Amersham</li>
-            <li>Holmer Green</li>
-            <li>High Wycombe</li>
-            <li>Hazelmere</li>
-            <li>Marlow</li>
-            <li>Bourne End</li>
+            <li>Wigan</li>
+            <li>Rochdale</li>
+            <li>Oldham</li>
+            <li>Stockport</li>
+            <li>Bolton</li>
+            <li>Stalybridge</li>
+            <li>Urmston</li>
           </ul>
           <h3 class="boldText">Would you like to know more?</h3>
           <p id="finalTextRightContentWawP">If your looking for info or have a question about your website or print project email us today at <span class="boldText" >enquiry@ocip-group.com</span></p>

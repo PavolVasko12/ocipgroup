@@ -1,26 +1,25 @@
 var map,
 
-    desktopScreen = Modernizr.mq( "only screen and (min-width:1024px)" ),
+    desktopScreen = Modernizr.mq( "only screen and (min-width:224px)" ),
     zoom = desktopScreen ? 13 : 1,
     scrollable = draggable = !Modernizr.hiddenscroll || desktopScreen,
     isIE11 = !!(navigator.userAgent.match(/Trident/) && navigator.userAgent.match(/rv[ :]11/));
 
 var roundMap,
 
-    desktopScreen = Modernizr.mq( "only screen and (min-width:1024px)" ),
+    desktopScreen = Modernizr.mq( "only screen and (min-width:224px)" ),
     zoom = desktopScreen ? 11 : 1,
     scrollable = draggable = !Modernizr.hiddenscroll || desktopScreen,
     isIE11 = !!(navigator.userAgent.match(/Trident/) && navigator.userAgent.match(/rv[ :]11/));
 
-//var position = {lat: 51.375728, lng: -2.360067};
 var myLatLng = {lat: 51.375728, lng: -2.360067};
 
 function initMap() {
-   // var myLatLng = {lat: 51.8152358, lng: -0.811317};
-    var position = {lat: 51.8152358, lng: -0.811317};
+   
+    var position = {lat: 51.375728, lng: -2.360067};
     map = new google.maps.Map(document.getElementById('map'), {
         zoom: zoom,
-        center: myLatLng,
+        center: position,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         scrollwheel: scrollable,
         draggable: draggable,
@@ -43,7 +42,7 @@ function initMap() {
             map:map,
             title: 'Ocip Group',
             //position: {lat: 51.818, lng: -0.811317},
-            position: {lat: 51.385728, lng: -2.360067},
+            position: position,
             icon: {
                 url: isIE11 ? "../MEDIA/ocipMapsPin.png" : "../MEDIA/ocipMapsPin.png",
                 scaledSize: new google.maps.Size(80, 100)
