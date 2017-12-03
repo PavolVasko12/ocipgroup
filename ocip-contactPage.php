@@ -27,9 +27,10 @@
 <p id="textOnContactUs">If you would like to enquire into a service we provide or have a question regarding a project you have. Don’t hesitate to get in contact. Simply fill out the enquiry form below and a member of our team will be in contact with you shorlty.
 
       </p>
-        <p id="requiredFieldsMessage"><strong>Please check required fields</strong></p>
+        <p id="requiredFieldsMessage" class="boldText"><strong>Please check required fields</strong></p>
     <!--------- FORM FROM HERE ---->
-     <?php if (isset($successMsg)) { echo '<p id="successFormMessage">', $successMsg , '</p>'; } ?>
+   <p id="successFormMessage">Thank you for taking the time to message us. We will be in contact shortly</p>
+      <?php if (isset($successMsg)) { echo '<p id="successFormMessagePHP">', $successMsg , '</p>'; } ?>
       <?php if (isset($errorMsg)) { echo '<div id="errorMessage"><p>', $errorMsg , '</p></div>'; } ?>
       <?php if (isset($emailInvalid)) { echo '<div id="requiredFieldsMessage">Please check required fields</div>'; } ?>
       <form id="formBoxes" method="POST" action="#contactPageFormHolder">

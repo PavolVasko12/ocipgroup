@@ -27,7 +27,8 @@
               <p id="requiredFieldsMessage" class="boldText"><strong>Please check required fields</strong></p>
 
             <!--------- CONTACT FORM FROM HERE ---->
-              <?php if (isset($successMsg)) { echo '<p id="successFormMessage">', $successMsg , '</p>'; } ?>
+              <p id="successFormMessage">Thank you for taking the time to message us. We will be in contact shortly</p>
+              <?php if (isset($successMsg)) { echo '<p id="successFormMessagePHP">', $successMsg , '</p>'; } ?>
               <?php if (isset($errorMsg)) { echo '<div id="errorMessage"><p>', $errorMsg , '</p></div>'; } ?>
               <?php if (isset($emailInvalid)) { echo '<div id="requiredFieldsMessage" class="boldText">Please check required fields</div>'; } ?>
               <form id="formBoxes" name="theform" action="#formBoxes" method="POST" autocomplete="off">

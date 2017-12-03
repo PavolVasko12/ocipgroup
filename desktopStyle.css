@@ -572,8 +572,18 @@ width: 60%;
 }
 
 #wAwArrowDown{
-  width:5%;
-  margin:auto;
+  width: 70px;
+ height: 70px;
+  margin: auto;
+background: url('MEDIA/arrowDown.svg') no-repeat;
+background-position: center;
+background-size: 70px 70px;
+margin-bottom: 10px;
+}
+
+#wAwArrowDown:hover{
+background: url('MEDIA/arrowDownBlackWhereAreWe.svg') no-repeat;
+cursor: pointer;
 }
 
 
@@ -2018,6 +2028,7 @@ margin-bottom: 40px;
 #requiredFieldsMessage{
 float: right;
 display: none;
+text-align: right !important;
 }
 
 
@@ -2288,7 +2299,13 @@ color: white;
 color: white;
 }
 
+#requiredFieldsMessage{
+float: right;
+display: none;
+}
+
 #successFormMessage{
+display: none;
 float: right;
 }
 
@@ -2303,6 +2320,26 @@ height: 13px;
 float: left;
 margin: 4px 6px 0px 0px;
 }
+
+#successFormMessagePHP{
+display: block;
+float: right;
+margin-top: -30px;
+}
+
+#successFormMessagePHP:before{
+content: "";
+display: block;
+background: url("MEDIA/tickIconRed.svg") no-repeat;
+background-color: black;
+border-radius: 50% 50%;
+width: 13px;
+height: 13px;
+float: left;
+margin: 4px 6px 0px 0px;
+}
+
+
 
 /*=========================================
     OUR WORK TEXT AND GALLERY  FROM HERE
@@ -3443,7 +3480,7 @@ text-align: center !important;
 }
 
 #textOnContactUs{
-margin-bottom: 30px;
+margin-bottom: 40px;
 }
 
 /*<><><><><><><><><><><><><><><><><><><><><><><><><><><>

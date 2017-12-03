@@ -41,12 +41,12 @@ $(document).ready(function(){
        }, 1000); 
     });
     
-      $("#servicesNavListId, #servicesFooterListId").on('click', function(){
-          console.log("click");
+      $("#servicesNavListId, #servicesFooterListId,#wAwArrowDown").on('click', function(){
        $('html,body').animate({
            scrollTop: $('#holderGetStarted').offset().top
        },1000);
     });
+
     
     /*=======================================
            MAKE THE SLIDER FULL HEIGHT
@@ -212,7 +212,7 @@ if($(window).width() > 600){
                  $('#name').css('border', '2px solid white');
                  $(':input[type="submit"]').prop('disabled', true);
                  $('#name').css('display', 'block');
-                 $('#contactMessage').css('margin-bottom', '12px');
+                 $('#contactMessage, #textOnContactUs').css('margin-bottom', '12px');
             }
         
         if(enquiry == "")
@@ -221,7 +221,7 @@ if($(window).width() > 600){
                 //$('#messageContactUs').before('<div class="enquiryError">Fill the enquiry field</div>');
                 $(':input[type="submit"]').prop('disabled', true);
                 $('#requiredFieldsMessage').css('display', 'block');
-                $('#contactMessage').css('margin-bottom', '12px');
+                $('#contactMessage, #textOnContactUs').css('margin-bottom', '12px');
             }
 
         
@@ -231,7 +231,7 @@ if($(window).width() > 600){
                  //$('#eqbox').after('<div class="equationError">Incorrect equation</div>');
                  $(':input[type="submit"]').prop('disabled', true);
                  $('#requiredFieldsMessage').css('display', 'block');
-                 $('#contactMessage').css('margin-bottom', '12px');
+                 $('#contactMessage, #textOnContactUs').css('margin-bottom', '12px');
             }
         
         if(!pattern.test(userInput))
@@ -250,7 +250,8 @@ if($(window).width() > 600){
                     
                     $(':input[type="submit"]').prop('disabled', false);
                     $('#requiredFieldsMessage').css('display', 'none');
-                    $('#contactMessage').css('margin-bottom', '12px');
+                    $('#contactMessage, #textOnContactUs').css('margin-bottom', '12px');
+                    $('#successFormMessage').css('display', 'block');
                 }
         }
         
