@@ -10,15 +10,12 @@
                <strong>e: </strong> enquiry@ocip-group.com <br>
                <strong>t: </strong>  01296 340890</p>
                <div id="contactUsSocialBlock">
-                 <object>
-                   <embed class="contactUsSocialMedia" src="MEDIA/facebookLogoBlack.svg">
-                 </object>
-                 <object>
-                   <embed class="contactUsSocialMedia" src="MEDIA/twitterIconBlack.svg">
-                 </object>
-                 <object>
-                   <embed class="contactUsSocialMedia" src="MEDIA/googleIconBlack.svg">
-                 </object>
+                 <a class="contactIconsAnchor" href="https://www.facebook.com/OCIPGROUP/"><img class="contactUsSocialMedia" src="MEDIA/facebookLogoBlack.svg"></a>
+                    <a class="contactIconsAnchor" href="https://twitter.com/OCIPGROUP"><img class="contactUsSocialMedia" src="MEDIA/twitterIconBlack.svg"></a>
+                    <a class="contactIconsAnchor" href="https://plus.google.com/100980104816699075209"><img class="contactUsSocialMedia" src="MEDIA/googleIconBlack.svg"></a>
+                    <a class="contactIconsAnchor" href="https://www.youtube.com/watch?v=J2sDzocWqYA&t=1s"><img class="contactUsSocialMedia" src="MEDIA/youtubeIcon.svg"></a>
+                    <a class="contactIconsAnchor" href="https://vimeo.com/242065132"><img class="contactUsSocialMedia" src="MEDIA/vimeoIcon.svg"></a>
+                    <a class="contactIconsAnchor" href="https://www.linkedin.com/in/ocip-group-7595a8152/"><img class="contactUsSocialMedia" src="MEDIA/linkedinIcon.svg"></a>
                </div>
            </div>
            <div id="contactUsPL-MiddleBlock">
