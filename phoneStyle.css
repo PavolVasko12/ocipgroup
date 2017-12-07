@@ -66,14 +66,9 @@ margin-right: 8%;
 display: block;
 }
 
-/*.burgerLogoHolderClass:hover{
-background: url('MEDIA/navMenuIconDarkRed.png') no-repeat;
-background-position: 24px 10px;
-background-color: black;
-opacity: 0.8;
-background-size: 35% 20%;
-border-radius: 10px 10px 0px 0px;
-}*/
+.socialMediaIcons{
+display: none;
+}
 
 .triangleDownIconClass{
 display: none;
@@ -83,9 +78,6 @@ margin-top: 35px;
 margin-left: 38px;
 }
 
-/*.burgerLogoHolderClass:hover .triangleDownIconClass{
-display: block;
-}*/
 
 /*================================================
             HEADER FROM HERE - 4 IMAGES
@@ -278,6 +270,7 @@ margin-top: 20px;
   border: 2px solid #000000;
   border-radius: 25px;
   padding: 0px 10px 0px 10px;
+  font-size: 25px;
 }
 
 .circleForThreeDivs{
@@ -402,6 +395,20 @@ margin: auto;
   float: none;
 }
 
+#leftSideProcess > h2
+{
+padding-left: 0%;
+}
+
+    #rightSideProcess p{
+        margin-top: 0px;
+    }
+
+#leftSideProcess > h4{
+padding-left: 0%;
+}
+
+    
 #rightSideProcess{
   position: static;
   width:90%;
@@ -459,6 +466,7 @@ margin-top: 20px;
 
 #middleRightWhyUs{
   width:90%;
+  margin-left: 5%;
 }
 
 #middleRightWhyUs h2{
@@ -473,6 +481,8 @@ margin-top: 20px;
 #middleRightWhyUs img{
   display: block;
   width: 100%;
+left: 0px;
+margin-top: 30px;
 }
 
 #ourWorkButton{
@@ -484,11 +494,14 @@ margin-top: 20px;
 #bottomLeftWhyUs{
   width:90%;
   margin:0;
+  margin-left: 5%;
 }
 
 #bottomLeftWhyUs h2{
-  margin-bottom:10px;
+margin-bottom:10px;
+margin-top: 20px;
 }
+    
 
 #bottomLeftWhyUs #enquireWhyUsButton{
   margin: 20px auto 40px auto;
@@ -510,6 +523,23 @@ margin-left: 2.5%;
 #smallerBoxFeedback{
   width:100%;
   margin:0;
+}
+    
+#quotesContainer > div{
+width: 100% !important;
+}
+    
+#feedbackHeaderHolder{
+width: auto;
+margin: auto;
+}
+
+#contentFeedbackHolder h4:after{
+display: none;
+}
+
+#contentFeedbackHolder h4:before{
+display: none;
 }
 
 
@@ -554,12 +584,12 @@ margin-bottom: 20px;
 
 #downloadButton{
   margin: 50px auto;
-  height:30px;
-  border:2px solid #000000;
+  height: auto;
+  border: 1px solid #000000;
   width: 175px;
   border-radius: 25px 25px;
   transition: all 0.5s;
-text-decoration: none;
+  text-decoration: none;
 }
 
 #downloadButton:active{
@@ -571,7 +601,7 @@ text-decoration: none;
   font-family: OpenSans-Bold;
   font-size: 15px;
   margin:0;
-  padding: 3px 5px 5px 10px;
+  padding: 7px 5px 7px 10px;
   transition: all 0.5s;
 }
 
@@ -619,6 +649,10 @@ text-decoration: none;
 .textNextToTheThreeCircles p{
   font-size: 13px;
 }
+    
+    .circleSatisfactionQuickPremium{
+        margin-top: 50px;
+    }
 
 /* =================================================
         RECENT FEEDBACK FROM HERE
@@ -751,7 +785,7 @@ text-decoration: none;
 }
 
 #contactUsSocialBlock{
-  padding-left: 35%;
+  padding-left: 20%;
   padding-bottom: 30px;
   padding-top: 30px;
 
@@ -818,6 +852,7 @@ border-right: none;
 width: 90%;
 margin: auto;
 margin-left: 5%;
+margin-top: 20px;
 }
 
 #ulForGalleryImageChanging li{
@@ -938,10 +973,6 @@ margin-bottom: 6px;
 
     #emailBox, #buttonFormPL{
         width: 50%;
-    }
-
-    #contactUsSocialBlock{
-        padding-left: 38%;
     }
 
     #buttonContactUs.buttonContactUsPL, #buttonContactUs{

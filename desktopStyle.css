@@ -457,13 +457,32 @@ margin: 1px;
 
 .carousel-indicators{
 left: 120%;
-width: 100px;
+width: 120px;
 }
 
 .carousel-indicators li{
 width: 15px;
 height: 15px;
 border: 1px solid black;
+}
+
+#olHeader:after{
+content: "";
+background: url('MEDIA/headerArrowRight.svg') no-repeat;
+width: 15px;
+height: 20px;
+margin-top: -1px;
+margin-left: 5px;
+float: right;
+}
+
+#olHeader:before{
+content: "";
+background: url('MEDIA/headerArrowLeft.svg') no-repeat;
+width: 15px;
+height: 20px;
+margin-top: -1px;
+float: left;
 }
 
 .glyphicon-chevron-left:before{
@@ -861,7 +880,7 @@ margin-top: 30px;
 .buttonContactUsHiddenDiv{
 width: 165px;
 color: black;
-border: 2px solid black;
+border: 1px solid black;
 -moz-border-radius: 20px;
 -webkit-border-radius: 20px;
 box-shadow: inset 0 0 0 0 #000000;
@@ -879,7 +898,7 @@ transform: scale(0.8);
 }
 
 .buttonContactUsHiddenDiv p{
-padding: 5px 8px 5px 13px;
+padding: 7px 8px 7px 13px;
 margin: 0px;
 font-family: OpenSans-Bold;
 font-size: 15px;
@@ -1487,7 +1506,7 @@ padding-top: 10px;
 
 .holderForStartedBusinessProPack p{
 color: white;
-font-size: calc(0.6vw + 0.6vh);
+font-size: 11.5px;
 padding-top: 10px;
 font-family: OpenSans-Regular;
 }
@@ -1710,6 +1729,29 @@ color: #cecece;
   font-family: OpenSans-Light;
   font-size: 19px;
   color:#ffffff;
+}
+
+#feedbackHeaderHolder{
+width: 450px;
+margin: auto;
+}
+
+#contentFeedbackHolder h4:after{
+    content: "";
+    background: url('MEDIA/feedbackArrowRight.svg') no-repeat;
+    margin-top: -35px;
+    width: 20px;
+    height: 50px;
+    float: right;
+}
+
+#contentFeedbackHolder h4:before{
+    content: "";
+    background: url('MEDIA/feedbackArrowLeft.svg') no-repeat;
+    margin-top: -35px;
+    width: 20px;
+    height: 50px;
+    float: left;
 }
 
 #contentFeedbackHolder p{
@@ -1990,6 +2032,10 @@ margin: 10px 6px 0px 0px;
   height: 20px;
   display:inline;
   margin-right:5%;
+}
+
+.contactUsSocialMedia:hover{
+    cursor: pointer;
 }
 
 #contactUsRightBlock{

@@ -3,8 +3,10 @@
       <object>
         <embed id="dialogueBubble" src="MEDIA/dialogueBubbes.svg">
       </object>
-        <h2 style="color#ffffff;">Recent <span style="color:#d90f31">feedback</span></h2>
-        <h4>A few testimonials left by our clients</h4>
+        <div id="feedbackHeaderHolder">
+            <h2 style="color#ffffff;">Recent <span style="color:#d90f31">feedback</span></h2>
+            <h4>A few testimonials left by our clients</h4>
+        </div>
         <div id="smallerBoxFeedback">
           <p id="ratingSentence">Our customers are so pleased, they would give us a four star rating &amp; above</p>
           <p>Check out a few of the testimonials left by our clients; our customers are so pleased, they award us a four-star rating or more.  We have worked with some great brands, big and small and many of our clients have been kind enough to leave us some amazing messages. Click on the arrows below to see them all:</p>
