@@ -81,7 +81,7 @@
 We are a small friendly digital marketing agency based in Buckinghamshire. With over 10 years’ experience, we work with businesses of all sizes, with start-ups being our speciality. We provide a variety of services including the creation of bespoke artwork and the printing of business cards, A4 flyers, adverts and roller banners. We can also provide photo re-touch & manipulation services, website design and development (from WordPress themes through to e-commerce), logo design and brand development. If you have a project that you would like to know more, please get in contact using the button below. We’re always on hand to help.
 </p>
       <a href="#" alt="Internal link to the contact form"><div id="wAwButton"><p>Get in touch</p></div></a>
-      
+
       <!--<a href="ocip-contactPage.php"><img id ="wAwArrowDown" src="MEDIA/arrowDown.svg"></a>-->
        <div id ="wAwArrowDown"></div>
     </div>
@@ -298,7 +298,7 @@ Have look at our rates section and you will see that we are offering some amazin
             <tr>
             <td>Photo Re-Touch, Edit, Cut-Out, Manipulation for models, Products etc</td>
             <td class="boldText">£35.00 ph</td>
-            <td><div class="tickInTableData"></div></td>
+            <td></td>
             <td><div class="tickInTableData"></div></td>
             <td><div class="tickInTableData"></div></td>
           </tr>
@@ -337,7 +337,7 @@ Have look at our rates section and you will see that we are offering some amazin
             <td></td>
             <td></td>
           </tr>
-            <tr>
+            <tr id="lastRowOurRate">
             <td>Vehicle Custom Vinly Design (please get in contact to get a quote)</td>
             <td class="boldText">Please Call</td>
             <td></td>

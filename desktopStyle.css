@@ -1000,7 +1000,6 @@ padding-left: 1.7%;
   display: flex;
   width: 100%;
   flex-wrap: wrap;
-  align-items: center;
     padding-left: 0.7%;
 }
 
@@ -1018,9 +1017,29 @@ height: 75px;
   margin-right: 7%;
 }
 
+#researchBox img{
+  height:75px;
+}
+
 #buildBox{
   margin-left: 7%;
   margin-right: 7%;
+}
+
+#buildBox img {
+  height:75px;
+}
+
+#designBox img {
+  height:75px;
+}
+
+#reviewBox img {
+  height: 75px;
+}
+
+#launchSiteBox img {
+  height:75px;
 }
 
 #middlePartProcess > img {
@@ -1630,6 +1649,10 @@ background-size:auto;
 width: 20px;
 height: 20px;
 margin: auto;
+}
+
+#lastRowOurRate td{
+  padding-bottom: 30px !important;
 }
 
 /*--Three sections --*/
@@ -2698,7 +2721,7 @@ color: #391311;
 }
 
 footer ul a{
-  
+
 }
 
 #footerLogo{
