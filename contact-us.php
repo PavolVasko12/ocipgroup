@@ -10,12 +10,24 @@
                 <span class="boldText">e: </span> enquiry@ocip-group.com <br>
                 <span class="boldText">t: </span>  01296 340890</p>
                 <div id="contactUsSocialBlock">
-                    <a href="https://www.facebook.com/OCIPGROUP/"><img class="contactUsSocialMedia" src="MEDIA/facebookLogoBlack.svg"></a>
-                    <a href="https://twitter.com/OCIPGROUP"><img class="contactUsSocialMedia" src="MEDIA/twitterIconBlack.svg"></a>
-                    <a href="https://plus.google.com/100980104816699075209"><img class="contactUsSocialMedia" src="MEDIA/googleIconBlack.svg"></a>
-                    <a href="https://www.youtube.com/watch?v=J2sDzocWqYA&t=1s"><img class="contactUsSocialMedia" src="MEDIA/youtubeIcon.svg"></a>
-                    <a href="https://vimeo.com/242065132"><img class="contactUsSocialMedia" src="MEDIA/vimeoIcon.svg"></a>
-                    <a href="https://www.linkedin.com/in/ocip-group-7595a8152/"><img class="contactUsSocialMedia" src="MEDIA/linkedinIcon.svg"></a>
+                  <object>
+                    <embed class="contactUsSocialMedia" src="MEDIA/facebookLogoBlack.svg">
+                  </object>
+                  <object>
+                    <embed class="contactUsSocialMedia" src="MEDIA/twitterIconBlack.svg">
+                  </object>
+                  <object>
+                    <embed class="contactUsSocialMedia" src="MEDIA/googleIconBlack.svg">
+                  </object>
+                  <object>
+                    <embed class="contactUsSocialMedia" src="MEDIA/youtubeIcon.svg">
+                  </object>
+                  <object>
+                    <embed class="contactUsSocialMedia" src="MEDIA/vimeoIcon.svg">
+                  </object>
+                  <object>
+                    <embed class="contactUsSocialMedia" src="MEDIA/linkedinIcon.svg">
+                  </object>
                 </div>
             </div>
             <div id="contactUsRightBlock">

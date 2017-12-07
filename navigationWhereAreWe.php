@@ -33,7 +33,7 @@
            </ul>
               <div id="contactUsSocialBlock" class="socialIconsNavMenu">
               <object>
-                <embed id="yes" class="contactUsSocialMediaNav" src="../MEDIA/facebookIconWhite.svg">
+                <embed class="contactUsSocialMediaNav" src="../MEDIA/facebookIconWhite.svg">
               </object>
               <object>
                 <embed class="contactUsSocialMediaNav" src="../MEDIA/twitterIconWhite.svg">
